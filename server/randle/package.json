@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build-client": "cd ../../client/randle && npm run build",
-    "start": "node ./bin/www",
+    "start": "cd ../../client/randle && npm run build && node ./bin/www",
     "dev": "npm run build-client && nodemon ./bin/www",
     "dev-api-only": "nodemon ./bin/www"
   },
