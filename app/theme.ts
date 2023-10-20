@@ -1,5 +1,5 @@
 import { CategoryResponse } from "./types";
-import { getCategory } from "./api/category/route";
+import { getCategory } from "./api/category/getCategory";
 
 export const themeOptions = async () => {
   // Capture the theme

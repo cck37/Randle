@@ -2,21 +2,18 @@
 
 ### _In case [Loldle](https://loldle.net/) or [Pokelde](https://pokedle.gg/) was getting boring_
 
-#### Two options to run:
+## Description
 
-1. API and UI hot reloading ran separately
+Every day a new category is chosen as well as an answer for that category. Goal of the app is to have you guess the answer, gaining new bits of information about said category
 
-```
-	cd server/randle
-	npm run dev-api-only
-	--- seperate terminal
-	cd client/randle
-	npm run dev
-```
-
-2. Serve static UI through hot reloaded API
+## Running locally
 
 ```
-	cd server/randle
-	npm run dev
+npm run dev
+```
+
+or
+
+```
+npm run build && npm run start
 ```

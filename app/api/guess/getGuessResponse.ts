@@ -1,7 +1,6 @@
-import { type NextRequest, NextResponse } from "next/server";
-import { getCategory } from "../category/route";
+import { getCategory } from "../category/getCategory";
 
-async function getGuessResponse(guess: string) {
+export async function getGuessResponse(guess: string) {
   // Get answer for today
   const currCategory = await getCategory();
   const currDay = new Date().getDate();
@@ -27,22 +26,5 @@ async function getGuessResponse(guess: string) {
     //TODO: Handle
     console.error(`Guess: ${guess} was not found in the current category`);
     return;
-  }
-}
-export async function GET(request: NextRequest) {
-  const searchParams = request.nextUrl.searchParams;
-  const guess = searchParams.get("guess") ?? "";
-  const data = await getGuessResponse(guess);
-
-  if (data) {
-    // B/c ts claims Response.json(data) doesn't exist
-    return NextResponse.json(data);
-  } else {
-    return NextResponse.json(
-      { error: `Guess: ${guess} was not found in the current category` },
-      {
-        status: 400,
-      }
-    );
   }
 }

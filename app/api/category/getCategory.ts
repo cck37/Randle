@@ -1,4 +1,3 @@
-import { NextResponse } from "next/server";
 import { CategoryResponse } from "@/app/types";
 import { readFile } from "fs/promises";
 import path from "path";
@@ -12,12 +11,6 @@ export async function getCategory(): Promise<CategoryResponse> {
   // Get category for today
   const currDay = new Date().getDate();
   const currCategoryIndex = currDay % categories.length;
-  const currCategory = categories[currCategoryIndex];
+  const currCategory: CategoryResponse = categories[currCategoryIndex];
   return currCategory;
-}
-
-export async function GET() {
-  const data = await getCategory();
-
-  return NextResponse.json(data);
 }
