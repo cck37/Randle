@@ -11,7 +11,7 @@ import FormControl from "@mui/material/FormControl";
 
 export function GuessBar(props: {
   title: string;
-  possibleGuesses: Array<possibleGuessesType>;
+  possibleGuesses: PossibleGuessesType[];
   handleGuess: React.Dispatch<React.SetStateAction<string>>;
   shouldDisable: boolean;
 }) {
@@ -59,7 +59,7 @@ export function GuessBar(props: {
   );
 }
 
-type possibleGuessesType = {
+type PossibleGuessesType = {
   name: string;
   attributes: Array<object>;
 };
