@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 import { GuessesTable } from "./components/GuessesTable";
 import { GuessBar } from "./components/GuessBar";
@@ -30,6 +30,7 @@ function App(props: CategoryResponse) {
     // Function to fetch data from the API
     const fetchData = async () => {
       try {
+        // Fetch data when the query changes
         if (query) {
           setIsGuessQueryLoading(true);
           // Fetch Data
@@ -49,16 +50,15 @@ function App(props: CategoryResponse) {
         console.error("Error fetching data:", error);
       }
     };
-
-    // Fetch data when the query changes
     fetchData();
   }, [query]);
 
-  const handleReset = () => {
+  const handleReset = useCallback(() => {
     setResults([]);
     setIsGuessCorrect(false);
     setQuery("");
-  };
+    setPossibleGuesses(items);
+  }, [items]);
 
   return (
     <ThemeProvider theme={theme}>
