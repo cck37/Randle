@@ -34,7 +34,9 @@ function App(props: CategoryResponse) {
         if (query) {
           setIsGuessQueryLoading(true);
           // Fetch Data
-          const res = await fetch(`/api/guess?guess=${query}`);
+          const res = await fetch(`/api/guess?guess=${query}`, {
+            next: { revalidate: 60 },
+          });
           const guessResponse: GuessResponse = await res.json();
 
           setIsGuessQueryLoading(false);
