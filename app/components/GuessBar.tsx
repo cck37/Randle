@@ -21,6 +21,10 @@ export function GuessBar(props: {
     setGuess(event.target.value as string);
   };
 
+  // FIX: Warning: Prop `className` did not match
+  // https://mui.com/material-ui/guides/server-rendering/
+  // https://mui.com/material-ui/guides/next-js-app-router/
+
   return (
     <form
       onSubmit={(e: React.SyntheticEvent): void => {
@@ -28,21 +32,21 @@ export function GuessBar(props: {
         handleGuess(guess);
         setGuess("");
       }}
+      style={{ width: "100%" }}
     >
-      <Stack
-        direction={{ xs: "column", sm: "row" }}
-        spacing={{ xs: 1, sm: 2, md: 4 }}
-      >
+      <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 1, sm: 2 }}>
+        {/* TODO: Move to Autocomplete https://mui.com/material-ui/react-autocomplete/ */}
         <FormControl fullWidth>
-          <InputLabel id="demo-simple-select-label">{title}</InputLabel>
+          <InputLabel id="guess-selection-label">{title}</InputLabel>
           <Select
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
+            labelId="guess-selection-label"
+            id="guess-selection"
             value={guess}
             label={title}
             onChange={handleChange}
             fullWidth
             disabled={shouldDisable}
+            inputProps={{ MenuProps: { disableScrollLock: true } }}
           >
             {possibleGuesses.map((guess) => (
               <MenuItem value={guess.name} key={guess.name}>

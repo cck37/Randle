@@ -5,7 +5,7 @@ import { getCategory } from "./getCategory";
 export const revalidate = 10000; // ~3 hours??
 
 export async function GET() {
-  const data: CategoryResponse = await getCategory();
+  const data: CategoryResponse = getCategory();
 
   return NextResponse.json(data);
 }

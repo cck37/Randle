@@ -1,11 +1,5 @@
 "use client";
 import { useState, useEffect, useCallback } from "react";
-
-import { GuessesTable } from "./components/GuessesTable";
-import { GuessBar } from "./components/GuessBar";
-import { CorrectGuess } from "./components/CorrectGuess";
-
-import { CategoryResponse, GuessResponse, PossibleGuesses } from "./types";
 import {
   Container,
   CssBaseline,
@@ -13,12 +7,21 @@ import {
   Typography,
   ThemeProvider,
   createTheme,
+  Grid,
 } from "@mui/material";
+
+import { GuessesTable } from "./components/GuessesTable";
+import { GuessBar } from "./components/GuessBar";
+import { CorrectGuess } from "./components/CorrectGuess";
+import { ResponsiveAppBar } from "./components/ResponsiveAppBar";
+
+import { CategoryResponse, GuessResponse, PossibleGuesses } from "./types";
 
 function App(props: CategoryResponse) {
   const { theme: themeOptions, title, attributes, items } = props;
   const theme = createTheme(themeOptions);
 
+  // FIX: Combine state??
   const [possibleGuesses, setPossibleGuesses] =
     useState<PossibleGuesses[]>(items);
   const [query, setQuery] = useState<string>("");
@@ -64,19 +67,50 @@ function App(props: CategoryResponse) {
 
   return (
     <ThemeProvider theme={theme}>
+      <ResponsiveAppBar />
       <Container component="main" maxWidth="md">
         <CssBaseline />
-        <Stack spacing={3}>
-          <Typography variant="h1">{title}</Typography>
-          <GuessBar
-            title={title}
-            possibleGuesses={possibleGuesses}
-            handleGuess={setQuery}
-            shouldDisable={isGuessCorrect || isGuessQueryLoading}
-          />
-          <GuessesTable attributes={attributes} guesses={results} />
-        </Stack>
-        {isGuessCorrect ? <CorrectGuess handleReset={handleReset} /> : <></>}
+        <Grid
+          container
+          direction="column"
+          alignItems="center"
+          sx={{
+            width: "100%",
+            height: "100vh",
+          }}
+        >
+          <Grid
+            item
+            sx={{
+              width: "100%",
+            }}
+          >
+            <Stack
+              spacing={3}
+              direction="column"
+              alignItems="center"
+              sx={{
+                width: "100%",
+              }}
+            >
+              <Typography variant="h1">{title}</Typography>
+              <GuessBar
+                title={title}
+                possibleGuesses={possibleGuesses}
+                handleGuess={setQuery}
+                shouldDisable={isGuessCorrect || isGuessQueryLoading}
+              />
+              <GuessesTable attributes={attributes} guesses={results} />
+            </Stack>
+          </Grid>
+          <Grid item>
+            {isGuessCorrect ? (
+              <CorrectGuess handleReset={handleReset} />
+            ) : (
+              <></>
+            )}
+          </Grid>
+        </Grid>
       </Container>
     </ThemeProvider>
   );

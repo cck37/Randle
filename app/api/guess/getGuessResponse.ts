@@ -1,8 +1,10 @@
 import { getCategory } from "../category/getCategory";
 
+export const revalidate = 3600; // revalidate the data at most every hour
+
 export async function getGuessResponse(guess: string) {
   // Get answer for today
-  const currCategory = await getCategory();
+  const currCategory = getCategory();
   const currDay = new Date().getDate();
   const currAnswerIndex = currDay % currCategory.items.length;
   const currAnswer = currCategory.items[currAnswerIndex];

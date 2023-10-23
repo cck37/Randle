@@ -1,12 +1,11 @@
 import { CategoryResponse } from "@/app/types";
-import { readFile } from "fs/promises";
-import path from "path";
+import static_data from "@/app/data";
 
-export async function getCategory(): Promise<CategoryResponse> {
+export const revalidate = 3600; // revalidate the data at most every hour
+
+export function getCategory(): CategoryResponse {
   // fetch category data from static data
-  const filePath = path.join(process.cwd(), "static_data.json");
-  const categoriesRes = await readFile(filePath);
-  const categories = JSON.parse(categoriesRes.toString());
+  const categories = static_data;
 
   // Get category for today
   const currDay = new Date().getDate();
