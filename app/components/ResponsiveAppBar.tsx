@@ -37,7 +37,7 @@ export function ResponsiveAppBar() {
     <AppBar position="static">
       <Toolbar>
         <Box sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}>
-          <Image src={logo} width={50} height={50} alt="Randall" />
+          <Image src={logo} width={30} height={30} alt="Randall" />
         </Box>
         <Typography
           variant="h6"
