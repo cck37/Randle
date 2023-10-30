@@ -6,15 +6,14 @@ import "./globals.css";
 import "@fontsource/bebas-neue";
 import ThemeRegistry from "./components/ThemeRegistry/ThemeRegistry";
 
-import Image from "next/image";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { NavButton } from "./components/NavButton";
 
-import logo from "./logo.png";
 import NavMenu from "./components/NavMenu";
+import Logo from "./components/Logo";
 
 const LINKS = [
   { text: "Standard", href: "/" },
@@ -40,7 +39,7 @@ export default async function RootLayout({
             <Toolbar sx={{ backgroundColor: "background.paper" }}>
               {/* Med sized layout */}
               <Box sx={{ mr: 1, display: { xs: "none", md: "flex" } }}>
-                <Image src={logo} width={30} height={30} alt="Randall" />
+                <Logo />
               </Box>
               <Typography
                 variant="h5"
@@ -71,7 +70,7 @@ export default async function RootLayout({
                 <NavMenu items={LINKS} />
               </Box>
               <Box sx={{ mr: 1, display: { xs: "flex", md: "none" } }}>
-                <Image src={logo} width={30} height={30} alt="Randall" />
+                <Logo />
               </Box>
               <Typography
                 variant="h5"
@@ -107,4 +106,3 @@ export default async function RootLayout({
     </html>
   );
 }
-//
