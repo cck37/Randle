@@ -1,8 +1,9 @@
+import { cache } from "react";
 import { getCategory } from "../category/getCategory";
 
 export const revalidate = 3600; // revalidate the data at most every hour
 
-export async function getGuessResponse(guess: string) {
+export const getGuessResponse = cache(async (guess: string) => {
   // Get answer for today
   const currCategory = getCategory();
   const currDay = new Date().getDate();
@@ -29,4 +30,4 @@ export async function getGuessResponse(guess: string) {
     console.error(`Guess: ${guess} was not found in the current category`);
     return;
   }
-}
+});

@@ -13,10 +13,10 @@
     "@emotion/styled": "^11.11.0",
     "@fontsource/bebas-neue": "^5.0.17",
     "@fontsource/roboto": "^5.0.8",
-    "@mui/icons-material": "^5.14.14",
+    "@mui/icons-material": "^5.14.15",
     "@mui/material": "^5.14.14",
     "fs.promises": "^0.1.2",
-    "next": "^13.5.7-canary.13",
+    "next": "^14.0.1-canary.3",
     "react": "^18",
     "react-dom": "^18"
   },

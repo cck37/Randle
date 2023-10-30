@@ -5,7 +5,6 @@ import {
   CssBaseline,
   Stack,
   Typography,
-  ThemeProvider,
   createTheme,
   Grid,
 } from "@mui/material";
@@ -13,61 +12,75 @@ import {
 import { GuessesTable } from "./components/GuessesTable";
 import { GuessBar } from "./components/GuessBar";
 import { CorrectGuess } from "./components/CorrectGuess";
-import { ResponsiveAppBar } from "./components/ResponsiveAppBar";
 
 import { CategoryResponse, GuessResponse, PossibleGuesses } from "./types";
+import ThemeRegistry from "./components/ThemeRegistry/ThemeRegistry";
 
-function App(props: CategoryResponse) {
+type GuessState = {
+  possibleGuesses: PossibleGuesses[];
+  query: string;
+  results: GuessResponse[];
+  isGuessCorrect: boolean;
+  isGuessQueryLoading: boolean;
+};
+
+export default function App(props: CategoryResponse) {
   const { theme: themeOptions, title, attributes, items } = props;
+
+  const [guessState, setGuessState] = useState<GuessState>({
+    possibleGuesses: items,
+    query: "",
+    results: [],
+    isGuessCorrect: false,
+    isGuessQueryLoading: false,
+  });
+
+  const { possibleGuesses, results, isGuessCorrect, isGuessQueryLoading } =
+    guessState;
   const theme = createTheme(themeOptions);
 
-  // FIX: Combine state??
-  const [possibleGuesses, setPossibleGuesses] =
-    useState<PossibleGuesses[]>(items);
-  const [query, setQuery] = useState<string>("");
-  const [results, setResults] = useState<GuessResponse[]>([]);
-  const [isGuessCorrect, setIsGuessCorrect] = useState(false);
-  const [isGuessQueryLoading, setIsGuessQueryLoading] = useState(false);
+  async function fetchGuessResponse(query: string): Promise<void> {
+    setGuessState((prevState) => ({ ...prevState, isGuessQueryLoading: true }));
 
-  useEffect(() => {
-    // Function to fetch data from the API
-    const fetchData = async () => {
-      try {
-        // Fetch data when the query changes
-        if (query) {
-          setIsGuessQueryLoading(true);
-          // Fetch Data
-          const res = await fetch(`/api/guess?guess=${query}`, {
-            next: { revalidate: 60 },
-          });
-          const guessResponse: GuessResponse = await res.json();
+    try {
+      const res = await fetch(`/api/guess?guess=${query}`, {
+        next: { revalidate: 60 },
+      });
+      const guessResponse: GuessResponse = await res.json();
 
-          setIsGuessQueryLoading(false);
-          setResults((r: GuessResponse[]) => [...r, guessResponse]);
-          setIsGuessCorrect(
-            guessResponse.data.every((attr) => attr.isCorrect) ?? false
-          );
-          setPossibleGuesses((guesses: PossibleGuesses[]) =>
-            guesses.filter((g) => g.name !== query)
-          );
-        }
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-    fetchData();
-  }, [query]);
+      setGuessState((prevState) => ({
+        ...prevState,
+        isGuessQueryLoading: false,
+        results: [...prevState.results, guessResponse],
+        isGuessCorrect:
+          guessResponse.data.every((attr) => attr.isCorrect) ?? false,
+        possibleGuesses: prevState.possibleGuesses.filter(
+          (g) => g.name !== query
+        ),
+      }));
+    } catch (error) {
+      console.error("Error fetching guess response:", error);
+    }
+  }
 
   const handleReset = useCallback(() => {
-    setResults([]);
-    setIsGuessCorrect(false);
-    setQuery("");
-    setPossibleGuesses(items);
+    setGuessState((prevState) => ({
+      ...prevState,
+      results: [],
+      isGuessCorrect: false,
+      query: "",
+      possibleGuesses: items,
+    }));
   }, [items]);
 
+  const handleGuess = useCallback((query: string) => {
+    if (query) {
+      fetchGuessResponse(query);
+    }
+  }, []);
+
   return (
-    <ThemeProvider theme={theme}>
-      <ResponsiveAppBar />
+    <ThemeRegistry themeOptions={theme}>
       <Container component="main" maxWidth="md">
         <CssBaseline />
         <Grid
@@ -76,7 +89,6 @@ function App(props: CategoryResponse) {
           alignItems="center"
           sx={{
             width: "100%",
-            height: "100vh",
           }}
         >
           <Grid
@@ -97,7 +109,7 @@ function App(props: CategoryResponse) {
               <GuessBar
                 title={title}
                 possibleGuesses={possibleGuesses}
-                handleGuess={setQuery}
+                handleGuess={handleGuess}
                 shouldDisable={isGuessCorrect || isGuessQueryLoading}
               />
               <GuessesTable attributes={attributes} guesses={results} />
@@ -112,8 +124,6 @@ function App(props: CategoryResponse) {
           </Grid>
         </Grid>
       </Container>
-    </ThemeProvider>
+    </ThemeRegistry>
   );
 }
-
-export default App;

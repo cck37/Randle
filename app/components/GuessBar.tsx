@@ -12,7 +12,7 @@ import FormControl from "@mui/material/FormControl";
 export function GuessBar(props: {
   title: string;
   possibleGuesses: PossibleGuessesType[];
-  handleGuess: React.Dispatch<React.SetStateAction<string>>;
+  handleGuess: (query: string) => void;
   shouldDisable: boolean;
 }) {
   const { title, possibleGuesses, handleGuess, shouldDisable } = props;
@@ -48,11 +48,12 @@ export function GuessBar(props: {
             disabled={shouldDisable}
             inputProps={{ MenuProps: { disableScrollLock: true } }}
           >
-            {possibleGuesses.map((guess) => (
-              <MenuItem value={guess.name} key={guess.name}>
-                {guess.name}
-              </MenuItem>
-            ))}
+            {possibleGuesses &&
+              possibleGuesses.map((guess) => (
+                <MenuItem value={guess.name} key={guess.name}>
+                  {guess.name}
+                </MenuItem>
+              ))}
           </Select>
         </FormControl>
         <Button variant="contained" type="submit">
