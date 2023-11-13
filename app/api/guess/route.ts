@@ -4,7 +4,7 @@ import { getGuessResponse } from "./getGuessResponse";
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
   const guess = searchParams.get("guess") ?? "";
-  const data = await getGuessResponse(guess);
+  const data = await getGuessResponse(guess, new Date().getDate());
 
   if (data) {
     // B/c ts claims Response.json(data) doesn't exist
