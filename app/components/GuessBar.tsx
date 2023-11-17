@@ -21,10 +21,6 @@ export function GuessBar(props: {
     setGuess(event.target.value as string);
   };
 
-  // FIX: Warning: Prop `className` did not match
-  // https://mui.com/material-ui/guides/server-rendering/
-  // https://mui.com/material-ui/guides/next-js-app-router/
-
   return (
     <form
       onSubmit={(e: React.SyntheticEvent): void => {

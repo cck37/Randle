@@ -92,16 +92,16 @@ export default async function RootLayout({
               </Typography>
             </Toolbar>
           </AppBar>
+          <Box
+            component="main"
+            sx={{
+              flexGrow: 1,
+            }}
+          >
+            <Toolbar />
+            {children}
+          </Box>
         </ThemeRegistry>
-        <Box
-          component="main"
-          sx={{
-            flexGrow: 1,
-          }}
-        >
-          <Toolbar />
-          {children}
-        </Box>
       </body>
     </html>
   );

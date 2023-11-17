@@ -16,16 +16,16 @@
     "@mui/icons-material": "^5.14.15",
     "@mui/material": "^5.14.14",
     "fs.promises": "^0.1.2",
-    "next": "^14.0.1-canary.3",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "^14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
     "eslint": "^8",
-    "eslint-config-next": "13.5.5",
+    "eslint-config-next": "^14.0.3",
     "typescript": "^5"
   }
 }
