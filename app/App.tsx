@@ -1,12 +1,20 @@
 "use client";
-import { useState, useCallback } from "react";
-import { Container, CssBaseline, Stack, Typography, Grid } from "@mui/material";
+import { useState, useEffect, useCallback } from "react";
+import {
+  Container,
+  Stack,
+  Typography,
+  Grid,
+  createTheme,
+  Theme,
+} from "@mui/material";
 
 import { GuessesTable } from "./components/GuessesTable";
 import { GuessBar } from "./components/GuessBar";
 import { CorrectGuess } from "./components/CorrectGuess";
 
 import { CategoryResponse, GuessResponse, PossibleGuesses } from "./types";
+import ThemeRegistry from "./components/ThemeRegistry/ThemeRegistry";
 
 type GuessState = {
   possibleGuesses: PossibleGuesses[];
@@ -17,8 +25,9 @@ type GuessState = {
 };
 
 export default function App(props: CategoryResponse) {
-  const { title, attributes, items } = props;
+  const { title, attributes, items, theme: themeOptions } = props;
 
+  const [theme, setTheme] = useState<Theme>();
   const [guessState, setGuessState] = useState<GuessState>({
     possibleGuesses: items,
     query: "",
@@ -29,6 +38,23 @@ export default function App(props: CategoryResponse) {
 
   const { possibleGuesses, results, isGuessCorrect, isGuessQueryLoading } =
     guessState;
+
+  /***
+   * FIX: Not ideal but whatever...
+   * Similar to what's described here: https://github.com/pacocoursey/next-themes#avoid-hydration-mismatch
+   * When I tried to put it all on the server (dynamic theme and all) I get this:
+   * Error: Not implemented.
+    at eval (./app/components/ThemeRegistry/theme.ts:9:96)
+    at (ssr)/./app/components/ThemeRegistry/theme.ts (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\app\page.js:271:1)
+    at __webpack_require__ (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\webpack-runtime.js:33:42)  
+    at eval (./app/components/ThemeRegistry/ThemeRegistry.tsx:12:64)
+\server\app\page.js:260:1)
+    at __webpack_require__ (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\webpack-runtime.js:33:42)
+  */
+  // Init theme
+  useEffect(() => {
+    setTheme(createTheme(themeOptions));
+  }, [themeOptions]);
 
   async function fetchGuessResponse(query: string): Promise<void> {
     setGuessState((prevState) => ({ ...prevState, isGuessQueryLoading: true }));
@@ -68,45 +94,55 @@ export default function App(props: CategoryResponse) {
     }
   }, []);
 
-  return (
-    <Container component="main" maxWidth="md">
-      <CssBaseline />
-      <Grid
-        container
-        direction="column"
-        alignItems="center"
-        sx={{
-          width: "100%",
-        }}
-      >
-        <Grid
-          item
-          sx={{
-            width: "100%",
-          }}
-        >
-          <Stack
-            spacing={3}
+  // Don't attempt to register the theme if we don't have one
+  if (theme) {
+    return (
+      <ThemeRegistry theme={createTheme(theme)}>
+        <Container component="main" maxWidth="md">
+          <Grid
+            container
             direction="column"
             alignItems="center"
             sx={{
               width: "100%",
             }}
           >
-            <Typography variant="h1">{title}</Typography>
-            <GuessBar
-              title={title}
-              possibleGuesses={possibleGuesses}
-              handleGuess={handleGuess}
-              shouldDisable={isGuessCorrect || isGuessQueryLoading}
-            />
-            <GuessesTable attributes={attributes} guesses={results} />
-          </Stack>
-        </Grid>
-        <Grid item>
-          {isGuessCorrect ? <CorrectGuess handleReset={handleReset} /> : <></>}
-        </Grid>
-      </Grid>
-    </Container>
-  );
+            <Grid
+              item
+              sx={{
+                width: "100%",
+              }}
+            >
+              <Stack
+                spacing={3}
+                direction="column"
+                alignItems="center"
+                sx={{
+                  width: "100%",
+                }}
+              >
+                <Typography variant="h1">{title}</Typography>
+                <GuessBar
+                  title={title}
+                  possibleGuesses={possibleGuesses}
+                  handleGuess={handleGuess}
+                  shouldDisable={isGuessCorrect || isGuessQueryLoading}
+                />
+                <GuessesTable attributes={attributes} guesses={results} />
+              </Stack>
+            </Grid>
+            <Grid item>
+              {isGuessCorrect ? (
+                <CorrectGuess handleReset={handleReset} />
+              ) : (
+                <></>
+              )}
+            </Grid>
+          </Grid>
+        </Container>
+      </ThemeRegistry>
+    );
+  } else {
+    return null; // replace with skeleton
+  }
 }
