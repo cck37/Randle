@@ -13,7 +13,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 
-import logo from "../logo.png";
+import logo from "../logo.svg";
 
 const pages = [
   { label: "Standard", route: "/" },

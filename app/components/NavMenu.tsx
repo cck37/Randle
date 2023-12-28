@@ -13,7 +13,7 @@ import {
   Typography,
 } from "@mui/material";
 import Image from "next/image";
-import logo from "../logo.png";
+import logo from "../logo.svg";
 
 const drawerWidth = 240;
 

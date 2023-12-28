@@ -24,43 +24,63 @@ type GuessState = {
   isGuessQueryLoading: boolean;
 };
 
-export default function App(props: CategoryResponse) {
-  const { title, attributes, items, theme: themeOptions } = props;
-
+export default function App() {
   const [theme, setTheme] = useState<Theme>();
+  const [categoryState, setCategoryState] = useState<CategoryResponse>({
+    title: "",
+    attributes: [],
+    items: [],
+    theme: {}
+  });
   const [guessState, setGuessState] = useState<GuessState>({
-    possibleGuesses: items,
+    possibleGuesses: [],
     query: "",
     results: [],
     isGuessCorrect: false,
     isGuessQueryLoading: false,
   });
 
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await fetch(`/api/category?date=${new Date().getDate()}`);
+      const categoryResponse: CategoryResponse = await res.json();
+      const { title, attributes, items, theme: themeOptions } = categoryResponse;
+      setCategoryState(categoryResponse);
+      setGuessState({
+        possibleGuesses: items,
+        query: "",
+        results: [],
+        isGuessCorrect: false,
+        isGuessQueryLoading: false,
+      })
+
+      /***
+       * FIX: Not ideal but whatever...
+       * Similar to what's described here: https://github.com/pacocoursey/next-themes#avoid-hydration-mismatch
+       * When I tried to put it all on the server (dynamic theme and all) I get this:
+       * Error: Not implemented.
+        at eval (./app/components/ThemeRegistry/theme.ts:9:96)
+        at (ssr)/./app/components/ThemeRegistry/theme.ts (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\app\page.js:271:1)
+        at __webpack_require__ (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\webpack-runtime.js:33:42)  
+        at eval (./app/components/ThemeRegistry/ThemeRegistry.tsx:12:64)
+      \server\app\page.js:260:1)
+        at __webpack_require__ (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\webpack-runtime.js:33:42)
+      */
+      setTheme(createTheme(themeOptions));
+    }
+
+    fetchData();
+  }, [])
+
+
   const { possibleGuesses, results, isGuessCorrect, isGuessQueryLoading } =
     guessState;
-
-  /***
-   * FIX: Not ideal but whatever...
-   * Similar to what's described here: https://github.com/pacocoursey/next-themes#avoid-hydration-mismatch
-   * When I tried to put it all on the server (dynamic theme and all) I get this:
-   * Error: Not implemented.
-    at eval (./app/components/ThemeRegistry/theme.ts:9:96)
-    at (ssr)/./app/components/ThemeRegistry/theme.ts (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\app\page.js:271:1)
-    at __webpack_require__ (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\webpack-runtime.js:33:42)  
-    at eval (./app/components/ThemeRegistry/ThemeRegistry.tsx:12:64)
-\server\app\page.js:260:1)
-    at __webpack_require__ (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\webpack-runtime.js:33:42)
-  */
-  // Init theme
-  useEffect(() => {
-    setTheme(createTheme(themeOptions));
-  }, [themeOptions]);
 
   async function fetchGuessResponse(query: string): Promise<void> {
     setGuessState((prevState) => ({ ...prevState, isGuessQueryLoading: true }));
 
     try {
-      const res = await fetch(`/api/guess?guess=${query}`);
+      const res = await fetch(`/api/guess?guess=${query}&date=${new Date().getDate()}`);
       const guessResponse: GuessResponse = await res.json();
 
       setGuessState((prevState) => ({
@@ -84,9 +104,8 @@ export default function App(props: CategoryResponse) {
       results: [],
       isGuessCorrect: false,
       query: "",
-      possibleGuesses: items,
     }));
-  }, [items]);
+  }, []);
 
   const handleGuess = useCallback((query: string) => {
     if (query) {
@@ -121,14 +140,14 @@ export default function App(props: CategoryResponse) {
                   width: "100%",
                 }}
               >
-                <Typography variant="h1">{title}</Typography>
+                <Typography variant="h1">{categoryState.title}</Typography>
                 <GuessBar
-                  title={title}
+                  title={categoryState.title}
                   possibleGuesses={possibleGuesses}
                   handleGuess={handleGuess}
                   shouldDisable={isGuessCorrect || isGuessQueryLoading}
                 />
-                <GuessesTable attributes={attributes} guesses={results} />
+                <GuessesTable attributes={categoryState.attributes} guesses={results} />
               </Stack>
             </Grid>
             <Grid item>

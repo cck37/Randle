@@ -28,12 +28,12 @@ export function GuessBar(props: {
         handleGuess(guess);
         setGuess("");
       }}
-      style={{ width: "100%" }}
+      style={{width: "100%", marginTop: "0px"}}
     >
       <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 1, sm: 2 }}>
         {/* TODO: Move to Autocomplete https://mui.com/material-ui/react-autocomplete/ */}
         <FormControl fullWidth>
-          <InputLabel id="guess-selection-label">{title}</InputLabel>
+          <InputLabel id="guess-selection-label" >{title}</InputLabel>
           <Select
             labelId="guess-selection-label"
             id="guess-selection"
