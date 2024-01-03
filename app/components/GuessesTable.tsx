@@ -1,4 +1,4 @@
-import { Attribute, GuessResponse } from "@/app/types";
+import { Attribute, Guess } from "@/app/types";
 
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
@@ -7,13 +7,29 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+
 import { useTheme } from "@mui/material/styles";
+
+const compareStrings = (a: string, b: string): number =>
+  a.toUpperCase() < b.toUpperCase()
+    ? -1
+    : a.toUpperCase() > b.toUpperCase()
+    ? 1
+    : 0;
 
 export function GuessesTable(props: {
   attributes: Attribute[];
-  guesses: GuessResponse[];
+  guesses: Guess[];
 }) {
   const { attributes, guesses } = props;
+
+  // Sort both in the same order so they hopefully line up
+  // ...or just install data grid
+  attributes.sort((a, b) => compareStrings(a.name, b.name));
+  guesses.forEach((guess) =>
+    guess.data.sort((a, b) => compareStrings(a.name, b.name))
+  );
+
   const theme = useTheme();
   return (
     <TableContainer component={Paper}>
@@ -23,7 +39,7 @@ export function GuessesTable(props: {
             <TableRow>
               <TableCell>Guess</TableCell>
               {attributes.map((attr) => (
-                <TableCell align="right" key={attr.name}>
+                <TableCell align="right" key={attr.id}>
                   {attr.name}
                 </TableCell>
               ))}
@@ -32,7 +48,7 @@ export function GuessesTable(props: {
           <TableBody>
             {guesses.map((guess) => (
               <TableRow
-                key={guess.name}
+                key={guess.id}
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
               >
                 <TableCell component="th" scope="row">
@@ -41,7 +57,7 @@ export function GuessesTable(props: {
                 {guess.data.map((attr) => (
                   <TableCell
                     align="right"
-                    key={`${guess.name}-${attr.value}`}
+                    key={`${guess.id}-${attr.name}`}
                     style={{
                       color: `${
                         attr.isCorrect
@@ -50,7 +66,7 @@ export function GuessesTable(props: {
                       }`,
                     }}
                   >
-                    {attr.value}
+                    {attr.value ?? "N/A"}
                   </TableCell>
                 ))}
               </TableRow>

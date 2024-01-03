@@ -13,25 +13,20 @@ import { GuessesTable } from "./components/GuessesTable";
 import { GuessBar } from "./components/GuessBar";
 import { CorrectGuess } from "./components/CorrectGuess";
 
-import { CategoryResponse, GuessResponse, PossibleGuesses } from "./types";
+import { CategoryResponse, Guess, GuessResponse, PossibleGuess } from "./types";
 import ThemeRegistry from "./components/ThemeRegistry/ThemeRegistry";
 
 type GuessState = {
-  possibleGuesses: PossibleGuesses[];
+  possibleGuesses: PossibleGuess[];
   query: string;
-  results: GuessResponse[];
+  results: Guess[];
   isGuessCorrect: boolean;
   isGuessQueryLoading: boolean;
 };
 
 export default function App() {
   const [theme, setTheme] = useState<Theme>();
-  const [categoryState, setCategoryState] = useState<CategoryResponse>({
-    title: "",
-    attributes: [],
-    items: [],
-    theme: {}
-  });
+  const [categoryState, setCategoryState] = useState<CategoryResponse>();
   const [guessState, setGuessState] = useState<GuessState>({
     possibleGuesses: [],
     query: "",
@@ -44,7 +39,7 @@ export default function App() {
     const fetchData = async () => {
       const res = await fetch(`/api/category?date=${new Date().getDate()}`);
       const categoryResponse: CategoryResponse = await res.json();
-      const { title, attributes, items, theme: themeOptions } = categoryResponse;
+      const { items, theme: themeOptions } = categoryResponse;
       setCategoryState(categoryResponse);
       setGuessState({
         possibleGuesses: items,
@@ -52,7 +47,7 @@ export default function App() {
         results: [],
         isGuessCorrect: false,
         isGuessQueryLoading: false,
-      })
+      });
 
       /***
        * FIX: Not ideal but whatever...
@@ -67,11 +62,10 @@ export default function App() {
         at __webpack_require__ (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\webpack-runtime.js:33:42)
       */
       setTheme(createTheme(themeOptions));
-    }
+    };
 
     fetchData();
-  }, [])
-
+  }, []);
 
   const { possibleGuesses, results, isGuessCorrect, isGuessQueryLoading } =
     guessState;
@@ -80,8 +74,10 @@ export default function App() {
     setGuessState((prevState) => ({ ...prevState, isGuessQueryLoading: true }));
 
     try {
-      const res = await fetch(`/api/guess?guess=${query}&date=${new Date().getDate()}`);
-      const guessResponse: GuessResponse = await res.json();
+      const res = await fetch(
+        `/api/guess?guess=${query}&date=${new Date().getDate()}`
+      );
+      const guessResponse: Guess = await res.json();
 
       setGuessState((prevState) => ({
         ...prevState,
@@ -113,11 +109,10 @@ export default function App() {
     }
   }, []);
 
-  // Don't attempt to register the theme if we don't have one
-  if (theme) {
+  if (categoryState) {
     return (
       <ThemeRegistry theme={createTheme(theme)}>
-        <Container component="main" maxWidth="md">
+        <Container component="main" maxWidth="lg">
           <Grid
             container
             direction="column"
@@ -147,7 +142,10 @@ export default function App() {
                   handleGuess={handleGuess}
                   shouldDisable={isGuessCorrect || isGuessQueryLoading}
                 />
-                <GuessesTable attributes={categoryState.attributes} guesses={results} />
+                <GuessesTable
+                  attributes={categoryState.attributes}
+                  guesses={results}
+                />
               </Stack>
             </Grid>
             <Grid item>

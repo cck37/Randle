@@ -1,7 +1,8 @@
-import { CategoryResponse } from "../types";
+import { CategoryResponse } from "./types";
 
 export const sneakers: CategoryResponse = {
   title: "Sneakers",
+  themeName: "sneakers",
   attributes: [
     {
       name: "Brand",
@@ -102,27 +103,4 @@ export const sneakers: CategoryResponse = {
       ],
     },
   ],
-  theme: {
-    palette: {
-      mode: "dark",
-      primary: {
-        main: "#915430",
-      },
-      secondary: {
-        main: "#0b1b09",
-      },
-      error: {
-        main: "#c34646",
-      },
-      background: {
-        default: "#18091b",
-      },
-      text: {
-        primary: "#fdfbfe",
-      },
-    },
-    typography: {
-      fontFamily: "Droid Sans, system-ui, Avenir, Helvetica, Arial, sans-serif",
-    },
-  },
 };

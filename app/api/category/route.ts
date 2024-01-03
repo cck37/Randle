@@ -5,7 +5,7 @@ import { getCategory } from "./getCategory";
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
   const date = parseInt(searchParams.get("date") ?? "1");
-  const data: CategoryResponse = getCategory(date);
+  const data: CategoryResponse = await getCategory(date);
 
   return NextResponse.json(data);
 }

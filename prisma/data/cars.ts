@@ -1,7 +1,8 @@
-import { CategoryResponse } from "../types";
+import { CategoryResponse } from "./types";
 
 export const cars: CategoryResponse = {
   title: "Cars",
+  themeName: "cars",
   attributes: [
     {
       name: "Starting Year",
@@ -197,25 +198,5 @@ export const cars: CategoryResponse = {
         },
       ],
     },
-  ],
-  theme: {
-    palette: {
-      mode: "dark",
-      primary: {
-        main: "#646cff",
-      },
-      secondary: {
-        main: "#f50057",
-      },
-      background: {
-        default: "#242424",
-      },
-      text: {
-        primary: "rgba(255,255,255,0.87)",
-      },
-    },
-    typography: {
-      fontFamily: "Inter, system-ui, Avenir, Helvetica, Arial, sans-serif",
-    },
-  },
+  ]
 };

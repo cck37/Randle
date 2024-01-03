@@ -1,7 +1,8 @@
-import { CategoryResponse } from "../types";
+import { CategoryResponse } from "./types";
 
 export const movies: CategoryResponse = {
   title: "Movies",
+  themeName: "movies",
   attributes: [
     {
       name: "Director",
@@ -100,41 +101,4 @@ export const movies: CategoryResponse = {
       ],
     },
   ],
-  theme: {
-    palette: {
-      mode: "dark",
-      primary: {
-        main: "#FF5722",
-      },
-      secondary: {
-        main: "#2196F3",
-      },
-      error: {
-        main: "#F44336",
-      },
-      background: {
-        default: "#121212",
-      },
-      text: {
-        primary: "#FFFFFF",
-      },
-    },
-    typography: {
-      h1: {
-        fontFamily: "Bebas Neue",
-      },
-      h2: {
-        fontFamily: "Bebas Neue",
-      },
-      h3: {
-        fontFamily: "Bebas Neue",
-      },
-      h4: {
-        fontFamily: "Bebas Neue",
-      },
-      h5: {
-        fontFamily: "Bebas Neue",
-      },
-    },
-  },
-};
+ };

@@ -1,15 +1,23 @@
 import { cache } from "react";
 import { CategoryResponse } from "@/app/types";
-import static_data from "@/app/data";
+import prisma from "../db";
+import { themes } from "@/app/data/themes";
 
 export const dynamic = "force-dynamic";
 
-export const getCategory = cache((currDay: number): CategoryResponse => {
-  // Fetch category data from static data
-  const categories = static_data;
+export const getCategory = cache(
+  async (currDay: number): Promise<CategoryResponse> => {
+    const catLength = await prisma.category.count();
+    const category = await prisma.category.findFirstOrThrow({
+      where: {
+        id: currDay % catLength,
+      },
+      include: {
+        attributes: true,
+        items: true,
+      },
+    });
 
-  // Get category for today
-  const currCategoryIndex = currDay % categories.length;
-
-  return categories[currCategoryIndex];
-});
+    return { ...category, theme: themes[category.themeName] };
+  }
+);

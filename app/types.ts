@@ -5,18 +5,21 @@ export type GroupAttributes = {
 };
 
 export type Attribute = {
+  id: number;
   name: string;
 };
 
-export type GuessAttributes = {
+export type Guess = {
+  id: number;
   name: string;
-  value: string;
+  data: {
+    name: string;
+    value: string;
+    isCorrect: boolean;
+  }[];
 };
 
-export type GuessResponse = {
-  name: string;
-  data: Array<GuessAttributeResponse>;
-};
+export type GuessResponse = Guess | undefined;
 
 export type GuessAttributeResponse = {
   name: string;
@@ -24,14 +27,24 @@ export type GuessAttributeResponse = {
   isCorrect: boolean;
 };
 
-export type PossibleGuesses = {
+export type PossibleGuess = {
+  id: number;
   name: string;
-  attributes: Array<GuessAttributes>;
 };
 
 export type CategoryResponse = {
+  items: {
+    id: number;
+    name: string;
+    category_id: number;
+  }[];
+  attributes: {
+    id: number;
+    name: string;
+    category_id: number;
+  }[];
+} & {
+  id: number;
   title: string;
-  attributes: Attribute[];
-  items: PossibleGuesses[];
   theme: ThemeOptions;
 };

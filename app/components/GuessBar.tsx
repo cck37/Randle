@@ -8,10 +8,11 @@ import {
   Stack,
 } from "@mui/material";
 import FormControl from "@mui/material/FormControl";
+import { Attribute, PossibleGuess } from "../types";
 
 export function GuessBar(props: {
   title: string;
-  possibleGuesses: PossibleGuessesType[];
+  possibleGuesses: PossibleGuess[];
   handleGuess: (query: string) => void;
   shouldDisable: boolean;
 }) {
@@ -28,12 +29,12 @@ export function GuessBar(props: {
         handleGuess(guess);
         setGuess("");
       }}
-      style={{width: "100%", marginTop: "0px"}}
+      style={{ width: "100%", marginTop: "0px" }}
     >
       <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 1, sm: 2 }}>
         {/* TODO: Move to Autocomplete https://mui.com/material-ui/react-autocomplete/ */}
         <FormControl fullWidth>
-          <InputLabel id="guess-selection-label" >{title}</InputLabel>
+          <InputLabel id="guess-selection-label">{title}</InputLabel>
           <Select
             labelId="guess-selection-label"
             id="guess-selection"
@@ -46,7 +47,7 @@ export function GuessBar(props: {
           >
             {possibleGuesses &&
               possibleGuesses.map((guess) => (
-                <MenuItem value={guess.name} key={guess.name}>
+                <MenuItem value={guess.name} key={guess.id}>
                   {guess.name}
                 </MenuItem>
               ))}
@@ -59,8 +60,3 @@ export function GuessBar(props: {
     </form>
   );
 }
-
-type PossibleGuessesType = {
-  name: string;
-  attributes: Array<object>;
-};
