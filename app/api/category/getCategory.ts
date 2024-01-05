@@ -10,7 +10,7 @@ export const getCategory = cache(
     const catLength = await prisma.category.count();
     const category = await prisma.category.findFirstOrThrow({
       where: {
-        id: currDay % catLength,
+        id: (currDay % catLength) + 1,
       },
       include: {
         attributes: true,
