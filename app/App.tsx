@@ -100,8 +100,9 @@ export default function App() {
       results: [],
       isGuessCorrect: false,
       query: "",
+      possibleGuesses: categoryState?.items ?? [],
     }));
-  }, []);
+  }, [categoryState]);
 
   const handleGuess = useCallback((query: string) => {
     if (query) {
