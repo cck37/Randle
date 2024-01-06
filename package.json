@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "prisma": {
-    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts",
-    "postinstall": "prisma generate"
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -20,8 +19,6 @@
     "@mui/icons-material": "^5.14.15",
     "@mui/material": "^5.14.14",
     "@prisma/client": "^5.7.1",
-    "@supabase/auth-helpers-nextjs": "^0.8.7",
-    "@supabase/supabase-js": "^2.39.2",
     "@vercel/postgres": "^0.5.1",
     "fs.promises": "^0.1.2",
     "next": "^14.0.3",
