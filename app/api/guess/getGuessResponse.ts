@@ -23,8 +23,8 @@ const toCorrectResponse = (
       return {
         isCorrect,
         isAbove:
-          parseInt(guessItemAttribute.value) >
-          parseInt(correctItemAttribute.value),
+          Number(guessItemAttribute.value.replace("$", "")) >
+          Number(correctItemAttribute.value.replace("$", "")),
       };
     case "multipart":
       return {

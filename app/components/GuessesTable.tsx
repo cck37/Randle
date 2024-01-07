@@ -24,12 +24,10 @@ const compareStrings = (a: string, b: string): number =>
 
 const guessValueTrim = (attr: GuessAttributeResponse): string =>
   attr.attributeType === "multipart"
-    ? attr.value
-        .split(",")
-        .map((s) => s.trim())
-        .filter(Boolean)
-        .join(", ")
+    ? attr.value.split(",").filter(Boolean).join(", ")
     : attr.value;
+
+//TODO: Safer to use attributeType but whatever. Cant assume all data is bad data
 const guessResToStyle = (res: CorrectResponse, theme: Theme): any => {
   const { isCorrect } = res;
 

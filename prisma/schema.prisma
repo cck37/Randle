@@ -42,11 +42,13 @@ model Items {
   category_id    Int
   itemAttributes ItemAttributes[]
   category       Category         @relation(fields: [category_id], references: [id])
+
+  @@unique([name, category_id])
 }
 
 model Category {
   id             Int              @id @default(autoincrement())
-  title          String
+  title          String           @unique
   themeName      String
   attributes     Attribute[]
   itemAttributes ItemAttributes[]
