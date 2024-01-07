@@ -6,12 +6,15 @@ export const movies: CategoryResponse = {
   attributes: [
     {
       name: "Director",
+      type: "string",
     },
     {
       name: "Leading Actor/Actress",
+      type: "string",
     },
     {
       name: "Release Year",
+      type: "number",
     },
   ],
   items: [
@@ -101,4 +104,4 @@ export const movies: CategoryResponse = {
       ],
     },
   ],
- };
+};

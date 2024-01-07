@@ -8,10 +8,17 @@ datasource db {
   directUrl = env("POSTGRES_URL_NON_POOLING")
 }
 
+enum AttributeType {
+  number
+  multipart
+  string
+}
+
 model Attribute {
   id             Int              @id @default(autoincrement())
   name           String
   category_id    Int
+  attributeType  AttributeType
   category       Category         @relation(fields: [category_id], references: [id])
   itemAttributes ItemAttributes[]
 

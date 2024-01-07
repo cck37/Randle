@@ -6,15 +6,19 @@ export const sneakers: CategoryResponse = {
   attributes: [
     {
       name: "Brand",
+      type: "string",
     },
     {
       name: "Model",
+      type: "string",
     },
     {
       name: "Color",
+      type: "string",
     },
     {
       name: "Price",
+      type: "number",
     },
   ],
   items: [

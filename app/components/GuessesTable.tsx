@@ -1,4 +1,9 @@
-import { Attribute, Guess } from "@/app/types";
+import {
+  Attribute,
+  CorrectResponse,
+  Guess,
+  GuessAttributeResponse,
+} from "@/app/types";
 
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
@@ -8,7 +13,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 
-import { useTheme } from "@mui/material/styles";
+import { Theme, useTheme } from "@mui/material/styles";
 
 const compareStrings = (a: string, b: string): number =>
   a.toUpperCase() < b.toUpperCase()
@@ -16,6 +21,40 @@ const compareStrings = (a: string, b: string): number =>
     : a.toUpperCase() > b.toUpperCase()
     ? 1
     : 0;
+
+const guessValueTrim = (attr: GuessAttributeResponse): string =>
+  attr.attributeType === "multipart"
+    ? attr.value
+        .split(",")
+        .map((s) => s.trim())
+        .filter(Boolean)
+        .join(", ")
+    : attr.value;
+const guessResToStyle = (res: CorrectResponse, theme: Theme): any => {
+  const { isCorrect } = res;
+
+  if ("isPartial" in res && res.isPartial) {
+    return {
+      color: isCorrect
+        ? theme.palette.success.main
+        : res.isPartial
+        ? theme.palette.warning.main
+        : theme.palette.error.main,
+    };
+  } else if ("isAbove" in res || "isAbove" in res) {
+    const arrow = res.isAbove ? "↓" : "↑";
+    return {
+      color: isCorrect ? theme.palette.success.main : theme.palette.error.main,
+      "&::after": {
+        content: `" ${isCorrect ? "" : arrow}"`,
+      },
+    };
+  } else {
+    return {
+      color: isCorrect ? theme.palette.success.main : theme.palette.error.main,
+    };
+  }
+};
 
 export function GuessesTable(props: {
   attributes: Attribute[];
@@ -58,15 +97,9 @@ export function GuessesTable(props: {
                   <TableCell
                     align="right"
                     key={`${guess.id}-${attr.name}`}
-                    style={{
-                      color: `${
-                        attr.isCorrect
-                          ? theme.palette.success.main
-                          : theme.palette.error.main
-                      }`,
-                    }}
+                    sx={guessResToStyle(attr.res, theme)}
                   >
-                    {attr.value ?? "N/A"}
+                    {guessValueTrim(attr)}
                   </TableCell>
                 ))}
               </TableRow>

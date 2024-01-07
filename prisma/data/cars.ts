@@ -6,21 +6,27 @@ export const cars: CategoryResponse = {
   attributes: [
     {
       name: "Starting Year",
+      type: "number",
     },
     {
       name: "Ending Year",
+      type: "number",
     },
     {
       name: "Make",
+      type: "string",
     },
     {
       name: "Model",
+      type: "string",
     },
     {
       name: "Engine Series",
+      type: "string",
     },
     {
       name: "Engine Displacement",
+      type: "string",
     },
   ],
   items: [
@@ -198,5 +204,5 @@ export const cars: CategoryResponse = {
         },
       ],
     },
-  ]
+  ],
 };

@@ -6,42 +6,39 @@ export const harryPotter: CategoryResponse = {
   attributes: [
     {
       name: "Sex",
+      type: "string",
     },
     {
-      name: "Spec1",
-    },
-    {
-      name: "Spec2",
+      name: "Spec",
+      type: "multipart",
     },
     {
       name: "Blood status",
+      type: "string",
     },
     {
       name: "House",
+      type: "string",
     },
     {
-      name: "Job1",
-    },
-    {
-      name: "Job2",
-    },
-    {
-      name: "Job3",
-    },
-    {
-      name: "Job4",
+      name: "Job",
+      type: "multipart",
     },
     {
       name: "School",
+      type: "string",
     },
     {
       name: "Wand core",
+      type: "string",
     },
     {
       name: "Vital status",
+      type: "string",
     },
     {
       name: "Book",
+      type: "number",
     },
   ],
   items: [
@@ -53,12 +50,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -69,20 +62,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Auror",
-        },
-        {
-          name: "Job2",
-          value: "Order Member",
-        },
-        {
-          name: "Job3",
-          value: "Minister",
-        },
-        {
-          name: "Job4",
-          value: "Advance Guard",
+          name: "Job",
+          value: "Auror,Order Member,Minister,Advance Guard",
         },
         {
           name: "School",
@@ -110,12 +91,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -126,20 +103,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "Head of House",
-        },
-        {
-          name: "Job3",
-          value: "Professor",
-        },
-        {
-          name: "Job4",
-          value: "Order Member",
+          name: "Job",
+          value: "Death Eater,Head of House,Professor,Order Member",
         },
         {
           name: "School",
@@ -167,12 +132,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -183,20 +144,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "Death Eater",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,Death Eater,,",
         },
         {
           name: "School",
@@ -224,12 +173,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -240,20 +185,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -281,12 +214,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -297,20 +226,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "Order Member",
-        },
-        {
-          name: "Job3",
-          value: "Advance Guard",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,Order Member,Advance Guard,",
         },
         {
           name: "School",
@@ -338,12 +255,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -354,20 +267,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -395,12 +296,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -411,20 +308,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -452,12 +337,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -468,20 +349,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -509,12 +378,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -525,20 +390,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "Professor",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,Professor,,",
         },
         {
           name: "School",
@@ -566,12 +419,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -582,20 +431,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -623,12 +460,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -639,20 +472,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Auror",
-        },
-        {
-          name: "Job2",
-          value: "Order Member",
-        },
-        {
-          name: "Job3",
-          value: "Advance Guard",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Auror,Order Member,Advance Guard,",
         },
         {
           name: "School",
@@ -680,12 +501,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -696,20 +513,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -737,12 +542,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -753,20 +554,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -794,12 +583,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -810,20 +595,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -851,12 +624,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -867,20 +636,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -908,12 +665,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -924,20 +677,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -965,12 +706,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -981,20 +718,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -1022,12 +747,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1038,20 +759,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -1079,12 +788,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1095,20 +800,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -1136,12 +829,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1152,20 +841,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Order Member",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Order Member,,,",
         },
         {
           name: "School",
@@ -1193,12 +870,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1209,20 +882,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,Ministry Official,,",
         },
         {
           name: "School",
@@ -1250,12 +911,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1266,20 +923,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -1307,12 +952,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1323,20 +964,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -1364,12 +993,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1380,20 +1005,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Unknown",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Unknown,,,",
         },
         {
           name: "School",
@@ -1421,12 +1034,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1437,20 +1046,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -1478,12 +1075,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1494,20 +1087,8 @@ export const harryPotter: CategoryResponse = {
           value: "Hufflepuff",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -1535,12 +1116,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1551,20 +1128,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -1592,12 +1157,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1608,20 +1169,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Homemaker",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Homemaker,,,",
         },
         {
           name: "School",
@@ -1649,12 +1198,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1665,20 +1210,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,,,",
         },
         {
           name: "School",
@@ -1706,12 +1239,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1722,20 +1251,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "Death Eater",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,Death Eater,,",
         },
         {
           name: "School",
@@ -1763,12 +1280,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1779,20 +1292,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "Death Eater",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,Death Eater,,",
         },
         {
           name: "School",
@@ -1820,12 +1321,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1836,20 +1333,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Bank Staff",
-        },
-        {
-          name: "Job2",
-          value: "Author",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Bank Staff,Author,,",
         },
         {
           name: "School",
@@ -1877,12 +1362,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1893,20 +1374,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -1934,12 +1403,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -1950,20 +1415,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,,,",
         },
         {
           name: "School",
@@ -1991,12 +1444,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2007,20 +1456,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -2048,12 +1485,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2064,20 +1497,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -2105,12 +1526,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2121,20 +1538,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -2162,12 +1567,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2178,20 +1579,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -2219,12 +1608,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2235,20 +1620,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -2276,12 +1649,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2292,20 +1661,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -2333,12 +1690,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2349,20 +1702,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -2390,12 +1731,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2406,20 +1743,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Shopkeeper",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Shopkeeper,,,",
         },
         {
           name: "School",
@@ -2447,12 +1772,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2463,20 +1784,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -2504,12 +1813,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2520,20 +1825,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "Death Eater",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,Death Eater,,",
         },
         {
           name: "School",
@@ -2561,12 +1854,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Portrait",
+          name: "Spec",
+          value: "Human,Portrait",
         },
         {
           name: "Blood status",
@@ -2577,20 +1866,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Headteacher",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Headteacher,,,",
         },
         {
           name: "School",
@@ -2618,12 +1895,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2634,20 +1907,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -2675,12 +1936,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2691,20 +1948,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -2732,12 +1977,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2748,20 +1989,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -2789,12 +2018,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2805,20 +2030,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -2846,12 +2059,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2862,20 +2071,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -2903,12 +2100,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2919,20 +2112,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -2960,12 +2141,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -2976,20 +2153,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -3017,12 +2182,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3033,20 +2194,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -3074,12 +2223,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3090,20 +2235,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -3131,12 +2264,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3147,20 +2276,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Dragonologist",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Dragonologist,,,",
         },
         {
           name: "School",
@@ -3188,12 +2305,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3204,20 +2317,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Shopkeeper",
-        },
-        {
-          name: "Job2",
-          value: "Innkeeper",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Shopkeeper,Innkeeper,,",
         },
         {
           name: "School",
@@ -3245,12 +2346,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3261,20 +2358,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -3302,12 +2387,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3318,20 +2399,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -3359,12 +2428,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3375,20 +2440,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "Headteacher",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,Headteacher,,",
         },
         {
           name: "School",
@@ -3416,12 +2469,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3432,20 +2481,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Executioner",
-        },
-        {
-          name: "Job2",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job3",
-          value: "Death Eater",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Executioner,Ministry Official,Death Eater,",
         },
         {
           name: "School",
@@ -3473,12 +2510,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3489,20 +2522,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Order Member",
-        },
-        {
-          name: "Job2",
-          value: "Advance Guard",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Order Member,Advance Guard,,",
         },
         {
           name: "School",
@@ -3530,12 +2551,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3546,20 +2563,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -3587,12 +2592,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3603,20 +2604,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -3644,12 +2633,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3660,20 +2645,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Minister",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Minister,,,",
         },
         {
           name: "School",
@@ -3701,12 +2674,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3717,20 +2686,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Seeker",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Seeker,,,",
         },
         {
           name: "School",
@@ -3758,12 +2715,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3774,20 +2727,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Unknown",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Unknown,,,",
         },
         {
           name: "School",
@@ -3815,12 +2756,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Veela",
+          name: "Spec",
+          value: "Human,Veela",
         },
         {
           name: "Blood status",
@@ -3831,20 +2768,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -3872,12 +2797,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3888,20 +2809,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Shopkeeper",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Shopkeeper,,,",
         },
         {
           name: "School",
@@ -3929,12 +2838,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -3945,20 +2850,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -3986,12 +2879,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Veela",
+          name: "Spec",
+          value: "Human,Veela",
         },
         {
           name: "Blood status",
@@ -4002,20 +2891,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "Bank Staff",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,Bank Staff,,",
         },
         {
           name: "School",
@@ -4043,12 +2920,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Werewolf",
+          name: "Spec",
+          value: "Human,Werewolf",
         },
         {
           name: "Blood status",
@@ -4059,20 +2932,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Snatcher",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Snatcher,,,",
         },
         {
           name: "School",
@@ -4100,12 +2961,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -4116,20 +2973,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Caretaker",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Caretaker,,,",
         },
         {
           name: "School",
@@ -4157,12 +3002,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -4173,20 +3014,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -4214,12 +3043,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Maledictus",
+          name: "Spec",
+          value: "Human,Maledictus",
         },
         {
           name: "Blood status",
@@ -4230,20 +3055,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -4271,12 +3084,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -4287,20 +3096,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Firm Director",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Firm Director,,,",
         },
         {
           name: "School",
@@ -4328,12 +3125,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -4344,20 +3137,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Office worker",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Office worker,,,",
         },
         {
           name: "School",
@@ -4385,12 +3166,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -4401,20 +3178,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Unknown",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Unknown,,,",
         },
         {
           name: "School",
@@ -4442,12 +3207,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Dragon",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Dragon,",
         },
         {
           name: "Blood status",
@@ -4458,20 +3219,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -4499,12 +3248,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Obscurial",
+          name: "Spec",
+          value: "Human,Obscurial",
         },
         {
           name: "Blood status",
@@ -4515,20 +3260,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -4556,12 +3289,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -4572,20 +3301,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Order Member",
-        },
-        {
-          name: "Job2",
-          value: "Advance Guard",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Order Member,Advance Guard,,",
         },
         {
           name: "School",
@@ -4613,12 +3330,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -4629,20 +3342,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -4670,12 +3371,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -4686,20 +3383,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Order Member",
-        },
-        {
-          name: "Job2",
-          value: "Advance Guard",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Order Member,Advance Guard,,",
         },
         {
           name: "School",
@@ -4727,12 +3412,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -4743,20 +3424,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -4784,12 +3453,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -4800,20 +3465,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -4841,12 +3494,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -4857,20 +3506,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Homemaker",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Homemaker,,,",
         },
         {
           name: "School",
@@ -4898,12 +3535,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -4914,20 +3547,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Alchemist",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Alchemist,,,",
         },
         {
           name: "School",
@@ -4955,12 +3576,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Veela",
+          name: "Spec",
+          value: "Human,Veela",
         },
         {
           name: "Blood status",
@@ -4971,20 +3588,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Homemaker",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Homemaker,,,",
         },
         {
           name: "School",
@@ -5012,12 +3617,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -5028,20 +3629,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Hallows Master",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Hallows Master,,,",
         },
         {
           name: "School",
@@ -5069,12 +3658,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Giant",
+          name: "Spec",
+          value: "Human,Giant",
         },
         {
           name: "Blood status",
@@ -5085,20 +3670,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Headteacher",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Headteacher,,,",
         },
         {
           name: "School",
@@ -5126,12 +3699,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -5142,20 +3711,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Hallows Master",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Hallows Master,,,",
         },
         {
           name: "School",
@@ -5183,12 +3740,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -5199,20 +3752,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -5240,12 +3781,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -5256,20 +3793,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Animal Breeder",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Animal Breeder,,,",
         },
         {
           name: "School",
@@ -5297,12 +3822,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -5313,20 +3834,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Animal Breeder",
-        },
-        {
-          name: "Job2",
-          value: "Order Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Animal Breeder,Order Member,,",
         },
         {
           name: "School",
@@ -5354,12 +3863,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Basilisk",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Basilisk,",
         },
         {
           name: "Blood status",
@@ -5370,20 +3875,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -5411,12 +3904,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -5427,20 +3916,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -5468,12 +3945,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -5484,20 +3957,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -5525,12 +3986,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Owl",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Owl,",
         },
         {
           name: "Blood status",
@@ -5541,20 +3998,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -5582,12 +4027,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Goblin",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Goblin,",
         },
         {
           name: "Blood status",
@@ -5598,20 +4039,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Bank Staff",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Bank Staff,,,",
         },
         {
           name: "School",
@@ -5639,12 +4068,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Goblin",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Goblin,",
         },
         {
           name: "Blood status",
@@ -5655,20 +4080,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Bank Staff",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Bank Staff,,,",
         },
         {
           name: "School",
@@ -5696,12 +4109,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -5712,20 +4121,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -5753,12 +4150,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -5769,20 +4162,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -5810,12 +4191,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -5826,20 +4203,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -5867,12 +4232,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -5883,20 +4244,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,Ministry Official,,",
         },
         {
           name: "School",
@@ -5924,12 +4273,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Giant",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Giant,",
         },
         {
           name: "Blood status",
@@ -5940,20 +4285,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -5981,12 +4314,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Centaur",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Centaur,",
         },
         {
           name: "Blood status",
@@ -5997,20 +4326,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -6038,12 +4355,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "House-elf",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "House-elf,",
         },
         {
           name: "Blood status",
@@ -6054,20 +4367,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "of Black",
-        },
-        {
-          name: "Job2",
-          value: "of Potter",
-        },
-        {
-          name: "Job3",
-          value: "of Hogwarts",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "of Black,of Potter,of Hogwarts,",
         },
         {
           name: "School",
@@ -6095,12 +4396,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -6111,20 +4408,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Shopkeeper",
-        },
-        {
-          name: "Job2",
-          value: "Order Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Shopkeeper,Order Member,,",
         },
         {
           name: "School",
@@ -6152,12 +4437,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Cat",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Cat,",
         },
         {
           name: "Blood status",
@@ -6168,20 +4449,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -6209,12 +4478,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -6225,20 +4490,8 @@ export const harryPotter: CategoryResponse = {
           value: "Hufflepuff",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -6266,12 +4519,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Acromantula",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Acromantula,",
         },
         {
           name: "Blood status",
@@ -6282,20 +4531,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -6323,12 +4560,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Goblin",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Goblin,",
         },
         {
           name: "Blood status",
@@ -6339,20 +4572,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Bank Staff",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Bank Staff,,,",
         },
         {
           name: "School",
@@ -6380,12 +4601,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -6396,20 +4613,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -6437,12 +4642,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -6453,20 +4654,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -6494,12 +4683,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -6510,20 +4695,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Unknown",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Unknown,,,",
         },
         {
           name: "School",
@@ -6551,12 +4724,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -6567,20 +4736,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -6608,12 +4765,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -6624,20 +4777,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Hallows Master",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Hallows Master,,,",
         },
         {
           name: "School",
@@ -6665,12 +4806,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -6681,20 +4818,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Unknown",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Unknown,,,",
         },
         {
           name: "School",
@@ -6722,12 +4847,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Owl",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Owl,",
         },
         {
           name: "Blood status",
@@ -6738,20 +4859,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -6779,12 +4888,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -6795,20 +4900,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Unknown",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Unknown,,,",
         },
         {
           name: "School",
@@ -6836,12 +4929,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Centaur",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Centaur,",
         },
         {
           name: "Blood status",
@@ -6852,20 +4941,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -6893,12 +4970,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Dog",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Dog,",
         },
         {
           name: "Blood status",
@@ -6909,20 +4982,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "N/A",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,N/A,,",
         },
         {
           name: "School",
@@ -6950,12 +5011,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Centaur",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Centaur,",
         },
         {
           name: "Blood status",
@@ -6966,20 +5023,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -7007,12 +5052,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7023,20 +5064,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -7064,12 +5093,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7080,20 +5105,8 @@ export const harryPotter: CategoryResponse = {
           value: "Hufflepuff",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -7121,12 +5134,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7137,20 +5146,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -7178,12 +5175,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7194,20 +5187,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -7235,12 +5216,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7251,20 +5228,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -7292,12 +5257,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Animagus",
+          name: "Spec",
+          value: "Human,Animagus",
         },
         {
           name: "Blood status",
@@ -7308,20 +5269,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Journalist",
-        },
-        {
-          name: "Job2",
-          value: "Author",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Journalist,Author,,",
         },
         {
           name: "School",
@@ -7349,12 +5298,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7365,20 +5310,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,Ministry Official,,",
         },
         {
           name: "School",
@@ -7406,12 +5339,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7422,20 +5351,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -7463,12 +5380,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7479,20 +5392,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Homemaker",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Homemaker,,,",
         },
         {
           name: "School",
@@ -7520,12 +5421,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Animagus",
+          name: "Spec",
+          value: "Human,Animagus",
         },
         {
           name: "Blood status",
@@ -7536,20 +5433,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Auror",
-        },
-        {
-          name: "Job2",
-          value: "Order Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Auror,Order Member,,",
         },
         {
           name: "School",
@@ -7577,12 +5462,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7593,20 +5474,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -7634,12 +5503,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7650,20 +5515,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -7691,12 +5544,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7707,20 +5556,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -7748,12 +5585,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7764,20 +5597,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -7805,12 +5626,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7821,20 +5638,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -7862,12 +5667,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7878,20 +5679,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -7919,12 +5708,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7935,20 +5720,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Dealer",
-        },
-        {
-          name: "Job2",
-          value: "Order Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Dealer,Order Member,,",
         },
         {
           name: "School",
@@ -7976,12 +5749,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -7992,20 +5761,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -8033,12 +5790,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8049,20 +5802,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,,,",
         },
         {
           name: "School",
@@ -8090,12 +5831,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8106,20 +5843,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "Headteacher",
-        },
-        {
-          name: "Job3",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,Headteacher,Ministry Official,",
         },
         {
           name: "School",
@@ -8147,12 +5872,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Animagus",
+          name: "Spec",
+          value: "Human,Animagus",
         },
         {
           name: "Blood status",
@@ -8163,20 +5884,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -8204,12 +5913,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8220,20 +5925,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -8261,12 +5954,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8277,20 +5966,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Author",
-        },
-        {
-          name: "Job2",
-          value: "Historian",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Author,Historian,,",
         },
         {
           name: "School",
@@ -8318,12 +5995,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8334,20 +6007,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Homemaker",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Homemaker,,,",
         },
         {
           name: "School",
@@ -8375,12 +6036,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8391,20 +6048,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -8432,12 +6077,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8448,20 +6089,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Bus Driver",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Bus Driver,,,",
         },
         {
           name: "School",
@@ -8489,12 +6118,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8505,20 +6130,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Shopkeeper",
-        },
-        {
-          name: "Job2",
-          value: "Tailor",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Shopkeeper,Tailor,,",
         },
         {
           name: "School",
@@ -8546,12 +6159,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8562,20 +6171,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Librarian",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Librarian,,,",
         },
         {
           name: "School",
@@ -8603,12 +6200,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8619,20 +6212,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Matron",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Matron,,,",
         },
         {
           name: "School",
@@ -8660,12 +6241,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8676,20 +6253,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Auror",
-        },
-        {
-          name: "Job2",
-          value: "Order Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Auror,Order Member,,",
         },
         {
           name: "School",
@@ -8717,12 +6282,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8733,20 +6294,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Auror",
-        },
-        {
-          name: "Job2",
-          value: "Order Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Auror,Order Member,,",
         },
         {
           name: "School",
@@ -8774,12 +6323,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8790,20 +6335,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -8831,12 +6364,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8847,20 +6376,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -8888,12 +6405,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -8904,20 +6417,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -8945,12 +6446,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Ghost",
+          name: "Spec",
+          value: "Human,Ghost",
         },
         {
           name: "Blood status",
@@ -8961,20 +6458,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,,,",
         },
         {
           name: "School",
@@ -9002,12 +6487,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9018,20 +6499,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Snatcher",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Snatcher,,,",
         },
         {
           name: "School",
@@ -9059,12 +6528,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9075,20 +6540,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Conductor",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Conductor,,,",
         },
         {
           name: "School",
@@ -9116,12 +6569,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9132,20 +6581,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "Head of House",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,Head of House,,",
         },
         {
           name: "School",
@@ -9173,12 +6610,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9189,20 +6622,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -9230,12 +6651,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Ghost",
+          name: "Spec",
+          value: "Human,Ghost",
         },
         {
           name: "Blood status",
@@ -9246,20 +6663,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "House Ghost",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "House Ghost,,,",
         },
         {
           name: "School",
@@ -9287,12 +6692,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9303,20 +6704,8 @@ export const harryPotter: CategoryResponse = {
           value: "Hufflepuff",
         },
         {
-          name: "Job1",
-          value: "Auror",
-        },
-        {
-          name: "Job2",
-          value: "Order Member",
-        },
-        {
-          name: "Job3",
-          value: "Advance Guard",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Auror,Order Member,Advance Guard,",
         },
         {
           name: "School",
@@ -9344,12 +6733,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9360,20 +6745,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Founder",
-        },
-        {
-          name: "Job2",
-          value: "Professor",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Founder,Professor,,",
         },
         {
           name: "School",
@@ -9401,12 +6774,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9417,20 +6786,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -9458,12 +6815,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9474,20 +6827,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -9515,12 +6856,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9531,20 +6868,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Founder",
-        },
-        {
-          name: "Job2",
-          value: "Professor",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Founder,Professor,,",
         },
         {
           name: "School",
@@ -9572,12 +6897,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9588,20 +6909,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,,,",
         },
         {
           name: "School",
@@ -9629,12 +6938,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9645,20 +6950,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Founder",
-        },
-        {
-          name: "Job2",
-          value: "Professor",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Founder,Professor,,",
         },
         {
           name: "School",
@@ -9686,12 +6979,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9702,20 +6991,8 @@ export const harryPotter: CategoryResponse = {
           value: "Hufflepuff",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "Head of House",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,Head of House,,",
         },
         {
           name: "School",
@@ -9743,12 +7020,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Portrait",
+          name: "Spec",
+          value: "Human,Portrait",
         },
         {
           name: "Blood status",
@@ -9759,20 +7032,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Door Guard",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Door Guard,,,",
         },
         {
           name: "School",
@@ -9800,12 +7061,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Ghost",
+          name: "Spec",
+          value: "Human,Ghost",
         },
         {
           name: "Blood status",
@@ -9816,20 +7073,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "House Ghost",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "House Ghost,,,",
         },
         {
           name: "School",
@@ -9857,12 +7102,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9873,20 +7114,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -9914,12 +7143,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9930,20 +7155,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -9971,12 +7184,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -9987,20 +7196,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -10028,12 +7225,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10044,20 +7237,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -10085,12 +7266,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10101,20 +7278,8 @@ export const harryPotter: CategoryResponse = {
           value: "Hufflepuff",
         },
         {
-          name: "Job1",
-          value: "Founder",
-        },
-        {
-          name: "Job2",
-          value: "Professor",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Founder,Professor,,",
         },
         {
           name: "School",
@@ -10142,12 +7307,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10158,20 +7319,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Order Member",
-        },
-        {
-          name: "Job2",
-          value: "Advance Guard",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Order Member,Advance Guard,,",
         },
         {
           name: "School",
@@ -10199,12 +7348,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Portrait",
+          name: "Spec",
+          value: "Human,Portrait",
         },
         {
           name: "Blood status",
@@ -10215,20 +7360,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Knight of the Round Table",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Knight of the Round Table,,,",
         },
         {
           name: "School",
@@ -10256,12 +7389,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10272,20 +7401,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Journalist",
-        },
-        {
-          name: "Job2",
-          value: "Editor",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Journalist,Editor,,",
         },
         {
           name: "School",
@@ -10313,12 +7430,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Werewolf",
+          name: "Spec",
+          value: "Human,Werewolf",
         },
         {
           name: "Blood status",
@@ -10329,20 +7442,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "Advance Guard",
-        },
-        {
-          name: "Job3",
-          value: "Order Member",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,Advance Guard,Order Member,",
         },
         {
           name: "School",
@@ -10370,12 +7471,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10386,20 +7483,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job1",
-          value: "Death Eater",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Death Eater,,,",
         },
         {
           name: "School",
@@ -10427,12 +7512,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10443,20 +7524,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Shopkeeper",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Shopkeeper,,,",
         },
         {
           name: "School",
@@ -10484,12 +7553,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Ghost",
+          name: "Spec",
+          value: "Human,Ghost",
         },
         {
           name: "Blood status",
@@ -10500,20 +7565,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "House Ghost",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "House Ghost,,,",
         },
         {
           name: "School",
@@ -10541,12 +7594,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10557,20 +7606,8 @@ export const harryPotter: CategoryResponse = {
           value: "Hufflepuff",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -10598,12 +7635,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10614,20 +7647,8 @@ export const harryPotter: CategoryResponse = {
           value: "Hufflepuff",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -10655,12 +7676,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10671,20 +7688,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Auror",
-        },
-        {
-          name: "Job2",
-          value: "Order Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Auror,Order Member,,",
         },
         {
           name: "School",
@@ -10712,12 +7717,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10728,20 +7729,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -10769,12 +7758,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10785,20 +7770,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -10826,12 +7799,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Ghost",
+          name: "Spec",
+          value: "Human,Ghost",
         },
         {
           name: "Blood status",
@@ -10842,20 +7811,8 @@ export const harryPotter: CategoryResponse = {
           value: "Hufflepuff",
         },
         {
-          name: "Job1",
-          value: "House Ghost",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "House Ghost,,,",
         },
         {
           name: "School",
@@ -10883,12 +7840,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10899,20 +7852,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "Author",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,Author,,",
         },
         {
           name: "School",
@@ -10940,12 +7881,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -10956,20 +7893,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Unknown",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Unknown,,,",
         },
         {
           name: "School",
@@ -10997,12 +7922,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -11013,20 +7934,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -11054,12 +7963,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Ghost",
+          name: "Spec",
+          value: "Human,Ghost",
         },
         {
           name: "Blood status",
@@ -11070,20 +7975,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -11111,12 +8004,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -11127,20 +8016,8 @@ export const harryPotter: CategoryResponse = {
           value: "Hufflepuff",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -11168,12 +8045,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -11184,20 +8057,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "Headteacher",
-        },
-        {
-          name: "Job3",
-          value: "Order Member",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,Headteacher,Order Member,",
         },
         {
           name: "School",
@@ -11225,12 +8086,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -11241,20 +8098,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -11282,12 +8127,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -11298,20 +8139,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "D.A. Member",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,D.A. Member,,",
         },
         {
           name: "School",
@@ -11339,12 +8168,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Animagus",
+          name: "Spec",
+          value: "Human,Animagus",
         },
         {
           name: "Blood status",
@@ -11355,20 +8180,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "Head of House",
-        },
-        {
-          name: "Job3",
-          value: "Order Member",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,Head of House,Order Member,",
         },
         {
           name: "School",
@@ -11396,12 +8209,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -11412,20 +8221,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Caretaker",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Caretaker,,,",
         },
         {
           name: "School",
@@ -11453,12 +8250,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Giant",
+          name: "Spec",
+          value: "Human,Giant",
         },
         {
           name: "Blood status",
@@ -11469,20 +8262,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job1",
-          value: "Groundskeeper",
-        },
-        {
-          name: "Job2",
-          value: "Professor",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Groundskeeper,Professor,,",
         },
         {
           name: "School",
@@ -11510,12 +8291,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -11526,20 +8303,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "Author",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,Author,,",
         },
         {
           name: "School",
@@ -11567,12 +8332,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "Goblin",
+          name: "Spec",
+          value: "Human,Goblin",
         },
         {
           name: "Blood status",
@@ -11583,20 +8344,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "Head of House",
-        },
-        {
-          name: "Job3",
-          value: "Conductor",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,Head of House,Conductor,",
         },
         {
           name: "School",
@@ -11624,12 +8373,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "House-elf",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "House-elf,",
         },
         {
           name: "Blood status",
@@ -11640,20 +8385,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "of Crouch",
-        },
-        {
-          name: "Job2",
-          value: "of Hogwarts",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "of Crouch,of Hogwarts,,",
         },
         {
           name: "School",
@@ -11681,12 +8414,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -11697,20 +8426,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Student",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Student,,,",
         },
         {
           name: "School",
@@ -11738,12 +8455,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -11754,20 +8467,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Wandmaker",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Wandmaker,,,",
         },
         {
           name: "School",
@@ -11795,12 +8496,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -11811,20 +8508,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Unknown",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Unknown,,,",
         },
         {
           name: "School",
@@ -11852,12 +8537,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -11868,20 +8549,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job1",
-          value: "Ministry Official",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Ministry Official,,,",
         },
         {
           name: "School",
@@ -11909,12 +8578,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Human",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Human,",
         },
         {
           name: "Blood status",
@@ -11925,20 +8590,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,,,",
         },
         {
           name: "School",
@@ -11966,12 +8619,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Hippogriff",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Hippogriff,",
         },
         {
           name: "Blood status",
@@ -11982,20 +8631,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -12023,12 +8660,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Centaur",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Centaur,",
         },
         {
           name: "Blood status",
@@ -12039,20 +8672,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "Professor",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "Professor,,,",
         },
         {
           name: "School",
@@ -12080,12 +8701,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "House-elf",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "House-elf,",
         },
         {
           name: "Blood status",
@@ -12096,20 +8713,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "of Malfoy",
-        },
-        {
-          name: "Job2",
-          value: "of Hogwarts",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "of Malfoy,of Hogwarts,,",
         },
         {
           name: "School",
@@ -12137,12 +8742,8 @@ export const harryPotter: CategoryResponse = {
           value: "Female",
         },
         {
-          name: "Spec1",
-          value: "Cat",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Cat,",
         },
         {
           name: "Blood status",
@@ -12153,20 +8754,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -12194,12 +8783,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Cerberus",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Cerberus,",
         },
         {
           name: "Blood status",
@@ -12210,20 +8795,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",
@@ -12251,12 +8824,8 @@ export const harryPotter: CategoryResponse = {
           value: "Male",
         },
         {
-          name: "Spec1",
-          value: "Poltergeist",
-        },
-        {
-          name: "Spec2",
-          value: "",
+          name: "Spec",
+          value: "Poltergeist,",
         },
         {
           name: "Blood status",
@@ -12267,20 +8836,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job1",
-          value: "N/A",
-        },
-        {
-          name: "Job2",
-          value: "",
-        },
-        {
-          name: "Job3",
-          value: "",
-        },
-        {
-          name: "Job4",
-          value: "",
+          name: "Job",
+          value: "N/A,,,",
         },
         {
           name: "School",

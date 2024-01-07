@@ -84,7 +84,7 @@ export default function App() {
         isGuessQueryLoading: false,
         results: [...prevState.results, guessResponse],
         isGuessCorrect:
-          guessResponse.data.every((attr) => attr.isCorrect) ?? false,
+          guessResponse.data.every((attr) => attr.res.isCorrect) ?? false,
         possibleGuesses: prevState.possibleGuesses.filter(
           (g) => g.name !== query
         ),

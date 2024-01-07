@@ -3,9 +3,12 @@ export type GroupAttributes = {
   name: string;
 };
 
-export type Attribute = {
+export type AttributeTypes = "number" | "multipart" | "string";
+
+export interface Attribute {
   name: string;
-};
+  type: AttributeTypes;
+}
 
 export type GuessAttributes = {
   name: string;
