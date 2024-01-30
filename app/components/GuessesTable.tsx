@@ -22,10 +22,18 @@ const compareStrings = (a: string, b: string): number =>
     ? 1
     : 0;
 
-const guessValueTrim = (attr: GuessAttributeResponse): string =>
-  attr.attributeType === "multipart"
-    ? attr.value.split(",").filter(Boolean).join(", ")
-    : attr.value;
+const guessValueTrim = (attr: GuessAttributeResponse): string => {
+  switch (attr.attributeType) {
+    case "multipart":
+      return attr.value.split(",").filter(Boolean).join(", ");
+    case "date":
+      return new Date(parseInt(attr.value)).toLocaleDateString();
+    case "string":
+    case "number":
+    default:
+      return attr.value;
+  }
+};
 
 //TODO: Safer to use attributeType but whatever. Cant assume all data is bad data
 const guessResToStyle = (res: CorrectResponse, theme: Theme): any => {
@@ -70,18 +78,18 @@ export function GuessesTable(props: {
   const theme = useTheme();
   return (
     <TableContainer component={Paper}>
-      {guesses.length > 0 ? (
-        <Table sx={{ minWidth: 650 }} aria-label="simple table">
-          <TableHead>
-            <TableRow>
-              <TableCell>Guess</TableCell>
-              {attributes.map((attr) => (
-                <TableCell align="right" key={attr.id}>
-                  {attr.name}
-                </TableCell>
-              ))}
-            </TableRow>
-          </TableHead>
+      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+        <TableHead>
+          <TableRow>
+            <TableCell>Guess</TableCell>
+            {attributes.map((attr) => (
+              <TableCell align="right" key={attr.id}>
+                {attr.name}
+              </TableCell>
+            ))}
+          </TableRow>
+        </TableHead>
+        {guesses.length > 0 ? (
           <TableBody>
             {guesses.map((guess) => (
               <TableRow
@@ -103,10 +111,10 @@ export function GuessesTable(props: {
               </TableRow>
             ))}
           </TableBody>
-        </Table>
-      ) : (
-        <></>
-      )}
+        ) : (
+          <></>
+        )}
+      </Table>
     </TableContainer>
   );
 }

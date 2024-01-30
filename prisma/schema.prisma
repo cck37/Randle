@@ -12,6 +12,7 @@ enum AttributeType {
   number
   multipart
   string
+  date
 }
 
 model Attribute {

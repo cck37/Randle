@@ -19,6 +19,12 @@ const toCorrectResponse = (
   const attrType = guessItemAttribute.attribute.attributeType;
   const isCorrect = guessItemAttribute.value === correctItemAttribute.value;
   switch (attrType) {
+    case "date":
+      return {
+        isCorrect,
+        isAbove:
+          Number(guessItemAttribute.value) > Number(correctItemAttribute.value),
+      };
     case "number":
       return {
         isCorrect,
@@ -46,21 +52,24 @@ const toCorrectResponse = (
   }
 };
 
-// Like would be nice to generate a random number per day instead of using dumbass modulo
-const getRandom = (max: number, min: number = 0): number =>
-  Math.random() * (max - min) + min;
+// Use the same for category?
+const getRandom = (max: number, date: Date): number => {
+  const seed =
+    date.getDate() * 32 + date.getMonth() * 13 + date.getFullYear() * 367;
+  return (seed % max) + 1;
+};
 
 export const dynamic = "force-dynamic";
 
 // TODO: Fix stupid cache by day. The only reason why I'm doing this is so Next stops caching this response
 // I could give a shit about recompiling; just return me a new result each day instead of deciding what's "fastest"
 export const getGuessResponse = cache(
-  async (guess: string, currDay: number): Promise<GuessResponse> => {
+  async (guess: string, date: Date): Promise<GuessResponse> => {
     // TODO: Stop calling the DB like it's your mother
 
     // Get answer for today
     // DB Call 1
-    const currCategory = await getCategory(currDay);
+    const currCategory = await getCategory(date.getDate());
 
     // DB Call 2
     const answersCount = await prisma.items.count({
@@ -85,7 +94,7 @@ export const getGuessResponse = cache(
       orderBy: {
         id: "asc",
       },
-      skip: currDay % answersCount,
+      skip: getRandom(answersCount, date),
       take: 1,
     });
 

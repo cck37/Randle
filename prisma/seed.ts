@@ -8,6 +8,8 @@ const attributeTypeStringToEnum = (str: string): AttributeType => {
       return AttributeType.multipart;
     case "number":
       return AttributeType.number;
+    case "date":
+      return AttributeType.date;
     default:
       return AttributeType.string;
   }
@@ -30,11 +32,7 @@ async function main() {
           items: {},
           themeName: d.themeName,
         },
-        update: {
-          attributes: {},
-          items: {},
-          themeName: d.themeName,
-        },
+        update: {},
       });
       const attributes = await prisma.$transaction(
         d.attributes.map((attribute) =>

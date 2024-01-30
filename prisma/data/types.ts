@@ -3,7 +3,7 @@ export type GroupAttributes = {
   name: string;
 };
 
-export type AttributeTypes = "number" | "multipart" | "string";
+export type AttributeTypes = "number" | "multipart" | "string" | "date";
 
 export interface Attribute {
   name: string;
