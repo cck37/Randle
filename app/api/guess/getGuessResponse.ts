@@ -127,6 +127,8 @@ export const getGuessResponse = cache(
     });
 
     const logObject = {
+      date,
+      getDate: date.getDate(),
       currentCategoryId: currCategory.id,
       currentAnswerName: currAnswer.name,
       currGuess: currGuess,
