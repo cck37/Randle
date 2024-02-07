@@ -74,7 +74,9 @@ export default function App() {
     setGuessState((prevState) => ({ ...prevState, isGuessQueryLoading: true }));
 
     try {
-      const res = await fetch(`/api/guess?guess=${query}&date=${new Date()}`);
+      const res = await fetch(
+        `/api/guess?guess=${query}&date=${new Date().toISOString()}`
+      );
       const guessResponse: Guess = await res.json();
 
       setGuessState((prevState) => ({

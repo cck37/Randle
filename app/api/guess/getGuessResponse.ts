@@ -64,8 +64,9 @@ export const dynamic = "force-dynamic";
 // TODO: Fix stupid cache by day. The only reason why I'm doing this is so Next stops caching this response
 // I could give a shit about recompiling; just return me a new result each day instead of deciding what's "fastest"
 export const getGuessResponse = cache(
-  async (guess: string, date: Date): Promise<GuessResponse> => {
+  async (guess: string, dateString: string): Promise<GuessResponse> => {
     // TODO: Stop calling the DB like it's your mother
+    const date = new Date(dateString);
 
     // Get answer for today
     // DB Call 1
