@@ -98,6 +98,15 @@ export const getGuessResponse = cache(
       take: 1,
     });
 
+    if (currAnswer == null)
+      //TODO: Handle
+      console.error(
+        `Guess: Get random returned a value of ${getRandom(
+          answersCount,
+          date
+        )} and we found no items that matched that. Something is terribly wrong here`
+      );
+
     // DB Call 4
     const currGuess = await prisma.items.findFirst({
       where: {
@@ -114,6 +123,10 @@ export const getGuessResponse = cache(
         },
       },
     });
+
+    if (currGuess == null)
+      //TODO: Handle
+      console.error(`Guess: ${guess} was not found in the current category`);
 
     if (currAnswer && currGuess) {
       return {
