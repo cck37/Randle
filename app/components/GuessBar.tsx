@@ -1,6 +1,12 @@
-import { useState, useEffect } from "react";
+import { useCallback, useState } from "react";
 import { Button, TextField, Autocomplete, Stack } from "@mui/material";
 import { PossibleGuess } from "../types";
+import { matchSorter } from "match-sorter";
+
+const filterOptions = (
+  options: string[],
+  { inputValue }: { inputValue: string }
+) => matchSorter(options, inputValue);
 
 export function GuessBar(props: {
   title: string;
@@ -9,35 +15,19 @@ export function GuessBar(props: {
   shouldDisable: boolean;
 }) {
   const { title, possibleGuesses, handleGuess, shouldDisable } = props;
-  const [guess, setGuess] = useState<string>("");
-  const [options, setOptions] = useState<PossibleGuess[]>([]);
-  const [inputValue, setInputValue] = useState<string>("");
-
-  useEffect(() => {
-    if (inputValue === "") {
-      setOptions(
-        possibleGuesses
-          .slice(0, 5)
-          .sort((a, b) =>
-            a.name.toLowerCase().localeCompare(b.name.toLowerCase())
-          )
-      );
-    } else {
-      setOptions(
-        possibleGuesses.filter((o) =>
-          o.name.toLowerCase().startsWith(inputValue.toLowerCase().trim())
-        )
-      );
-    }
-  }, [inputValue, possibleGuesses]);
+  const [guess, setGuess] = useState<string | null>("");
+  const onSubmit = useCallback(
+    (e: React.SyntheticEvent): void => {
+      e.preventDefault();
+      handleGuess(guess ?? "");
+      setGuess("");
+    },
+    [guess, handleGuess]
+  );
 
   return (
     <form
-      onSubmit={(e: React.SyntheticEvent): void => {
-        e.preventDefault();
-        handleGuess(guess);
-        setGuess("");
-      }}
+      onSubmit={onSubmit}
       style={{
         width: "100%",
         marginTop: "0px",
@@ -54,11 +44,10 @@ export function GuessBar(props: {
         <Autocomplete
           id="guess-selection"
           value={guess}
-          filterOptions={(x) => x}
-          onChange={(event: any, newValue: string | null) => {
-            setGuess(newValue ?? "");
+          onChange={(event: any, newGuess: string | null) => {
+            setGuess(newGuess);
           }}
-          options={options.map((guess) => guess.name)}
+          filterOptions={filterOptions}
           autoComplete
           includeInputInList
           filterSelectedOptions
@@ -66,6 +55,7 @@ export function GuessBar(props: {
           renderInput={(params) => (
             <TextField
               {...params}
+              key={params.id}
               label="Type here for your guess..."
               fullWidth
               disabled={shouldDisable}
@@ -73,14 +63,12 @@ export function GuessBar(props: {
             />
           )}
           getOptionLabel={(option) => option}
-          onInputChange={(event, newInputValue) => {
-            setInputValue(newInputValue);
-          }}
           selectOnFocus
           clearOnBlur
           handleHomeEndKeys
           size="small"
           sx={{ width: "100%" }}
+          options={possibleGuesses.map((g) => g.name)}
         />
         <Button variant="contained" type="submit">
           Guess

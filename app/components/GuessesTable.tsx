@@ -47,8 +47,8 @@ const guessResToStyle = (res: CorrectResponse, theme: Theme): any => {
         ? theme.palette.warning.main
         : theme.palette.error.main,
     };
-  } else if ("isAbove" in res || "isAbove" in res) {
-    const arrow = res.isAbove ? "↓" : "↑";
+  } else if ("isAbove" in res) {
+    const arrow = res.isAbove ? "↑" : "↓";
     return {
       color: isCorrect ? theme.palette.success.main : theme.palette.error.main,
       "&::after": {

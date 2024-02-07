@@ -18,19 +18,24 @@ const toCorrectResponse = (
   }
   const attrType = guessItemAttribute.attribute.attributeType;
   const isCorrect = guessItemAttribute.value === correctItemAttribute.value;
+  const correctValue = correctItemAttribute.value;
+  const guessValue = guessItemAttribute.value;
   switch (attrType) {
     case "date":
       return {
         isCorrect,
         isAbove:
-          Number(guessItemAttribute.value) > Number(correctItemAttribute.value),
+          new Date(correctItemAttribute.value) >
+          new Date(guessItemAttribute.value),
       };
     case "number":
+      const t1 = correctItemAttribute.value.replaceAll(/(\$|,)/g, "");
+      const t2 = guessItemAttribute.value.replaceAll(/(\$|,)/g, "");
       return {
         isCorrect,
         isAbove:
-          Number(guessItemAttribute.value.replace("$", "")) >
-          Number(correctItemAttribute.value.replace("$", "")),
+          Number(correctItemAttribute.value.replaceAll(/(\$|,)/g, "")) >
+          Number(guessItemAttribute.value.replaceAll(/(\$|,)/g, "")),
       };
     case "multipart":
       return {
@@ -69,7 +74,7 @@ export const getGuessResponse = cache(
 
     // Get answer for today
     // DB Call 1
-    const currCategory = await getCategory(date.getDate());
+    const currCategory = await getCategory(date.getUTCDate()); // stupid. figure out caching or ask the client for it idk
 
     // DB Call 2
     const answersCount = await prisma.items.count({
@@ -126,16 +131,16 @@ export const getGuessResponse = cache(
       },
     });
 
-    const logObject = {
-      date,
-      getDate: date.getDate(),
-      currentCategoryId: currCategory.id,
-      currentAnswerName: currAnswer.name,
-      currGuess: currGuess,
-      getRandom: getRandom(answersCount, date),
-    };
+    // const logObject = {
+    //   date,
+    //   getDate: date.getDate(),
+    //   currentCategoryId: currCategory.id,
+    //   currentAnswerName: currAnswer.name,
+    //   currGuess: currGuess,
+    //   getRandom: getRandom(answersCount, date),
+    // };
 
-    console.log(JSON.stringify(logObject, null, 2));
+    // console.log(JSON.stringify(logObject, null, 2));
 
     if (currGuess == null) {
       //TODO: Handle

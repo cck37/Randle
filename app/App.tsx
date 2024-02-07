@@ -37,7 +37,7 @@ export default function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch(`/api/category?date=${new Date().getDate()}`);
+      const res = await fetch(`/api/category?date=${new Date().toISOString()}`);
       const categoryResponse: CategoryResponse = await res.json();
       const { items, theme: themeOptions } = categoryResponse;
       setCategoryState(categoryResponse);
@@ -113,7 +113,7 @@ export default function App() {
   if (categoryState) {
     return (
       <ThemeRegistry theme={createTheme(theme)}>
-        <Container component="main" maxWidth="lg">
+        <Container component="main" maxWidth="xl">
           <Grid
             container
             direction="column"
