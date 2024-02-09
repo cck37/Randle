@@ -131,17 +131,6 @@ export const getGuessResponse = cache(
       },
     });
 
-    // const logObject = {
-    //   date,
-    //   getDate: date.getDate(),
-    //   currentCategoryId: currCategory.id,
-    //   currentAnswerName: currAnswer.name,
-    //   currGuess: currGuess,
-    //   getRandom: getRandom(answersCount, date),
-    // };
-
-    // console.log(JSON.stringify(logObject, null, 2));
-
     if (currGuess == null) {
       //TODO: Handle
       console.error(`Guess: ${guess} was not found in the current category`);

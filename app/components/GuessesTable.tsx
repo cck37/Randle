@@ -12,6 +12,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+import Zoom from "@mui/material/Zoom";
 
 import { Theme, useTheme } from "@mui/material/styles";
 
@@ -78,7 +79,7 @@ export function GuessesTable(props: {
   const theme = useTheme();
   return (
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <Table sx={{ minWidth: 650 }} aria-label="result table">
         <TableHead>
           <TableRow>
             <TableCell>Guess</TableCell>
@@ -96,17 +97,25 @@ export function GuessesTable(props: {
                 key={guess.id}
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
               >
-                <TableCell component="th" scope="row">
-                  {guess.name}
-                </TableCell>
-                {guess.data.map((attr) => (
-                  <TableCell
-                    align="right"
-                    key={`${guess.id}-${attr.name}`}
-                    sx={guessResToStyle(attr.res, theme)}
-                  >
-                    {guessValueTrim(attr)}
+                <Zoom in={true}>
+                  <TableCell component="th" scope="row">
+                    {guess.name}
                   </TableCell>
+                </Zoom>
+                {guess.data.map((attr, idx) => (
+                  <Zoom
+                    in={true}
+                    key={`zoom-${guess.id}-${attr.name}`}
+                    style={{ transitionDelay: `${500 * (idx + 1)}ms` }}
+                  >
+                    <TableCell
+                      align="right"
+                      key={`${guess.id}-${attr.name}`}
+                      sx={guessResToStyle(attr.res, theme)}
+                    >
+                      {guessValueTrim(attr)}
+                    </TableCell>
+                  </Zoom>
                 ))}
               </TableRow>
             ))}

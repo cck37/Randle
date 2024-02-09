@@ -2,6 +2,7 @@ import { useCallback, useState } from "react";
 import { Button, TextField, Autocomplete, Stack } from "@mui/material";
 import { PossibleGuess } from "../types";
 import { matchSorter } from "match-sorter";
+import { alpha } from "@mui/material/styles";
 
 const filterOptions = (
   options: string[],
@@ -67,7 +68,16 @@ export function GuessBar(props: {
           clearOnBlur
           handleHomeEndKeys
           size="small"
-          sx={{ width: "100%" }}
+          sx={{
+            width: "100%",
+            bgcolor: "background.paper",
+            "& label, button": {
+              color: "text.primary",
+              "&.Mui-focused": {
+                color: "text.primary",
+              },
+            },
+          }}
           options={possibleGuesses.map((g) => g.name)}
         />
         <Button variant="contained" type="submit">

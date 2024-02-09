@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-// All fonts get added here...
+// NOT all fonts get added here...
 import "@fontsource/bebas-neue";
+import "@fontsource/bluu-next";
 import ThemeRegistry from "./components/ThemeRegistry/ThemeRegistry";
 
 import AppBar from "@mui/material/AppBar";
@@ -14,7 +15,7 @@ import { NavButton } from "./components/NavButton";
 import NavMenu from "./components/NavMenu";
 import Logo from "./components/Logo";
 
-const LINKS = [
+const links = [
   { text: "Standard", href: "/" },
   { text: "What is this?", href: "/about" },
   { text: "???", href: "/about" },
@@ -59,14 +60,14 @@ export default async function RootLayout({
                 Randle
               </Typography>
               <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-                {LINKS.map(({ text, href }) => (
+                {links.map(({ text, href }) => (
                   <NavButton key={text + "-" + href} text={text} href={href} />
                 ))}
               </Box>
 
               {/* Xs sized layout */}
               <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-                <NavMenu items={LINKS} />
+                <NavMenu items={links} />
               </Box>
               <Box sx={{ mr: 1, display: { xs: "flex", md: "none" } }}>
                 <Logo />
@@ -95,6 +96,7 @@ export default async function RootLayout({
             component="main"
             sx={{
               flexGrow: 1,
+              paddingTop: 5,
             }}
           >
             <Toolbar />

@@ -13,7 +13,7 @@ import { GuessesTable } from "./components/GuessesTable";
 import { GuessBar } from "./components/GuessBar";
 import { CorrectGuess } from "./components/CorrectGuess";
 
-import { CategoryResponse, Guess, GuessResponse, PossibleGuess } from "./types";
+import { CategoryResponse, Guess, PossibleGuess } from "./types";
 import ThemeRegistry from "./components/ThemeRegistry/ThemeRegistry";
 
 type GuessState = {
@@ -114,28 +114,14 @@ export default function App() {
     return (
       <ThemeRegistry theme={createTheme(theme)}>
         <Container component="main" maxWidth="xl">
-          <Grid
-            container
-            direction="column"
-            alignItems="center"
-            sx={{
-              width: "100%",
-            }}
-          >
+          <Grid container direction="column">
             <Grid
               item
               sx={{
                 width: "100%",
               }}
             >
-              <Stack
-                spacing={3}
-                direction="column"
-                alignItems="center"
-                sx={{
-                  width: "100%",
-                }}
-              >
+              <Stack spacing={3} direction="column" alignItems="center">
                 <Typography variant="h1">{categoryState.title}</Typography>
                 <GuessBar
                   title={categoryState.title}
