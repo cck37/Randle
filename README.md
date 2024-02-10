@@ -9,11 +9,21 @@ Every day a new category is chosen as well as an answer for that category. Goal 
 ## Running locally
 
 ```
-npm run dev
+dotenv -e .env.local -- npm run dev
 ```
 
 or
 
 ```
-npm run build && npm run start
+dotenv -e .env.local -- npm run build && npm run start
 ```
+
+## TODO
+
+- [x] PoC
+- [x] Connect to a database
+- [x] Gather some real data
+- [~] Theme/Style
+- [ ] Clock/Counter
+- [ ] Streak system (based on local storage)
+- [ ] Auth??
