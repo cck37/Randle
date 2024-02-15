@@ -57,7 +57,7 @@ export function GuessBar(props: {
             <TextField
               {...params}
               key={params.id}
-              label="Type here for your guess..."
+              label="Your guess..."
               fullWidth
               disabled={shouldDisable}
               InputProps={{ ...params.InputProps }}
@@ -77,10 +77,16 @@ export function GuessBar(props: {
                 color: "text.primary",
               },
             },
+            minWidth: "150px",
           }}
           options={possibleGuesses.map((g) => g.name)}
         />
-        <Button variant="contained" type="submit">
+        <Button
+          variant="contained"
+          type="submit"
+          sx={{ minWidth: "150px" }}
+          disabled={shouldDisable}
+        >
           Guess
         </Button>
       </Stack>

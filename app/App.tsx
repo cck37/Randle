@@ -7,6 +7,7 @@ import {
   Grid,
   createTheme,
   Theme,
+  responsiveFontSizes,
 } from "@mui/material";
 
 import { GuessesTable } from "./components/GuessesTable";
@@ -61,7 +62,8 @@ export default function App() {
       \server\app\page.js:260:1)
         at __webpack_require__ (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\webpack-runtime.js:33:42)
       */
-      setTheme(createTheme(themeOptions));
+      const theme = createTheme(themeOptions);
+      setTheme(responsiveFontSizes(theme));
     };
 
     fetchData();
@@ -82,7 +84,7 @@ export default function App() {
       setGuessState((prevState) => ({
         ...prevState,
         isGuessQueryLoading: false,
-        results: [...prevState.results, guessResponse],
+        results: [guessResponse, ...prevState.results],
         isGuessCorrect:
           guessResponse.data.every((attr) => attr.res.isCorrect) ?? false,
         possibleGuesses: prevState.possibleGuesses.filter(
