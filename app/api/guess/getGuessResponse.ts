@@ -25,8 +25,8 @@ const toCorrectResponse = (
       return {
         isCorrect,
         isAbove:
-          new Date(correctItemAttribute.value) >
-          new Date(guessItemAttribute.value),
+          new Date(Number(correctItemAttribute.value)) >
+          new Date(Number(guessItemAttribute.value)),
       };
     case "number":
       const t1 = correctItemAttribute.value.replaceAll(/(\$|,)/g, "");
@@ -136,6 +136,7 @@ export const getGuessResponse = cache(
       console.error(`Guess: ${guess} was not found in the current category`);
       return;
     }
+    //console.log(JSON.stringify(currAnswer, null, 2));
 
     if (currAnswer && currGuess) {
       return {

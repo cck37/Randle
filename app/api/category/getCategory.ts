@@ -5,7 +5,7 @@ import { themes } from "@/app/data/themes";
 
 // TODO: Fix stupid cache by day. The only reason why I'm doing this is so Next stops caching this response
 // I could give a shit about recompiling; just return me a new result each day instead of deciding what's "fastest"
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
 
 export const getCategory = cache(
   async (currDay: number): Promise<CategoryResponse> => {

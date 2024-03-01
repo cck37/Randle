@@ -23,7 +23,22 @@ dotenv -e .env.local -- npm run build && npm run start
 - [x] PoC
 - [x] Connect to a database
 - [x] Gather some real data
-- [~] Theme/Style
+- [x] Fix mobile view
+- [ ] Update static about page
+- [ ] Theme/Style
+  - [x] Skeleton/Loader
+  - [ ] Tiled backgrounds for each
+  - [ ] Icons for each item
 - [ ] Clock/Counter
 - [ ] Streak system (based on local storage)
+- [ ] Choose Categories
 - [ ] Auth??
+
+## Category Ideas
+
+- [ ] Disney Movies
+- [ ] Top Artists (2000-Present?)
+- [ ] Pokemon Games
+- [ ] Cars
+- [ ] Fast Food Resturants
+- [ ] HxH Characters

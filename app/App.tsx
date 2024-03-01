@@ -8,6 +8,7 @@ import {
   createTheme,
   Theme,
   responsiveFontSizes,
+  Skeleton,
 } from "@mui/material";
 
 import { GuessesTable } from "./components/GuessesTable";
@@ -112,43 +113,64 @@ export default function App() {
     }
   }, []);
 
-  if (categoryState) {
-    return (
-      <ThemeRegistry theme={createTheme(theme)}>
-        <Container component="main" maxWidth="xl">
-          <Grid container direction="column">
-            <Grid
-              item
-              sx={{
-                width: "100%",
-              }}
-            >
-              <Stack spacing={3} direction="column" alignItems="center">
-                <Typography variant="h1">{categoryState.title}</Typography>
-                <GuessBar
-                  title={categoryState.title}
-                  possibleGuesses={possibleGuesses}
-                  handleGuess={handleGuess}
-                  shouldDisable={isGuessCorrect || isGuessQueryLoading}
-                />
-                <GuessesTable
-                  attributes={categoryState.attributes}
-                  guesses={results}
-                />
-              </Stack>
-            </Grid>
-            <Grid item>
-              {isGuessCorrect ? (
-                <CorrectGuess handleReset={handleReset} />
+  return (
+    <ThemeRegistry theme={theme}>
+      <Container component="main" maxWidth="xl">
+        <Grid container direction="column">
+          <Grid
+            item
+            sx={{
+              width: "100%",
+            }}
+          >
+            <Stack spacing={3} direction="column" alignItems="center">
+              {categoryState ? (
+                <>
+                  <Typography variant="h1">{categoryState.title}</Typography>
+                  <GuessBar
+                    title={categoryState.title}
+                    possibleGuesses={possibleGuesses}
+                    handleGuess={handleGuess}
+                    shouldDisable={isGuessCorrect || isGuessQueryLoading}
+                  />
+                  <GuessesTable
+                    attributes={categoryState.attributes}
+                    guesses={results}
+                  />
+                </>
               ) : (
-                <></>
+                <>
+                  <Skeleton
+                    variant="rectangular"
+                    animation="wave"
+                    width={200}
+                    height={100}
+                  />
+                  <Skeleton
+                    variant="rectangular"
+                    animation="wave"
+                    width={300}
+                    height={50}
+                  />
+                  <Skeleton
+                    variant="rectangular"
+                    animation="wave"
+                    width={500}
+                    height={150}
+                  />
+                </>
               )}
-            </Grid>
+            </Stack>
           </Grid>
-        </Container>
-      </ThemeRegistry>
-    );
-  } else {
-    return null; // replace with skeleton
-  }
+          <Grid item>
+            {isGuessCorrect ? (
+              <CorrectGuess handleReset={handleReset} />
+            ) : (
+              <></>
+            )}
+          </Grid>
+        </Grid>
+      </Container>
+    </ThemeRegistry>
+  );
 }

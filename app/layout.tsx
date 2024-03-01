@@ -39,7 +39,7 @@ export default async function RootLayout({
             <Toolbar sx={{ backgroundColor: "background.paper" }}>
               {/* Med sized layout */}
               <Box sx={{ mr: 1, display: { xs: "none", md: "flex" } }}>
-                <Logo />
+                <Logo width={30} />
               </Box>
               <Typography
                 variant="h5"
@@ -70,7 +70,7 @@ export default async function RootLayout({
                 <NavMenu items={links} />
               </Box>
               <Box sx={{ mr: 1, display: { xs: "flex", md: "none" } }}>
-                <Logo />
+                <Logo width={30} />
               </Box>
               <Typography
                 variant="h5"
@@ -92,13 +92,7 @@ export default async function RootLayout({
               </Typography>
             </Toolbar>
           </AppBar>
-          <Box
-            component="main"
-            sx={{
-              flexGrow: 1,
-              paddingTop: 5,
-            }}
-          >
+          <Box component="main" sx={{ p: 3 }}>
             <Toolbar />
             {children}
           </Box>
