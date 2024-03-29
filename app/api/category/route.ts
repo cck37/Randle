@@ -4,19 +4,18 @@ import { getCategory } from "./getCategory";
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
-  const dateString = searchParams.get("date");
-  if (dateString && dateString.length <= 0)
+  const timestamp = Number(searchParams.get("date"));
+  if (timestamp < 0 || Number.isNaN(searchParams.get("date")))
     return NextResponse.json(
       {
-        error: "No date provided",
+        error: "No date provided or date is invalid",
       },
       {
         status: 400,
       }
     );
 
-  const date = new Date(dateString ?? new Date());
-  const data: CategoryResponse = await getCategory(date.getUTCDate());
+  const data: CategoryResponse = await getCategory(timestamp);
 
   return NextResponse.json(data);
 }

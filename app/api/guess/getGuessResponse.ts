@@ -2,6 +2,9 @@ import { cache } from "react";
 import { getCategory } from "../category/getCategory";
 import { CorrectResponse, GuessResponse } from "@/app/types";
 import prisma from "../db";
+import { getRandom } from "../utils";
+
+export const dynamic = "force-dynamic";
 
 const toCorrectResponse = (
   guessItemAttribute: any,
@@ -18,8 +21,6 @@ const toCorrectResponse = (
   }
   const attrType = guessItemAttribute.attribute.attributeType;
   const isCorrect = guessItemAttribute.value === correctItemAttribute.value;
-  const correctValue = correctItemAttribute.value;
-  const guessValue = guessItemAttribute.value;
   switch (attrType) {
     case "date":
       return {
@@ -29,8 +30,6 @@ const toCorrectResponse = (
           new Date(Number(guessItemAttribute.value)),
       };
     case "number":
-      const t1 = correctItemAttribute.value.replaceAll(/(\$|,)/g, "");
-      const t2 = guessItemAttribute.value.replaceAll(/(\$|,)/g, "");
       return {
         isCorrect,
         isAbove:
@@ -42,6 +41,7 @@ const toCorrectResponse = (
         isCorrect,
         isPartial: guessItemAttribute.value
           .split(",")
+          .map((parital: any) => parital.trim())
           .filter(Boolean)
           .some((partialGuess: any) =>
             correctItemAttribute.value
@@ -57,24 +57,15 @@ const toCorrectResponse = (
   }
 };
 
-// Use the same for category?
-const getRandom = (max: number, date: Date): number => {
-  const seed =
-    date.getDate() * 32 + date.getMonth() * 13 + date.getFullYear() * 367;
-  return (seed % max) + 1;
-};
-
-export const dynamic = "force-dynamic";
-
 // TODO: Fix stupid cache by day. The only reason why I'm doing this is so Next stops caching this response
 // I could give a shit about recompiling; just return me a new result each day instead of deciding what's "fastest"
 export const getGuessResponse = cache(
-  async (guess: string, date: Date): Promise<GuessResponse> => {
+  async (guess: string, currTimestamp: number): Promise<GuessResponse> => {
     // TODO: Stop calling the DB like it's your mother
 
     // Get answer for today
     // DB Call 1
-    const currCategory = await getCategory(date.getUTCDate()); // stupid. figure out caching or ask the client for it idk
+    const currCategory = await getCategory(currTimestamp); // stupid. figure out caching or ask the client for it idk
 
     // DB Call 2
     const answersCount = await prisma.items.count({
@@ -99,7 +90,7 @@ export const getGuessResponse = cache(
       orderBy: {
         id: "asc",
       },
-      skip: getRandom(answersCount, date),
+      skip: getRandom(answersCount, currTimestamp),
       take: 1,
     });
 
@@ -108,7 +99,7 @@ export const getGuessResponse = cache(
       console.error(
         `Guess: Get random returned a value of ${getRandom(
           answersCount,
-          date
+          currTimestamp
         )} and we found no items that matched that. Something is terribly wrong here`
       );
       return;

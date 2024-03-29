@@ -3,8 +3,8 @@ import { getGuessResponse } from "./getGuessResponse";
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
-  const guess = searchParams.get("guess");
-  const dateString = searchParams.get("date");
+  const guess = searchParams.get("guess") ?? "";
+  const timestamp = Number(searchParams.get("date"));
 
   if (guess && guess.length <= 0)
     return NextResponse.json(
@@ -15,7 +15,8 @@ export async function GET(request: NextRequest) {
         status: 400,
       }
     );
-  if (dateString && dateString.length <= 0)
+
+  if (timestamp < 0 || Number.isNaN(timestamp))
     return NextResponse.json(
       {
         error: "No date provided",
@@ -25,8 +26,7 @@ export async function GET(request: NextRequest) {
       }
     );
 
-  const date = new Date(dateString ?? new Date());
-  const data = await getGuessResponse(guess ?? "", date);
+  const data = await getGuessResponse(guess, timestamp);
 
   if (data) {
     // B/c ts claims Response.json(data) doesn't exist

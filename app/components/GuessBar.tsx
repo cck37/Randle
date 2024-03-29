@@ -2,7 +2,6 @@ import { useCallback, useState } from "react";
 import { Button, TextField, Autocomplete, Stack } from "@mui/material";
 import { PossibleGuess } from "../types";
 import { matchSorter } from "match-sorter";
-import { alpha } from "@mui/material/styles";
 
 const filterOptions = (
   options: string[],

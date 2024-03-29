@@ -9,13 +9,13 @@ Every day a new category is chosen as well as an answer for that category. Goal 
 ## Running locally
 
 ```
-dotenv -e .env.local -- npm run dev
+npm run dev
 ```
 
 or
 
 ```
-dotenv -e .env.local -- npm run build && npm run start
+npm run build && npm run start
 ```
 
 ## TODO
@@ -24,12 +24,13 @@ dotenv -e .env.local -- npm run build && npm run start
 - [x] Connect to a database
 - [x] Gather some real data
 - [x] Fix mobile view
+- [ ] Save session by day
+- [ ] Clock/Counter
 - [ ] Update static about page
 - [ ] Theme/Style
   - [x] Skeleton/Loader
   - [ ] Tiled backgrounds for each
   - [ ] Icons for each item
-- [ ] Clock/Counter
 - [ ] Streak system (based on local storage)
 - [ ] Choose Categories
 - [ ] Auth??

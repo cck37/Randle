@@ -17,6 +17,8 @@ import { CorrectGuess } from "./components/CorrectGuess";
 
 import { CategoryResponse, Guess, PossibleGuess } from "./types";
 import ThemeRegistry from "./components/ThemeRegistry/ThemeRegistry";
+import { CountdownProvider } from "./components/CountdownContext";
+import { CountDownTimer } from "./components/CountDownTimer";
 
 type GuessState = {
   possibleGuesses: PossibleGuess[];
@@ -39,7 +41,8 @@ export default function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch(`/api/category?date=${new Date().toISOString()}`);
+      // TODO: Don't send Date.now; just get the date value from the API
+      const res = await fetch(`/api/category?date=${Date.now()}`);
       const categoryResponse: CategoryResponse = await res.json();
       const { items, theme: themeOptions } = categoryResponse;
       setCategoryState(categoryResponse);
@@ -73,13 +76,16 @@ export default function App() {
   const { possibleGuesses, results, isGuessCorrect, isGuessQueryLoading } =
     guessState;
 
-  async function fetchGuessResponse(query: string): Promise<void> {
+  async function fetchGuessResponse({
+    query,
+  }: {
+    query: string;
+  }): Promise<void> {
     setGuessState((prevState) => ({ ...prevState, isGuessQueryLoading: true }));
 
     try {
-      const res = await fetch(
-        `/api/guess?guess=${query}&date=${new Date().toISOString()}`
-      );
+      // TODO: Don't send an ISO string; just get the date value from the API
+      const res = await fetch(`/api/guess?guess=${query}&date=${Date.now()}`);
       const guessResponse: Guess = await res.json();
 
       setGuessState((prevState) => ({
@@ -107,70 +113,75 @@ export default function App() {
     }));
   }, [categoryState]);
 
-  const handleGuess = useCallback((query: string) => {
+  const handleGuess = useCallback(async (query: string) => {
     if (query) {
-      fetchGuessResponse(query);
+      await fetchGuessResponse({ query });
     }
   }, []);
 
   return (
     <ThemeRegistry theme={theme}>
-      <Container component="main" maxWidth="xl">
-        <Grid container direction="column">
-          <Grid
-            item
-            sx={{
-              width: "100%",
-            }}
-          >
-            <Stack spacing={3} direction="column" alignItems="center">
-              {categoryState ? (
-                <>
-                  <Typography variant="h1">{categoryState.title}</Typography>
-                  <GuessBar
-                    title={categoryState.title}
-                    possibleGuesses={possibleGuesses}
-                    handleGuess={handleGuess}
-                    shouldDisable={isGuessCorrect || isGuessQueryLoading}
-                  />
-                  <GuessesTable
-                    attributes={categoryState.attributes}
-                    guesses={results}
-                  />
-                </>
+      <CountdownProvider>
+        <Container component="main" maxWidth="xl" sx={{ px: 0 }}>
+          <Grid container direction="column">
+            <Grid
+              item
+              sx={{
+                width: "100%",
+              }}
+            >
+              <Stack spacing={3} direction="column" alignItems="center">
+                {categoryState ? (
+                  <>
+                    <Typography variant="h1" sx={{ paddingY: "1rem" }}>
+                      {categoryState.title}
+                    </Typography>
+                    <GuessBar
+                      title={categoryState.title}
+                      possibleGuesses={possibleGuesses}
+                      handleGuess={handleGuess}
+                      shouldDisable={isGuessCorrect || isGuessQueryLoading}
+                    />
+                    <CountDownTimer />
+                    <GuessesTable
+                      attributes={categoryState.attributes}
+                      guesses={results}
+                    />
+                  </>
+                ) : (
+                  <>
+                    <Skeleton
+                      variant="rectangular"
+                      animation="wave"
+                      width={200}
+                      height={100}
+                    />
+                    <Skeleton
+                      variant="rectangular"
+                      animation="wave"
+                      width={300}
+                      height={50}
+                    />
+                    <Skeleton
+                      variant="rectangular"
+                      animation="wave"
+                      width={500}
+                      height={150}
+                    />
+                  </>
+                )}
+              </Stack>
+            </Grid>
+            <Grid item>
+              {isGuessCorrect ? (
+                <CorrectGuess handleReset={handleReset} />
               ) : (
-                <>
-                  <Skeleton
-                    variant="rectangular"
-                    animation="wave"
-                    width={200}
-                    height={100}
-                  />
-                  <Skeleton
-                    variant="rectangular"
-                    animation="wave"
-                    width={300}
-                    height={50}
-                  />
-                  <Skeleton
-                    variant="rectangular"
-                    animation="wave"
-                    width={500}
-                    height={150}
-                  />
-                </>
+                <></>
               )}
-            </Stack>
+            </Grid>
           </Grid>
-          <Grid item>
-            {isGuessCorrect ? (
-              <CorrectGuess handleReset={handleReset} />
-            ) : (
-              <></>
-            )}
-          </Grid>
-        </Grid>
-      </Container>
+        </Container>
+      </CountdownProvider>
     </ThemeRegistry>
   );
 }
