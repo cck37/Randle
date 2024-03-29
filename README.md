@@ -25,7 +25,7 @@ npm run build && npm run start
 - [x] Gather some real data
 - [x] Fix mobile view
 - [ ] Save session by day
-- [ ] Clock/Counter
+- [x] Clock/Counter
 - [ ] Update static about page
 - [ ] Theme/Style
   - [x] Skeleton/Loader
