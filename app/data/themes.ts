@@ -111,9 +111,63 @@ const harry: ThemeOptions = {
   },
 };
 
+const animatedTv: ThemeOptions = {
+  palette: {
+    mode: "light",
+    primary: {
+      main: "#FF6700",
+    },
+    secondary: {
+      main: "#6CC314",
+    },
+    background: {
+      default: "#FFFFFF",
+      paper: "#E6E6E6",
+    },
+    text: {
+      primary: "#000000",
+      secondary: "#333333",
+      disabled: "#666666",
+    },
+  },
+  typography: {
+    fontFamily: "Roboto",
+    h1: {
+      fontFamily: "Sponge Bob, Bangers, sans-serif",
+    },
+  },
+};
+
+const animatedDisneyMovies: ThemeOptions = {
+  palette: {
+    mode: "dark",
+    primary: {
+      main: "#2196F3",
+    },
+    secondary: {
+      main: "#efbeb7",
+    },
+    background: {
+      default: "#121212",
+      paper: "#1E1E1E",
+    },
+    text: {
+      primary: "#FFFFFF",
+      secondary: "#CCCCCC",
+      disabled: "#999999",
+    },
+  },
+  typography: {
+    fontFamily: "Nunito",
+    h1: {
+      fontFamily: "Disney, sans-serif",
+    },
+  },
+};
+
 export const themes: Record<string, ThemeOptions> = {
-  cars,
   movies,
-  sneakers,
   harry,
+  animatedTv,
+  animatedDisneyMovies,
 };

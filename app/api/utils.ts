@@ -1,7 +1,13 @@
 export const getRandom = (max: number, timestamp: number): number => {
   const date = timestampToDate(timestamp);
-  const seed =
-    date.getDate() * 32 + date.getMonth() * 13 + date.getFullYear() * 367;
+  // HACK: Goal of this is to generate a "random" hash
+  // Tries to avoid runs of the same number for several days
+  const seed = Math.round(
+    Math.sqrt(
+      (date.getDate() + date.getMonth() + date.getFullYear()) *
+        (date.getDate() * 6827)
+    )
+  );
   return (seed % max) + 1;
 };
 

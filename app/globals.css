@@ -16,3 +16,17 @@ body {
   format: ("ttf");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Sponge Bob";
+  src: url("/fonts/spongeBob.otf");
+  format: ("otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Disney";
+  src: url("/fonts/disney.ttf");
+  format: ("ttf");
+  font-display: swap;
+}
