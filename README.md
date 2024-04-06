@@ -12,10 +12,10 @@ Every day a new category is chosen as well as an answer for that category. Goal 
 npm run dev
 ```
 
-or
+## Seeding DB
 
 ```
-npm run build && npm run start
+npm run seed
 ```
 
 ## TODO
@@ -27,7 +27,7 @@ npm run build && npm run start
 - [ ] Save session by day
 - [x] Clock/Counter
 - [ ] Update static about page
-- [ ] Theme/Style
+- [x] Theme/Style
   - [x] Skeleton/Loader
   - [ ] Tiled backgrounds for each
   - [ ] Icons for each item

@@ -183,9 +183,37 @@ const animatedDisneyMovies: ThemeOptions = {
   },
 };
 
+const fastFood: ThemeOptions = {
+  palette: {
+    mode: "light",
+    primary: {
+      main: "#ffc107",
+    },
+    secondary: {
+      main: "#FFFFFF",
+    },
+    background: {
+      default: "#FFFFFF",
+      paper: "#ff2336",
+    },
+    text: {
+      primary: "#eeeeee",
+      secondary: "#333333",
+      disabled: "#CCCCCC",
+    },
+  },
+  typography: {
+    fontFamily: "Roboto, sans-serif",
+    h1: {
+      fontFamily: "Roboto, sans-serif",
+    },
+  },
+};
+
 export const themes: Record<string, ThemeOptions> = {
   movies,
   harry,
   animatedTv,
   animatedDisneyMovies,
+  fastFood,
 };

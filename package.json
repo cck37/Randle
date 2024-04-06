@@ -9,7 +9,8 @@
     "dev": "dotenv -e .env.local -- next dev",
     "build": "prisma generate && npx prisma migrate deploy && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed": "dotenv -e .env.local -- npx prisma db seed"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
