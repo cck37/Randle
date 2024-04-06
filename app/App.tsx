@@ -149,7 +149,10 @@ export default function App() {
               <Stack spacing={3} direction="column" alignItems="center">
                 {categoryState ? (
                   <>
-                    <Typography variant="h1" sx={{ paddingY: "1rem" }}>
+                    <Typography
+                      variant="h1"
+                      sx={{ paddingY: "1rem", textAlign: "center" }}
+                    >
                       {categoryState.title}
                     </Typography>
                     <GuessBar
