@@ -116,24 +116,42 @@ const animatedTv: ThemeOptions = {
     mode: "light",
     primary: {
       main: "#FF6700",
+      contrastText: "#FFFFFF",
     },
     secondary: {
       main: "#6CC314",
     },
     background: {
       default: "#FFFFFF",
-      paper: "#E6E6E6",
+      paper: "#fcf9f8",
     },
     text: {
-      primary: "#000000",
-      secondary: "#333333",
+      primary: "#FF6700",
+      secondary: "#6CC314",
       disabled: "#666666",
     },
   },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: ({ ownerState }) => ({
+          ...(ownerState.variant === "contained" && {
+            backgroundColor: "#202020",
+            color: "#fff",
+          }),
+        }),
+      },
+    },
+  },
   typography: {
-    fontFamily: "Roboto",
+    fontFamily:
+      "Roboto, Droid Sans, system-ui, Avenir, Helvetica, Arial, sans-serif",
     h1: {
       fontFamily: "Sponge Bob, Bangers, sans-serif",
+      color: "#6CC314",
+    },
+    h5: {
+      color: "#6CC314",
     },
   },
 };

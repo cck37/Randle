@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import {
   Container,
   Stack,
@@ -19,6 +19,9 @@ import { CategoryResponse, Guess, PossibleGuess } from "./types";
 import ThemeRegistry from "./components/ThemeRegistry/ThemeRegistry";
 import { CountdownProvider } from "./components/CountdownContext";
 import { CountDownTimer } from "./components/CountDownTimer";
+import { flushSync } from "react-dom";
+import { useWindowSize } from "react-use";
+import Confetti from "react-confetti";
 
 type GuessState = {
   possibleGuesses: PossibleGuess[];
@@ -38,6 +41,8 @@ export default function App() {
     isGuessCorrect: false,
     isGuessQueryLoading: false,
   });
+  const correctRef = useRef<HTMLUListElement | null>(null);
+  const { width, height } = useWindowSize();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -84,8 +89,12 @@ export default function App() {
     setGuessState((prevState) => ({ ...prevState, isGuessQueryLoading: true }));
 
     try {
-      // TODO: Don't send an ISO string; just get the date value from the API
-      const res = await fetch(`/api/guess?guess=${query}&date=${Date.now()}`);
+      // Sending seconds from epoc to API b/c I can't figure out how API caching works in next
+      const queryString = new URLSearchParams({
+        guess: query,
+        date: Date.now().toString(),
+      }).toString();
+      const res = await fetch(`/api/guess?${queryString}`);
       const guessResponse: Guess = await res.json();
 
       setGuessState((prevState) => ({
@@ -98,6 +107,13 @@ export default function App() {
           (g) => g.name !== query
         ),
       }));
+
+      if (guessResponse.data.every((attr) => attr.res.isCorrect)) {
+        flushSync(() => {
+          console.log("Scroll dammit");
+          correctRef.current?.lastElementChild?.scrollIntoView();
+        });
+      }
     } catch (error) {
       console.error("Error fetching guess response:", error);
     }
@@ -174,7 +190,10 @@ export default function App() {
             </Grid>
             <Grid item>
               {isGuessCorrect ? (
-                <CorrectGuess handleReset={handleReset} />
+                <>
+                  <Confetti width={width} height={height} recycle={false} />
+                  <CorrectGuess handleReset={handleReset} ref={correctRef} />
+                </>
               ) : (
                 <></>
               )}

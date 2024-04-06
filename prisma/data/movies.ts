@@ -13,11 +13,11 @@ export const movies: CategoryResponse = {
     },
     {
       name: "Franchise",
-      type: "string",
+      type: "multipart",
     },
     {
       name: "Director",
-      type: "string",
+      type: "multipart",
     },
     {
       name: "Composer",
@@ -52,10 +52,6 @@ export const movies: CategoryResponse = {
     {
       name: "Jurassic World: Dominion",
       attributes: [
-        {
-          name: "Movie",
-          value: "Jurassic World: Dominion",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -92,19 +88,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "146",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2022",
-        },
       ],
     },
     {
       name: "Alice Through the Looking Glass",
       attributes: [
-        {
-          name: "Movie",
-          value: "Alice Through the Looking Glass",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -141,19 +129,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "113",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "Shang-Chi and the Legend of the Ten Rings",
       attributes: [
-        {
-          name: "Movie",
-          value: "Shang-Chi and the Legend of the Ten Rings",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -190,19 +170,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "132",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2021",
-        },
       ],
     },
     {
       name: "Avengers: Endgame",
       attributes: [
-        {
-          name: "Movie",
-          value: "Avengers: Endgame",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -239,19 +211,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "181",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2019",
-        },
       ],
     },
     {
       name: "Avengers: Infinity War",
       attributes: [
-        {
-          name: "Movie",
-          value: "Avengers: Infinity War",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -288,19 +252,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "156",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2018",
-        },
       ],
     },
     {
       name: "The Avengers",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Avengers",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -337,19 +293,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "143",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2012",
-        },
       ],
     },
     {
       name: "The Super Mario Bros. Movie",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Super Mario Bros. Movie",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -386,19 +334,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "92",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2023",
-        },
       ],
     },
     {
       name: "Avengers: Age of Ultron",
       attributes: [
-        {
-          name: "Movie",
-          value: "Avengers: Age of Ultron",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -435,19 +375,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "141",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2015",
-        },
       ],
     },
     {
       name: "Iron Man 3",
       attributes: [
-        {
-          name: "Movie",
-          value: "Iron Man 3",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -484,19 +416,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "130",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2013",
-        },
       ],
     },
     {
       name: "Furious 7",
       attributes: [
-        {
-          name: "Movie",
-          value: "Furious 7",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -533,19 +457,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "137",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2015",
-        },
       ],
     },
     {
       name: "The Fate of the Furious",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Fate of the Furious",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -582,19 +498,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "136",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2017",
-        },
       ],
     },
     {
       name: "Ant-Man and the Wasp",
       attributes: [
-        {
-          name: "Movie",
-          value: "Ant-Man and the Wasp",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -631,19 +539,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "118",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2018",
-        },
       ],
     },
     {
       name: "Doctor Strange in the Multiverse of Madness",
       attributes: [
-        {
-          name: "Movie",
-          value: "Doctor Strange in the Multiverse of Madness",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -680,19 +580,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "126",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2022",
-        },
       ],
     },
     {
       name: "Batman",
       attributes: [
-        {
-          name: "Movie",
-          value: "Batman",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -729,19 +621,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "121",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1989",
-        },
       ],
     },
     {
       name: "Men in Black",
       attributes: [
-        {
-          name: "Movie",
-          value: "Men in Black",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -778,19 +662,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "98",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1997",
-        },
       ],
     },
     {
       name: "X-Men: The Last Stand",
       attributes: [
-        {
-          name: "Movie",
-          value: "X-Men: The Last Stand",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -827,19 +703,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "104",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2006",
-        },
       ],
     },
     {
       name: "The Matrix Reloaded",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Matrix Reloaded",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -876,19 +744,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "138",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2003",
-        },
       ],
     },
     {
       name: "The Dark Knight Rises",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Dark Knight Rises",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -925,19 +785,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "164",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2012",
-        },
       ],
     },
     {
       name: "Batman v Superman: Dawn of Justice",
       attributes: [
-        {
-          name: "Movie",
-          value: "Batman v Superman: Dawn of Justice",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -974,19 +826,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "151",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "Man of Steel",
       attributes: [
-        {
-          name: "Movie",
-          value: "Man of Steel",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -1023,19 +867,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "142",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2013",
-        },
       ],
     },
     {
       name: "Mission: Impossible 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "Mission: Impossible 2",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -1072,19 +908,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "126",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2000",
-        },
       ],
     },
     {
       name: "Captain America: Civil War",
       attributes: [
-        {
-          name: "Movie",
-          value: "Captain America: Civil War",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -1121,19 +949,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "146",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "Captain America: The Winter Soldier",
       attributes: [
-        {
-          name: "Movie",
-          value: "Captain America: The Winter Soldier",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -1170,19 +990,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "135",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2014",
-        },
       ],
     },
     {
       name: "Avatar",
       attributes: [
-        {
-          name: "Movie",
-          value: "Avatar",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -1219,19 +1031,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "162",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2009",
-        },
       ],
     },
     {
       name: "The Dark Knight",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Dark Knight",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -1268,19 +1072,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "152",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2008",
-        },
       ],
     },
     {
       name: "Iron Man 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "Iron Man 2",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -1317,19 +1113,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "125",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2010",
-        },
       ],
     },
     {
       name: "My Big Fat Greek Wedding 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "My Big Fat Greek Wedding 2",
-        },
         {
           name: "Distributor",
           value: "Universal Pictures",
@@ -1366,19 +1154,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "94",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "Guardians of the Galaxy Vol 3",
       attributes: [
-        {
-          name: "Movie",
-          value: "Guardians of the Galaxy Vol 3",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -1415,19 +1195,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "150",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2023",
-        },
       ],
     },
     {
       name: "X-Men: Days of Future Past",
       attributes: [
-        {
-          name: "Movie",
-          value: "X-Men: Days of Future Past",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -1464,19 +1236,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "131",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2014",
-        },
       ],
     },
     {
       name: "Hancock",
       attributes: [
-        {
-          name: "Movie",
-          value: "Hancock",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -1513,19 +1277,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "92",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2008",
-        },
       ],
     },
     {
       name: "War of the Worlds",
       attributes: [
-        {
-          name: "Movie",
-          value: "War of the Worlds",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -1562,19 +1318,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "116",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2005",
-        },
       ],
     },
     {
       name: "The Lost World: Jurassic Park",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Lost World: Jurassic Park",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -1611,19 +1359,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "134",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1997",
-        },
       ],
     },
     {
       name: "Justice League",
       attributes: [
-        {
-          name: "Movie",
-          value: "Justice League",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -1660,19 +1400,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "121",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2017",
-        },
       ],
     },
     {
       name: "Rush Hour 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "Rush Hour 2",
-        },
         {
           name: "Distributor",
           value: "New Line",
@@ -1709,19 +1441,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "90",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2001",
-        },
       ],
     },
     {
       name: "Mission: Impossible—Fallout",
       attributes: [
-        {
-          name: "Movie",
-          value: "Mission: Impossible—Fallout",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -1758,19 +1482,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "147",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2018",
-        },
       ],
     },
     {
       name: "Top Gun: Maverick",
       attributes: [
-        {
-          name: "Movie",
-          value: "Top Gun: Maverick",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -1807,19 +1523,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "131",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2022",
-        },
       ],
     },
     {
       name: "Fast and Furious 6",
       attributes: [
-        {
-          name: "Movie",
-          value: "Fast and Furious 6",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -1856,19 +1564,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "130",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2013",
-        },
       ],
     },
     {
       name: "Black Panther",
       attributes: [
-        {
-          name: "Movie",
-          value: "Black Panther",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -1905,19 +1605,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "120",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2018",
-        },
       ],
     },
     {
       name: "Black Panther: Wakanda Forever",
       attributes: [
-        {
-          name: "Movie",
-          value: "Black Panther: Wakanda Forever",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -1954,19 +1646,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "161",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2022",
-        },
       ],
     },
     {
       name: "Logan",
       attributes: [
-        {
-          name: "Movie",
-          value: "Logan",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -2003,19 +1687,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "135",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2017",
-        },
       ],
     },
     {
       name: "Twister",
       attributes: [
-        {
-          name: "Movie",
-          value: "Twister",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -2052,19 +1728,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "114",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1996",
-        },
       ],
     },
     {
       name: "Thor: Ragnarok",
       attributes: [
-        {
-          name: "Movie",
-          value: "Thor: Ragnarok",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -2101,19 +1769,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "130",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2017",
-        },
       ],
     },
     {
       name: "Spider-Man: No Way Home",
       attributes: [
-        {
-          name: "Movie",
-          value: "Spider-Man: No Way Home",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -2150,19 +1810,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "148",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2021",
-        },
       ],
     },
     {
       name: "Jurassic World",
       attributes: [
-        {
-          name: "Movie",
-          value: "Jurassic World",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -2199,19 +1851,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "124",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2015",
-        },
       ],
     },
     {
       name: "Jurassic World: Fallen Kingdom",
       attributes: [
-        {
-          name: "Movie",
-          value: "Jurassic World: Fallen Kingdom",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -2248,19 +1892,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "128",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2018",
-        },
       ],
     },
     {
       name: "Spider-Man: Far From Home",
       attributes: [
-        {
-          name: "Movie",
-          value: "Spider-Man: Far From Home",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -2297,19 +1933,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "129",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2019",
-        },
       ],
     },
     {
       name: "The Batman",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Batman",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -2346,19 +1974,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "175",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2022",
-        },
       ],
     },
     {
       name: "Spider-Man: Homecoming",
       attributes: [
-        {
-          name: "Movie",
-          value: "Spider-Man: Homecoming",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -2395,19 +2015,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "133",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2017",
-        },
       ],
     },
     {
       name: "Doctor Strange",
       attributes: [
-        {
-          name: "Movie",
-          value: "Doctor Strange",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -2444,19 +2056,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "115",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "Thor: Love and Thunder",
       attributes: [
-        {
-          name: "Movie",
-          value: "Thor: Love and Thunder",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -2493,19 +2097,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "119",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2022",
-        },
       ],
     },
     {
       name: "Captain Marvel",
       attributes: [
-        {
-          name: "Movie",
-          value: "Captain Marvel",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -2542,19 +2138,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "124",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2019",
-        },
       ],
     },
     {
       name: "Wonder Woman",
       attributes: [
-        {
-          name: "Movie",
-          value: "Wonder Woman",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -2591,19 +2179,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "141",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2017",
-        },
       ],
     },
     {
       name: "Aquaman",
       attributes: [
-        {
-          name: "Movie",
-          value: "Aquaman",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -2640,19 +2220,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "143",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2018",
-        },
       ],
     },
     {
       name: "Avatar: The Way of Water",
       attributes: [
-        {
-          name: "Movie",
-          value: "Avatar: The Way of Water",
-        },
         {
           name: "Distributor",
           value: "20th Century Studios",
@@ -2689,19 +2261,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "190",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2022",
-        },
       ],
     },
     {
       name: "Transformers: Revenge of the Fallen",
       attributes: [
-        {
-          name: "Movie",
-          value: "Transformers: Revenge of the Fallen",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -2738,19 +2302,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "149",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2009",
-        },
       ],
     },
     {
       name: "Transformers: Dark of the Moon",
       attributes: [
-        {
-          name: "Movie",
-          value: "Transformers: Dark of the Moon",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -2787,19 +2343,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "154",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2011",
-        },
       ],
     },
     {
       name: "Transformers",
       attributes: [
-        {
-          name: "Movie",
-          value: "Transformers",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -2836,19 +2384,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "142",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2007",
-        },
       ],
     },
     {
       name: "Transformers: Age of Extinction",
       attributes: [
-        {
-          name: "Movie",
-          value: "Transformers: Age of Extinction",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -2885,19 +2425,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "165",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2014",
-        },
       ],
     },
     {
       name: "Suicide Squad",
       attributes: [
-        {
-          name: "Movie",
-          value: "Suicide Squad",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -2934,19 +2466,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "123",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "Skyfall",
       attributes: [
-        {
-          name: "Movie",
-          value: "Skyfall",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -2983,19 +2507,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "143",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2012",
-        },
       ],
     },
     {
       name: "Deadpool",
       attributes: [
-        {
-          name: "Movie",
-          value: "Deadpool",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -3032,19 +2548,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "107",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "Guardians of the Galaxy Vol 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "Guardians of the Galaxy Vol 2",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -3081,19 +2589,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "136",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2017",
-        },
       ],
     },
     {
       name: "Guardians of the Galaxy",
       attributes: [
-        {
-          name: "Movie",
-          value: "Guardians of the Galaxy",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -3130,19 +2630,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "121",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2014",
-        },
       ],
     },
     {
       name: "Deadpool 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "Deadpool 2",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -3179,19 +2671,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "119",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2018",
-        },
       ],
     },
     {
       name: "The Hunger Games: Catching Fire",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Hunger Games: Catching Fire",
-        },
         {
           name: "Distributor",
           value: "Lionsgate",
@@ -3228,19 +2712,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "146",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2013",
-        },
       ],
     },
     {
       name: "Monsters, Inc.",
       attributes: [
-        {
-          name: "Movie",
-          value: "Monsters, Inc.",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -3277,19 +2753,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "92",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2001",
-        },
       ],
     },
     {
       name: "Aladdin (2019)",
       attributes: [
-        {
-          name: "Movie",
-          value: "Aladdin (2019)",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -3326,19 +2794,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "128",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2019",
-        },
       ],
     },
     {
       name: "The Little Mermaid",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Little Mermaid",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -3375,19 +2835,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "135",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2023",
-        },
       ],
     },
     {
       name: "Aladdin (1992)",
       attributes: [
-        {
-          name: "Movie",
-          value: "Aladdin (1992)",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -3424,19 +2876,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "90",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1992",
-        },
       ],
     },
     {
       name: "Night at the Museum",
       attributes: [
-        {
-          name: "Movie",
-          value: "Night at the Museum",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -3473,19 +2917,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "108",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2006",
-        },
       ],
     },
     {
       name: "Cast Away",
       attributes: [
-        {
-          name: "Movie",
-          value: "Cast Away",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -3522,19 +2958,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "143",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2000",
-        },
       ],
     },
     {
       name: "Harry Potter and the Deathly Hallows: Part II",
       attributes: [
-        {
-          name: "Movie",
-          value: "Harry Potter and the Deathly Hallows: Part II",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -3571,19 +2999,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "131",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2011",
-        },
       ],
     },
     {
       name: "The Secret Life of Pets",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Secret Life of Pets",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -3620,19 +3040,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "91",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "Harry Potter and the Deathly Hallows: Part I",
       attributes: [
-        {
-          name: "Movie",
-          value: "Harry Potter and the Deathly Hallows: Part I",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -3669,19 +3081,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "146",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2010",
-        },
       ],
     },
     {
       name: "Alvin and the Chipmunks",
       attributes: [
-        {
-          name: "Movie",
-          value: "Alvin and the Chipmunks",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -3718,19 +3122,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "91",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2007",
-        },
       ],
     },
     {
       name: "Spider-Man 3",
       attributes: [
-        {
-          name: "Movie",
-          value: "Spider-Man 3",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -3767,19 +3163,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "139",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2007",
-        },
       ],
     },
     {
       name: "Spider-Man: Across the Spider-Verse",
       attributes: [
-        {
-          name: "Movie",
-          value: "Spider-Man: Across the Spider-Verse",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -3816,19 +3204,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "140",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2023",
-        },
       ],
     },
     {
       name: "Spider-Man",
       attributes: [
-        {
-          name: "Movie",
-          value: "Spider-Man",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -3865,19 +3245,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "121",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2002",
-        },
       ],
     },
     {
       name: "Spider-Man 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "Spider-Man 2",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -3914,19 +3286,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "127",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2004",
-        },
       ],
     },
     {
       name: "Alice in Wonderland",
       attributes: [
-        {
-          name: "Movie",
-          value: "Alice in Wonderland",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -3963,19 +3327,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "108",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2010",
-        },
       ],
     },
     {
       name: "Dr. Seuss’ The Grinch",
       attributes: [
-        {
-          name: "Movie",
-          value: "Dr. Seuss’ The Grinch",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -4012,19 +3368,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "86",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2018",
-        },
       ],
     },
     {
       name: "Oz the Great and Powerful",
       attributes: [
-        {
-          name: "Movie",
-          value: "Oz the Great and Powerful",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -4061,19 +3409,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "130",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2013",
-        },
       ],
     },
     {
       name: "Independence Day",
       attributes: [
-        {
-          name: "Movie",
-          value: "Independence Day",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -4110,19 +3450,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "145",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1996",
-        },
       ],
     },
     {
       name: "Alvin and the Chipmunks: The Squeakquel",
       attributes: [
-        {
-          name: "Movie",
-          value: "Alvin and the Chipmunks: The Squeakquel",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -4159,19 +3491,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "89",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2009",
-        },
       ],
     },
     {
       name: "The Lion King (2019)",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Lion King (2019)",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -4208,19 +3532,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "118",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2019",
-        },
       ],
     },
     {
       name: "Pirates of the Caribbean: Dead Man’s Chest",
       attributes: [
-        {
-          name: "Movie",
-          value: "Pirates of the Caribbean: Dead Man’s Chest",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -4257,19 +3573,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "151",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2006",
-        },
       ],
     },
     {
       name: "The Lion King (1994)",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Lion King (1994)",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -4306,19 +3614,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "87",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1994",
-        },
       ],
     },
     {
       name: "Pirates of the Caribbean: At World’s End",
       attributes: [
-        {
-          name: "Movie",
-          value: "Pirates of the Caribbean: At World’s End",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -4355,19 +3655,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "167",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2007",
-        },
       ],
     },
     {
       name: "Pirates of the Caribbean: On Stranger Tides",
       attributes: [
-        {
-          name: "Movie",
-          value: "Pirates of the Caribbean: On Stranger Tides",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -4404,19 +3696,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "136",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2011",
-        },
       ],
     },
     {
       name: "Madagascar 3: Europe's Most Wanted",
       attributes: [
-        {
-          name: "Movie",
-          value: "Madagascar 3: Europe's Most Wanted",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -4453,19 +3737,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "85",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2012",
-        },
       ],
     },
     {
       name: "Kung Fu Panda",
       attributes: [
-        {
-          name: "Movie",
-          value: "Kung Fu Panda",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -4502,19 +3778,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "91",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2008",
-        },
       ],
     },
     {
       name: "Shrek 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "Shrek 2",
-        },
         {
           name: "Distributor",
           value: "Dreamworks SKG",
@@ -4551,19 +3819,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "92",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2004",
-        },
       ],
     },
     {
       name: "Shrek the Third",
       attributes: [
-        {
-          name: "Movie",
-          value: "Shrek the Third",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -4600,20 +3860,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "92",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2007",
-        },
       ],
     },
     {
       name: "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
       attributes: [
-        {
-          name: "Movie",
-          value:
-            "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -4650,19 +3901,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "140",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2005",
-        },
       ],
     },
     {
       name: "Shrek Forever After",
       attributes: [
-        {
-          name: "Movie",
-          value: "Shrek Forever After",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -4699,19 +3942,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "93",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2010",
-        },
       ],
     },
     {
       name: "Minions: The Rise of Gru",
       attributes: [
-        {
-          name: "Movie",
-          value: "Minions: The Rise of Gru",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -4748,19 +3983,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "88",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2022",
-        },
       ],
     },
     {
       name: "Despicable Me 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "Despicable Me 2",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -4797,19 +4024,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "98",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2013",
-        },
       ],
     },
     {
       name: "Minions",
       attributes: [
-        {
-          name: "Movie",
-          value: "Minions",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -4846,19 +4065,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "91",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2015",
-        },
       ],
     },
     {
       name: "Despicable Me 3",
       attributes: [
-        {
-          name: "Movie",
-          value: "Despicable Me 3",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -4895,19 +4106,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "90",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2017",
-        },
       ],
     },
     {
       name: "Jumanji: Welcome to the Jungle",
       attributes: [
-        {
-          name: "Movie",
-          value: "Jumanji: Welcome to the Jungle",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -4944,19 +4147,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "119",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2017",
-        },
       ],
     },
     {
       name: "Jumanji: The Next Level",
       attributes: [
-        {
-          name: "Movie",
-          value: "Jumanji: The Next Level",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -4993,19 +4188,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "123",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2019",
-        },
       ],
     },
     {
       name: "Big Hero 6",
       attributes: [
-        {
-          name: "Movie",
-          value: "Big Hero 6",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -5042,19 +4229,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "108",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2014",
-        },
       ],
     },
     {
       name: "The Lord of the Rings: The Return of the King",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Lord of the Rings: The Return of the King",
-        },
         {
           name: "Distributor",
           value: "New Line",
@@ -5091,19 +4270,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "201",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2003",
-        },
       ],
     },
     {
       name: "My Big Fat Greek Wedding 3",
       attributes: [
-        {
-          name: "Movie",
-          value: "My Big Fat Greek Wedding 3",
-        },
         {
           name: "Distributor",
           value: "Focus Features,Universal Pictures",
@@ -5140,19 +4311,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "92",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2023",
-        },
       ],
     },
     {
       name: "National Treasure",
       attributes: [
-        {
-          name: "Movie",
-          value: "National Treasure",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -5189,19 +4352,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "131",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2004",
-        },
       ],
     },
     {
       name: "The Lord of the Rings: The Two Towers",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Lord of the Rings: The Two Towers",
-        },
         {
           name: "Distributor",
           value: "New Line",
@@ -5237,10 +4392,6 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "179",
-        },
-        {
-          name: "Domestic Release Year",
-          value: "2002",
         },
       ],
     },
@@ -5248,10 +4399,6 @@ export const movies: CategoryResponse = {
       name: "The Lord of the Rings: The Fellowship of the Ring",
       attributes: [
         {
-          name: "Movie",
-          value: "The Lord of the Rings: The Fellowship of the Ring",
-        },
-        {
           name: "Distributor",
           value: "New Line",
         },
@@ -5287,19 +4434,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "179",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2001",
-        },
       ],
     },
     {
       name: "The Hobbit: An Unexpected Journey",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Hobbit: An Unexpected Journey",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -5336,19 +4475,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "169",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2012",
-        },
       ],
     },
     {
       name: "The Hobbit: The Desolation of Smaug",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Hobbit: The Desolation of Smaug",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -5385,19 +4516,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "201",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2013",
-        },
       ],
     },
     {
       name: "The Hobbit: The Battle of the Five Armies",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Hobbit: The Battle of the Five Armies",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -5434,19 +4557,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "144",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2014",
-        },
       ],
     },
     {
       name: "The Amazing Spider-Man",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Amazing Spider-Man",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -5483,19 +4598,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "136",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2012",
-        },
       ],
     },
     {
       name: "How the Grinch Stole Christmas",
       attributes: [
-        {
-          name: "Movie",
-          value: "How the Grinch Stole Christmas",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -5532,19 +4639,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "105",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2000",
-        },
       ],
     },
     {
       name: "Maleficent",
       attributes: [
-        {
-          name: "Movie",
-          value: "Maleficent",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -5581,19 +4680,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "97",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2014",
-        },
       ],
     },
     {
       name: "Fantastic Beasts and Where to Find Them",
       attributes: [
-        {
-          name: "Movie",
-          value: "Fantastic Beasts and Where to Find Them",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -5630,19 +4721,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "133",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "King Kong",
       attributes: [
-        {
-          name: "Movie",
-          value: "King Kong",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -5679,19 +4762,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "189",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2005",
-        },
       ],
     },
     {
       name: "The Jungle Book",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Jungle Book",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -5728,19 +4803,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "105",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "How to Train Your Dragon",
       attributes: [
-        {
-          name: "Movie",
-          value: "How to Train Your Dragon",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -5777,19 +4844,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "91",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2010",
-        },
       ],
     },
     {
       name: "Shrek",
       attributes: [
-        {
-          name: "Movie",
-          value: "Shrek",
-        },
         {
           name: "Distributor",
           value: "Dreamworks SKG",
@@ -5826,19 +4885,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "90",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2001",
-        },
       ],
     },
     {
       name: "Star Wars Ep. VII: The Force Awakens",
       attributes: [
-        {
-          name: "Movie",
-          value: "Star Wars Ep. VII: The Force Awakens",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -5875,19 +4926,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "136",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2015",
-        },
       ],
     },
     {
       name: "Star Wars Ep. VIII: The Last Jedi",
       attributes: [
-        {
-          name: "Movie",
-          value: "Star Wars Ep. VIII: The Last Jedi",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -5924,19 +4967,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "150",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2017",
-        },
       ],
     },
     {
       name: "Star Wars: The Rise of Skywalker",
       attributes: [
-        {
-          name: "Movie",
-          value: "Star Wars: The Rise of Skywalker",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -5973,19 +5008,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "142",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2019",
-        },
       ],
     },
     {
       name: "Star Wars Ep. I: The Phantom Menace",
       attributes: [
-        {
-          name: "Movie",
-          value: "Star Wars Ep. I: The Phantom Menace",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -6022,19 +5049,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "133",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1999",
-        },
       ],
     },
     {
       name: "Star Wars Ep. IV: A New Hope",
       attributes: [
-        {
-          name: "Movie",
-          value: "Star Wars Ep. IV: A New Hope",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -6071,19 +5090,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "119",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1977",
-        },
       ],
     },
     {
       name: "E.T. the Extra-Terrestrial",
       attributes: [
-        {
-          name: "Movie",
-          value: "E.T. the Extra-Terrestrial",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -6120,19 +5131,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "114",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1982",
-        },
       ],
     },
     {
       name: "Jurassic Park",
       attributes: [
-        {
-          name: "Movie",
-          value: "Jurassic Park",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -6169,19 +5172,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "126",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1993",
-        },
       ],
     },
     {
       name: "Star Wars Ep. III: Revenge of the Sith",
       attributes: [
-        {
-          name: "Movie",
-          value: "Star Wars Ep. III: Revenge of the Sith",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -6218,19 +5213,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "139",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2005",
-        },
       ],
     },
     {
       name: "Harry Potter and the Sorcerer’s Stone",
       attributes: [
-        {
-          name: "Movie",
-          value: "Harry Potter and the Sorcerer’s Stone",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -6267,19 +5254,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "152",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2001",
-        },
       ],
     },
     {
       name: "Indiana Jones and the Kingdom of the Crystal Skull",
       attributes: [
-        {
-          name: "Movie",
-          value: "Indiana Jones and the Kingdom of the Crystal Skull",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -6316,19 +5295,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "123",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2008",
-        },
       ],
     },
     {
       name: "Star Wars Ep. VI: Return of the Jedi",
       attributes: [
-        {
-          name: "Movie",
-          value: "Star Wars Ep. VI: Return of the Jedi",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -6365,19 +5336,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "133",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1983",
-        },
       ],
     },
     {
       name: "Star Wars Ep. II: Attack of the Clones",
       attributes: [
-        {
-          name: "Movie",
-          value: "Star Wars Ep. II: Attack of the Clones",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -6414,19 +5377,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "143",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2002",
-        },
       ],
     },
     {
       name: "Star Wars Ep. V: The Empire Strikes Back",
       attributes: [
-        {
-          name: "Movie",
-          value: "Star Wars Ep. V: The Empire Strikes Back",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -6463,19 +5418,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "124",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1980",
-        },
       ],
     },
     {
       name: "Harry Potter and the Chamber of Secrets",
       attributes: [
-        {
-          name: "Movie",
-          value: "Harry Potter and the Chamber of Secrets",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -6512,19 +5459,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "161",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2002",
-        },
       ],
     },
     {
       name: "Harry Potter and the Prisoner of Azkaban",
       attributes: [
-        {
-          name: "Movie",
-          value: "Harry Potter and the Prisoner of Azkaban",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -6561,19 +5500,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "141",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2004",
-        },
       ],
     },
     {
       name: "Raiders of the Lost Ark",
       attributes: [
-        {
-          name: "Movie",
-          value: "Raiders of the Lost Ark",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -6610,19 +5541,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "115",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1981",
-        },
       ],
     },
     {
       name: "Pirates of the Caribbean: The Curse of the Blac…",
       attributes: [
-        {
-          name: "Movie",
-          value: "Pirates of the Caribbean: The Curse of the Blac…",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -6659,19 +5582,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "144",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2003",
-        },
       ],
     },
     {
       name: "Moana",
       attributes: [
-        {
-          name: "Movie",
-          value: "Moana",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -6708,19 +5623,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "113",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "The Lego Movie",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Lego Movie",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -6757,19 +5664,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "110",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2014",
-        },
       ],
     },
     {
       name: "Incredibles 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "Incredibles 2",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -6806,19 +5705,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "118",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2018",
-        },
       ],
     },
     {
       name: "Rogue One: A Star Wars Story",
       attributes: [
-        {
-          name: "Movie",
-          value: "Rogue One: A Star Wars Story",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -6855,19 +5746,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "134",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "Inside Out",
       attributes: [
-        {
-          name: "Movie",
-          value: "Inside Out",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -6904,19 +5787,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "95",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2015",
-        },
       ],
     },
     {
       name: "Zootopia",
       attributes: [
-        {
-          name: "Movie",
-          value: "Zootopia",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -6953,19 +5828,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "108",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "Up",
       attributes: [
-        {
-          name: "Movie",
-          value: "Up",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -7002,19 +5869,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "89",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2009",
-        },
       ],
     },
     {
       name: "The Incredibles",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Incredibles",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -7051,19 +5910,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "115",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2004",
-        },
       ],
     },
     {
       name: "Star Trek",
       attributes: [
-        {
-          name: "Movie",
-          value: "Star Trek",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -7100,19 +5951,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "125",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2009",
-        },
       ],
     },
     {
       name: "Star Trek Into Darkness",
       attributes: [
-        {
-          name: "Movie",
-          value: "Star Trek Into Darkness",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -7149,19 +5992,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "132",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2013",
-        },
       ],
     },
     {
       name: "Harry Potter and the Half-Blood Prince",
       attributes: [
-        {
-          name: "Movie",
-          value: "Harry Potter and the Half-Blood Prince",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -7198,19 +6033,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "153",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2009",
-        },
       ],
     },
     {
       name: "Harry Potter and the Order of the Phoenix",
       attributes: [
-        {
-          name: "Movie",
-          value: "Harry Potter and the Order of the Phoenix",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -7247,19 +6074,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "138",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2007",
-        },
       ],
     },
     {
       name: "Harry Potter and the Goblet of Fire",
       attributes: [
-        {
-          name: "Movie",
-          value: "Harry Potter and the Goblet of Fire",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -7296,19 +6115,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "150",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2005",
-        },
       ],
     },
     {
       name: "Brave",
       attributes: [
-        {
-          name: "Movie",
-          value: "Brave",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -7345,19 +6156,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "93",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2012",
-        },
       ],
     },
     {
       name: "Despicable Me",
       attributes: [
-        {
-          name: "Movie",
-          value: "Despicable Me",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -7394,19 +6197,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "95",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2010",
-        },
       ],
     },
     {
       name: "Iron Man",
       attributes: [
-        {
-          name: "Movie",
-          value: "Iron Man",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -7443,19 +6238,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "126",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2008",
-        },
       ],
     },
     {
       name: "Toy Story 4",
       attributes: [
-        {
-          name: "Movie",
-          value: "Toy Story 4",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -7492,19 +6279,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "89",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2019",
-        },
       ],
     },
     {
       name: "Toy Story 3",
       attributes: [
-        {
-          name: "Movie",
-          value: "Toy Story 3",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -7541,19 +6320,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "102",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2010",
-        },
       ],
     },
     {
       name: "Monsters University",
       attributes: [
-        {
-          name: "Movie",
-          value: "Monsters University",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -7590,19 +6361,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "102",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2013",
-        },
       ],
     },
     {
       name: "Toy Story 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "Toy Story 2",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -7639,19 +6402,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "92",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1999",
-        },
       ],
     },
     {
       name: "Cars",
       attributes: [
-        {
-          name: "Movie",
-          value: "Cars",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -7688,19 +6443,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "116",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2006",
-        },
       ],
     },
     {
       name: "Finding Dory",
       attributes: [
-        {
-          name: "Movie",
-          value: "Finding Dory",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -7737,19 +6484,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "103",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "Finding Nemo",
       attributes: [
-        {
-          name: "Movie",
-          value: "Finding Nemo",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -7786,19 +6525,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "100",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2003",
-        },
       ],
     },
     {
       name: "WALL-E",
       attributes: [
-        {
-          name: "Movie",
-          value: "WALL-E",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -7835,19 +6566,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "100",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2008",
-        },
       ],
     },
     {
       name: "National Treasure: Book of Secrets",
       attributes: [
-        {
-          name: "Movie",
-          value: "National Treasure: Book of Secrets",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -7884,19 +6607,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "124",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2007",
-        },
       ],
     },
     {
       name: "Barbie",
       attributes: [
-        {
-          name: "Movie",
-          value: "Barbie",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -7933,19 +6648,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "114",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2023",
-        },
       ],
     },
     {
       name: "The Hangover",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Hangover",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -7982,19 +6689,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "100",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2009",
-        },
       ],
     },
     {
       name: "The Hangover Part II",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Hangover Part II",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -8031,19 +6730,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "102",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2011",
-        },
       ],
     },
     {
       name: "Ghostbusters",
       attributes: [
-        {
-          name: "Movie",
-          value: "Ghostbusters",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -8080,19 +6771,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "107",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1984",
-        },
       ],
     },
     {
       name: "Beverly Hills Cop",
       attributes: [
-        {
-          name: "Movie",
-          value: "Beverly Hills Cop",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -8129,19 +6812,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "105",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1984",
-        },
       ],
     },
     {
       name: "Mrs. Doubtfire",
       attributes: [
-        {
-          name: "Movie",
-          value: "Mrs. Doubtfire",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -8178,19 +6853,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "125",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1993",
-        },
       ],
     },
     {
       name: "Bruce Almighty",
       attributes: [
-        {
-          name: "Movie",
-          value: "Bruce Almighty",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -8227,19 +6894,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "102",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2003",
-        },
       ],
     },
     {
       name: "Home Alone",
       attributes: [
-        {
-          name: "Movie",
-          value: "Home Alone",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -8276,19 +6935,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "103",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1990",
-        },
       ],
     },
     {
       name: "Meet the Fockers",
       attributes: [
-        {
-          name: "Movie",
-          value: "Meet the Fockers",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -8325,19 +6976,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "114",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2004",
-        },
       ],
     },
     {
       name: "Ted",
       attributes: [
-        {
-          name: "Movie",
-          value: "Ted",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -8374,19 +7017,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "106",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2012",
-        },
       ],
     },
     {
       name: "American Sniper",
       attributes: [
-        {
-          name: "Movie",
-          value: "American Sniper",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -8424,19 +7059,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "132",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2014",
-        },
       ],
     },
     {
       name: "The Twilight Saga: Breaking Dawn, Part 1",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Twilight Saga: Breaking Dawn, Part 1",
-        },
         {
           name: "Distributor",
           value: "Summit Entertainment",
@@ -8473,19 +7100,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "117",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2011",
-        },
       ],
     },
     {
       name: "A Star is Born",
       attributes: [
-        {
-          name: "Movie",
-          value: "A Star is Born",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -8522,19 +7141,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "140",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2018",
-        },
       ],
     },
     {
       name: "Forrest Gump",
       attributes: [
-        {
-          name: "Movie",
-          value: "Forrest Gump",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -8571,19 +7182,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "142",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1994",
-        },
       ],
     },
     {
       name: "The Twilight Saga: New Moon",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Twilight Saga: New Moon",
-        },
         {
           name: "Distributor",
           value: "Summit Entertainment",
@@ -8620,19 +7223,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "130",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2009",
-        },
       ],
     },
     {
       name: "The Twilight Saga: Breaking Dawn, Part 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Twilight Saga: Breaking Dawn, Part 2",
-        },
         {
           name: "Distributor",
           value: "Lionsgate",
@@ -8669,19 +7264,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "115",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2012",
-        },
       ],
     },
     {
       name: "The Blind Side",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Blind Side",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -8718,19 +7305,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "128",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2009",
-        },
       ],
     },
     {
       name: "The Twilight Saga: Eclipse",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Twilight Saga: Eclipse",
-        },
         {
           name: "Distributor",
           value: "Summit Entertainment",
@@ -8767,19 +7346,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "124",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2010",
-        },
       ],
     },
     {
       name: "Titanic",
       attributes: [
-        {
-          name: "Movie",
-          value: "Titanic",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -8816,19 +7387,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "194",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1997",
-        },
       ],
     },
     {
       name: "The Passion of the Christ",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Passion of the Christ",
-        },
         {
           name: "Distributor",
           value: "Newmarket Films",
@@ -8865,19 +7428,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "127",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2004",
-        },
       ],
     },
     {
       name: "Bohemian Rhapsody",
       attributes: [
-        {
-          name: "Movie",
-          value: "Bohemian Rhapsody",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -8914,19 +7469,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "134",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2018",
-        },
       ],
     },
     {
       name: "Saving Private Ryan",
       attributes: [
-        {
-          name: "Movie",
-          value: "Saving Private Ryan",
-        },
         {
           name: "Distributor",
           value: "Dreamworks SKG",
@@ -8963,19 +7510,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "169",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1998",
-        },
       ],
     },
     {
       name: "Oppenheimer",
       attributes: [
-        {
-          name: "Movie",
-          value: "Oppenheimer",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -9012,19 +7551,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "180",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2023",
-        },
       ],
     },
     {
       name: "Ghost",
       attributes: [
-        {
-          name: "Movie",
-          value: "Ghost",
-        },
         {
           name: "Distributor",
           value: "Paramount Pictures",
@@ -9061,19 +7592,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "127",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1990",
-        },
       ],
     },
     {
       name: "It",
       attributes: [
-        {
-          name: "Movie",
-          value: "It",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -9110,19 +7633,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "135",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2017",
-        },
       ],
     },
     {
       name: "The Exorcist",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Exorcist",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -9159,19 +7674,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "121",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1973",
-        },
       ],
     },
     {
       name: "Jaws",
       attributes: [
-        {
-          name: "Movie",
-          value: "Jaws",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -9208,19 +7715,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "124",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1975",
-        },
       ],
     },
     {
       name: "Beauty and the Beast",
       attributes: [
-        {
-          name: "Movie",
-          value: "Beauty and the Beast",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -9257,19 +7756,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "123",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2017",
-        },
       ],
     },
     {
       name: "Frozen II",
       attributes: [
-        {
-          name: "Movie",
-          value: "Frozen II",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -9306,19 +7797,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "103",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2019",
-        },
       ],
     },
     {
       name: "Toy Story",
       attributes: [
-        {
-          name: "Movie",
-          value: "Toy Story",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -9355,19 +7838,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "81",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1995",
-        },
       ],
     },
     {
       name: "Frozen",
       attributes: [
-        {
-          name: "Movie",
-          value: "Frozen",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -9404,19 +7879,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "102",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2013",
-        },
       ],
     },
     {
       name: "Sing",
       attributes: [
-        {
-          name: "Movie",
-          value: "Sing",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -9453,19 +7920,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "108",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2016",
-        },
       ],
     },
     {
       name: "My Big Fat Greek Wedding",
       attributes: [
-        {
-          name: "Movie",
-          value: "My Big Fat Greek Wedding",
-        },
         {
           name: "Distributor",
           value: "IFC Films",
@@ -9502,19 +7961,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "95",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2002",
-        },
       ],
     },
     {
       name: "Inception",
       attributes: [
-        {
-          name: "Movie",
-          value: "Inception",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -9551,19 +8002,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "147",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2010",
-        },
       ],
     },
     {
       name: "The Da Vinci Code",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Da Vinci Code",
-        },
         {
           name: "Distributor",
           value: "Sony Pictures",
@@ -9600,19 +8043,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "152",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2006",
-        },
       ],
     },
     {
       name: "The Martian",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Martian",
-        },
         {
           name: "Distributor",
           value: "20th Century Fox",
@@ -9649,19 +8084,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "130",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2015",
-        },
       ],
     },
     {
       name: "Joker",
       attributes: [
-        {
-          name: "Movie",
-          value: "Joker",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -9698,19 +8125,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "122",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2019",
-        },
       ],
     },
     {
       name: "The Hunger Games",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Hunger Games",
-        },
         {
           name: "Distributor",
           value: "Lionsgate",
@@ -9747,19 +8166,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "142",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2012",
-        },
       ],
     },
     {
       name: "The Hunger Games: Mockingjay - Part 1",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Hunger Games: Mockingjay - Part 1",
-        },
         {
           name: "Distributor",
           value: "Lionsgate",
@@ -9796,19 +8207,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "123",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2014",
-        },
       ],
     },
     {
       name: "The Sixth Sense",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Sixth Sense",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -9845,19 +8248,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "108",
         },
-        {
-          name: "Domestic Release Year",
-          value: "1999",
-        },
       ],
     },
     {
       name: "The Hunger Games: Mockingjay - Part 2",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Hunger Games: Mockingjay - Part 2",
-        },
         {
           name: "Distributor",
           value: "Lionsgate",
@@ -9894,19 +8289,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "136",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2015",
-        },
       ],
     },
     {
       name: "I am Legend",
       attributes: [
-        {
-          name: "Movie",
-          value: "I am Legend",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -9943,19 +8330,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "100",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2007",
-        },
       ],
     },
     {
       name: "Signs",
       attributes: [
-        {
-          name: "Movie",
-          value: "Signs",
-        },
         {
           name: "Distributor",
           value: "Walt Disney",
@@ -9992,19 +8371,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "106",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2002",
-        },
       ],
     },
     {
       name: "The Bourne Ultimatum",
       attributes: [
-        {
-          name: "Movie",
-          value: "The Bourne Ultimatum",
-        },
         {
           name: "Distributor",
           value: "Universal",
@@ -10041,19 +8412,11 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "113",
         },
-        {
-          name: "Domestic Release Year",
-          value: "2007",
-        },
       ],
     },
     {
       name: "Gravity",
       attributes: [
-        {
-          name: "Movie",
-          value: "Gravity",
-        },
         {
           name: "Distributor",
           value: "Warner Bros.",
@@ -10089,10 +8452,6 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "91",
-        },
-        {
-          name: "Domestic Release Year",
-          value: "2013",
         },
       ],
     },

@@ -41,10 +41,6 @@ export const animatedDisneyMovies: CategoryResponse = {
       name: "Snow White and The Seven Dwarfs",
       attributes: [
         {
-          name: "Title",
-          value: "Snow White and The Seven Dwarfs",
-        },
-        {
           name: "IMDb Rating",
           value: "7.6",
         },
@@ -68,19 +64,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Golden Age",
-        },
       ],
     },
     {
       name: "Fantasia",
       attributes: [
-        {
-          name: "Title",
-          value: "Fantasia",
-        },
         {
           name: "IMDb Rating",
           value: "7.7",
@@ -105,19 +93,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Golden Age",
-        },
       ],
     },
     {
       name: "Pinocchio",
       attributes: [
-        {
-          name: "Title",
-          value: "Pinocchio",
-        },
         {
           name: "IMDb Rating",
           value: "7.5",
@@ -142,19 +122,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Golden Age",
-        },
       ],
     },
     {
       name: "Dumbo",
       attributes: [
-        {
-          name: "Title",
-          value: "Dumbo",
-        },
         {
           name: "IMDb Rating",
           value: "7.2",
@@ -179,19 +151,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Golden Age",
-        },
       ],
     },
     {
       name: "Bambi",
       attributes: [
-        {
-          name: "Title",
-          value: "Bambi",
-        },
         {
           name: "IMDb Rating",
           value: "7.3",
@@ -216,19 +180,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Package Era",
-        },
       ],
     },
     {
       name: "The Three Caballeros",
       attributes: [
-        {
-          name: "Title",
-          value: "The Three Caballeros",
-        },
         {
           name: "IMDb Rating",
           value: "6.3",
@@ -253,19 +209,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Package Era",
-        },
       ],
     },
     {
       name: "Cinderella",
       attributes: [
-        {
-          name: "Title",
-          value: "Cinderella",
-        },
         {
           name: "IMDb Rating",
           value: "6.9",
@@ -290,19 +238,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Silver Age",
-        },
       ],
     },
     {
       name: "Alice in Wonderland",
       attributes: [
-        {
-          name: "Title",
-          value: "Alice in Wonderland",
-        },
         {
           name: "IMDb Rating",
           value: "6.4",
@@ -327,19 +267,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Silver Age",
-        },
       ],
     },
     {
       name: "Peter Pan",
       attributes: [
-        {
-          name: "Title",
-          value: "Peter Pan",
-        },
         {
           name: "IMDb Rating",
           value: "7.3",
@@ -364,19 +296,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Silver Age",
-        },
       ],
     },
     {
       name: "Lady and the Tramp",
       attributes: [
-        {
-          name: "Title",
-          value: "Lady and the Tramp",
-        },
         {
           name: "IMDb Rating",
           value: "7.3",
@@ -401,19 +325,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Silver Age",
-        },
       ],
     },
     {
       name: "Sleeping Beauty",
       attributes: [
-        {
-          name: "Title",
-          value: "Sleeping Beauty",
-        },
         {
           name: "IMDb Rating",
           value: "7.2",
@@ -438,19 +354,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Silver Age",
-        },
       ],
     },
     {
       name: "One Hundred and One Dalmatians",
       attributes: [
-        {
-          name: "Title",
-          value: "One Hundred and One Dalmatians",
-        },
         {
           name: "IMDb Rating",
           value: "7.3",
@@ -475,19 +383,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Transition Era",
-        },
       ],
     },
     {
       name: "The Sword in the Stone",
       attributes: [
-        {
-          name: "Title",
-          value: "The Sword in the Stone",
-        },
         {
           name: "IMDb Rating",
           value: "7.1",
@@ -512,19 +412,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Transition Era",
-        },
       ],
     },
     {
       name: "The Jungle Book",
       attributes: [
-        {
-          name: "Title",
-          value: "The Jungle Book",
-        },
         {
           name: "IMDb Rating",
           value: "7.6",
@@ -549,19 +441,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Transition Era",
-        },
       ],
     },
     {
       name: "The Aristocats",
       attributes: [
-        {
-          name: "Title",
-          value: "The Aristocats",
-        },
         {
           name: "IMDb Rating",
           value: "7.1",
@@ -586,19 +470,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Bronze Age",
-        },
       ],
     },
     {
       name: "Robin Hood",
       attributes: [
-        {
-          name: "Title",
-          value: "Robin Hood",
-        },
         {
           name: "IMDb Rating",
           value: "6.6",
@@ -623,19 +499,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Bronze Age",
-        },
       ],
     },
     {
       name: "The Rescuers",
       attributes: [
-        {
-          name: "Title",
-          value: "The Rescuers",
-        },
         {
           name: "IMDb Rating",
           value: "6.9",
@@ -660,19 +528,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Bronze Age",
-        },
       ],
     },
     {
       name: "The Many Adventures of Winnie the Pooh",
       attributes: [
-        {
-          name: "Title",
-          value: "The Many Adventures of Winnie the Pooh",
-        },
         {
           name: "IMDb Rating",
           value: "7.5",
@@ -697,19 +557,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Bronze Age",
-        },
       ],
     },
     {
       name: "The Fox and the Hound",
       attributes: [
-        {
-          name: "Title",
-          value: "The Fox and the Hound",
-        },
         {
           name: "IMDb Rating",
           value: "7.2",
@@ -734,19 +586,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Bronze Age",
-        },
       ],
     },
     {
       name: "The Black Cauldron",
       attributes: [
-        {
-          name: "Title",
-          value: "The Black Cauldron",
-        },
         {
           name: "IMDb Rating",
           value: "6.3",
@@ -771,19 +615,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Bronze Age",
-        },
       ],
     },
     {
       name: "The Great Mouse Detective",
       attributes: [
-        {
-          name: "Title",
-          value: "The Great Mouse Detective",
-        },
         {
           name: "IMDb Rating",
           value: "7.1",
@@ -808,19 +644,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Bronze Age",
-        },
       ],
     },
     {
       name: "Oliver & Company",
       attributes: [
-        {
-          name: "Title",
-          value: "Oliver & Company",
-        },
         {
           name: "IMDb Rating",
           value: "6.6",
@@ -845,19 +673,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Bronze Age",
-        },
       ],
     },
     {
       name: "The Little Mermaid",
       attributes: [
-        {
-          name: "Title",
-          value: "The Little Mermaid",
-        },
         {
           name: "IMDb Rating",
           value: "7.6",
@@ -882,19 +702,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "DuckTales The Movie: Treasure of the Lost Lamp",
       attributes: [
-        {
-          name: "Title",
-          value: "DuckTales The Movie: Treasure of the Lost Lamp",
-        },
         {
           name: "IMDb Rating",
           value: "6.8",
@@ -919,19 +731,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "The Rescuers Down Under",
       attributes: [
-        {
-          name: "Title",
-          value: "The Rescuers Down Under",
-        },
         {
           name: "IMDb Rating",
           value: "6.8",
@@ -956,19 +760,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "Beauty and the Beast",
       attributes: [
-        {
-          name: "Title",
-          value: "Beauty and the Beast",
-        },
         {
           name: "IMDb Rating",
           value: "8",
@@ -993,19 +789,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "Aladdin",
       attributes: [
-        {
-          name: "Title",
-          value: "Aladdin",
-        },
         {
           name: "IMDb Rating",
           value: "8",
@@ -1030,19 +818,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "The Nightmare Before Christmas",
       attributes: [
-        {
-          name: "Title",
-          value: "The Nightmare Before Christmas",
-        },
         {
           name: "IMDb Rating",
           value: "7.9",
@@ -1067,19 +847,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "The Lion King",
       attributes: [
-        {
-          name: "Title",
-          value: "The Lion King",
-        },
         {
           name: "IMDb Rating",
           value: "8.5",
@@ -1104,19 +876,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "Thumbelina",
       attributes: [
-        {
-          name: "Title",
-          value: "Thumbelina",
-        },
         {
           name: "IMDb Rating",
           value: "6.2",
@@ -1141,19 +905,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "A Goofy Movie",
       attributes: [
-        {
-          name: "Title",
-          value: "A Goofy Movie",
-        },
         {
           name: "IMDb Rating",
           value: "6.9",
@@ -1178,19 +934,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "Pocahontas",
       attributes: [
-        {
-          name: "Title",
-          value: "Pocahontas",
-        },
         {
           name: "IMDb Rating",
           value: "6.7",
@@ -1215,19 +963,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "Toy Story",
       attributes: [
-        {
-          name: "Title",
-          value: "Toy Story",
-        },
         {
           name: "IMDb Rating",
           value: "8.3",
@@ -1252,19 +992,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "Aladdin and the King of Thieves",
       attributes: [
-        {
-          name: "Title",
-          value: "Aladdin and the King of Thieves",
-        },
         {
           name: "IMDb Rating",
           value: "6.4",
@@ -1289,19 +1021,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "James and the Giant Peach",
       attributes: [
-        {
-          name: "Title",
-          value: "James and the Giant Peach",
-        },
         {
           name: "IMDb Rating",
           value: "6.7",
@@ -1326,19 +1050,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "The Hunchback of Notre Dame",
       attributes: [
-        {
-          name: "Title",
-          value: "The Hunchback of Notre Dame",
-        },
         {
           name: "IMDb Rating",
           value: "7",
@@ -1363,19 +1079,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "Anastasia",
       attributes: [
-        {
-          name: "Title",
-          value: "Anastasia",
-        },
         {
           name: "IMDb Rating",
           value: "7.1",
@@ -1400,19 +1108,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "Hercules",
       attributes: [
-        {
-          name: "Title",
-          value: "Hercules",
-        },
         {
           name: "IMDb Rating",
           value: "7.3",
@@ -1437,19 +1137,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "A Bug's Life",
       attributes: [
-        {
-          name: "Title",
-          value: "A Bug's Life",
-        },
         {
           name: "IMDb Rating",
           value: "7.2",
@@ -1474,19 +1166,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "The Lion King 2: Simba's Pride",
       attributes: [
-        {
-          name: "Title",
-          value: "The Lion King 2: Simba's Pride",
-        },
         {
           name: "IMDb Rating",
           value: "6.5",
@@ -1511,19 +1195,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "Mulan",
       attributes: [
-        {
-          name: "Title",
-          value: "Mulan",
-        },
         {
           name: "IMDb Rating",
           value: "7.7",
@@ -1548,19 +1224,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "Tarzan",
       attributes: [
-        {
-          name: "Title",
-          value: "Tarzan",
-        },
         {
           name: "IMDb Rating",
           value: "7.3",
@@ -1585,19 +1253,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "Toy Story 2",
       attributes: [
-        {
-          name: "Title",
-          value: "Toy Story 2",
-        },
         {
           name: "IMDb Rating",
           value: "7.9",
@@ -1622,19 +1282,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Disney Renissance",
-        },
       ],
     },
     {
       name: "An Extremely Goofy Movie",
       attributes: [
-        {
-          name: "Title",
-          value: "An Extremely Goofy Movie",
-        },
         {
           name: "IMDb Rating",
           value: "6.4",
@@ -1659,19 +1311,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Fantasia 2000",
       attributes: [
-        {
-          name: "Title",
-          value: "Fantasia 2000",
-        },
         {
           name: "IMDb Rating",
           value: "7.1",
@@ -1696,19 +1340,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "The Emperor's New Groove",
       attributes: [
-        {
-          name: "Title",
-          value: "The Emperor's New Groove",
-        },
         {
           name: "IMDb Rating",
           value: "7.4",
@@ -1733,19 +1369,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "The Tigger Movie",
       attributes: [
-        {
-          name: "Title",
-          value: "The Tigger Movie",
-        },
         {
           name: "IMDb Rating",
           value: "6.3",
@@ -1770,19 +1398,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Atlantis: The Lost Empire",
       attributes: [
-        {
-          name: "Title",
-          value: "Atlantis: The Lost Empire",
-        },
         {
           name: "IMDb Rating",
           value: "6.9",
@@ -1807,19 +1427,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Monsters, Inc.",
       attributes: [
-        {
-          name: "Title",
-          value: "Monsters, Inc.",
-        },
         {
           name: "IMDb Rating",
           value: "8.1",
@@ -1844,19 +1456,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Lilo & Stitch",
       attributes: [
-        {
-          name: "Title",
-          value: "Lilo & Stitch",
-        },
         {
           name: "IMDb Rating",
           value: "7.3",
@@ -1881,19 +1485,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Treasure Planet",
       attributes: [
-        {
-          name: "Title",
-          value: "Treasure Planet",
-        },
         {
           name: "IMDb Rating",
           value: "7.2",
@@ -1918,19 +1514,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Brother Bear",
       attributes: [
-        {
-          name: "Title",
-          value: "Brother Bear",
-        },
         {
           name: "IMDb Rating",
           value: "6.9",
@@ -1955,19 +1543,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Finding Nemo",
       attributes: [
-        {
-          name: "Title",
-          value: "Finding Nemo",
-        },
         {
           name: "IMDb Rating",
           value: "8.2",
@@ -1992,19 +1572,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Incredibles",
       attributes: [
-        {
-          name: "Title",
-          value: "Incredibles",
-        },
         {
           name: "IMDb Rating",
           value: "8",
@@ -2029,19 +1601,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "The Lion King 1 1/2",
       attributes: [
-        {
-          name: "Title",
-          value: "The Lion King 1 1/2",
-        },
         {
           name: "IMDb Rating",
           value: "6.5",
@@ -2066,19 +1630,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Home on the Range",
       attributes: [
-        {
-          name: "Title",
-          value: "Home on the Range",
-        },
         {
           name: "IMDb Rating",
           value: "5.4",
@@ -2103,19 +1659,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Lilo & Stitch 2: Stitch Has a Glitch",
       attributes: [
-        {
-          name: "Title",
-          value: "Lilo & Stitch 2: Stitch Has a Glitch",
-        },
         {
           name: "IMDb Rating",
           value: "6.3",
@@ -2140,19 +1688,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Chicken Little",
       attributes: [
-        {
-          name: "Title",
-          value: "Chicken Little",
-        },
         {
           name: "IMDb Rating",
           value: "5.7",
@@ -2177,19 +1717,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Brother Bear 2",
       attributes: [
-        {
-          name: "Title",
-          value: "Brother Bear 2",
-        },
         {
           name: "IMDb Rating",
           value: "6.2",
@@ -2214,19 +1746,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Cars",
       attributes: [
-        {
-          name: "Title",
-          value: "Cars",
-        },
         {
           name: "IMDb Rating",
           value: "7.2",
@@ -2251,19 +1775,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Meet the Robinsons",
       attributes: [
-        {
-          name: "Title",
-          value: "Meet the Robinsons",
-        },
         {
           name: "IMDb Rating",
           value: "6.8",
@@ -2288,19 +1804,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Ratatouille",
       attributes: [
-        {
-          name: "Title",
-          value: "Ratatouille",
-        },
         {
           name: "IMDb Rating",
           value: "8.1",
@@ -2325,19 +1833,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Bolt",
       attributes: [
-        {
-          name: "Title",
-          value: "Bolt",
-        },
         {
           name: "IMDb Rating",
           value: "6.8",
@@ -2362,19 +1862,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Tinker Bell",
       attributes: [
-        {
-          name: "Title",
-          value: "Tinker Bell",
-        },
         {
           name: "IMDb Rating",
           value: "6.8",
@@ -2399,19 +1891,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "WALL-E",
       attributes: [
-        {
-          name: "Title",
-          value: "WALL-E",
-        },
         {
           name: "IMDb Rating",
           value: "8.4",
@@ -2436,19 +1920,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Post Renissance",
-        },
       ],
     },
     {
       name: "Disney's A Christmas Carol",
       attributes: [
-        {
-          name: "Title",
-          value: "Disney's A Christmas Carol",
-        },
         {
           name: "IMDb Rating",
           value: "6.8",
@@ -2473,19 +1949,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "The Princess and the Frog",
       attributes: [
-        {
-          name: "Title",
-          value: "The Princess and the Frog",
-        },
         {
           name: "IMDb Rating",
           value: "7.2",
@@ -2510,19 +1978,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Up",
       attributes: [
-        {
-          name: "Title",
-          value: "Up",
-        },
         {
           name: "IMDb Rating",
           value: "8.3",
@@ -2547,19 +2007,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Tangled",
       attributes: [
-        {
-          name: "Title",
-          value: "Tangled",
-        },
         {
           name: "IMDb Rating",
           value: "7.7",
@@ -2584,19 +2036,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Toy Story 3",
       attributes: [
-        {
-          name: "Title",
-          value: "Toy Story 3",
-        },
         {
           name: "IMDb Rating",
           value: "8.3",
@@ -2621,19 +2065,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Cars 2",
       attributes: [
-        {
-          name: "Title",
-          value: "Cars 2",
-        },
         {
           name: "IMDb Rating",
           value: "6.2",
@@ -2658,19 +2094,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Winnie the Pooh",
       attributes: [
-        {
-          name: "Title",
-          value: "Winnie the Pooh",
-        },
         {
           name: "IMDb Rating",
           value: "7.1",
@@ -2695,19 +2123,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Brave",
       attributes: [
-        {
-          name: "Title",
-          value: "Brave",
-        },
         {
           name: "IMDb Rating",
           value: "7.1",
@@ -2732,19 +2152,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Frankenweenie",
       attributes: [
-        {
-          name: "Title",
-          value: "Frankenweenie",
-        },
         {
           name: "IMDb Rating",
           value: "6.9",
@@ -2769,19 +2181,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Wreck-It Ralph",
       attributes: [
-        {
-          name: "Title",
-          value: "Wreck-It Ralph",
-        },
         {
           name: "IMDb Rating",
           value: "7.7",
@@ -2806,19 +2210,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Frozen",
       attributes: [
-        {
-          name: "Title",
-          value: "Frozen",
-        },
         {
           name: "IMDb Rating",
           value: "7.4",
@@ -2843,19 +2239,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Monsters University",
       attributes: [
-        {
-          name: "Title",
-          value: "Monsters University",
-        },
         {
           name: "IMDb Rating",
           value: "7.2",
@@ -2880,19 +2268,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Big Hero 6",
       attributes: [
-        {
-          name: "Title",
-          value: "Big Hero 6",
-        },
         {
           name: "IMDb Rating",
           value: "7.8",
@@ -2917,19 +2297,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Inside Out",
       attributes: [
-        {
-          name: "Title",
-          value: "Inside Out",
-        },
         {
           name: "IMDb Rating",
           value: "8.1",
@@ -2954,19 +2326,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "The Good Dinosaur",
       attributes: [
-        {
-          name: "Title",
-          value: "The Good Dinosaur",
-        },
         {
           name: "IMDb Rating",
           value: "6.7",
@@ -2991,19 +2355,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Finding Dory",
       attributes: [
-        {
-          name: "Title",
-          value: "Finding Dory",
-        },
         {
           name: "IMDb Rating",
           value: "7.2",
@@ -3028,19 +2384,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Moana",
       attributes: [
-        {
-          name: "Title",
-          value: "Moana",
-        },
         {
           name: "IMDb Rating",
           value: "7.6",
@@ -3065,19 +2413,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Zootopia",
       attributes: [
-        {
-          name: "Title",
-          value: "Zootopia",
-        },
         {
           name: "IMDb Rating",
           value: "8",
@@ -3102,19 +2442,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Cars 3",
       attributes: [
-        {
-          name: "Title",
-          value: "Cars 3",
-        },
         {
           name: "IMDb Rating",
           value: "6.7",
@@ -3139,19 +2471,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Coco",
       attributes: [
-        {
-          name: "Title",
-          value: "Coco",
-        },
         {
           name: "IMDb Rating",
           value: "8.4",
@@ -3176,19 +2500,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Incredibles 2",
       attributes: [
-        {
-          name: "Title",
-          value: "Incredibles 2",
-        },
         {
           name: "IMDb Rating",
           value: "7.6",
@@ -3213,19 +2529,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Ralph Breaks the Internet",
       attributes: [
-        {
-          name: "Title",
-          value: "Ralph Breaks the Internet",
-        },
         {
           name: "IMDb Rating",
           value: "7",
@@ -3250,19 +2558,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Frozen II",
       attributes: [
-        {
-          name: "Title",
-          value: "Frozen II",
-        },
         {
           name: "IMDb Rating",
           value: "6.8",
@@ -3287,19 +2587,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Toy Story 4",
       attributes: [
-        {
-          name: "Title",
-          value: "Toy Story 4",
-        },
         {
           name: "IMDb Rating",
           value: "7.7",
@@ -3324,19 +2616,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Revival Era",
-        },
       ],
     },
     {
       name: "Onward",
       attributes: [
-        {
-          name: "Title",
-          value: "Onward",
-        },
         {
           name: "IMDb Rating",
           value: "7.4",
@@ -3361,19 +2645,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Streaming",
-        },
       ],
     },
     {
       name: "Soul",
       attributes: [
-        {
-          name: "Title",
-          value: "Soul",
-        },
         {
           name: "IMDb Rating",
           value: "8",
@@ -3398,19 +2674,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Streaming",
-        },
       ],
     },
     {
       name: "Encanto",
       attributes: [
-        {
-          name: "Title",
-          value: "Encanto",
-        },
         {
           name: "IMDb Rating",
           value: "7.2",
@@ -3435,19 +2703,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Streaming",
-        },
       ],
     },
     {
       name: "Luca",
       attributes: [
-        {
-          name: "Title",
-          value: "Luca",
-        },
         {
           name: "IMDb Rating",
           value: "7.4",
@@ -3472,19 +2732,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Streaming",
-        },
       ],
     },
     {
       name: "Raya and the Last Dragon",
       attributes: [
-        {
-          name: "Title",
-          value: "Raya and the Last Dragon",
-        },
         {
           name: "IMDb Rating",
           value: "7.3",
@@ -3509,19 +2761,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Streaming",
-        },
       ],
     },
     {
       name: "Lightyear",
       attributes: [
-        {
-          name: "Title",
-          value: "Lightyear",
-        },
         {
           name: "IMDb Rating",
           value: "6.1",
@@ -3546,19 +2790,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Streaming",
-        },
       ],
     },
     {
       name: "Strange World",
       attributes: [
-        {
-          name: "Title",
-          value: "Strange World",
-        },
         {
           name: "IMDb Rating",
           value: "5.7",
@@ -3583,19 +2819,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Streaming",
-        },
       ],
     },
     {
       name: "Turning Red",
       attributes: [
-        {
-          name: "Title",
-          value: "Turning Red",
-        },
         {
           name: "IMDb Rating",
           value: "7",
@@ -3620,19 +2848,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Streaming",
-        },
       ],
     },
     {
       name: "Elemental",
       attributes: [
-        {
-          name: "Title",
-          value: "Elemental",
-        },
         {
           name: "IMDb Rating",
           value: "7",
@@ -3657,19 +2877,11 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
-        {
-          name: "Disney Era",
-          value: "Streaming",
-        },
       ],
     },
     {
       name: "Wish",
       attributes: [
-        {
-          name: "Title",
-          value: "Wish",
-        },
         {
           name: "IMDb Rating",
           value: "5.6",
@@ -3693,10 +2905,6 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
-        },
-        {
-          name: "Disney Era",
-          value: "Streaming",
         },
       ],
     },

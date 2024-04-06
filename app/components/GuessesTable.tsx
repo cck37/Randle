@@ -71,10 +71,8 @@ export function GuessesTable(props: {
 
   // Sort both in the same order so they hopefully line up
   // ...or just install data grid
-  attributes.sort((a, b) => compareStrings(a.name, b.name));
-  guesses.forEach((guess) =>
-    guess.data.sort((a, b) => compareStrings(a.name, b.name))
-  );
+  attributes.sort((a, b) => a.id - b.id);
+  guesses.forEach((guess) => guess.data.sort((a, b) => a.id - b.id));
 
   const theme = useTheme();
   return (

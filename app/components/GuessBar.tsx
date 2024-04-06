@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import { Button, TextField, Autocomplete, Stack } from "@mui/material";
+import { Button, TextField, Autocomplete, Stack, Chip } from "@mui/material";
 import { PossibleGuess } from "../types";
 import { matchSorter } from "match-sorter";
 
@@ -55,7 +55,6 @@ export function GuessBar(props: {
           renderInput={(params) => (
             <TextField
               {...params}
-              key={params.id}
               label="Your guess..."
               fullWidth
               disabled={shouldDisable}
@@ -79,6 +78,19 @@ export function GuessBar(props: {
             minWidth: "150px",
           }}
           options={possibleGuesses.map((g) => g.name)}
+          // Because next.js https://stackoverflow.com/a/75968316
+          renderOption={(props, option) => {
+            return (
+              <li {...props} key={option}>
+                {option}
+              </li>
+            );
+          }}
+          renderTags={(tagValue, getTagProps) => {
+            return tagValue.map((option, index) => (
+              <Chip {...getTagProps({ index })} key={option} label={option} />
+            ));
+          }}
         />
         <Button
           variant="contained"

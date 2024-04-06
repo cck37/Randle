@@ -134,6 +134,7 @@ export const getGuessResponse = cache(
         id: currGuess.id,
         name: currGuess.name,
         data: currGuess.itemAttributes?.map((itemAttributes) => ({
+          id: itemAttributes.id,
           name: itemAttributes.attribute.name,
           attributeType: itemAttributes.attribute.attributeType,
           value: itemAttributes.value,
