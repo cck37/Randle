@@ -2,15 +2,18 @@ import { CategoryResponse } from "./types";
 
 export const harryPotter: CategoryResponse = {
   title: "Harry Potter",
-  themeName: "harry",
   attributes: [
+    {
+      name: "Name",
+      type: "string",
+    },
     {
       name: "Sex",
       type: "string",
     },
     {
-      name: "Spec",
-      type: "multipart",
+      name: "Species",
+      type: "string",
     },
     {
       name: "Blood status",
@@ -21,7 +24,7 @@ export const harryPotter: CategoryResponse = {
       type: "string",
     },
     {
-      name: "Job",
+      name: "Occupation",
       type: "multipart",
     },
     {
@@ -43,56 +46,19 @@ export const harryPotter: CategoryResponse = {
   ],
   items: [
     {
-      name: "Kingsley Shacklebolt",
+      name: "Aberforth Dumbledore",
       attributes: [
+        {
+          name: "Name",
+          value: "Aberforth Dumbledore",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Auror,Order Member,Minister,Advance Guard",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Severus Snape",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -100,339 +66,11 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,Head of House,Professor,Order Member",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
           value: "Unknown",
         },
         {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Mulciber",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Student,Death Eater,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Theodore Nott Sr.",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Elphias Doge",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,Order Member,Advance Guard,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Rabastan Lestrange",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Rodolphus Lestrange",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Theodore Nott",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Bartemius Crouch Jr.",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,Professor,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Gregory Goyle Sr.",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
+          name: "Occupation",
+          value: "Shopkeeper,Order Member",
         },
         {
           name: "School",
@@ -456,12 +94,16 @@ export const harryPotter: CategoryResponse = {
       name: "Alastor Moody",
       attributes: [
         {
+          name: "Name",
+          value: "Alastor Moody",
+        },
+        {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -472,8 +114,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job",
-          value: "Auror,Order Member,Advance Guard,",
+          name: "Occupation",
+          value: "Auror,Order Member,Advance Guard",
         },
         {
           name: "School",
@@ -494,15 +136,19 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Amos Diggory",
+      name: "Albert Runcorn",
       attributes: [
+        {
+          name: "Name",
+          value: "Albert Runcorn",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -513,627 +159,12 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job",
-          value: "Ministry Official,,,",
+          name: "Occupation",
+          value: "Ministry Official",
         },
         {
           name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Euan Abercrombie",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Bertha Jorkins",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Avery",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Urquhart",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Melinda Bobbin",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Eloise Midgeon",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Griselda Marchbanks",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Sirius Black",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Order Member,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Percy Weasley",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,Ministry Official,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Luna Lovegood",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Ravenclaw",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Marietta Edgecombe",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Ravenclaw",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Walburga Black",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Unknown,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Amelia Bones",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Zacharias Smith",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Hufflepuff",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Scorpius Malfoy",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
+          value: "N/A",
         },
         {
           name: "Wand core",
@@ -1150,27 +181,31 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Narcissa Malfoy",
+      name: "Albus Dumbledore",
       attributes: [
         {
-          name: "Sex",
-          value: "Female",
+          name: "Name",
+          value: "Albus Dumbledore",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "Pure-blood",
+          value: "Half-blood",
         },
         {
           name: "House",
-          value: "Slytherin",
+          value: "Gryffindor",
         },
         {
-          name: "Job",
-          value: "Homemaker,,,",
+          name: "Occupation",
+          value: "Professor,Headteacher,Order Member",
         },
         {
           name: "School",
@@ -1178,40 +213,44 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Wand core",
-          value: "Unknown",
+          value: "Thestral Tail Hair",
         },
         {
           name: "Vital status",
-          value: "Alive",
+          value: "Dead",
         },
         {
           name: "Book",
-          value: "4",
+          value: "1",
         },
       ],
     },
     {
-      name: "Wilhelmina Grubbly-Plank",
+      name: "Albus Potter",
       attributes: [
         {
-          name: "Sex",
-          value: "Female",
+          name: "Name",
+          value: "Albus Potter",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "Unknown",
+          value: "Half-blood",
         },
         {
           name: "House",
           value: "Unknown",
         },
         {
-          name: "Job",
-          value: "Professor,,,",
+          name: "Occupation",
+          value: "Student",
         },
         {
           name: "School",
@@ -1227,7 +266,7 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
-          value: "4",
+          value: "7",
         },
       ],
     },
@@ -1235,12 +274,16 @@ export const harryPotter: CategoryResponse = {
       name: "Alecto Carrow",
       attributes: [
         {
+          name: "Name",
+          value: "Alecto Carrow",
+        },
+        {
           name: "Sex",
           value: "Female",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -1251,8 +294,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job",
-          value: "Professor,Death Eater,,",
+          name: "Occupation",
+          value: "Professor,Death Eater",
         },
         {
           name: "School",
@@ -1269,6 +312,186 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Book",
           value: "6",
+        },
+      ],
+    },
+    {
+      name: "Alice Longbottom",
+      attributes: [
+        {
+          name: "Name",
+          value: "Alice Longbottom",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Auror,Order Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Incapacitated",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Alicia Spinnet",
+      attributes: [
+        {
+          name: "Name",
+          value: "Alicia Spinnet",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Amelia Bones",
+      attributes: [
+        {
+          name: "Name",
+          value: "Amelia Bones",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Ministry Official",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Amos Diggory",
+      attributes: [
+        {
+          name: "Name",
+          value: "Amos Diggory",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Ministry Official",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -1276,12 +499,16 @@ export const harryPotter: CategoryResponse = {
       name: "Amycus Carrow",
       attributes: [
         {
+          name: "Name",
+          value: "Amycus Carrow",
+        },
+        {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -1292,8 +519,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job",
-          value: "Professor,Death Eater,,",
+          name: "Occupation",
+          value: "Professor,Death Eater",
         },
         {
           name: "School",
@@ -1314,179 +541,19 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Bill Weasley",
+      name: "Andromeda Tonks",
       attributes: [
         {
-          name: "Sex",
-          value: "Male",
+          name: "Name",
+          value: "Andromeda Tonks",
         },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Bank Staff,Author,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Graham Montague",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Septima Vector",
-      attributes: [
         {
           name: "Sex",
           value: "Female",
         },
         {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Professor,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Arthur Weasley",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "2",
-        },
-      ],
-    },
-    {
-      name: "Bellatrix Lestrange",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -1497,1078 +564,12 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job",
-          value: "Death Eater,,,",
+          name: "Occupation",
+          value: "Homemaker",
         },
         {
           name: "School",
           value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Dragon Heartstring",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Cormac McLaggen",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Jimmy Peakes",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Ritchie Coote",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Demelza Robins",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Romilda Vane",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Madam Puddifoot",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Shopkeeper,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Cornelius Fudge",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "2",
-        },
-      ],
-    },
-    {
-      name: "Draco Malfoy",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Student,Death Eater,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unicorn Hair",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Phineas Nigellus Black",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,Portrait",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Headteacher,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Pansy Parkinson",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Adrian Pucey",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Blaise Zabini",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Miles Bletchley",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Anthony Goldstein",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Ravenclaw",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Michael Corner",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Ravenclaw",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Daphne Greengrass",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Gregory Goyle",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Wilkie Twycross",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Charlie Weasley",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Dragonologist,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unicorn Hair",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Madam Rosmerta",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Shopkeeper,Innkeeper,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Vincent Crabbe Sr.",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Antonin Dolohov",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Igor Karkaroff",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,Headteacher,,",
-        },
-        {
-          name: "School",
-          value: "Durmstrang",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Macnair",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Executioner,Ministry Official,Death Eater,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Emmeline Vance",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Order Member,Advance Guard,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Selwyn",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
         },
         {
           name: "Wand core",
@@ -2585,220 +586,19 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Gibbon",
+      name: "Angelina Johnson",
       attributes: [
         {
-          name: "Sex",
-          value: "Male",
+          name: "Name",
+          value: "Angelina Johnson",
         },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Rufus Scrimgeour",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Minister,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Viktor Krum",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Seeker,,,",
-        },
-        {
-          name: "School",
-          value: "Durmstrang",
-        },
-        {
-          name: "Wand core",
-          value: "Dragon Heartstring",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Merope Gaunt",
-      attributes: [
         {
           name: "Sex",
           value: "Female",
         },
         {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Unknown,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Gabrielle Delacour",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,Veela",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Beauxbatons",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Florean Fortescue",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -2806,589 +606,15 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "House",
-          value: "N/A",
+          value: "Gryffindor",
         },
         {
-          name: "Job",
-          value: "Shopkeeper,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Hepzibah Smith",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "N/A,,,",
+          name: "Occupation",
+          value: "Student,D.A. Member",
         },
         {
           name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Fleur Delacour",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,Veela",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Student,Bank Staff,,",
-        },
-        {
-          name: "School",
-          value: "Beauxbatons",
-        },
-        {
-          name: "Wand core",
-          value: "Veela Hair",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Fenrir Greyback",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,Werewolf",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Snatcher,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Frank Bryce",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Muggle",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Caretaker,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Dudley Dursley",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Muggle",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Nagini",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,Maledictus",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "N/A,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Vernon Dursley",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Muggle",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Firm Director,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Petunia Dursley",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Muggle",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Office worker,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Mary Cattermole",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Muggle-born",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Unknown,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unicorn Hair",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Norbert(a)",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Dragon,",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "N/A,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Ariana Dumbledore",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,Obscurial",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "N/A,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Sturgis Podmore",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Order Member,Advance Guard,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Augustus Rookwood",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Dedalus Diggle",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Order Member,Advance Guard,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
+          value: "Hogwarts",
         },
         {
           name: "Wand core",
@@ -3401,293 +627,6 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Book",
           value: "1",
-        },
-      ],
-    },
-    {
-      name: "Mafalda Hopkirk",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Gellert Grindelwald",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "Durmstrang",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Muriel (Prewett)",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Homemaker,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Nicolas Flamel",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Alchemist,,,",
-        },
-        {
-          name: "School",
-          value: "Beauxbatons",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Apolline Delacour",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,Veela",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Homemaker,,,",
-        },
-        {
-          name: "School",
-          value: "Beauxbatons",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Cadmus Peverell",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Hallows Master,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Olympe Maxime",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,Giant",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Headteacher,,,",
-        },
-        {
-          name: "School",
-          value: "Beauxbatons",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "4",
         },
       ],
     },
@@ -3695,12 +634,16 @@ export const harryPotter: CategoryResponse = {
       name: "Antioch Peverell",
       attributes: [
         {
+          name: "Name",
+          value: "Antioch Peverell",
+        },
+        {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -3711,8 +654,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job",
-          value: "Hallows Master,,,",
+          name: "Occupation",
+          value: "Hallows Master",
         },
         {
           name: "School",
@@ -3733,31 +676,35 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Vincent Crabbe",
+      name: "Antonin Dolohov",
       attributes: [
+        {
+          name: "Name",
+          value: "Antonin Dolohov",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "Pure-blood",
+          value: "Unknown",
         },
         {
           name: "House",
-          value: "Slytherin",
+          value: "N/A",
         },
         {
-          name: "Job",
-          value: "Student,,,",
+          name: "Occupation",
+          value: "Death Eater",
         },
         {
           name: "School",
-          value: "Hogwarts",
+          value: "N/A",
         },
         {
           name: "Wand core",
@@ -3765,106 +712,28 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Vital status",
-          value: "Dead",
+          value: "Alive",
         },
         {
           name: "Book",
-          value: "1",
+          value: "5",
         },
       ],
     },
     {
-      name: "Marjorie Dursley",
+      name: "Apolline Delacour",
       attributes: [
+        {
+          name: "Name",
+          value: "Apolline Delacour",
+        },
         {
           name: "Sex",
           value: "Female",
         },
         {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Muggle",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Animal Breeder,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Arabella Figg",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Squib",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Animal Breeder,Order Member,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Serpent of Slytherin",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Basilisk,",
+          name: "Species",
+          value: "Human,Veela",
         },
         {
           name: "Blood status",
@@ -3875,951 +744,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job",
-          value: "N/A,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "2",
-        },
-      ],
-    },
-    {
-      name: "Ginny Weasley",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Lavender Brown",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Hedwig",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Owl,",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "N/A,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Bogrod",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Goblin,",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Bank Staff,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Gornuk",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Goblin,",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Bank Staff,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "George Weasley",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Rosier",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Thorfinn Rowle",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Travers",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,Ministry Official,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Grawp",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Giant,",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "N/A,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Magorian",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Centaur,",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "N/A,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Kreacher",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "House-elf,",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "of Black,of Potter,of Hogwarts,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Aberforth Dumbledore",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Shopkeeper,Order Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Crookshanks",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Cat,",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "N/A,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Leanne",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Hufflepuff",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Aragog",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Acromantula,",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "N/A,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "2",
-        },
-      ],
-    },
-    {
-      name: "Griphook",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Goblin,",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Bank Staff,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Roger Davies",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Ravenclaw",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Corban Yaxley",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Marvolo Gaunt",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Unknown,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Reginald Cattermole",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Ignotus Peverell",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Hallows Master,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Monsieur Delacour",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Unknown,,,",
+          name: "Occupation",
+          value: "Homemaker",
         },
         {
           name: "School",
@@ -4835,32 +761,36 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
-          value: "7",
+          value: "4",
         },
       ],
     },
     {
-      name: "Pigwidgeon",
+      name: "Arabella Figg",
       attributes: [
         {
-          name: "Sex",
-          value: "Male",
+          name: "Name",
+          value: "Arabella Figg",
         },
         {
-          name: "Spec",
-          value: "Owl,",
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "N/A",
+          value: "Squib",
         },
         {
           name: "House",
           value: "N/A",
         },
         {
-          name: "Job",
-          value: "N/A,,,",
+          name: "Occupation",
+          value: "Animal Breeder,Order Member",
         },
         {
           name: "School",
@@ -4876,32 +806,36 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
-          value: "3",
+          value: "1",
         },
       ],
     },
     {
-      name: "Ted Tonks",
+      name: "Aragog",
       attributes: [
+        {
+          name: "Name",
+          value: "Aragog",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Acromantula",
         },
         {
           name: "Blood status",
-          value: "Muggle-born",
+          value: "N/A",
         },
         {
           name: "House",
           value: "N/A",
         },
         {
-          name: "Job",
-          value: "Unknown,,,",
+          name: "Occupation",
+          value: "N/A",
         },
         {
           name: "School",
@@ -4909,7 +843,7 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Wand core",
-          value: "Unknown",
+          value: "N/A",
         },
         {
           name: "Vital status",
@@ -4917,155 +851,36 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
-          value: "7",
+          value: "2",
         },
       ],
     },
     {
-      name: "Bane",
+      name: "Argus Filch",
       attributes: [
+        {
+          name: "Name",
+          value: "Argus Filch",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Centaur,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "N/A",
+          value: "Squib",
         },
         {
           name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "N/A,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Fang",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Dog,",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "N/A,N/A,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Ronan",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Centaur,",
-        },
-        {
-          name: "Blood status",
-          value: "N/A",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "N/A,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Cho Chang",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
           value: "Unknown",
         },
         {
-          name: "House",
-          value: "Ravenclaw",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
+          name: "Occupation",
+          value: "Caretaker",
         },
         {
           name: "School",
@@ -5081,20 +896,69 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
-          value: "3",
+          value: "1",
         },
       ],
     },
     {
-      name: "Ernie Macmillan",
+      name: "Ariana Dumbledore",
       attributes: [
+        {
+          name: "Name",
+          value: "Ariana Dumbledore",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human,Obscurial",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "N/A",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Arthur Weasley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Arthur Weasley",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -5102,11 +966,11 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "House",
-          value: "Hufflepuff",
+          value: "Gryffindor",
         },
         {
-          name: "Job",
-          value: "Student,D.A. Member,,",
+          name: "Occupation",
+          value: "Ministry Official",
         },
         {
           name: "School",
@@ -5127,27 +991,31 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Dennis Creevey",
+      name: "Aurora Sinistra",
       attributes: [
         {
-          name: "Sex",
-          value: "Male",
+          name: "Name",
+          value: "Aurora Sinistra",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "Muggle-born",
+          value: "Unknown",
         },
         {
           name: "House",
-          value: "Gryffindor",
+          value: "N/A",
         },
         {
-          name: "Job",
-          value: "Student,D.A. Member,,",
+          name: "Occupation",
+          value: "Professor",
         },
         {
           name: "School",
@@ -5160,6 +1028,51 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "2",
+        },
+      ],
+    },
+    {
+      name: "Bartemius Crouch Jr.",
+      attributes: [
+        {
+          name: "Name",
+          value: "Bartemius Crouch Jr.",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Death Eater,Professor",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
         },
         {
           name: "Book",
@@ -5168,72 +1081,35 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Rose Weasley",
+      name: "Bartemius Crouch Sr.",
       attributes: [
         {
-          name: "Sex",
-          value: "Female",
+          name: "Name",
+          value: "Bartemius Crouch Sr.",
         },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Albus Potter",
-      attributes: [
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "Half-blood",
+          value: "Pure-blood",
         },
         {
           name: "House",
-          value: "Unknown",
+          value: "N/A",
         },
         {
-          name: "Job",
-          value: "Student,,,",
+          name: "Occupation",
+          value: "Ministry Official",
         },
         {
           name: "School",
-          value: "Hogwarts",
+          value: "N/A",
         },
         {
           name: "Wand core",
@@ -5241,708 +1117,11 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Rita Skeeter",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,Animagus",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Ravenclaw",
-        },
-        {
-          name: "Job",
-          value: "Journalist,Author,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
+          value: "Dead",
         },
         {
           name: "Book",
           value: "4",
-        },
-      ],
-    },
-    {
-      name: "Lucius Malfoy",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,Ministry Official,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Dragon Heartstring",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "2",
-        },
-      ],
-    },
-    {
-      name: "Fred Weasley",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Andromeda Tonks",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Homemaker,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "James Potter",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,Animagus",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Auror,Order Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Lee Jordan",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Oliver Wood",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Alicia Spinnet",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Angelina Johnson",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Katie Bell",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Parvati Patil",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Mundungus Fletcher",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Dealer,Order Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Penelope Clearwater",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Ravenclaw",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "2",
-        },
-      ],
-    },
-    {
-      name: "Rolanda Hooch",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Professor,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Dolores Umbridge",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Professor,Headteacher,Ministry Official,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Dragon Heartstring",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Peter Pettigrew",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,Animagus",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Dragon Heartstring",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "James Potter II",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "7",
         },
       ],
     },
@@ -5950,12 +1129,16 @@ export const harryPotter: CategoryResponse = {
       name: "Bathilda Bagshot",
       attributes: [
         {
+          name: "Name",
+          value: "Bathilda Bagshot",
+        },
+        {
           name: "Sex",
           value: "Female",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -5966,8 +1149,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job",
-          value: "Author,Historian,,",
+          name: "Occupation",
+          value: "Author,Historian",
         },
         {
           name: "School",
@@ -5988,15 +1171,19 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Molly Weasley",
+      name: "Bellatrix Lestrange",
       attributes: [
+        {
+          name: "Name",
+          value: "Bellatrix Lestrange",
+        },
         {
           name: "Sex",
           value: "Female",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -6004,585 +1191,11 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Homemaker,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Marcus Flint",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
           value: "Slytherin",
         },
         {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Ernie Prang",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Bus Driver,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Madam Malkin",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Shopkeeper,Tailor,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Irma Pince",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Librarian,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Poppy Pomfrey",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Matron,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Frank Longbottom",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Auror,Order Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Incapacitated",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Alice Longbottom",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Auror,Order Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Incapacitated",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Padma Patil",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Ravenclaw",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Terry Boot",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Ravenclaw",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Cedric Diggory",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unicorn Hair",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Cuthbert Binns",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,Ghost",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Professor,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Scabior",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Snatcher,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Stan Shunpike",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Conductor,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Horace Slughorn",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Professor,Head of House,,",
+          name: "Occupation",
+          value: "Death Eater",
         },
         {
           name: "School",
@@ -6594,24 +1207,73 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Vital status",
-          value: "Alive",
+          value: "Dead",
         },
         {
           name: "Book",
-          value: "6",
+          value: "5",
         },
       ],
     },
     {
-      name: "Neville Longbottom",
+      name: "Bertha Jorkins",
       attributes: [
+        {
+          name: "Name",
+          value: "Bertha Jorkins",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Ministry Official",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Bill Weasley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Bill Weasley",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -6622,8 +1284,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job",
-          value: "Student,D.A. Member,,",
+          name: "Occupation",
+          value: "Bank Staff,Author",
         },
         {
           name: "School",
@@ -6631,7 +1293,52 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Wand core",
-          value: "Unicorn Hair",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Blaise Zabini",
+      attributes: [
+        {
+          name: "Name",
+          value: "Blaise Zabini",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
         },
         {
           name: "Vital status",
@@ -6647,11 +1354,15 @@ export const harryPotter: CategoryResponse = {
       name: "Bloody Baron",
       attributes: [
         {
+          name: "Name",
+          value: "Bloody Baron",
+        },
+        {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
+          name: "Species",
           value: "Human,Ghost",
         },
         {
@@ -6663,8 +1374,8 @@ export const harryPotter: CategoryResponse = {
           value: "Slytherin",
         },
         {
-          name: "Job",
-          value: "House Ghost,,,",
+          name: "Occupation",
+          value: "House Ghost",
         },
         {
           name: "School",
@@ -6685,199 +1396,39 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Nymphadora Tonks",
+      name: "Serpent of Slytherin",
       attributes: [
+        {
+          name: "Name",
+          value: "Serpent of Slytherin",
+        },
         {
           name: "Sex",
           value: "Female",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Basilisk",
         },
         {
           name: "Blood status",
-          value: "Half-blood",
+          value: "N/A",
         },
         {
           name: "House",
-          value: "Hufflepuff",
+          value: "N/A",
         },
         {
-          name: "Job",
-          value: "Auror,Order Member,Advance Guard,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Godric Gryffindor",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Founder,Professor,,",
+          name: "Occupation",
+          value: "N/A",
         },
         {
           name: "School",
-          value: "Hogwarts",
+          value: "N/A",
         },
         {
           name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Ron Weasley",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unicorn Tail Hair",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Millicent Bulstrode",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Student,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Salazar Slytherin",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Founder,Professor,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Basilisk Horn",
+          value: "N/A",
         },
         {
           name: "Vital status",
@@ -6890,15 +1441,64 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Aurora Sinistra",
+      name: "Cadmus Peverell",
       attributes: [
         {
-          name: "Sex",
-          value: "Female",
+          name: "Name",
+          value: "Cadmus Peverell",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Hallows Master",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Caractacus Burke",
+      attributes: [
+        {
+          name: "Name",
+          value: "Caractacus Burke",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -6909,8 +1509,53 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job",
-          value: "Professor,,,",
+          name: "Occupation",
+          value: "Shopkeeper",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "6",
+        },
+      ],
+    },
+    {
+      name: "Cedric Diggory",
+      attributes: [
+        {
+          name: "Name",
+          value: "Cedric Diggory",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
         },
         {
           name: "School",
@@ -6918,7 +1563,52 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Wand core",
-          value: "Unknown",
+          value: "Unicorn Hair",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Charlie Weasley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Charlie Weasley",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Dragonologist",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unicorn Hair",
         },
         {
           name: "Vital status",
@@ -6926,20 +1616,24 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
-          value: "2",
+          value: "4",
         },
       ],
     },
     {
-      name: "Rowena Ravenclaw",
+      name: "Cho Chang",
       attributes: [
+        {
+          name: "Name",
+          value: "Cho Chang",
+        },
         {
           name: "Sex",
           value: "Female",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -6950,8 +1644,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job",
-          value: "Founder,Professor,,",
+          name: "Occupation",
+          value: "Student,D.A. Member",
         },
         {
           name: "School",
@@ -6963,36 +1657,40 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Vital status",
-          value: "Dead",
+          value: "Alive",
         },
         {
           name: "Book",
-          value: "2",
+          value: "3",
         },
       ],
     },
     {
-      name: "Pomona Sprout",
+      name: "Colin Creevey",
       attributes: [
         {
-          name: "Sex",
-          value: "Female",
+          name: "Name",
+          value: "Colin Creevey",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "Unknown",
+          value: "Muggle-born",
         },
         {
           name: "House",
-          value: "Hufflepuff",
+          value: "Gryffindor",
         },
         {
-          name: "Job",
-          value: "Professor,Head of House,,",
+          name: "Occupation",
+          value: "Student,D.A. Member",
         },
         {
           name: "School",
@@ -7013,15 +1711,64 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Fat Lady",
+      name: "Corban Yaxley",
       attributes: [
         {
-          name: "Sex",
-          value: "Female",
+          name: "Name",
+          value: "Corban Yaxley",
         },
         {
-          name: "Spec",
-          value: "Human,Portrait",
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Ministry Official",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "6",
+        },
+      ],
+    },
+    {
+      name: "Cormac McLaggen",
+      attributes: [
+        {
+          name: "Name",
+          value: "Cormac McLaggen",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -7032,8 +1779,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job",
-          value: "Door Guard,,,",
+          name: "Occupation",
+          value: "Student,D.A. Member",
         },
         {
           name: "School",
@@ -7045,23 +1792,117 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Vital status",
-          value: "Dead",
+          value: "Alive",
         },
         {
           name: "Book",
-          value: "1",
+          value: "6",
         },
       ],
     },
     {
-      name: "Nearly Headless Nick",
+      name: "Cornelius Fudge",
       attributes: [
+        {
+          name: "Name",
+          value: "Cornelius Fudge",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Ministry Official",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "2",
+        },
+      ],
+    },
+    {
+      name: "Crookshanks",
+      attributes: [
+        {
+          name: "Name",
+          value: "Crookshanks",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Cat",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "N/A",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Cuthbert Binns",
+      attributes: [
+        {
+          name: "Name",
+          value: "Cuthbert Binns",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
           value: "Human,Ghost",
         },
         {
@@ -7070,11 +1911,11 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "House",
-          value: "Gryffindor",
+          value: "Unknown",
         },
         {
-          name: "Job",
-          value: "House Ghost,,,",
+          name: "Occupation",
+          value: "Professor",
         },
         {
           name: "School",
@@ -7098,12 +1939,16 @@ export const harryPotter: CategoryResponse = {
       name: "Dean Thomas",
       attributes: [
         {
+          name: "Name",
+          value: "Dean Thomas",
+        },
+        {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -7114,8 +1959,8 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job",
-          value: "Student,D.A. Member,,",
+          name: "Occupation",
+          value: "Student,D.A. Member",
         },
         {
           name: "School",
@@ -7136,31 +1981,35 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Seamus Finnigan",
+      name: "Dedalus Diggle",
       attributes: [
+        {
+          name: "Name",
+          value: "Dedalus Diggle",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "Half-blood",
+          value: "Unknown",
         },
         {
           name: "House",
-          value: "Gryffindor",
+          value: "N/A",
         },
         {
-          name: "Job",
-          value: "Student,D.A. Member,,",
+          name: "Occupation",
+          value: "Order Member,Advance Guard",
         },
         {
           name: "School",
-          value: "Hogwarts",
+          value: "N/A",
         },
         {
           name: "Wand core",
@@ -7177,15 +2026,19 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Colin Creevey",
+      name: "Dennis Creevey",
       attributes: [
+        {
+          name: "Name",
+          value: "Dennis Creevey",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -7196,545 +2049,12 @@ export const harryPotter: CategoryResponse = {
           value: "Gryffindor",
         },
         {
-          name: "Job",
-          value: "Student,D.A. Member,,",
+          name: "Occupation",
+          value: "Student,D.A. Member",
         },
         {
           name: "School",
           value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "2",
-        },
-      ],
-    },
-    {
-      name: "Bartemius Crouch Sr.",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Pure-blood",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "4",
-        },
-      ],
-    },
-    {
-      name: "Helga Hufflepuff",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Hufflepuff",
-        },
-        {
-          name: "Job",
-          value: "Founder,Professor,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "2",
-        },
-      ],
-    },
-    {
-      name: "Hestia Jones",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Order Member,Advance Guard,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "5",
-        },
-      ],
-    },
-    {
-      name: "Sir Cadogan",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,Portrait",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Knight of the Round Table,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Troll whisker",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Xenophilius Lovegood",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Ravenclaw",
-        },
-        {
-          name: "Job",
-          value: "Journalist,Editor,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Remus Lupin",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,Werewolf",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Professor,Advance Guard,Order Member,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unicorn Hair",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "3",
-        },
-      ],
-    },
-    {
-      name: "Tom Riddle",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Slytherin",
-        },
-        {
-          name: "Job",
-          value: "Death Eater,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Phoenix Feather",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Caractacus Burke",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Shopkeeper,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
-        },
-        {
-          name: "Wand core",
-          value: "N/A",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "6",
-        },
-      ],
-    },
-    {
-      name: "Grey Lady",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,Ghost",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "Ravenclaw",
-        },
-        {
-          name: "Job",
-          value: "House Ghost,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Hannah Abbott",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Hufflepuff",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Susan Bones",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Hufflepuff",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Lily Potter",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Muggle-born",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Auror,Order Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Ludovic Bagman",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Unknown",
-        },
-        {
-          name: "House",
-          value: "N/A",
-        },
-        {
-          name: "Job",
-          value: "Ministry Official,,,",
-        },
-        {
-          name: "School",
-          value: "N/A",
         },
         {
           name: "Wand core",
@@ -7754,12 +2074,16 @@ export const harryPotter: CategoryResponse = {
       name: "Dirk Cresswell",
       attributes: [
         {
+          name: "Name",
+          value: "Dirk Cresswell",
+        },
+        {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -7770,8 +2094,8 @@ export const harryPotter: CategoryResponse = {
           value: "Unknown",
         },
         {
-          name: "Job",
-          value: "Ministry Official,,,",
+          name: "Occupation",
+          value: "Ministry Official",
         },
         {
           name: "School",
@@ -7792,27 +2116,31 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Fat Friar",
+      name: "Mrs. Norris",
       attributes: [
         {
-          name: "Sex",
-          value: "Male",
+          name: "Name",
+          value: "Mrs. Norris",
         },
         {
-          name: "Spec",
-          value: "Human,Ghost",
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Cat",
         },
         {
           name: "Blood status",
-          value: "Unknown",
+          value: "N/A",
         },
         {
           name: "House",
-          value: "Hufflepuff",
+          value: "N/A",
         },
         {
-          name: "Job",
-          value: "House Ghost,,,",
+          name: "Occupation",
+          value: "N/A",
         },
         {
           name: "School",
@@ -7820,11 +2148,11 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Wand core",
-          value: "Unknown",
+          value: "N/A",
         },
         {
           name: "Vital status",
-          value: "Dead",
+          value: "Alive",
         },
         {
           name: "Book",
@@ -7833,15 +2161,19 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Sybill Trelawney",
+      name: "Dolores Umbridge",
       attributes: [
+        {
+          name: "Name",
+          value: "Dolores Umbridge",
+        },
         {
           name: "Sex",
           value: "Female",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -7849,11 +2181,56 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "House",
-          value: "Ravenclaw",
+          value: "Slytherin",
         },
         {
-          name: "Job",
-          value: "Professor,Author,,",
+          name: "Occupation",
+          value: "Professor,Headteacher,Ministry Official",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Dragon Heartstring",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Draco Malfoy",
+      attributes: [
+        {
+          name: "Name",
+          value: "Draco Malfoy",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Student,Death Eater",
         },
         {
           name: "School",
@@ -7869,73 +2246,81 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
-          value: "3",
+          value: "1",
         },
       ],
     },
     {
-      name: "Lily Potter II",
+      name: "Dudley Dursley",
       attributes: [
         {
-          name: "Sex",
-          value: "Female",
+          name: "Name",
+          value: "Dudley Dursley",
         },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Unknown,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "7",
-        },
-      ],
-    },
-    {
-      name: "Hugo Weasley",
-      attributes: [
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "Half-blood",
+          value: "Muggle",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Elphias Doge",
+      attributes: [
+        {
+          name: "Name",
+          value: "Elphias Doge",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
         },
         {
           name: "House",
           value: "Unknown",
         },
         {
-          name: "Job",
-          value: "N/A,,,",
+          name: "Occupation",
+          value: "Ministry Official,Order Member,Advance Guard",
         },
         {
           name: "School",
@@ -7951,32 +2336,36 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
-          value: "7",
+          value: "5",
         },
       ],
     },
     {
-      name: "Moaning Myrtle",
+      name: "Ernie Macmillan",
       attributes: [
         {
-          name: "Sex",
-          value: "Female",
+          name: "Name",
+          value: "Ernie Macmillan",
         },
         {
-          name: "Spec",
-          value: "Human,Ghost",
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "Muggle-born",
+          value: "Pure-blood",
         },
         {
           name: "House",
-          value: "Ravenclaw",
+          value: "Hufflepuff",
         },
         {
-          name: "Job",
-          value: "Student,,,",
+          name: "Occupation",
+          value: "Student,D.A. Member",
         },
         {
           name: "School",
@@ -7988,7 +2377,7 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Vital status",
-          value: "Dead",
+          value: "Alive",
         },
         {
           name: "Book",
@@ -7997,27 +2386,31 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Justin Finch-Fletchley",
+      name: "Ernie Prang",
       attributes: [
+        {
+          name: "Name",
+          value: "Ernie Prang",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "Muggle-born",
+          value: "Unknown",
         },
         {
           name: "House",
-          value: "Hufflepuff",
+          value: "Gryffindor",
         },
         {
-          name: "Job",
-          value: "Student,D.A. Member,,",
+          name: "Occupation",
+          value: "Bus Driver",
         },
         {
           name: "School",
@@ -8033,225 +2426,24 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
-          value: "1",
+          value: "3",
         },
       ],
     },
     {
-      name: "Albus Dumbledore",
+      name: "Firenze",
       attributes: [
+        {
+          name: "Name",
+          value: "Firenze",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Professor,Headteacher,Order Member,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Thestral Tail Hair",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Hermione Granger",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Muggle-born",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Dragon Heartstring",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Harry Potter",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Student,D.A. Member,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Phoenix Feather",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Minerva McGonagall",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Female",
-        },
-        {
-          name: "Spec",
-          value: "Human,Animagus",
-        },
-        {
-          name: "Blood status",
-          value: "Half-blood",
-        },
-        {
-          name: "House",
-          value: "Gryffindor",
-        },
-        {
-          name: "Job",
-          value: "Professor,Head of House,Order Member,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Dragon Heartstring",
-        },
-        {
-          name: "Vital status",
-          value: "Alive",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Argus Filch",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,",
-        },
-        {
-          name: "Blood status",
-          value: "Squib",
-        },
-        {
-          name: "House",
-          value: "Unknown",
-        },
-        {
-          name: "Job",
-          value: "Caretaker,,,",
-        },
-        {
-          name: "School",
-          value: "Hogwarts",
-        },
-        {
-          name: "Wand core",
-          value: "Unknown",
-        },
-        {
-          name: "Vital status",
-          value: "Dead",
-        },
-        {
-          name: "Book",
-          value: "1",
-        },
-      ],
-    },
-    {
-      name: "Rubeus Hagrid",
-      attributes: [
-        {
-          name: "Sex",
-          value: "Male",
-        },
-        {
-          name: "Spec",
-          value: "Human,Giant",
+          name: "Species",
+          value: "Centaur",
         },
         {
           name: "Blood status",
@@ -8259,11 +2451,686 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Professor",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Fat Friar",
+      attributes: [
+        {
+          name: "Name",
+          value: "Fat Friar",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human,Ghost",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Hufflepuff",
+        },
+        {
+          name: "Occupation",
+          value: "House Ghost",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Fat Lady",
+      attributes: [
+        {
+          name: "Name",
+          value: "Fat Lady",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human,Portrait",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
           value: "Gryffindor",
         },
         {
-          name: "Job",
-          value: "Groundskeeper,Professor,,",
+          name: "Occupation",
+          value: "Door Guard",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Fenrir Greyback",
+      attributes: [
+        {
+          name: "Name",
+          value: "Fenrir Greyback",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human,Werewolf",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Snatcher",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "6",
+        },
+      ],
+    },
+    {
+      name: "Filius Flitwick",
+      attributes: [
+        {
+          name: "Name",
+          value: "Filius Flitwick",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human,Goblin",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "Ravenclaw",
+        },
+        {
+          name: "Occupation",
+          value: "Professor,Head of House,Conductor",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Fluffy",
+      attributes: [
+        {
+          name: "Name",
+          value: "Fluffy",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Cerberus",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "N/A",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Fleur Delacour",
+      attributes: [
+        {
+          name: "Name",
+          value: "Fleur Delacour",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human,Veela",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Student,Bank Staff",
+        },
+        {
+          name: "School",
+          value: "Beauxbatons",
+        },
+        {
+          name: "Wand core",
+          value: "Veela Hair",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Florean Fortescue",
+      attributes: [
+        {
+          name: "Name",
+          value: "Florean Fortescue",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Shopkeeper",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Fang",
+      attributes: [
+        {
+          name: "Name",
+          value: "Fang",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Dog",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "N/A,N/A",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Frank Bryce",
+      attributes: [
+        {
+          name: "Name",
+          value: "Frank Bryce",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Muggle",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Caretaker",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Frank Longbottom",
+      attributes: [
+        {
+          name: "Name",
+          value: "Frank Longbottom",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Auror,Order Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Incapacitated",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Fred Weasley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Fred Weasley",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Gabrielle Delacour",
+      attributes: [
+        {
+          name: "Name",
+          value: "Gabrielle Delacour",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human,Veela",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Beauxbatons",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Garrick Ollivander",
+      attributes: [
+        {
+          name: "Name",
+          value: "Garrick Ollivander",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Ravenclaw",
+        },
+        {
+          name: "Occupation",
+          value: "Wandmaker",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Dragon Heartstring",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Gellert Grindelwald",
+      attributes: [
+        {
+          name: "Name",
+          value: "Gellert Grindelwald",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Ministry Official",
+        },
+        {
+          name: "School",
+          value: "Durmstrang",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "George Weasley",
+      attributes: [
+        {
+          name: "Name",
+          value: "George Weasley",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
         },
         {
           name: "School",
@@ -8287,12 +3154,16 @@ export const harryPotter: CategoryResponse = {
       name: "Gilderoy Lockhart",
       attributes: [
         {
+          name: "Name",
+          value: "Gilderoy Lockhart",
+        },
+        {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -8303,8 +3174,1358 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job",
-          value: "Professor,Author,,",
+          name: "Occupation",
+          value: "Professor,Author",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Dragon Heartstring",
+        },
+        {
+          name: "Vital status",
+          value: "Incapacitated",
+        },
+        {
+          name: "Book",
+          value: "2",
+        },
+      ],
+    },
+    {
+      name: "Ginny Weasley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Ginny Weasley",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Godric Gryffindor",
+      attributes: [
+        {
+          name: "Name",
+          value: "Godric Gryffindor",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Founder,Professor",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Norbert(a)",
+      attributes: [
+        {
+          name: "Name",
+          value: "Norbert(a)",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Dragon",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "N/A",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Gregory Goyle",
+      attributes: [
+        {
+          name: "Name",
+          value: "Gregory Goyle",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Gregory Goyle Sr.",
+      attributes: [
+        {
+          name: "Name",
+          value: "Gregory Goyle Sr.",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Death Eater",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Grey Lady",
+      attributes: [
+        {
+          name: "Name",
+          value: "Grey Lady",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human,Ghost",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Ravenclaw",
+        },
+        {
+          name: "Occupation",
+          value: "House Ghost",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Grawp",
+      attributes: [
+        {
+          name: "Name",
+          value: "Grawp",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Giant",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "N/A",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Hannah Abbott",
+      attributes: [
+        {
+          name: "Name",
+          value: "Hannah Abbott",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Hufflepuff",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Harry Potter",
+      attributes: [
+        {
+          name: "Name",
+          value: "Harry Potter",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Phoenix Feather",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Griphook",
+      attributes: [
+        {
+          name: "Name",
+          value: "Griphook",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Goblin",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Bank Staff",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Helga Hufflepuff",
+      attributes: [
+        {
+          name: "Name",
+          value: "Helga Hufflepuff",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Hufflepuff",
+        },
+        {
+          name: "Occupation",
+          value: "Founder,Professor",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "2",
+        },
+      ],
+    },
+    {
+      name: "Hepzibah Smith",
+      attributes: [
+        {
+          name: "Name",
+          value: "Hepzibah Smith",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "N/A",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "6",
+        },
+      ],
+    },
+    {
+      name: "Hermione Granger",
+      attributes: [
+        {
+          name: "Name",
+          value: "Hermione Granger",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Muggle-born",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Dragon Heartstring",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Horace Slughorn",
+      attributes: [
+        {
+          name: "Name",
+          value: "Horace Slughorn",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Professor,Head of House",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Dragon Heartstring",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "6",
+        },
+      ],
+    },
+    {
+      name: "Hugo Weasley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Hugo Weasley",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "N/A",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Ignotus Peverell",
+      attributes: [
+        {
+          name: "Name",
+          value: "Ignotus Peverell",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Hallows Master",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Igor Karkaroff",
+      attributes: [
+        {
+          name: "Name",
+          value: "Igor Karkaroff",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Death Eater,Headteacher",
+        },
+        {
+          name: "School",
+          value: "Durmstrang",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Irma Pince",
+      attributes: [
+        {
+          name: "Name",
+          value: "Irma Pince",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Librarian",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "James Potter",
+      attributes: [
+        {
+          name: "Name",
+          value: "James Potter",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human,Animagus",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Auror,Order Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "James Potter II",
+      attributes: [
+        {
+          name: "Name",
+          value: "James Potter II",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Justin Finch-Fletchley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Justin Finch-Fletchley",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Muggle-born",
+        },
+        {
+          name: "House",
+          value: "Hufflepuff",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Katie Bell",
+      attributes: [
+        {
+          name: "Name",
+          value: "Katie Bell",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Kingsley Shacklebolt",
+      attributes: [
+        {
+          name: "Name",
+          value: "Kingsley Shacklebolt",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Auror,Order Member,Minister,Advance Guard",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Buckbeak",
+      attributes: [
+        {
+          name: "Name",
+          value: "Buckbeak",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Hippogriff",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "N/A",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Lavender Brown",
+      attributes: [
+        {
+          name: "Name",
+          value: "Lavender Brown",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Leanne",
+      attributes: [
+        {
+          name: "Name",
+          value: "Leanne",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Hufflepuff",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "6",
+        },
+      ],
+    },
+    {
+      name: "Lee Jordan",
+      attributes: [
+        {
+          name: "Name",
+          value: "Lee Jordan",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Lily Potter",
+      attributes: [
+        {
+          name: "Name",
+          value: "Lily Potter",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Muggle-born",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Auror,Order Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Lily Potter II",
+      attributes: [
+        {
+          name: "Name",
+          value: "Lily Potter II",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Unknown",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Lucius Malfoy",
+      attributes: [
+        {
+          name: "Name",
+          value: "Lucius Malfoy",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Death Eater,Ministry Official",
         },
         {
           name: "School",
@@ -8325,15 +4546,874 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Filius Flitwick",
+      name: "Ludovic Bagman",
       attributes: [
+        {
+          name: "Name",
+          value: "Ludovic Bagman",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,Goblin",
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Ministry Official",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Luna Lovegood",
+      attributes: [
+        {
+          name: "Name",
+          value: "Luna Lovegood",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Ravenclaw",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Macnair",
+      attributes: [
+        {
+          name: "Name",
+          value: "Macnair",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Executioner,Ministry Official,Death Eater",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Madam Malkin",
+      attributes: [
+        {
+          name: "Name",
+          value: "Madam Malkin",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Shopkeeper,Tailor",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Madam Puddifoot",
+      attributes: [
+        {
+          name: "Name",
+          value: "Madam Puddifoot",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Shopkeeper",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Madam Rosmerta",
+      attributes: [
+        {
+          name: "Name",
+          value: "Madam Rosmerta",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Shopkeeper,Innkeeper",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Mafalda Hopkirk",
+      attributes: [
+        {
+          name: "Name",
+          value: "Mafalda Hopkirk",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Ministry Official",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Marcus Flint",
+      attributes: [
+        {
+          name: "Name",
+          value: "Marcus Flint",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Marietta Edgecombe",
+      attributes: [
+        {
+          name: "Name",
+          value: "Marietta Edgecombe",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Ravenclaw",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Marjorie Dursley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Marjorie Dursley",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Muggle",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Animal Breeder",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Marvolo Gaunt",
+      attributes: [
+        {
+          name: "Name",
+          value: "Marvolo Gaunt",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Unknown",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "6",
+        },
+      ],
+    },
+    {
+      name: "Mary Cattermole",
+      attributes: [
+        {
+          name: "Name",
+          value: "Mary Cattermole",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Muggle-born",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Unknown",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unicorn Hair",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Merope Gaunt",
+      attributes: [
+        {
+          name: "Name",
+          value: "Merope Gaunt",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Unknown",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "6",
+        },
+      ],
+    },
+    {
+      name: "Millicent Bulstrode",
+      attributes: [
+        {
+          name: "Name",
+          value: "Millicent Bulstrode",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Minerva McGonagall",
+      attributes: [
+        {
+          name: "Name",
+          value: "Minerva McGonagall",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human,Animagus",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Professor,Head of House,Order Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Dragon Heartstring",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Moaning Myrtle",
+      attributes: [
+        {
+          name: "Name",
+          value: "Moaning Myrtle",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human,Ghost",
+        },
+        {
+          name: "Blood status",
+          value: "Muggle-born",
+        },
+        {
+          name: "House",
+          value: "Ravenclaw",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "2",
+        },
+      ],
+    },
+    {
+      name: "Molly Weasley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Molly Weasley",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Homemaker",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Monsieur Delacour",
+      attributes: [
+        {
+          name: "Name",
+          value: "Monsieur Delacour",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Unknown",
+        },
+        {
+          name: "School",
+          value: "Beauxbatons",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Morfin Gaunt",
+      attributes: [
+        {
+          name: "Name",
+          value: "Morfin Gaunt",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Unknown",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "6",
+        },
+      ],
+    },
+    {
+      name: "Dobby",
+      attributes: [
+        {
+          name: "Name",
+          value: "Dobby",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "House-elf",
         },
         {
           name: "Blood status",
@@ -8341,11 +5421,596 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "of Malfoy,of Hogwarts",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "2",
+        },
+      ],
+    },
+    {
+      name: "Mundungus Fletcher",
+      attributes: [
+        {
+          name: "Name",
+          value: "Mundungus Fletcher",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Dealer,Order Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Nagini",
+      attributes: [
+        {
+          name: "Name",
+          value: "Nagini",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human,Maledictus",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "N/A",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Narcissa Malfoy",
+      attributes: [
+        {
+          name: "Name",
+          value: "Narcissa Malfoy",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Homemaker",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Nearly Headless Nick",
+      attributes: [
+        {
+          name: "Name",
+          value: "Nearly Headless Nick",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human,Ghost",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "House Ghost",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Neville Longbottom",
+      attributes: [
+        {
+          name: "Name",
+          value: "Neville Longbottom",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unicorn Hair",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Nicolas Flamel",
+      attributes: [
+        {
+          name: "Name",
+          value: "Nicolas Flamel",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Alchemist",
+        },
+        {
+          name: "School",
+          value: "Beauxbatons",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Kreacher",
+      attributes: [
+        {
+          name: "Name",
+          value: "Kreacher",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "House-elf",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "of Black,of Potter,of Hogwarts",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Nymphadora Tonks",
+      attributes: [
+        {
+          name: "Name",
+          value: "Nymphadora Tonks",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human,Metamorpmagus",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Hufflepuff",
+        },
+        {
+          name: "Occupation",
+          value: "Auror,Order Member,Advance Guard",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Oliver Wood",
+      attributes: [
+        {
+          name: "Name",
+          value: "Oliver Wood",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Olympe Maxime",
+      attributes: [
+        {
+          name: "Name",
+          value: "Olympe Maxime",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human,Giant",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Headteacher",
+        },
+        {
+          name: "School",
+          value: "Beauxbatons",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Padma Patil",
+      attributes: [
+        {
+          name: "Name",
+          value: "Padma Patil",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
           value: "Ravenclaw",
         },
         {
-          name: "Job",
-          value: "Professor,Head of House,Conductor,",
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Pansy Parkinson",
+      attributes: [
+        {
+          name: "Name",
+          value: "Pansy Parkinson",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Parvati Patil",
+      attributes: [
+        {
+          name: "Name",
+          value: "Parvati Patil",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
         },
         {
           name: "School",
@@ -8369,12 +6034,16 @@ export const harryPotter: CategoryResponse = {
       name: "Winky",
       attributes: [
         {
+          name: "Name",
+          value: "Winky",
+        },
+        {
           name: "Sex",
           value: "Female",
         },
         {
-          name: "Spec",
-          value: "House-elf,",
+          name: "Species",
+          value: "House-elf",
         },
         {
           name: "Blood status",
@@ -8385,8 +6054,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job",
-          value: "of Crouch,of Hogwarts,,",
+          name: "Occupation",
+          value: "of Crouch,of Hogwarts",
         },
         {
           name: "School",
@@ -8407,15 +6076,19 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Marcus Belby",
+      name: "Penelope Clearwater",
       attributes: [
         {
-          name: "Sex",
-          value: "Male",
+          name: "Name",
+          value: "Penelope Clearwater",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -8426,8 +6099,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job",
-          value: "Student,,,",
+          name: "Occupation",
+          value: "Student",
         },
         {
           name: "School",
@@ -8435,40 +6108,44 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Wand core",
-          value: "",
+          value: "Unknown",
         },
         {
           name: "Vital status",
-          value: "",
+          value: "Alive",
         },
         {
           name: "Book",
-          value: "6",
+          value: "2",
         },
       ],
     },
     {
-      name: "Garrick Ollivander",
+      name: "Percy Weasley",
       attributes: [
+        {
+          name: "Name",
+          value: "Percy Weasley",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "Half-blood",
+          value: "Pure-blood",
         },
         {
           name: "House",
-          value: "Ravenclaw",
+          value: "Gryffindor",
         },
         {
-          name: "Job",
-          value: "Wandmaker,,,",
+          name: "Occupation",
+          value: "Student,Ministry Official",
         },
         {
           name: "School",
@@ -8476,7 +6153,7 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Wand core",
-          value: "Dragon Heartstring",
+          value: "Unknown",
         },
         {
           name: "Vital status",
@@ -8489,15 +6166,109 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Morfin Gaunt",
+      name: "Peter Pettigrew",
       attributes: [
+        {
+          name: "Name",
+          value: "Peter Pettigrew",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human,Animagus",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Death Eater",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Dragon Heartstring",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Petunia Dursley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Petunia Dursley",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Muggle",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Office worker",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Phineas Nigellus Black",
+      attributes: [
+        {
+          name: "Name",
+          value: "Phineas Nigellus Black",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human,Portrait",
         },
         {
           name: "Blood status",
@@ -8505,15 +6276,15 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "House",
-          value: "Unknown",
+          value: "Slytherin",
         },
         {
-          name: "Job",
-          value: "Unknown,,,",
+          name: "Occupation",
+          value: "Headteacher",
         },
         {
           name: "School",
-          value: "N/A",
+          value: "Hogwarts",
         },
         {
           name: "Wand core",
@@ -8525,20 +6296,69 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
-          value: "6",
+          value: "5",
         },
       ],
     },
     {
-      name: "Albert Runcorn",
+      name: "Hedwig",
       attributes: [
         {
-          name: "Sex",
-          value: "Male",
+          name: "Name",
+          value: "Hedwig",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Owl",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "N/A",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Pomona Sprout",
+      attributes: [
+        {
+          name: "Name",
+          value: "Pomona Sprout",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -8546,15 +6366,15 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "House",
-          value: "Unknown",
+          value: "Hufflepuff",
         },
         {
-          name: "Job",
-          value: "Ministry Official,,,",
+          name: "Occupation",
+          value: "Professor,Head of House",
         },
         {
           name: "School",
-          value: "N/A",
+          value: "Hogwarts",
         },
         {
           name: "Wand core",
@@ -8566,7 +6386,52 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
-          value: "7",
+          value: "2",
+        },
+      ],
+    },
+    {
+      name: "Poppy Pomfrey",
+      attributes: [
+        {
+          name: "Name",
+          value: "Poppy Pomfrey",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Matron",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -8574,12 +6439,16 @@ export const harryPotter: CategoryResponse = {
       name: "Quirinus Quirrell",
       attributes: [
         {
+          name: "Name",
+          value: "Quirinus Quirrell",
+        },
+        {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Human,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
@@ -8590,8 +6459,8 @@ export const harryPotter: CategoryResponse = {
           value: "Ravenclaw",
         },
         {
-          name: "Job",
-          value: "Professor,,,",
+          name: "Occupation",
+          value: "Professor",
         },
         {
           name: "School",
@@ -8612,15 +6481,649 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Buckbeak",
+      name: "Rabastan Lestrange",
       attributes: [
+        {
+          name: "Name",
+          value: "Rabastan Lestrange",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Hippogriff,",
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Death Eater",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Reginald Cattermole",
+      attributes: [
+        {
+          name: "Name",
+          value: "Reginald Cattermole",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Ministry Official",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Remus Lupin",
+      attributes: [
+        {
+          name: "Name",
+          value: "Remus Lupin",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human,Werewolf",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Professor,Advance Guard,Order Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unicorn Hair",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Rita Skeeter",
+      attributes: [
+        {
+          name: "Name",
+          value: "Rita Skeeter",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human,Animagus",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Ravenclaw",
+        },
+        {
+          name: "Occupation",
+          value: "Journalist,Author",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Roger Davies",
+      attributes: [
+        {
+          name: "Name",
+          value: "Roger Davies",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Ravenclaw",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Rolanda Hooch",
+      attributes: [
+        {
+          name: "Name",
+          value: "Rolanda Hooch",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Professor",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Romilda Vane",
+      attributes: [
+        {
+          name: "Name",
+          value: "Romilda Vane",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "6",
+        },
+      ],
+    },
+    {
+      name: "Ron Weasley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Ron Weasley",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unicorn Tail Hair",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Rose Weasley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Rose Weasley",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Rowena Ravenclaw",
+      attributes: [
+        {
+          name: "Name",
+          value: "Rowena Ravenclaw",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Ravenclaw",
+        },
+        {
+          name: "Occupation",
+          value: "Founder,Professor",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "2",
+        },
+      ],
+    },
+    {
+      name: "Rubeus Hagrid",
+      attributes: [
+        {
+          name: "Name",
+          value: "Rubeus Hagrid",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human,Giant",
+        },
+        {
+          name: "Blood status",
+          value: "N/A",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Groundskeeper,Professor",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Rufus Scrimgeour",
+      attributes: [
+        {
+          name: "Name",
+          value: "Rufus Scrimgeour",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Minister",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Salazar Slytherin",
+      attributes: [
+        {
+          name: "Name",
+          value: "Salazar Slytherin",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Founder,Professor",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Basilisk Horn",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "2",
+        },
+      ],
+    },
+    {
+      name: "Seamus Finnigan",
+      attributes: [
+        {
+          name: "Name",
+          value: "Seamus Finnigan",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Pigwidgeon",
+      attributes: [
+        {
+          name: "Name",
+          value: "Pigwidgeon",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Owl",
         },
         {
           name: "Blood status",
@@ -8631,8 +7134,188 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job",
-          value: "N/A,,,",
+          name: "Occupation",
+          value: "N/A",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "N/A",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Severus Snape",
+      attributes: [
+        {
+          name: "Name",
+          value: "Severus Snape",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Death Eater,Head of House,Professor,Order Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Sir Cadogan",
+      attributes: [
+        {
+          name: "Name",
+          value: "Sir Cadogan",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human,Portrait",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Knight of the Round Table",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Troll whisker",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Sirius Black",
+      attributes: [
+        {
+          name: "Name",
+          value: "Sirius Black",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Gryffindor",
+        },
+        {
+          name: "Occupation",
+          value: "Order Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Stan Shunpike",
+      attributes: [
+        {
+          name: "Name",
+          value: "Stan Shunpike",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Conductor",
         },
         {
           name: "School",
@@ -8653,27 +7336,76 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Firenze",
+      name: "Sturgis Podmore",
       attributes: [
+        {
+          name: "Name",
+          value: "Sturgis Podmore",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Centaur,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "N/A",
+          value: "Unknown",
         },
         {
           name: "House",
           value: "N/A",
         },
         {
-          name: "Job",
-          value: "Professor,,,",
+          name: "Occupation",
+          value: "Order Member,Advance Guard",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
+    {
+      name: "Susan Bones",
+      attributes: [
+        {
+          name: "Name",
+          value: "Susan Bones",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Hufflepuff",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
         },
         {
           name: "School",
@@ -8681,7 +7413,7 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Wand core",
-          value: "N/A",
+          value: "Unknown",
         },
         {
           name: "Vital status",
@@ -8694,27 +7426,31 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Dobby",
+      name: "Sybill Trelawney",
       attributes: [
         {
-          name: "Sex",
-          value: "Male",
+          name: "Name",
+          value: "Sybill Trelawney",
         },
         {
-          name: "Spec",
-          value: "House-elf,",
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "N/A",
+          value: "Half-blood",
         },
         {
           name: "House",
-          value: "N/A",
+          value: "Ravenclaw",
         },
         {
-          name: "Job",
-          value: "of Malfoy,of Hogwarts,,",
+          name: "Occupation",
+          value: "Professor,Author",
         },
         {
           name: "School",
@@ -8722,7 +7458,52 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Wand core",
+          value: "Unicorn Hair",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
+        },
+      ],
+    },
+    {
+      name: "Ted Tonks",
+      attributes: [
+        {
+          name: "Name",
+          value: "Ted Tonks",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Muggle-born",
+        },
+        {
+          name: "House",
           value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Unknown",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
         },
         {
           name: "Vital status",
@@ -8730,36 +7511,175 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
-          value: "2",
+          value: "7",
         },
       ],
     },
     {
-      name: "Mrs. Norris",
+      name: "Terry Boot",
       attributes: [
+        {
+          name: "Name",
+          value: "Terry Boot",
+        },
         {
           name: "Sex",
           value: "Female",
         },
         {
-          name: "Spec",
-          value: "Cat,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "N/A",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Ravenclaw",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Tom Riddle",
+      attributes: [
+        {
+          name: "Name",
+          value: "Tom Riddle",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Half-blood",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Death Eater",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Phoenix Feather",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
+        },
+      ],
+    },
+    {
+      name: "Travers",
+      attributes: [
+        {
+          name: "Name",
+          value: "Travers",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
         },
         {
           name: "House",
           value: "N/A",
         },
         {
-          name: "Job",
-          value: "N/A,,,",
+          name: "Occupation",
+          value: "Death Eater,Ministry Official",
         },
         {
           name: "School",
-          value: "Hogwarts",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Vernon Dursley",
+      attributes: [
+        {
+          name: "Name",
+          value: "Vernon Dursley",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Muggle",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Firm Director",
+        },
+        {
+          name: "School",
+          value: "N/A",
         },
         {
           name: "Wand core",
@@ -8776,35 +7696,39 @@ export const harryPotter: CategoryResponse = {
       ],
     },
     {
-      name: "Fluffy",
+      name: "Viktor Krum",
       attributes: [
+        {
+          name: "Name",
+          value: "Viktor Krum",
+        },
         {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Cerberus,",
+          name: "Species",
+          value: "Human",
         },
         {
           name: "Blood status",
-          value: "N/A",
+          value: "Unknown",
         },
         {
           name: "House",
           value: "N/A",
         },
         {
-          name: "Job",
-          value: "N/A,,,",
+          name: "Occupation",
+          value: "Seeker",
         },
         {
           name: "School",
-          value: "Hogwarts",
+          value: "Durmstrang",
         },
         {
           name: "Wand core",
-          value: "N/A",
+          value: "Dragon Heartstring",
         },
         {
           name: "Vital status",
@@ -8812,7 +7736,142 @@ export const harryPotter: CategoryResponse = {
         },
         {
           name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Vincent Crabbe",
+      attributes: [
+        {
+          name: "Name",
+          value: "Vincent Crabbe",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "Slytherin",
+        },
+        {
+          name: "Occupation",
+          value: "Student",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Dead",
+        },
+        {
+          name: "Book",
           value: "1",
+        },
+      ],
+    },
+    {
+      name: "Vincent Crabbe Sr.",
+      attributes: [
+        {
+          name: "Name",
+          value: "Vincent Crabbe Sr.",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Pure-blood",
+        },
+        {
+          name: "House",
+          value: "N/A",
+        },
+        {
+          name: "Occupation",
+          value: "Death Eater",
+        },
+        {
+          name: "School",
+          value: "N/A",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
+        },
+      ],
+    },
+    {
+      name: "Wilhelmina Grubbly-Plank",
+      attributes: [
+        {
+          name: "Name",
+          value: "Wilhelmina Grubbly-Plank",
+        },
+        {
+          name: "Sex",
+          value: "Female",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Unknown",
+        },
+        {
+          name: "Occupation",
+          value: "Professor",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -8820,12 +7879,16 @@ export const harryPotter: CategoryResponse = {
       name: "Peeves",
       attributes: [
         {
+          name: "Name",
+          value: "Peeves",
+        },
+        {
           name: "Sex",
           value: "Male",
         },
         {
-          name: "Spec",
-          value: "Poltergeist,",
+          name: "Species",
+          value: "Poltergeist",
         },
         {
           name: "Blood status",
@@ -8836,8 +7899,8 @@ export const harryPotter: CategoryResponse = {
           value: "N/A",
         },
         {
-          name: "Job",
-          value: "N/A,,,",
+          name: "Occupation",
+          value: "N/A",
         },
         {
           name: "School",
@@ -8857,5 +7920,96 @@ export const harryPotter: CategoryResponse = {
         },
       ],
     },
+    {
+      name: "Xenophilius Lovegood",
+      attributes: [
+        {
+          name: "Name",
+          value: "Xenophilius Lovegood",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Ravenclaw",
+        },
+        {
+          name: "Occupation",
+          value: "Journalist,Editor",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
+        },
+      ],
+    },
+    {
+      name: "Zacharias Smith",
+      attributes: [
+        {
+          name: "Name",
+          value: "Zacharias Smith",
+        },
+        {
+          name: "Sex",
+          value: "Male",
+        },
+        {
+          name: "Species",
+          value: "Human",
+        },
+        {
+          name: "Blood status",
+          value: "Unknown",
+        },
+        {
+          name: "House",
+          value: "Hufflepuff",
+        },
+        {
+          name: "Occupation",
+          value: "Student,D.A. Member",
+        },
+        {
+          name: "School",
+          value: "Hogwarts",
+        },
+        {
+          name: "Wand core",
+          value: "Unknown",
+        },
+        {
+          name: "Vital status",
+          value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
+        },
+      ],
+    },
   ],
+  themeName: "harry",
 };

@@ -20,7 +20,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       type: "number",
     },
     {
-      name: "Duration (min)",
+      name: "Duration",
       type: "number",
     },
     {
@@ -38,7 +38,7 @@ export const animatedDisneyMovies: CategoryResponse = {
   ],
   items: [
     {
-      name: "Title",
+      name: "Snow White and The Seven Dwarfs",
       attributes: [
         {
           name: "Title",
@@ -75,7 +75,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Fantasia",
       attributes: [
         {
           name: "Title",
@@ -112,7 +112,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Pinocchio",
       attributes: [
         {
           name: "Title",
@@ -149,7 +149,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Dumbo",
       attributes: [
         {
           name: "Title",
@@ -186,7 +186,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Bambi",
       attributes: [
         {
           name: "Title",
@@ -223,7 +223,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Three Caballeros",
       attributes: [
         {
           name: "Title",
@@ -260,7 +260,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Cinderella",
       attributes: [
         {
           name: "Title",
@@ -297,7 +297,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Alice in Wonderland",
       attributes: [
         {
           name: "Title",
@@ -334,7 +334,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Peter Pan",
       attributes: [
         {
           name: "Title",
@@ -371,7 +371,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Lady and the Tramp",
       attributes: [
         {
           name: "Title",
@@ -408,7 +408,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Sleeping Beauty",
       attributes: [
         {
           name: "Title",
@@ -445,7 +445,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "One Hundred and One Dalmatians",
       attributes: [
         {
           name: "Title",
@@ -482,7 +482,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Sword in the Stone",
       attributes: [
         {
           name: "Title",
@@ -519,7 +519,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Jungle Book",
       attributes: [
         {
           name: "Title",
@@ -556,7 +556,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Aristocats",
       attributes: [
         {
           name: "Title",
@@ -593,7 +593,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Robin Hood",
       attributes: [
         {
           name: "Title",
@@ -630,7 +630,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Rescuers",
       attributes: [
         {
           name: "Title",
@@ -667,7 +667,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Many Adventures of Winnie the Pooh",
       attributes: [
         {
           name: "Title",
@@ -704,7 +704,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Fox and the Hound",
       attributes: [
         {
           name: "Title",
@@ -741,7 +741,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Black Cauldron",
       attributes: [
         {
           name: "Title",
@@ -778,7 +778,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Great Mouse Detective",
       attributes: [
         {
           name: "Title",
@@ -815,7 +815,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Oliver & Company",
       attributes: [
         {
           name: "Title",
@@ -852,7 +852,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Little Mermaid",
       attributes: [
         {
           name: "Title",
@@ -889,7 +889,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "DuckTales The Movie: Treasure of the Lost Lamp",
       attributes: [
         {
           name: "Title",
@@ -926,7 +926,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Rescuers Down Under",
       attributes: [
         {
           name: "Title",
@@ -963,7 +963,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Beauty and the Beast",
       attributes: [
         {
           name: "Title",
@@ -1000,7 +1000,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Aladdin",
       attributes: [
         {
           name: "Title",
@@ -1037,7 +1037,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Nightmare Before Christmas",
       attributes: [
         {
           name: "Title",
@@ -1074,7 +1074,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Lion King",
       attributes: [
         {
           name: "Title",
@@ -1111,7 +1111,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Thumbelina",
       attributes: [
         {
           name: "Title",
@@ -1148,7 +1148,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "A Goofy Movie",
       attributes: [
         {
           name: "Title",
@@ -1185,7 +1185,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Pocahontas",
       attributes: [
         {
           name: "Title",
@@ -1222,7 +1222,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Toy Story",
       attributes: [
         {
           name: "Title",
@@ -1259,7 +1259,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Aladdin and the King of Thieves",
       attributes: [
         {
           name: "Title",
@@ -1296,7 +1296,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "James and the Giant Peach",
       attributes: [
         {
           name: "Title",
@@ -1333,7 +1333,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Hunchback of Notre Dame",
       attributes: [
         {
           name: "Title",
@@ -1370,7 +1370,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Anastasia",
       attributes: [
         {
           name: "Title",
@@ -1407,7 +1407,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Hercules",
       attributes: [
         {
           name: "Title",
@@ -1444,7 +1444,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "A Bug's Life",
       attributes: [
         {
           name: "Title",
@@ -1481,7 +1481,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Lion King 2: Simba's Pride",
       attributes: [
         {
           name: "Title",
@@ -1518,7 +1518,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Mulan",
       attributes: [
         {
           name: "Title",
@@ -1555,7 +1555,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Tarzan",
       attributes: [
         {
           name: "Title",
@@ -1592,7 +1592,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Toy Story 2",
       attributes: [
         {
           name: "Title",
@@ -1629,7 +1629,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "An Extremely Goofy Movie",
       attributes: [
         {
           name: "Title",
@@ -1666,7 +1666,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Fantasia 2000",
       attributes: [
         {
           name: "Title",
@@ -1703,7 +1703,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Emperor's New Groove",
       attributes: [
         {
           name: "Title",
@@ -1740,7 +1740,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Tigger Movie",
       attributes: [
         {
           name: "Title",
@@ -1777,7 +1777,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Atlantis: The Lost Empire",
       attributes: [
         {
           name: "Title",
@@ -1814,7 +1814,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Monsters, Inc.",
       attributes: [
         {
           name: "Title",
@@ -1851,7 +1851,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Lilo & Stitch",
       attributes: [
         {
           name: "Title",
@@ -1888,7 +1888,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Treasure Planet",
       attributes: [
         {
           name: "Title",
@@ -1925,7 +1925,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Brother Bear",
       attributes: [
         {
           name: "Title",
@@ -1962,7 +1962,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Finding Nemo",
       attributes: [
         {
           name: "Title",
@@ -1999,7 +1999,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Incredibles",
       attributes: [
         {
           name: "Title",
@@ -2036,7 +2036,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Lion King 1 1/2",
       attributes: [
         {
           name: "Title",
@@ -2073,7 +2073,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Home on the Range",
       attributes: [
         {
           name: "Title",
@@ -2110,7 +2110,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Lilo & Stitch 2: Stitch Has a Glitch",
       attributes: [
         {
           name: "Title",
@@ -2147,7 +2147,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Chicken Little",
       attributes: [
         {
           name: "Title",
@@ -2184,7 +2184,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Brother Bear 2",
       attributes: [
         {
           name: "Title",
@@ -2221,7 +2221,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Cars",
       attributes: [
         {
           name: "Title",
@@ -2258,7 +2258,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Meet the Robinsons",
       attributes: [
         {
           name: "Title",
@@ -2295,7 +2295,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Ratatouille",
       attributes: [
         {
           name: "Title",
@@ -2332,7 +2332,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Bolt",
       attributes: [
         {
           name: "Title",
@@ -2369,7 +2369,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Tinker Bell",
       attributes: [
         {
           name: "Title",
@@ -2406,7 +2406,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "WALL-E",
       attributes: [
         {
           name: "Title",
@@ -2443,7 +2443,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Disney's A Christmas Carol",
       attributes: [
         {
           name: "Title",
@@ -2480,7 +2480,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Princess and the Frog",
       attributes: [
         {
           name: "Title",
@@ -2517,7 +2517,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Up",
       attributes: [
         {
           name: "Title",
@@ -2554,7 +2554,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Tangled",
       attributes: [
         {
           name: "Title",
@@ -2591,7 +2591,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Toy Story 3",
       attributes: [
         {
           name: "Title",
@@ -2628,7 +2628,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Cars 2",
       attributes: [
         {
           name: "Title",
@@ -2665,7 +2665,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Winnie the Pooh",
       attributes: [
         {
           name: "Title",
@@ -2702,7 +2702,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Brave",
       attributes: [
         {
           name: "Title",
@@ -2739,7 +2739,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Frankenweenie",
       attributes: [
         {
           name: "Title",
@@ -2776,7 +2776,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Wreck-It Ralph",
       attributes: [
         {
           name: "Title",
@@ -2813,7 +2813,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Frozen",
       attributes: [
         {
           name: "Title",
@@ -2850,7 +2850,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Monsters University",
       attributes: [
         {
           name: "Title",
@@ -2887,7 +2887,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Big Hero 6",
       attributes: [
         {
           name: "Title",
@@ -2924,7 +2924,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Inside Out",
       attributes: [
         {
           name: "Title",
@@ -2961,7 +2961,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Good Dinosaur",
       attributes: [
         {
           name: "Title",
@@ -2998,7 +2998,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Finding Dory",
       attributes: [
         {
           name: "Title",
@@ -3035,7 +3035,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Moana",
       attributes: [
         {
           name: "Title",
@@ -3072,7 +3072,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Zootopia",
       attributes: [
         {
           name: "Title",
@@ -3109,7 +3109,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Cars 3",
       attributes: [
         {
           name: "Title",
@@ -3146,7 +3146,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Coco",
       attributes: [
         {
           name: "Title",
@@ -3183,7 +3183,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Incredibles 2",
       attributes: [
         {
           name: "Title",
@@ -3220,7 +3220,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Ralph Breaks the Internet",
       attributes: [
         {
           name: "Title",
@@ -3257,7 +3257,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Frozen II",
       attributes: [
         {
           name: "Title",
@@ -3294,7 +3294,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Toy Story 4",
       attributes: [
         {
           name: "Title",
@@ -3331,7 +3331,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Onward",
       attributes: [
         {
           name: "Title",
@@ -3368,7 +3368,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Soul",
       attributes: [
         {
           name: "Title",
@@ -3405,7 +3405,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Encanto",
       attributes: [
         {
           name: "Title",
@@ -3442,7 +3442,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Luca",
       attributes: [
         {
           name: "Title",
@@ -3479,7 +3479,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Raya and the Last Dragon",
       attributes: [
         {
           name: "Title",
@@ -3516,7 +3516,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Lightyear",
       attributes: [
         {
           name: "Title",
@@ -3553,7 +3553,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Strange World",
       attributes: [
         {
           name: "Title",
@@ -3590,7 +3590,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Turning Red",
       attributes: [
         {
           name: "Title",
@@ -3627,7 +3627,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Elemental",
       attributes: [
         {
           name: "Title",
@@ -3664,7 +3664,7 @@ export const animatedDisneyMovies: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Wish",
       attributes: [
         {
           name: "Title",

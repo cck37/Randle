@@ -13,11 +13,11 @@ export const movies: CategoryResponse = {
     },
     {
       name: "Franchise",
-      type: "multipart",
+      type: "string",
     },
     {
       name: "Director",
-      type: "multipart",
+      type: "string",
     },
     {
       name: "Composer",
@@ -50,10 +50,10 @@ export const movies: CategoryResponse = {
   ],
   items: [
     {
-      name: "Movies",
+      name: "Jurassic World: Dominion",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Jurassic World: Dominion",
         },
         {
@@ -99,10 +99,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Alice Through the Looking Glass",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Alice Through the Looking Glass",
         },
         {
@@ -148,10 +148,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Shang-Chi and the Legend of the Ten Rings",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Shang-Chi and the Legend of the Ten Rings",
         },
         {
@@ -197,10 +197,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Avengers: Endgame",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Avengers: Endgame",
         },
         {
@@ -246,10 +246,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Avengers: Infinity War",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Avengers: Infinity War",
         },
         {
@@ -295,10 +295,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Avengers",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Avengers",
         },
         {
@@ -344,10 +344,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Super Mario Bros. Movie",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Super Mario Bros. Movie",
         },
         {
@@ -393,10 +393,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Avengers: Age of Ultron",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Avengers: Age of Ultron",
         },
         {
@@ -442,10 +442,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Iron Man 3",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Iron Man 3",
         },
         {
@@ -491,10 +491,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Furious 7",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Furious 7",
         },
         {
@@ -540,10 +540,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Fate of the Furious",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Fate of the Furious",
         },
         {
@@ -589,10 +589,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Ant-Man and the Wasp",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Ant-Man and the Wasp",
         },
         {
@@ -638,10 +638,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Doctor Strange in the Multiverse of Madness",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Doctor Strange in the Multiverse of Madness",
         },
         {
@@ -687,10 +687,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Batman",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Batman",
         },
         {
@@ -736,10 +736,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Men in Black",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Men in Black",
         },
         {
@@ -785,10 +785,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "X-Men: The Last Stand",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "X-Men: The Last Stand",
         },
         {
@@ -834,10 +834,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Matrix Reloaded",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Matrix Reloaded",
         },
         {
@@ -883,10 +883,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Dark Knight Rises",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Dark Knight Rises",
         },
         {
@@ -932,10 +932,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Batman v Superman: Dawn of Justice",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Batman v Superman: Dawn of Justice",
         },
         {
@@ -981,10 +981,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Man of Steel",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Man of Steel",
         },
         {
@@ -1030,10 +1030,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Mission: Impossible 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Mission: Impossible 2",
         },
         {
@@ -1079,10 +1079,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Captain America: Civil War",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Captain America: Civil War",
         },
         {
@@ -1128,10 +1128,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Captain America: The Winter Soldier",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Captain America: The Winter Soldier",
         },
         {
@@ -1177,10 +1177,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Avatar",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Avatar",
         },
         {
@@ -1226,10 +1226,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Dark Knight",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Dark Knight",
         },
         {
@@ -1275,10 +1275,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Iron Man 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Iron Man 2",
         },
         {
@@ -1324,10 +1324,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "My Big Fat Greek Wedding 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "My Big Fat Greek Wedding 2",
         },
         {
@@ -1373,10 +1373,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Guardians of the Galaxy Vol 3",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Guardians of the Galaxy Vol 3",
         },
         {
@@ -1422,10 +1422,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "X-Men: Days of Future Past",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "X-Men: Days of Future Past",
         },
         {
@@ -1471,10 +1471,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Hancock",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Hancock",
         },
         {
@@ -1520,10 +1520,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "War of the Worlds",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "War of the Worlds",
         },
         {
@@ -1569,10 +1569,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Lost World: Jurassic Park",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Lost World: Jurassic Park",
         },
         {
@@ -1618,10 +1618,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Justice League",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Justice League",
         },
         {
@@ -1667,10 +1667,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Rush Hour 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Rush Hour 2",
         },
         {
@@ -1716,10 +1716,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Mission: Impossible—Fallout",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Mission: Impossible—Fallout",
         },
         {
@@ -1765,10 +1765,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Top Gun: Maverick",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Top Gun: Maverick",
         },
         {
@@ -1814,10 +1814,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Fast and Furious 6",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Fast and Furious 6",
         },
         {
@@ -1863,10 +1863,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Black Panther",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Black Panther",
         },
         {
@@ -1912,10 +1912,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Black Panther: Wakanda Forever",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Black Panther: Wakanda Forever",
         },
         {
@@ -1961,10 +1961,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Logan",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Logan",
         },
         {
@@ -2010,10 +2010,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Twister",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Twister",
         },
         {
@@ -2059,10 +2059,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Thor: Ragnarok",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Thor: Ragnarok",
         },
         {
@@ -2108,10 +2108,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Spider-Man: No Way Home",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Spider-Man: No Way Home",
         },
         {
@@ -2157,10 +2157,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Jurassic World",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Jurassic World",
         },
         {
@@ -2206,10 +2206,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Jurassic World: Fallen Kingdom",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Jurassic World: Fallen Kingdom",
         },
         {
@@ -2222,7 +2222,7 @@ export const movies: CategoryResponse = {
         },
         {
           name: "Director",
-          value: "J.A. Bayona",
+          value: "J.A. Bayona*",
         },
         {
           name: "Composer",
@@ -2255,10 +2255,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Spider-Man: Far From Home",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Spider-Man: Far From Home",
         },
         {
@@ -2304,10 +2304,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Batman",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Batman",
         },
         {
@@ -2353,10 +2353,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Spider-Man: Homecoming",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Spider-Man: Homecoming",
         },
         {
@@ -2402,10 +2402,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Doctor Strange",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Doctor Strange",
         },
         {
@@ -2451,10 +2451,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Thor: Love and Thunder",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Thor: Love and Thunder",
         },
         {
@@ -2500,10 +2500,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Captain Marvel",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Captain Marvel",
         },
         {
@@ -2549,10 +2549,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Wonder Woman",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Wonder Woman",
         },
         {
@@ -2598,10 +2598,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Aquaman",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Aquaman",
         },
         {
@@ -2647,10 +2647,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Avatar: The Way of Water",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Avatar: The Way of Water",
         },
         {
@@ -2696,10 +2696,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Transformers: Revenge of the Fallen",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Transformers: Revenge of the Fallen",
         },
         {
@@ -2745,10 +2745,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Transformers: Dark of the Moon",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Transformers: Dark of the Moon",
         },
         {
@@ -2794,10 +2794,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Transformers",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Transformers",
         },
         {
@@ -2843,10 +2843,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Transformers: Age of Extinction",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Transformers: Age of Extinction",
         },
         {
@@ -2892,10 +2892,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Suicide Squad",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Suicide Squad",
         },
         {
@@ -2941,10 +2941,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Skyfall",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Skyfall",
         },
         {
@@ -2990,10 +2990,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Deadpool",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Deadpool",
         },
         {
@@ -3039,10 +3039,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Guardians of the Galaxy Vol 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Guardians of the Galaxy Vol 2",
         },
         {
@@ -3088,10 +3088,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Guardians of the Galaxy",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Guardians of the Galaxy",
         },
         {
@@ -3137,10 +3137,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Deadpool 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Deadpool 2",
         },
         {
@@ -3186,10 +3186,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Hunger Games: Catching Fire",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Hunger Games: Catching Fire",
         },
         {
@@ -3235,10 +3235,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Monsters, Inc.",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Monsters, Inc.",
         },
         {
@@ -3284,10 +3284,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Aladdin (2019)",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Aladdin (2019)",
         },
         {
@@ -3333,10 +3333,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Little Mermaid",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Little Mermaid",
         },
         {
@@ -3382,10 +3382,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Aladdin (1992)",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Aladdin (1992)",
         },
         {
@@ -3431,10 +3431,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Night at the Museum",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Night at the Museum",
         },
         {
@@ -3480,10 +3480,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Cast Away",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Cast Away",
         },
         {
@@ -3529,10 +3529,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Harry Potter and the Deathly Hallows: Part II",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Harry Potter and the Deathly Hallows: Part II",
         },
         {
@@ -3578,10 +3578,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Secret Life of Pets",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Secret Life of Pets",
         },
         {
@@ -3627,10 +3627,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Harry Potter and the Deathly Hallows: Part I",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Harry Potter and the Deathly Hallows: Part I",
         },
         {
@@ -3676,10 +3676,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Alvin and the Chipmunks",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Alvin and the Chipmunks",
         },
         {
@@ -3725,10 +3725,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Spider-Man 3",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Spider-Man 3",
         },
         {
@@ -3774,10 +3774,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Spider-Man: Across the Spider-Verse",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Spider-Man: Across the Spider-Verse",
         },
         {
@@ -3823,10 +3823,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Spider-Man",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Spider-Man",
         },
         {
@@ -3872,10 +3872,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Spider-Man 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Spider-Man 2",
         },
         {
@@ -3921,10 +3921,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Alice in Wonderland",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Alice in Wonderland",
         },
         {
@@ -3970,10 +3970,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Dr. Seuss’ The Grinch",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Dr. Seuss’ The Grinch",
         },
         {
@@ -4019,10 +4019,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Oz the Great and Powerful",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Oz the Great and Powerful",
         },
         {
@@ -4068,10 +4068,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Independence Day",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Independence Day",
         },
         {
@@ -4117,10 +4117,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Alvin and the Chipmunks: The Squeakquel",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Alvin and the Chipmunks: The Squeakquel",
         },
         {
@@ -4166,10 +4166,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Lion King (2019)",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Lion King (2019)",
         },
         {
@@ -4215,10 +4215,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Pirates of the Caribbean: Dead Man’s Chest",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Pirates of the Caribbean: Dead Man’s Chest",
         },
         {
@@ -4264,10 +4264,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Lion King (1994)",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Lion King (1994)",
         },
         {
@@ -4313,10 +4313,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Pirates of the Caribbean: At World’s End",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Pirates of the Caribbean: At World’s End",
         },
         {
@@ -4362,10 +4362,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Pirates of the Caribbean: On Stranger Tides",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Pirates of the Caribbean: On Stranger Tides",
         },
         {
@@ -4411,10 +4411,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Madagascar 3: Europe's Most Wanted",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Madagascar 3: Europe's Most Wanted",
         },
         {
@@ -4460,10 +4460,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Kung Fu Panda",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Kung Fu Panda",
         },
         {
@@ -4509,10 +4509,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Shrek 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Shrek 2",
         },
         {
@@ -4558,10 +4558,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Shrek the Third",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Shrek the Third",
         },
         {
@@ -4607,10 +4607,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value:
             "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
         },
@@ -4657,10 +4657,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Shrek Forever After",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Shrek Forever After",
         },
         {
@@ -4706,10 +4706,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Minions: The Rise of Gru",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Minions: The Rise of Gru",
         },
         {
@@ -4755,10 +4755,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Despicable Me 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Despicable Me 2",
         },
         {
@@ -4804,10 +4804,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Minions",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Minions",
         },
         {
@@ -4853,10 +4853,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Despicable Me 3",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Despicable Me 3",
         },
         {
@@ -4902,10 +4902,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Jumanji: Welcome to the Jungle",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Jumanji: Welcome to the Jungle",
         },
         {
@@ -4951,10 +4951,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Jumanji: The Next Level",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Jumanji: The Next Level",
         },
         {
@@ -5000,10 +5000,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Big Hero 6",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Big Hero 6",
         },
         {
@@ -5049,10 +5049,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Lord of the Rings: The Return of the King",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Lord of the Rings: The Return of the King",
         },
         {
@@ -5098,10 +5098,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "My Big Fat Greek Wedding 3",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "My Big Fat Greek Wedding 3",
         },
         {
@@ -5147,10 +5147,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "National Treasure",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "National Treasure",
         },
         {
@@ -5196,10 +5196,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Lord of the Rings: The Two Towers",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Lord of the Rings: The Two Towers",
         },
         {
@@ -5245,10 +5245,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Lord of the Rings: The Fellowship of the Ring",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Lord of the Rings: The Fellowship of the Ring",
         },
         {
@@ -5294,10 +5294,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Hobbit: An Unexpected Journey",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Hobbit: An Unexpected Journey",
         },
         {
@@ -5343,10 +5343,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Hobbit: The Desolation of Smaug",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Hobbit: The Desolation of Smaug",
         },
         {
@@ -5392,10 +5392,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Hobbit: The Battle of the Five Armies",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Hobbit: The Battle of the Five Armies",
         },
         {
@@ -5441,10 +5441,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Amazing Spider-Man",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Amazing Spider-Man",
         },
         {
@@ -5490,10 +5490,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "How the Grinch Stole Christmas",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "How the Grinch Stole Christmas",
         },
         {
@@ -5539,10 +5539,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Maleficent",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Maleficent",
         },
         {
@@ -5588,10 +5588,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Fantastic Beasts and Where to Find Them",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Fantastic Beasts and Where to Find Them",
         },
         {
@@ -5637,10 +5637,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "King Kong",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "King Kong",
         },
         {
@@ -5686,10 +5686,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Jungle Book",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Jungle Book",
         },
         {
@@ -5735,10 +5735,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "How to Train Your Dragon",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "How to Train Your Dragon",
         },
         {
@@ -5784,10 +5784,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Shrek",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Shrek",
         },
         {
@@ -5833,10 +5833,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Star Wars Ep. VII: The Force Awakens",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Star Wars Ep. VII: The Force Awakens",
         },
         {
@@ -5882,10 +5882,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Star Wars Ep. VIII: The Last Jedi",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Star Wars Ep. VIII: The Last Jedi",
         },
         {
@@ -5931,10 +5931,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Star Wars: The Rise of Skywalker",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Star Wars: The Rise of Skywalker",
         },
         {
@@ -5980,10 +5980,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Star Wars Ep. I: The Phantom Menace",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Star Wars Ep. I: The Phantom Menace",
         },
         {
@@ -6029,10 +6029,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Star Wars Ep. IV: A New Hope",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Star Wars Ep. IV: A New Hope",
         },
         {
@@ -6078,10 +6078,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "E.T. the Extra-Terrestrial",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "E.T. the Extra-Terrestrial",
         },
         {
@@ -6127,10 +6127,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Jurassic Park",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Jurassic Park",
         },
         {
@@ -6176,10 +6176,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Star Wars Ep. III: Revenge of the Sith",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Star Wars Ep. III: Revenge of the Sith",
         },
         {
@@ -6225,10 +6225,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Harry Potter and the Sorcerer’s Stone",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Harry Potter and the Sorcerer’s Stone",
         },
         {
@@ -6274,10 +6274,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Indiana Jones and the Kingdom of the Crystal Skull",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Indiana Jones and the Kingdom of the Crystal Skull",
         },
         {
@@ -6323,10 +6323,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Star Wars Ep. VI: Return of the Jedi",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Star Wars Ep. VI: Return of the Jedi",
         },
         {
@@ -6372,10 +6372,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Star Wars Ep. II: Attack of the Clones",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Star Wars Ep. II: Attack of the Clones",
         },
         {
@@ -6421,10 +6421,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Star Wars Ep. V: The Empire Strikes Back",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Star Wars Ep. V: The Empire Strikes Back",
         },
         {
@@ -6470,10 +6470,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Harry Potter and the Chamber of Secrets",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Harry Potter and the Chamber of Secrets",
         },
         {
@@ -6519,10 +6519,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Harry Potter and the Prisoner of Azkaban",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Harry Potter and the Prisoner of Azkaban",
         },
         {
@@ -6568,10 +6568,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Raiders of the Lost Ark",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Raiders of the Lost Ark",
         },
         {
@@ -6617,10 +6617,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Pirates of the Caribbean: The Curse of the Blac…",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Pirates of the Caribbean: The Curse of the Blac…",
         },
         {
@@ -6666,10 +6666,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Moana",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Moana",
         },
         {
@@ -6715,10 +6715,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Lego Movie",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Lego Movie",
         },
         {
@@ -6764,10 +6764,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Incredibles 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Incredibles 2",
         },
         {
@@ -6813,10 +6813,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Rogue One: A Star Wars Story",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Rogue One: A Star Wars Story",
         },
         {
@@ -6862,10 +6862,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Inside Out",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Inside Out",
         },
         {
@@ -6911,10 +6911,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Zootopia",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Zootopia",
         },
         {
@@ -6960,10 +6960,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Up",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Up",
         },
         {
@@ -7009,10 +7009,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Incredibles",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Incredibles",
         },
         {
@@ -7058,10 +7058,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Star Trek",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Star Trek",
         },
         {
@@ -7107,10 +7107,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Star Trek Into Darkness",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Star Trek Into Darkness",
         },
         {
@@ -7156,10 +7156,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Harry Potter and the Half-Blood Prince",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Harry Potter and the Half-Blood Prince",
         },
         {
@@ -7205,10 +7205,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Harry Potter and the Order of the Phoenix",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Harry Potter and the Order of the Phoenix",
         },
         {
@@ -7254,10 +7254,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Harry Potter and the Goblet of Fire",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Harry Potter and the Goblet of Fire",
         },
         {
@@ -7303,10 +7303,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Brave",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Brave",
         },
         {
@@ -7352,10 +7352,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Despicable Me",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Despicable Me",
         },
         {
@@ -7401,10 +7401,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Iron Man",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Iron Man",
         },
         {
@@ -7450,10 +7450,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Toy Story 4",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Toy Story 4",
         },
         {
@@ -7499,10 +7499,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Toy Story 3",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Toy Story 3",
         },
         {
@@ -7548,10 +7548,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Monsters University",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Monsters University",
         },
         {
@@ -7597,10 +7597,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Toy Story 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Toy Story 2",
         },
         {
@@ -7646,10 +7646,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Cars",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Cars",
         },
         {
@@ -7695,10 +7695,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Finding Dory",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Finding Dory",
         },
         {
@@ -7744,10 +7744,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Finding Nemo",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Finding Nemo",
         },
         {
@@ -7793,10 +7793,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "WALL-E",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "WALL-E",
         },
         {
@@ -7842,10 +7842,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "National Treasure: Book of Secrets",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "National Treasure: Book of Secrets",
         },
         {
@@ -7891,10 +7891,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Barbie",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Barbie",
         },
         {
@@ -7940,10 +7940,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Hangover",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Hangover",
         },
         {
@@ -7989,10 +7989,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Hangover Part II",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Hangover Part II",
         },
         {
@@ -8038,10 +8038,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Ghostbusters",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Ghostbusters",
         },
         {
@@ -8087,10 +8087,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Beverly Hills Cop",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Beverly Hills Cop",
         },
         {
@@ -8136,10 +8136,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Mrs. Doubtfire",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Mrs. Doubtfire",
         },
         {
@@ -8185,10 +8185,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Bruce Almighty",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Bruce Almighty",
         },
         {
@@ -8234,10 +8234,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Home Alone",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Home Alone",
         },
         {
@@ -8283,10 +8283,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Meet the Fockers",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Meet the Fockers",
         },
         {
@@ -8332,10 +8332,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Ted",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Ted",
         },
         {
@@ -8381,10 +8381,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "American Sniper",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "American Sniper",
         },
         {
@@ -8431,10 +8431,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Twilight Saga: Breaking Dawn, Part 1",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Twilight Saga: Breaking Dawn, Part 1",
         },
         {
@@ -8480,10 +8480,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "A Star is Born",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "A Star is Born",
         },
         {
@@ -8529,10 +8529,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Forrest Gump",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Forrest Gump",
         },
         {
@@ -8578,10 +8578,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Twilight Saga: New Moon",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Twilight Saga: New Moon",
         },
         {
@@ -8627,10 +8627,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Twilight Saga: Breaking Dawn, Part 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Twilight Saga: Breaking Dawn, Part 2",
         },
         {
@@ -8676,10 +8676,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Blind Side",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Blind Side",
         },
         {
@@ -8725,10 +8725,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Twilight Saga: Eclipse",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Twilight Saga: Eclipse",
         },
         {
@@ -8774,10 +8774,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Titanic",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Titanic",
         },
         {
@@ -8823,10 +8823,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Passion of the Christ",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Passion of the Christ",
         },
         {
@@ -8872,10 +8872,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Bohemian Rhapsody",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Bohemian Rhapsody",
         },
         {
@@ -8921,10 +8921,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Saving Private Ryan",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Saving Private Ryan",
         },
         {
@@ -8970,10 +8970,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Oppenheimer",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Oppenheimer",
         },
         {
@@ -9019,10 +9019,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Ghost",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Ghost",
         },
         {
@@ -9068,10 +9068,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "It",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "It",
         },
         {
@@ -9117,10 +9117,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Exorcist",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Exorcist",
         },
         {
@@ -9166,10 +9166,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Jaws",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Jaws",
         },
         {
@@ -9215,10 +9215,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Beauty and the Beast",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Beauty and the Beast",
         },
         {
@@ -9264,10 +9264,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Frozen II",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Frozen II",
         },
         {
@@ -9313,10 +9313,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Toy Story",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Toy Story",
         },
         {
@@ -9362,10 +9362,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Frozen",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Frozen",
         },
         {
@@ -9411,10 +9411,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Sing",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Sing",
         },
         {
@@ -9460,10 +9460,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "My Big Fat Greek Wedding",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "My Big Fat Greek Wedding",
         },
         {
@@ -9509,10 +9509,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Inception",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Inception",
         },
         {
@@ -9558,10 +9558,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Da Vinci Code",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Da Vinci Code",
         },
         {
@@ -9607,10 +9607,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Martian",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Martian",
         },
         {
@@ -9656,10 +9656,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Joker",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Joker",
         },
         {
@@ -9705,10 +9705,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Hunger Games",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Hunger Games",
         },
         {
@@ -9754,10 +9754,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Hunger Games: Mockingjay - Part 1",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Hunger Games: Mockingjay - Part 1",
         },
         {
@@ -9803,10 +9803,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Sixth Sense",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Sixth Sense",
         },
         {
@@ -9852,10 +9852,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Hunger Games: Mockingjay - Part 2",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Hunger Games: Mockingjay - Part 2",
         },
         {
@@ -9901,10 +9901,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "I am Legend",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "I am Legend",
         },
         {
@@ -9950,10 +9950,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Signs",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Signs",
         },
         {
@@ -9999,10 +9999,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "The Bourne Ultimatum",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "The Bourne Ultimatum",
         },
         {
@@ -10048,10 +10048,10 @@ export const movies: CategoryResponse = {
       ],
     },
     {
-      name: "Movies",
+      name: "Gravity",
       attributes: [
         {
-          name: "Movies",
+          name: "Movie",
           value: "Gravity",
         },
         {

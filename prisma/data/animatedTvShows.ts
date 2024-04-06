@@ -1,8 +1,7 @@
 import { CategoryResponse } from "./types";
 
 export const animatedTvShows: CategoryResponse = {
-  title: "Animated Tv Shows",
-  themeName: "animatedTv",
+  title: "Animated TV Shows",
   attributes: [
     {
       name: "Title",
@@ -30,7 +29,7 @@ export const animatedTvShows: CategoryResponse = {
     },
     {
       name: "Channel(s) Originally Aired On",
-      type: "multipart",
+      type: "string",
     },
     {
       name: "Genre",
@@ -39,7 +38,7 @@ export const animatedTvShows: CategoryResponse = {
   ],
   items: [
     {
-      name: "Title",
+      name: "A Pup Named Scooby-Doo",
       attributes: [
         {
           name: "Title",
@@ -76,7 +75,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Beetlejuice",
       attributes: [
         {
           name: "Title",
@@ -113,7 +112,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Pepper Ann",
       attributes: [
         {
           name: "Title",
@@ -150,7 +149,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Recess",
       attributes: [
         {
           name: "Title",
@@ -187,7 +186,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Richie Rich (1980)",
       attributes: [
         {
           name: "Title",
@@ -224,7 +223,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Schoolhouse Rock!",
       attributes: [
         {
           name: "Title",
@@ -261,7 +260,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Spider-Man (1967)",
       attributes: [
         {
           name: "Title",
@@ -298,7 +297,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Tales from the Cryptkeeper",
       attributes: [
         {
           name: "Title",
@@ -335,7 +334,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Flintstones",
       attributes: [
         {
           name: "Title",
@@ -372,7 +371,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The King Kong Show",
       attributes: [
         {
           name: "Title",
@@ -409,7 +408,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Bugs Bunny Show",
       attributes: [
         {
           name: "Title",
@@ -446,7 +445,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Adventures of Rocky and Bullwinkle and Friends",
       attributes: [
         {
           name: "Title",
@@ -483,7 +482,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Care Bears Family",
       attributes: [
         {
           name: "Title",
@@ -520,7 +519,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "House of Mouse",
       attributes: [
         {
           name: "Title",
@@ -557,7 +556,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "12 oz. Mouse",
       attributes: [
         {
           name: "Title",
@@ -594,7 +593,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Aqua Teen Hunger Force",
       attributes: [
         {
           name: "Title",
@@ -631,7 +630,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Frisky Dingo",
       attributes: [
         {
           name: "Title",
@@ -668,7 +667,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Harvey Birdman, Attorney at Law",
       attributes: [
         {
           name: "Title",
@@ -705,7 +704,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Metalocalypse",
       attributes: [
         {
           name: "Title",
@@ -742,7 +741,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Mike Tyson Mysteries",
       attributes: [
         {
           name: "Title",
@@ -779,7 +778,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Moral Orel",
       attributes: [
         {
           name: "Title",
@@ -816,7 +815,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Rick and Morty",
       attributes: [
         {
           name: "Title",
@@ -853,7 +852,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Robot Chicken",
       attributes: [
         {
           name: "Title",
@@ -890,7 +889,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Sealab 2021",
       attributes: [
         {
           name: "Title",
@@ -927,7 +926,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Squidbillies",
       attributes: [
         {
           name: "Title",
@@ -964,7 +963,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Superjail!",
       attributes: [
         {
           name: "Title",
@@ -1001,7 +1000,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Boondocks",
       attributes: [
         {
           name: "Title",
@@ -1038,7 +1037,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Brak Show",
       attributes: [
         {
           name: "Title",
@@ -1075,7 +1074,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Tom Goes to the Mayor",
       attributes: [
         {
           name: "Title",
@@ -1112,7 +1111,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Wacky Races (2017)",
       attributes: [
         {
           name: "Title",
@@ -1149,7 +1148,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Adventure Time",
       attributes: [
         {
           name: "Title",
@@ -1186,7 +1185,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Ben 10 (2005)",
       attributes: [
         {
           name: "Title",
@@ -1223,7 +1222,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Camp Lazlo",
       attributes: [
         {
           name: "Title",
@@ -1260,7 +1259,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Chowder",
       attributes: [
         {
           name: "Title",
@@ -1297,7 +1296,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Class of 3000",
       attributes: [
         {
           name: "Title",
@@ -1334,7 +1333,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Codename: Kids Next Door",
       attributes: [
         {
           name: "Title",
@@ -1371,7 +1370,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Courage the Cowardly Dog",
       attributes: [
         {
           name: "Title",
@@ -1408,7 +1407,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Cow and Chicken",
       attributes: [
         {
           name: "Title",
@@ -1445,7 +1444,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Craig of the Creek",
       attributes: [
         {
           name: "Title",
@@ -1482,7 +1481,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Dexter's Laboratory",
       attributes: [
         {
           name: "Title",
@@ -1519,7 +1518,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Duck Dodgers",
       attributes: [
         {
           name: "Title",
@@ -1556,7 +1555,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Ed, Edd n Eddy",
       attributes: [
         {
           name: "Title",
@@ -1593,7 +1592,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Foster's Home for Imaginary Friends",
       attributes: [
         {
           name: "Title",
@@ -1630,7 +1629,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Generator Rex",
       attributes: [
         {
           name: "Title",
@@ -1667,7 +1666,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Grim & Evil",
       attributes: [
         {
           name: "Title",
@@ -1704,7 +1703,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Hi Hi Puffy AmiYumi",
       attributes: [
         {
           name: "Title",
@@ -1741,7 +1740,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Johnny Bravo",
       attributes: [
         {
           name: "Title",
@@ -1778,7 +1777,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Justice League",
       attributes: [
         {
           name: "Title",
@@ -1815,7 +1814,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Justice League Unlimited",
       attributes: [
         {
           name: "Title",
@@ -1852,7 +1851,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Mad",
       attributes: [
         {
           name: "Title",
@@ -1889,7 +1888,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "My Gym Partner's a Monkey",
       attributes: [
         {
           name: "Title",
@@ -1926,7 +1925,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Regular Show",
       attributes: [
         {
           name: "Title",
@@ -1963,7 +1962,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Scooby-Doo! Mystery Incorporated",
       attributes: [
         {
           name: "Title",
@@ -2000,7 +1999,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Sheep in the Big City",
       attributes: [
         {
           name: "Title",
@@ -2037,7 +2036,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Star Wars: Clone Wars",
       attributes: [
         {
           name: "Title",
@@ -2074,7 +2073,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Steven Universe",
       attributes: [
         {
           name: "Title",
@@ -2112,7 +2111,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Teen Titans",
       attributes: [
         {
           name: "Title",
@@ -2149,7 +2148,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Teen Titans Go!",
       attributes: [
         {
           name: "Title",
@@ -2186,7 +2185,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Amazing World of Gumball",
       attributes: [
         {
           name: "Title",
@@ -2223,7 +2222,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Grim Adventures of Billy & Mandy",
       attributes: [
         {
           name: "Title",
@@ -2260,7 +2259,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Life and Times of Juniper Lee",
       attributes: [
         {
           name: "Title",
@@ -2297,7 +2296,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Looney Tunes Show",
       attributes: [
         {
           name: "Title",
@@ -2334,7 +2333,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Marvelous Misadventures of Flapjack",
       attributes: [
         {
           name: "Title",
@@ -2371,7 +2370,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Powerpuff Girls (1998)",
       attributes: [
         {
           name: "Title",
@@ -2408,7 +2407,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Time Squad",
       attributes: [
         {
           name: "Title",
@@ -2445,7 +2444,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Total DramaRama",
       attributes: [
         {
           name: "Title",
@@ -2482,7 +2481,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Transformers: Animated",
       attributes: [
         {
           name: "Title",
@@ -2519,7 +2518,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Transformers: Robots in Disguise",
       attributes: [
         {
           name: "Title",
@@ -2556,7 +2555,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "We Bare Bears",
       attributes: [
         {
           name: "Title",
@@ -2593,7 +2592,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Samurai Jack",
       attributes: [
         {
           name: "Title",
@@ -2630,7 +2629,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Space Ghost Coast to Coast",
       attributes: [
         {
           name: "Title",
@@ -2667,7 +2666,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "New Looney Tunes",
       attributes: [
         {
           name: "Title",
@@ -2704,7 +2703,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Sonic Boom",
       attributes: [
         {
           name: "Title",
@@ -2741,7 +2740,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Garfield Show",
       attributes: [
         {
           name: "Title",
@@ -2778,7 +2777,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Tom and Jerry Show (2014)",
       attributes: [
         {
           name: "Title",
@@ -2815,7 +2814,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Young Justice",
       attributes: [
         {
           name: "Title",
@@ -2852,7 +2851,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Infinity Train",
       attributes: [
         {
           name: "Title",
@@ -2889,7 +2888,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Star Wars: The Clone Wars",
       attributes: [
         {
           name: "Title",
@@ -2926,7 +2925,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Thomas & Friends: All Engines Go",
       attributes: [
         {
           name: "Title",
@@ -2963,7 +2962,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Fat Albert and the Cosby Kids",
       attributes: [
         {
           name: "Title",
@@ -3000,7 +2999,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Garfield and Friends",
       attributes: [
         {
           name: "Title",
@@ -3037,7 +3036,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Josie and the Pussycats",
       attributes: [
         {
           name: "Title",
@@ -3074,7 +3073,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Muppet Babies (1984)",
       attributes: [
         {
           name: "Title",
@@ -3111,7 +3110,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Sabrina the Teenage Witch",
       attributes: [
         {
           name: "Title",
@@ -3148,7 +3147,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Berenstain Bears",
       attributes: [
         {
           name: "Title",
@@ -3185,7 +3184,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Mask: Animated Series",
       attributes: [
         {
           name: "Title",
@@ -3222,7 +3221,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Scooby-Doo, Where Are You!",
       attributes: [
         {
           name: "Title",
@@ -3259,7 +3258,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Brickleberry",
       attributes: [
         {
           name: "Title",
@@ -3296,7 +3295,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Drawn Together",
       attributes: [
         {
           name: "Title",
@@ -3333,7 +3332,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "South Park",
       attributes: [
         {
           name: "Title",
@@ -3370,7 +3369,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Ugly Americans",
       attributes: [
         {
           name: "Title",
@@ -3407,7 +3406,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Harley Quinn",
       attributes: [
         {
           name: "Title",
@@ -3444,7 +3443,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "VeggieTales",
       attributes: [
         {
           name: "Title",
@@ -3481,7 +3480,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "American Dragon: Jake Long",
       attributes: [
         {
           name: "Title",
@@ -3518,7 +3517,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Brandy & Mr. Whiskers",
       attributes: [
         {
           name: "Title",
@@ -3555,7 +3554,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Kim Possible",
       attributes: [
         {
           name: "Title",
@@ -3592,7 +3591,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Lilo & Stitch: The Series",
       attributes: [
         {
           name: "Title",
@@ -3629,7 +3628,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Emperor's New School",
       attributes: [
         {
           name: "Title",
@@ -3666,7 +3665,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Owl House",
       attributes: [
         {
           name: "Title",
@@ -3703,7 +3702,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Proud Family",
       attributes: [
         {
           name: "Title",
@@ -3740,7 +3739,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Replacements",
       attributes: [
         {
           name: "Title",
@@ -3777,7 +3776,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Gravity Falls",
       attributes: [
         {
           name: "Title",
@@ -3814,7 +3813,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Wander Over Yonder",
       attributes: [
         {
           name: "Title",
@@ -3851,7 +3850,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Doc McStuffins",
       attributes: [
         {
           name: "Title",
@@ -3888,7 +3887,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Elena of Avalor",
       attributes: [
         {
           name: "Title",
@@ -3925,7 +3924,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Fancy Nancy",
       attributes: [
         {
           name: "Title",
@@ -3962,7 +3961,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Sofia the First",
       attributes: [
         {
           name: "Title",
@@ -3999,7 +3998,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Vampirina",
       attributes: [
         {
           name: "Title",
@@ -4036,7 +4035,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Kick Buttowski: Suburban Daredevil",
       attributes: [
         {
           name: "Title",
@@ -4073,7 +4072,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Ultimate Spider-Man",
       attributes: [
         {
           name: "Title",
@@ -4110,7 +4109,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Star vs. the Forces of Evil",
       attributes: [
         {
           name: "Title",
@@ -4147,7 +4146,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Bob's Burgers",
       attributes: [
         {
           name: "Title",
@@ -4184,7 +4183,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Bratz",
       attributes: [
         {
           name: "Title",
@@ -4221,7 +4220,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Family Guy",
       attributes: [
         {
           name: "Title",
@@ -4258,7 +4257,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "King of the Hill",
       attributes: [
         {
           name: "Title",
@@ -4295,7 +4294,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Cleveland Show",
       attributes: [
         {
           name: "Title",
@@ -4332,7 +4331,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Great North",
       attributes: [
         {
           name: "Title",
@@ -4369,7 +4368,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Simpsons",
       attributes: [
         {
           name: "Title",
@@ -4406,7 +4405,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Madeline",
       attributes: [
         {
           name: "Title",
@@ -4443,7 +4442,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Animaniacs (1993)",
       attributes: [
         {
           name: "Title",
@@ -4480,7 +4479,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Angela Anaconda",
       attributes: [
         {
           name: "Title",
@@ -4517,7 +4516,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Batman: The Animated Series",
       attributes: [
         {
           name: "Title",
@@ -4554,7 +4553,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Where on Earth Is Carmen Sandiego?",
       attributes: [
         {
           name: "Title",
@@ -4591,7 +4590,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "X-Men: The Animated Series",
       attributes: [
         {
           name: "Title",
@@ -4628,7 +4627,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Futurama",
       attributes: [
         {
           name: "Title",
@@ -4665,7 +4664,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "American Dad!",
       attributes: [
         {
           name: "Title",
@@ -4702,7 +4701,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Archer",
       attributes: [
         {
           name: "Title",
@@ -4739,7 +4738,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Looney Tunes Cartoons",
       attributes: [
         {
           name: "Title",
@@ -4776,7 +4775,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Yin Yang Yo!",
       attributes: [
         {
           name: "Title",
@@ -4813,7 +4812,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Super Robot Monkey Team Hyperforce Go!",
       attributes: [
         {
           name: "Title",
@@ -4850,7 +4849,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "¡Mucha Lucha!",
       attributes: [
         {
           name: "Title",
@@ -4887,7 +4886,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Batman Beyond",
       attributes: [
         {
           name: "Title",
@@ -4924,7 +4923,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Jackie Chan Adventures",
       attributes: [
         {
           name: "Title",
@@ -4961,7 +4960,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Pinky and the Brain",
       attributes: [
         {
           name: "Title",
@@ -4998,7 +4997,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Static Shock",
       attributes: [
         {
           name: "Title",
@@ -5035,7 +5034,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Superman: The Animated Series",
       attributes: [
         {
           name: "Title",
@@ -5072,7 +5071,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "What's New, Scooby-Doo?",
       attributes: [
         {
           name: "Title",
@@ -5109,7 +5108,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Xiaolin Showdown",
       attributes: [
         {
           name: "Title",
@@ -5146,7 +5145,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Baby Looney Tunes",
       attributes: [
         {
           name: "Title",
@@ -5183,7 +5182,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Daria",
       attributes: [
         {
           name: "Title",
@@ -5220,7 +5219,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Celebrity Deathmatch",
       attributes: [
         {
           name: "Title",
@@ -5257,7 +5256,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Beavis and Butt-Head",
       attributes: [
         {
           name: "Title",
@@ -5294,7 +5293,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Alvin and the Chipmunks (1983)",
       attributes: [
         {
           name: "Title",
@@ -5331,7 +5330,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Atom Ant/Secret Squirrel Show",
       attributes: [
         {
           name: "Title",
@@ -5368,7 +5367,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Smurfs",
       attributes: [
         {
           name: "Title",
@@ -5405,7 +5404,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Pink Panther Show",
       attributes: [
         {
           name: "Title",
@@ -5442,7 +5441,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Big Mouth",
       attributes: [
         {
           name: "Title",
@@ -5479,7 +5478,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "BoJack Horseman",
       attributes: [
         {
           name: "Title",
@@ -5516,7 +5515,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Disenchantment",
       attributes: [
         {
           name: "Title",
@@ -5553,7 +5552,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "F Is for Family",
       attributes: [
         {
           name: "Title",
@@ -5590,7 +5589,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Gabby's Dollhouse",
       attributes: [
         {
           name: "Title",
@@ -5627,7 +5626,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Hilda",
       attributes: [
         {
           name: "Title",
@@ -5664,7 +5663,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Love, Death & Robots",
       attributes: [
         {
           name: "Title",
@@ -5701,7 +5700,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Paradise PD",
       attributes: [
         {
           name: "Title",
@@ -5738,7 +5737,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "She-Ra and the Princesses of Power",
       attributes: [
         {
           name: "Title",
@@ -5775,7 +5774,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Mr. Peabody & Sherman Show",
       attributes: [
         {
           name: "Title",
@@ -5812,7 +5811,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Word Party",
       attributes: [
         {
           name: "Title",
@@ -5849,7 +5848,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Tuca & Bertie",
       attributes: [
         {
           name: "Title",
@@ -5886,7 +5885,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Olivia",
       attributes: [
         {
           name: "Title",
@@ -5923,7 +5922,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Team Umizoomi",
       attributes: [
         {
           name: "Title",
@@ -5960,7 +5959,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Aaahh!!! Real Monsters",
       attributes: [
         {
           name: "Title",
@@ -5997,7 +5996,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "All Grown Up!",
       attributes: [
         {
           name: "Title",
@@ -6034,7 +6033,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "As Told by Ginger",
       attributes: [
         {
           name: "Title",
@@ -6071,7 +6070,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Avatar: The Last Airbender",
       attributes: [
         {
           name: "Title",
@@ -6108,7 +6107,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Back at the Barnyard",
       attributes: [
         {
           name: "Title",
@@ -6145,7 +6144,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Blue's Clues",
       attributes: [
         {
           name: "Title",
@@ -6182,7 +6181,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Bubble Guppies",
       attributes: [
         {
           name: "Title",
@@ -6219,7 +6218,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Butt-Ugly Martians",
       attributes: [
         {
           name: "Title",
@@ -6256,7 +6255,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "CatDog",
       attributes: [
         {
           name: "Title",
@@ -6293,7 +6292,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "ChalkZone",
       attributes: [
         {
           name: "Title",
@@ -6330,7 +6329,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Danny Phantom",
       attributes: [
         {
           name: "Title",
@@ -6367,7 +6366,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Dora the Explorer",
       attributes: [
         {
           name: "Title",
@@ -6404,7 +6403,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Fanboy & Chum Chum",
       attributes: [
         {
           name: "Title",
@@ -6441,7 +6440,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Go, Diego, Go!",
       attributes: [
         {
           name: "Title",
@@ -6478,7 +6477,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Hey Arnold!",
       attributes: [
         {
           name: "Title",
@@ -6515,7 +6514,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Invader Zim",
       attributes: [
         {
           name: "Title",
@@ -6552,7 +6551,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "KaBlam!",
       attributes: [
         {
           name: "Title",
@@ -6589,7 +6588,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Little Bill",
       attributes: [
         {
           name: "Title",
@@ -6626,7 +6625,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "My Life as a Teenage Robot",
       attributes: [
         {
           name: "Title",
@@ -6663,7 +6662,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Ni Hao, Kai-Lan",
       attributes: [
         {
           name: "Title",
@@ -6700,7 +6699,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Oswald",
       attributes: [
         {
           name: "Title",
@@ -6737,7 +6736,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Rocket Power",
       attributes: [
         {
           name: "Title",
@@ -6774,7 +6773,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Rocko's Modern Life",
       attributes: [
         {
           name: "Title",
@@ -6811,7 +6810,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Rugrats (1991)",
       attributes: [
         {
           name: "Title",
@@ -6848,7 +6847,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Sanjay and Craig",
       attributes: [
         {
           name: "Title",
@@ -6885,7 +6884,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Santiago of the Seas",
       attributes: [
         {
           name: "Title",
@@ -6922,7 +6921,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "SpongeBob SquarePants",
       attributes: [
         {
           name: "Title",
@@ -6959,7 +6958,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Tak and the Power of Juju",
       attributes: [
         {
           name: "Title",
@@ -6996,7 +6995,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Adventures of Jimmy Neutron: Boy Genius",
       attributes: [
         {
           name: "Title",
@@ -7033,7 +7032,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Angry Beavers",
       attributes: [
         {
           name: "Title",
@@ -7070,7 +7069,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Backyardigans",
       attributes: [
         {
           name: "Title",
@@ -7107,7 +7106,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Casagrandes",
       attributes: [
         {
           name: "Title",
@@ -7144,7 +7143,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Fairly OddParents",
       attributes: [
         {
           name: "Title",
@@ -7181,7 +7180,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Legend of Korra",
       attributes: [
         {
           name: "Title",
@@ -7218,7 +7217,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Loud House",
       attributes: [
         {
           name: "Title",
@@ -7255,7 +7254,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Mighty B!",
       attributes: [
         {
           name: "Title",
@@ -7292,7 +7291,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Penguins of Madagascar",
       attributes: [
         {
           name: "Title",
@@ -7329,7 +7328,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Ren & Stimpy Show",
       attributes: [
         {
           name: "Title",
@@ -7366,7 +7365,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Wild Thornberrys",
       attributes: [
         {
           name: "Title",
@@ -7403,7 +7402,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Winx Club (revival series)",
       attributes: [
         {
           name: "Title",
@@ -7440,7 +7439,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Wonder Pets!",
       attributes: [
         {
           name: "Title",
@@ -7477,7 +7476,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Wow! Wow! Wubbzy!",
       attributes: [
         {
           name: "Title",
@@ -7514,7 +7513,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Yo Gabba Gabba!",
       attributes: [
         {
           name: "Title",
@@ -7551,7 +7550,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Doug",
       attributes: [
         {
           name: "Title",
@@ -7588,7 +7587,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Speed Racer: The Next Generation",
       attributes: [
         {
           name: "Title",
@@ -7625,7 +7624,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Kappa Mikey",
       attributes: [
         {
           name: "Title",
@@ -7662,7 +7661,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Lassie",
       attributes: [
         {
           name: "Title",
@@ -7699,7 +7698,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Arthur",
       attributes: [
         {
           name: "Title",
@@ -7736,7 +7735,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Clifford the Big Red Dog (2000)",
       attributes: [
         {
           name: "Title",
@@ -7773,7 +7772,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Dragon Tales",
       attributes: [
         {
           name: "Title",
@@ -7810,7 +7809,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Martha Speaks",
       attributes: [
         {
           name: "Title",
@@ -7847,7 +7846,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Pinkalicious & Peterrific",
       attributes: [
         {
           name: "Title",
@@ -7884,7 +7883,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Sid the Science Kid",
       attributes: [
         {
           name: "Title",
@@ -7921,7 +7920,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Xavier Riddle and the Secret Museum",
       attributes: [
         {
           name: "Title",
@@ -7958,7 +7957,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Zoboomafoo",
       attributes: [
         {
           name: "Title",
@@ -7995,7 +7994,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "WordGirl",
       attributes: [
         {
           name: "Title",
@@ -8032,7 +8031,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Cyberchase",
       attributes: [
         {
           name: "Title",
@@ -8069,7 +8068,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Curious George (2006)",
       attributes: [
         {
           name: "Title",
@@ -8106,7 +8105,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Sesame Street",
       attributes: [
         {
           name: "Title",
@@ -8143,7 +8142,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Handy Manny",
       attributes: [
         {
           name: "Title",
@@ -8180,7 +8179,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Higglytown Heroes",
       attributes: [
         {
           name: "Title",
@@ -8217,7 +8216,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Little Einsteins",
       attributes: [
         {
           name: "Title",
@@ -8254,7 +8253,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "PB&J Otter",
       attributes: [
         {
           name: "Title",
@@ -8291,7 +8290,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Mickey Mouse Clubhouse",
       attributes: [
         {
           name: "Title",
@@ -8328,7 +8327,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Special Agent Oso",
       attributes: [
         {
           name: "Title",
@@ -8365,7 +8364,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Magic School Bus",
       attributes: [
         {
           name: "Title",
@@ -8402,7 +8401,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Dragon",
       attributes: [
         {
           name: "Title",
@@ -8439,7 +8438,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Adventures of Sonic the Hedgehog",
       attributes: [
         {
           name: "Title",
@@ -8476,7 +8475,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Dennis the Menace",
       attributes: [
         {
           name: "Title",
@@ -8513,7 +8512,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "DuckTales (1987)",
       attributes: [
         {
           name: "Title",
@@ -8550,7 +8549,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Felix the Cat",
       attributes: [
         {
           name: "Title",
@@ -8587,7 +8586,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "G.I. Joe: A Real American Hero (1983)",
       attributes: [
         {
           name: "Title",
@@ -8624,7 +8623,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Gargoyles",
       attributes: [
         {
           name: "Title",
@@ -8661,7 +8660,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "He-Man and the Masters of the Universe (1983)",
       attributes: [
         {
           name: "Title",
@@ -8698,7 +8697,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Inspector Gadget",
       attributes: [
         {
           name: "Title",
@@ -8735,7 +8734,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Mister Magoo",
       attributes: [
         {
           name: "Title",
@@ -8772,7 +8771,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Police Academy",
       attributes: [
         {
           name: "Title",
@@ -8809,7 +8808,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Popeye the Sailor",
       attributes: [
         {
           name: "Title",
@@ -8846,7 +8845,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Huckleberry Hound Show",
       attributes: [
         {
           name: "Title",
@@ -8883,7 +8882,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Transformers",
       attributes: [
         {
           name: "Title",
@@ -8920,7 +8919,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "ThunderCats (1985)",
       attributes: [
         {
           name: "Title",
@@ -8957,7 +8956,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Teenage Mutant Ninja Turtles (1987)",
       attributes: [
         {
           name: "Title",
@@ -8994,7 +8993,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Tiny Toon Adventures",
       attributes: [
         {
           name: "Title",
@@ -9031,7 +9030,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "2 Stupid Dogs",
       attributes: [
         {
           name: "Title",
@@ -9068,7 +9067,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Captain Planet and the Planeteers",
       attributes: [
         {
           name: "Title",
@@ -9105,7 +9104,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "SWAT Kats: The Radical Squadron",
       attributes: [
         {
           name: "Title",
@@ -9142,7 +9141,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Phineas and Ferb",
       attributes: [
         {
           name: "Title",
@@ -9179,7 +9178,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The New Adventures of Winnie the Pooh",
       attributes: [
         {
           name: "Title",
@@ -9216,7 +9215,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "My Little Pony: Friendship Is Magic",
       attributes: [
         {
           name: "Title",
@@ -9253,7 +9252,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Johnny Test",
       attributes: [
         {
           name: "Title",
@@ -9290,7 +9289,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Jay Jay the Jet Plane",
       attributes: [
         {
           name: "Title",
@@ -9327,7 +9326,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Home Movies",
       attributes: [
         {
           name: "Title",
@@ -9364,7 +9363,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "The Itsy Bitsy Spider",
       attributes: [
         {
           name: "Title",
@@ -9401,7 +9400,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Cocomelon",
       attributes: [
         {
           name: "Title",
@@ -9438,7 +9437,7 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
     {
-      name: "Title",
+      name: "Woody Woodpecker",
       attributes: [
         {
           name: "Title",
@@ -9475,4 +9474,5 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
   ],
+  themeName: "animatedTv",
 };
