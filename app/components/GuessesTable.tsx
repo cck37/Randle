@@ -16,12 +16,10 @@ import Zoom from "@mui/material/Zoom";
 
 import { Theme, useTheme } from "@mui/material/styles";
 
-const compareStrings = (a: string, b: string): number =>
-  a.toUpperCase() < b.toUpperCase()
-    ? -1
-    : a.toUpperCase() > b.toUpperCase()
-    ? 1
-    : 0;
+const guessHeaderStyle = {
+  color: "secondary.main",
+  fontSize: "1rem",
+};
 
 const guessValueTrim = (attr: GuessAttributeResponse): string => {
   switch (attr.attributeType) {
@@ -72,7 +70,10 @@ export function GuessesTable(props: {
   // Sort both in the same order so they hopefully line up
   // ...or just install data grid
   attributes.sort((a, b) => a.id - b.id);
-  guesses.forEach((guess) => guess.data.sort((a, b) => a.id - b.id));
+  console.log(attributes);
+  guesses.forEach((guess) =>
+    guess.data.sort((a, b) => a.attributeId - b.attributeId)
+  );
 
   const theme = useTheme();
   return (
@@ -80,9 +81,9 @@ export function GuessesTable(props: {
       <Table sx={{ minWidth: 650 }} aria-label="result table">
         <TableHead>
           <TableRow>
-            <TableCell>Guess</TableCell>
+            <TableCell sx={guessHeaderStyle}>Guess</TableCell>
             {attributes.map((attr) => (
-              <TableCell align="right" key={attr.id}>
+              <TableCell align="right" key={attr.id} sx={guessHeaderStyle}>
                 {attr.name}
               </TableCell>
             ))}
@@ -92,8 +93,10 @@ export function GuessesTable(props: {
           <TableBody>
             {guesses.map((guess) => (
               <TableRow
-                key={guess.id}
-                sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+                key={`row-${guess.id}`}
+                sx={{
+                  "&:last-child td, &:last-child th": { border: 0 },
+                }}
               >
                 <Zoom in={true}>
                   <TableCell component="th" scope="row">

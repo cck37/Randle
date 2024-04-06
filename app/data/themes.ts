@@ -176,9 +176,11 @@ const animatedDisneyMovies: ThemeOptions = {
     },
   },
   typography: {
-    fontFamily: "Nunito",
+    fontFamily:
+      "Nunito, Droid Sans, system-ui, Avenir, Helvetica, Arial, sans-serif",
     h1: {
-      fontFamily: "Disney, sans-serif",
+      fontFamily:
+        "Disney, Droid Sans, system-ui, Avenir, Helvetica, Arial, sans-serif",
     },
   },
 };

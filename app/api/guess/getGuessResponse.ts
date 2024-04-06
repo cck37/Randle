@@ -65,7 +65,7 @@ export const getGuessResponse = cache(
 
     // Get answer for today
     // DB Call 1
-    const currCategory = await getCategory(currTimestamp); // stupid. figure out caching or ask the client for it idk
+    const currCategory = await getCategory(currTimestamp); // stupid. figure out caching
 
     // DB Call 2
     const answersCount = await prisma.items.count({
@@ -85,8 +85,6 @@ export const getGuessResponse = cache(
           },
         },
       },
-      // FIX: Could be a predictiable rotating schedule of category and answer. Also might break for certain month + number of item combiniations
-      // Gotta include more "randomness" into it like use seconds and cache the result when the day changes or consider the day of the week as well
       orderBy: {
         id: "asc",
       },
@@ -135,6 +133,7 @@ export const getGuessResponse = cache(
         name: currGuess.name,
         data: currGuess.itemAttributes?.map((itemAttributes) => ({
           id: itemAttributes.id,
+          attributeId: itemAttributes.attribute_id,
           name: itemAttributes.attribute.name,
           attributeType: itemAttributes.attribute.attributeType,
           value: itemAttributes.value,

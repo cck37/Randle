@@ -38,6 +38,7 @@ export type GuessResponse = Guess | undefined;
 
 export interface GuessAttributeResponse {
   id: number;
+  attributeId: number;
   name: string;
   value: string;
   attributeType: AttributeType;
