@@ -9,7 +9,7 @@ export const fastFood: CategoryResponse = {
     },
     {
       name: "2022 US Sales (MM)",
-      type: "multipart",
+      type: "number",
     },
     {
       name: "2021 Total Stores",
