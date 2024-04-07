@@ -4,10 +4,6 @@ export const fastFood: CategoryResponse = {
   title: "Fast Food",
   attributes: [
     {
-      name: "Fast-Food Chains",
-      type: "string",
-    },
-    {
       name: "Region",
       type: "string",
     },
@@ -48,6 +44,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Burgers, Breakfast",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Yellow",
+        },
       ],
     },
     {
@@ -68,6 +68,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Coffee, Bakery, Fast Casual",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Green, White",
         },
       ],
     },
@@ -90,6 +94,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Chicken, Sandwiches",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red",
+        },
       ],
     },
     {
@@ -110,6 +118,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Mexican",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Purple, Yellow",
         },
       ],
     },
@@ -132,6 +144,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Burgers",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Yellow",
+        },
       ],
     },
     {
@@ -152,6 +168,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Coffee, Donuts, Breakfast",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Pink, Orange",
         },
       ],
     },
@@ -174,6 +194,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Sandwiches, Deli, Fast Casual",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red",
+        },
       ],
     },
     {
@@ -194,6 +218,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Sandwiches",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Green, Yellow",
         },
       ],
     },
@@ -216,6 +244,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Burgers",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Yellow",
+        },
       ],
     },
     {
@@ -236,6 +268,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Pizza",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Blue, Red",
         },
       ],
     },
@@ -258,6 +294,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Mexican, Fast Casual",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Black",
+        },
       ],
     },
     {
@@ -278,6 +318,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Sandwiches, Soup, Salad, Bakery, Fast Casual",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Blue, White",
         },
       ],
     },
@@ -300,6 +344,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Pizza",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red",
+        },
       ],
     },
     {
@@ -320,6 +368,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Burgers, Hot Dogs",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Blue, Red",
         },
       ],
     },
@@ -342,6 +394,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Chinese",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Orange",
+        },
       ],
     },
     {
@@ -362,6 +418,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Chicken",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Red",
         },
       ],
     },
@@ -384,6 +444,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Chicken",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Orange",
+        },
       ],
     },
     {
@@ -404,6 +468,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Ice Cream, Burgers",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Blue, Orange",
         },
       ],
     },
@@ -426,6 +494,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Sandwiches",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Yellow",
+        },
       ],
     },
     {
@@ -446,6 +518,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Burgers",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Blue, Yellow",
         },
       ],
     },
@@ -468,6 +544,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Pizza",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Green",
+        },
       ],
     },
     {
@@ -488,6 +568,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Pizza",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Gold",
         },
       ],
     },
@@ -510,6 +594,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Burgers",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Orange, White",
+        },
       ],
     },
     {
@@ -530,6 +618,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Chicken",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, White",
         },
       ],
     },
@@ -552,6 +644,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Burgers, Frozen Custard",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Blue, White",
+        },
       ],
     },
     {
@@ -572,6 +668,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Subs, Fast Casual",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Blue, White",
         },
       ],
     },
@@ -594,6 +694,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Chicken Wings",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, White",
+        },
       ],
     },
     {
@@ -614,6 +718,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Chicken",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Black",
         },
       ],
     },
@@ -636,6 +744,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Subs",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Yellow",
+        },
       ],
     },
     {
@@ -656,6 +768,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Burgers",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, White",
         },
       ],
     },
@@ -678,6 +794,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Burgers",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Yellow",
+        },
       ],
     },
     {
@@ -698,6 +818,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Chicken, Biscuits",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Yellow",
         },
       ],
     },
@@ -720,6 +844,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Burgers",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Yellow",
+        },
       ],
     },
     {
@@ -740,6 +868,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Coffee, Bakery",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Yellow, Blue",
         },
       ],
     },
@@ -762,6 +894,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Sandwiches, Fast Casual",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Yellow",
+        },
       ],
     },
     {
@@ -782,6 +918,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Burgers",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Yellow",
         },
       ],
     },
@@ -804,6 +944,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Smoothies, Sandwiches, Fast Casual",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Green, Orange",
+        },
       ],
     },
     {
@@ -824,6 +968,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Chicken, Mexican",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, Orange",
         },
       ],
     },
@@ -846,6 +994,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Bakery, Cookies",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "",
+        },
       ],
     },
     {
@@ -866,6 +1018,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Mexican, Fast Casual",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, White",
         },
       ],
     },
@@ -888,6 +1044,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Burgers, Fast Casual",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Green",
+        },
       ],
     },
     {
@@ -908,6 +1068,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Donuts, Bakery",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Green, White",
         },
       ],
     },
@@ -930,6 +1094,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Pizza",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, White",
+        },
       ],
     },
     {
@@ -950,6 +1118,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Mexican",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Green, Yellow",
         },
       ],
     },
@@ -972,6 +1144,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Sandwiches, Deli, Fast Casual",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Green, Orange",
+        },
       ],
     },
     {
@@ -992,6 +1168,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Burgers",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, White",
         },
       ],
     },
@@ -1014,6 +1194,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Burgers, Frozen Custard",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, White",
+        },
       ],
     },
     {
@@ -1034,6 +1218,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Chicken",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, White",
         },
       ],
     },
@@ -1056,6 +1244,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Pizza, Takeout",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Blue, Red",
+        },
       ],
     },
     {
@@ -1076,6 +1268,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Mexican, Fast Casual",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Green, Orange",
         },
       ],
     },
@@ -1098,6 +1294,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Coffee, Donuts, Breakfast",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Red, White",
+        },
       ],
     },
     {
@@ -1119,6 +1319,10 @@ export const fastFood: CategoryResponse = {
           name: "Type",
           value: "Ice Cream, Desserts",
         },
+        {
+          name: "Primary Logo Colors",
+          value: "Blue, Pink",
+        },
       ],
     },
     {
@@ -1139,6 +1343,10 @@ export const fastFood: CategoryResponse = {
         {
           name: "Type",
           value: "Burgers",
+        },
+        {
+          name: "Primary Logo Colors",
+          value: "Blue, White",
         },
       ],
     },

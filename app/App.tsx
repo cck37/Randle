@@ -15,13 +15,15 @@ import { GuessesTable } from "./components/GuessesTable";
 import { GuessBar } from "./components/GuessBar";
 import { CorrectGuess } from "./components/CorrectGuess";
 
-import { CategoryResponse, Guess, PossibleGuess } from "./types";
+import { CategoryResponse, Guess, GuessResponse, PossibleGuess } from "./types";
 import ThemeRegistry from "./components/ThemeRegistry/ThemeRegistry";
 import { CountdownProvider } from "./components/CountdownContext";
 import { CountDownTimer } from "./components/CountDownTimer";
 import { flushSync } from "react-dom";
 import { useWindowSize } from "react-use";
 import Confetti from "react-confetti";
+import { useLocalStorage } from "./hooks/useLocaleStorage";
+import { timestampToDate } from "./api/utils";
 
 type GuessState = {
   possibleGuesses: PossibleGuess[];
@@ -30,6 +32,19 @@ type GuessState = {
   isGuessCorrect: boolean;
   isGuessQueryLoading: boolean;
 };
+
+type StorageState = {
+  timeStamp: number;
+  category: CategoryResponse;
+  guess: GuessState;
+};
+
+const isValidStorage = (
+  storageItem: StorageState
+): storageItem is StorageState =>
+  !!storageItem &&
+  timestampToDate(storageItem?.timeStamp).toDateString() ===
+    timestampToDate(Date.now()).toDateString();
 
 export default function App() {
   const [theme, setTheme] = useState<Theme>();
@@ -43,6 +58,7 @@ export default function App() {
   });
   const correctRef = useRef<HTMLUListElement | null>(null);
   const { width, height } = useWindowSize();
+  const [previousSession, setPreviousSession] = useLocalStorage("session");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -50,14 +66,17 @@ export default function App() {
       const res = await fetch(`/api/category?date=${Date.now()}`);
       const categoryResponse: CategoryResponse = await res.json();
       const { items, theme: themeOptions } = categoryResponse;
-      setCategoryState(categoryResponse);
-      setGuessState({
+      const guessState: GuessState = {
         possibleGuesses: items,
         query: "",
         results: [],
         isGuessCorrect: false,
         isGuessQueryLoading: false,
-      });
+      };
+
+      // Set session state
+      setCategoryState(categoryResponse);
+      setGuessState(guessState);
 
       /***
        * FIX: Not ideal but whatever...
@@ -73,9 +92,28 @@ export default function App() {
       */
       const theme = createTheme(themeOptions);
       setTheme(responsiveFontSizes(theme));
+
+      // Save state to LS
+      // setPreviousSession({
+      //   timeStamp: Date.now(),
+      //   category: categoryResponse,
+      //   guess: guessState,
+      // });
     };
 
+    // if (isValidStorage(previousSession)) {
+    //   const { category, guess } = previousSession;
+    //   setCategoryState(category);
+    //   setGuessState({
+    //     ...guess,
+    //     isGuessQueryLoading: false,
+    //   });
+    //   const theme = createTheme(category.theme);
+    //   setTheme(responsiveFontSizes(theme));
+    // } else {
     fetchData();
+    // }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const { possibleGuesses, results, isGuessCorrect, isGuessQueryLoading } =
@@ -97,6 +135,7 @@ export default function App() {
       const res = await fetch(`/api/guess?${queryString}`);
       const guessResponse: Guess = await res.json();
 
+      console.log(previousSession, guessState, guessResponse);
       setGuessState((prevState) => ({
         ...prevState,
         isGuessQueryLoading: false,
@@ -107,6 +146,13 @@ export default function App() {
           (g) => g.name !== query
         ),
       }));
+
+      console.log(previousSession, guessState, guessResponse);
+      // setPreviousSession({
+      //   ...previousSession,
+      //   guess: guessState,
+      // });
+      console.log(previousSession, guessState, guessResponse);
 
       if (guessResponse.data.every((attr) => attr.res.isCorrect)) {
         flushSync(() => {

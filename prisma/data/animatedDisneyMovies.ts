@@ -4,10 +4,6 @@ export const animatedDisneyMovies: CategoryResponse = {
   title: "Animated Disney Movies",
   attributes: [
     {
-      name: "Title",
-      type: "string",
-    },
-    {
       name: "IMDb Rating",
       type: "number",
     },
@@ -64,6 +60,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Golden Age",
+        },
       ],
     },
     {
@@ -92,6 +92,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Golden Age",
         },
       ],
     },
@@ -122,6 +126,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Golden Age",
+        },
       ],
     },
     {
@@ -150,6 +158,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Golden Age",
         },
       ],
     },
@@ -180,6 +192,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Package Era",
+        },
       ],
     },
     {
@@ -208,6 +224,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Package Era",
         },
       ],
     },
@@ -238,6 +258,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Silver Age",
+        },
       ],
     },
     {
@@ -266,6 +290,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Silver Age",
         },
       ],
     },
@@ -296,6 +324,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Silver Age",
+        },
       ],
     },
     {
@@ -324,6 +356,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Silver Age",
         },
       ],
     },
@@ -354,6 +390,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Silver Age",
+        },
       ],
     },
     {
@@ -382,6 +422,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Transition Era",
         },
       ],
     },
@@ -412,6 +456,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Transition Era",
+        },
       ],
     },
     {
@@ -440,6 +488,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Transition Era",
         },
       ],
     },
@@ -470,6 +522,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Bronze Age",
+        },
       ],
     },
     {
@@ -498,6 +554,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Bronze Age",
         },
       ],
     },
@@ -528,6 +588,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Bronze Age",
+        },
       ],
     },
     {
@@ -556,6 +620,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Bronze Age",
         },
       ],
     },
@@ -586,6 +654,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Bronze Age",
+        },
       ],
     },
     {
@@ -614,6 +686,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Bronze Age",
         },
       ],
     },
@@ -644,6 +720,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Bronze Age",
+        },
       ],
     },
     {
@@ -672,6 +752,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Bronze Age",
         },
       ],
     },
@@ -702,6 +786,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
+        },
       ],
     },
     {
@@ -730,6 +818,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
         },
       ],
     },
@@ -760,6 +852,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
+        },
       ],
     },
     {
@@ -788,6 +884,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
         },
       ],
     },
@@ -818,6 +918,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
+        },
       ],
     },
     {
@@ -846,6 +950,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
         },
       ],
     },
@@ -876,6 +984,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
+        },
       ],
     },
     {
@@ -904,6 +1016,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
         },
       ],
     },
@@ -934,6 +1050,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
+        },
       ],
     },
     {
@@ -962,6 +1082,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
         },
       ],
     },
@@ -992,6 +1116,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
+        },
       ],
     },
     {
@@ -1020,6 +1148,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
         },
       ],
     },
@@ -1050,6 +1182,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
+        },
       ],
     },
     {
@@ -1078,6 +1214,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
         },
       ],
     },
@@ -1108,6 +1248,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
+        },
       ],
     },
     {
@@ -1136,6 +1280,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
         },
       ],
     },
@@ -1166,6 +1314,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
+        },
       ],
     },
     {
@@ -1194,6 +1346,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
         },
       ],
     },
@@ -1224,6 +1380,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
+        },
       ],
     },
     {
@@ -1252,6 +1412,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
         },
       ],
     },
@@ -1282,6 +1446,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Disney Renaissance",
+        },
       ],
     },
     {
@@ -1310,6 +1478,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
         },
       ],
     },
@@ -1340,6 +1512,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
+        },
       ],
     },
     {
@@ -1368,6 +1544,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
         },
       ],
     },
@@ -1398,6 +1578,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
+        },
       ],
     },
     {
@@ -1426,6 +1610,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
         },
       ],
     },
@@ -1456,6 +1644,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
+        },
       ],
     },
     {
@@ -1484,6 +1676,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
         },
       ],
     },
@@ -1514,6 +1710,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
+        },
       ],
     },
     {
@@ -1542,6 +1742,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
         },
       ],
     },
@@ -1572,6 +1776,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
+        },
       ],
     },
     {
@@ -1600,6 +1808,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
         },
       ],
     },
@@ -1630,6 +1842,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
+        },
       ],
     },
     {
@@ -1658,6 +1874,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
         },
       ],
     },
@@ -1688,6 +1908,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
+        },
       ],
     },
     {
@@ -1716,6 +1940,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
         },
       ],
     },
@@ -1746,6 +1974,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
+        },
       ],
     },
     {
@@ -1774,6 +2006,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
         },
       ],
     },
@@ -1804,6 +2040,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
+        },
       ],
     },
     {
@@ -1832,6 +2072,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
         },
       ],
     },
@@ -1862,6 +2106,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
+        },
       ],
     },
     {
@@ -1890,6 +2138,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
         },
       ],
     },
@@ -1920,6 +2172,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Post Renaissance",
+        },
       ],
     },
     {
@@ -1948,6 +2204,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
         },
       ],
     },
@@ -1978,6 +2238,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
+        },
       ],
     },
     {
@@ -2006,6 +2270,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
         },
       ],
     },
@@ -2036,6 +2304,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "No",
         },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
+        },
       ],
     },
     {
@@ -2064,6 +2336,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
         },
       ],
     },
@@ -2094,6 +2370,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
+        },
       ],
     },
     {
@@ -2122,6 +2402,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
         },
       ],
     },
@@ -2152,6 +2436,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
+        },
       ],
     },
     {
@@ -2180,6 +2468,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
         },
       ],
     },
@@ -2210,6 +2502,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
+        },
       ],
     },
     {
@@ -2238,6 +2534,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
         },
       ],
     },
@@ -2268,6 +2568,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
+        },
       ],
     },
     {
@@ -2296,6 +2600,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
         },
       ],
     },
@@ -2326,6 +2634,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
+        },
       ],
     },
     {
@@ -2354,6 +2666,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
         },
       ],
     },
@@ -2384,6 +2700,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
+        },
       ],
     },
     {
@@ -2412,6 +2732,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
         },
       ],
     },
@@ -2442,6 +2766,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
+        },
       ],
     },
     {
@@ -2470,6 +2798,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
         },
       ],
     },
@@ -2500,6 +2832,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
+        },
       ],
     },
     {
@@ -2528,6 +2864,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
         },
       ],
     },
@@ -2558,6 +2898,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
+        },
       ],
     },
     {
@@ -2586,6 +2930,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "No",
+        },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
         },
       ],
     },
@@ -2616,6 +2964,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Revival Era",
+        },
       ],
     },
     {
@@ -2644,6 +2996,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Streaming",
         },
       ],
     },
@@ -2674,6 +3030,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Streaming",
+        },
       ],
     },
     {
@@ -2702,6 +3062,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Streaming",
         },
       ],
     },
@@ -2732,6 +3096,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Streaming",
+        },
       ],
     },
     {
@@ -2760,6 +3128,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Streaming",
         },
       ],
     },
@@ -2790,6 +3162,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Streaming",
+        },
       ],
     },
     {
@@ -2818,6 +3194,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Streaming",
         },
       ],
     },
@@ -2848,6 +3228,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Streaming",
+        },
       ],
     },
     {
@@ -2877,6 +3261,10 @@ export const animatedDisneyMovies: CategoryResponse = {
           name: "Is Original",
           value: "Yes",
         },
+        {
+          name: "Disney Era",
+          value: "Streaming",
+        },
       ],
     },
     {
@@ -2905,6 +3293,10 @@ export const animatedDisneyMovies: CategoryResponse = {
         {
           name: "Is Original",
           value: "Yes",
+        },
+        {
+          name: "Disney Era",
+          value: "Streaming",
         },
       ],
     },

@@ -4,10 +4,6 @@ export const movies: CategoryResponse = {
   title: "Movies",
   attributes: [
     {
-      name: "Movie",
-      type: "string",
-    },
-    {
       name: "Distributor",
       type: "string",
     },
@@ -88,6 +84,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "146",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2022",
+        },
       ],
     },
     {
@@ -128,6 +128,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "113",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
         },
       ],
     },
@@ -170,6 +174,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "132",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2021",
+        },
       ],
     },
     {
@@ -210,6 +218,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "181",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2019",
         },
       ],
     },
@@ -252,6 +264,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "156",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2018",
+        },
       ],
     },
     {
@@ -292,6 +308,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "143",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2012",
         },
       ],
     },
@@ -334,6 +354,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "92",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2023",
+        },
       ],
     },
     {
@@ -374,6 +398,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "141",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2015",
         },
       ],
     },
@@ -416,6 +444,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "130",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2013",
+        },
       ],
     },
     {
@@ -456,6 +488,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "137",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2015",
         },
       ],
     },
@@ -498,6 +534,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "136",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2017",
+        },
       ],
     },
     {
@@ -538,6 +578,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "118",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2018",
         },
       ],
     },
@@ -580,6 +624,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "126",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2022",
+        },
       ],
     },
     {
@@ -620,6 +668,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "121",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1989",
         },
       ],
     },
@@ -662,6 +714,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "98",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1997",
+        },
       ],
     },
     {
@@ -702,6 +758,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "104",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2006",
         },
       ],
     },
@@ -744,6 +804,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "138",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2003",
+        },
       ],
     },
     {
@@ -784,6 +848,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "164",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2012",
         },
       ],
     },
@@ -826,6 +894,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "151",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
+        },
       ],
     },
     {
@@ -866,6 +938,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "142",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2013",
         },
       ],
     },
@@ -908,6 +984,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "126",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2000",
+        },
       ],
     },
     {
@@ -948,6 +1028,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "146",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
         },
       ],
     },
@@ -990,6 +1074,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "135",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2014",
+        },
       ],
     },
     {
@@ -1030,6 +1118,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "162",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2009",
         },
       ],
     },
@@ -1072,6 +1164,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "152",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2008",
+        },
       ],
     },
     {
@@ -1112,6 +1208,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "125",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2010",
         },
       ],
     },
@@ -1154,6 +1254,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "94",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
+        },
       ],
     },
     {
@@ -1194,6 +1298,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "150",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2023",
         },
       ],
     },
@@ -1236,6 +1344,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "131",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2014",
+        },
       ],
     },
     {
@@ -1276,6 +1388,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "92",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2008",
         },
       ],
     },
@@ -1318,6 +1434,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "116",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2005",
+        },
       ],
     },
     {
@@ -1358,6 +1478,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "134",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1997",
         },
       ],
     },
@@ -1400,6 +1524,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "121",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2017",
+        },
       ],
     },
     {
@@ -1440,6 +1568,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "90",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2001",
         },
       ],
     },
@@ -1482,6 +1614,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "147",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2018",
+        },
       ],
     },
     {
@@ -1522,6 +1658,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "131",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2022",
         },
       ],
     },
@@ -1564,6 +1704,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "130",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2013",
+        },
       ],
     },
     {
@@ -1604,6 +1748,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "120",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2018",
         },
       ],
     },
@@ -1646,6 +1794,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "161",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2022",
+        },
       ],
     },
     {
@@ -1686,6 +1838,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "135",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2017",
         },
       ],
     },
@@ -1728,6 +1884,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "114",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1996",
+        },
       ],
     },
     {
@@ -1768,6 +1928,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "130",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2017",
         },
       ],
     },
@@ -1810,6 +1974,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "148",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2021",
+        },
       ],
     },
     {
@@ -1850,6 +2018,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "124",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2015",
         },
       ],
     },
@@ -1892,6 +2064,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "128",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2018",
+        },
       ],
     },
     {
@@ -1932,6 +2108,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "129",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2019",
         },
       ],
     },
@@ -1974,6 +2154,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "175",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2022",
+        },
       ],
     },
     {
@@ -2014,6 +2198,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "133",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2017",
         },
       ],
     },
@@ -2056,6 +2244,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "115",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
+        },
       ],
     },
     {
@@ -2096,6 +2288,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "119",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2022",
         },
       ],
     },
@@ -2138,6 +2334,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "124",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2019",
+        },
       ],
     },
     {
@@ -2178,6 +2378,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "141",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2017",
         },
       ],
     },
@@ -2220,6 +2424,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "143",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2018",
+        },
       ],
     },
     {
@@ -2260,6 +2468,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "190",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2022",
         },
       ],
     },
@@ -2302,6 +2514,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "149",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2009",
+        },
       ],
     },
     {
@@ -2342,6 +2558,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "154",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2011",
         },
       ],
     },
@@ -2384,6 +2604,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "142",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2007",
+        },
       ],
     },
     {
@@ -2424,6 +2648,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "165",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2014",
         },
       ],
     },
@@ -2466,6 +2694,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "123",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
+        },
       ],
     },
     {
@@ -2506,6 +2738,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "143",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2012",
         },
       ],
     },
@@ -2548,6 +2784,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "107",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
+        },
       ],
     },
     {
@@ -2588,6 +2828,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "136",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2017",
         },
       ],
     },
@@ -2630,6 +2874,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "121",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2014",
+        },
       ],
     },
     {
@@ -2670,6 +2918,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "119",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2018",
         },
       ],
     },
@@ -2712,6 +2964,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "146",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2013",
+        },
       ],
     },
     {
@@ -2752,6 +3008,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "92",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2001",
         },
       ],
     },
@@ -2794,6 +3054,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "128",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2019",
+        },
       ],
     },
     {
@@ -2834,6 +3098,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "135",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2023",
         },
       ],
     },
@@ -2876,6 +3144,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "90",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1992",
+        },
       ],
     },
     {
@@ -2916,6 +3188,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "108",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2006",
         },
       ],
     },
@@ -2958,6 +3234,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "143",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2000",
+        },
       ],
     },
     {
@@ -2998,6 +3278,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "131",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2011",
         },
       ],
     },
@@ -3040,6 +3324,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "91",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
+        },
       ],
     },
     {
@@ -3080,6 +3368,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "146",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2010",
         },
       ],
     },
@@ -3122,6 +3414,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "91",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2007",
+        },
       ],
     },
     {
@@ -3162,6 +3458,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "139",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2007",
         },
       ],
     },
@@ -3204,6 +3504,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "140",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2023",
+        },
       ],
     },
     {
@@ -3244,6 +3548,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "121",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2002",
         },
       ],
     },
@@ -3286,6 +3594,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "127",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2004",
+        },
       ],
     },
     {
@@ -3326,6 +3638,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "108",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2010",
         },
       ],
     },
@@ -3368,6 +3684,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "86",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2018",
+        },
       ],
     },
     {
@@ -3408,6 +3728,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "130",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2013",
         },
       ],
     },
@@ -3450,6 +3774,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "145",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1996",
+        },
       ],
     },
     {
@@ -3490,6 +3818,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "89",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2009",
         },
       ],
     },
@@ -3532,6 +3864,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "118",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2019",
+        },
       ],
     },
     {
@@ -3572,6 +3908,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "151",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2006",
         },
       ],
     },
@@ -3614,6 +3954,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "87",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1994",
+        },
       ],
     },
     {
@@ -3654,6 +3998,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "167",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2007",
         },
       ],
     },
@@ -3696,6 +4044,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "136",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2011",
+        },
       ],
     },
     {
@@ -3736,6 +4088,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "85",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2012",
         },
       ],
     },
@@ -3778,6 +4134,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "91",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2008",
+        },
       ],
     },
     {
@@ -3818,6 +4178,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "92",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2004",
         },
       ],
     },
@@ -3860,6 +4224,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "92",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2007",
+        },
       ],
     },
     {
@@ -3900,6 +4268,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "140",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2005",
         },
       ],
     },
@@ -3942,6 +4314,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "93",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2010",
+        },
       ],
     },
     {
@@ -3982,6 +4358,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "88",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2022",
         },
       ],
     },
@@ -4024,6 +4404,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "98",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2013",
+        },
       ],
     },
     {
@@ -4064,6 +4448,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "91",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2015",
         },
       ],
     },
@@ -4106,6 +4494,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "90",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2017",
+        },
       ],
     },
     {
@@ -4146,6 +4538,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "119",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2017",
         },
       ],
     },
@@ -4188,6 +4584,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "123",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2019",
+        },
       ],
     },
     {
@@ -4228,6 +4628,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "108",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2014",
         },
       ],
     },
@@ -4270,6 +4674,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "201",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2003",
+        },
       ],
     },
     {
@@ -4310,6 +4718,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "92",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2023",
         },
       ],
     },
@@ -4352,6 +4764,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "131",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2004",
+        },
       ],
     },
     {
@@ -4392,6 +4808,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "179",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2002",
         },
       ],
     },
@@ -4434,6 +4854,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "179",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2001",
+        },
       ],
     },
     {
@@ -4474,6 +4898,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "169",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2012",
         },
       ],
     },
@@ -4516,6 +4944,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "201",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2013",
+        },
       ],
     },
     {
@@ -4556,6 +4988,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "144",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2014",
         },
       ],
     },
@@ -4598,6 +5034,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "136",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2012",
+        },
       ],
     },
     {
@@ -4638,6 +5078,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "105",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2000",
         },
       ],
     },
@@ -4680,6 +5124,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "97",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2014",
+        },
       ],
     },
     {
@@ -4720,6 +5168,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "133",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
         },
       ],
     },
@@ -4762,6 +5214,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "189",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2005",
+        },
       ],
     },
     {
@@ -4802,6 +5258,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "105",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
         },
       ],
     },
@@ -4844,6 +5304,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "91",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2010",
+        },
       ],
     },
     {
@@ -4884,6 +5348,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "90",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2001",
         },
       ],
     },
@@ -4926,6 +5394,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "136",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2015",
+        },
       ],
     },
     {
@@ -4966,6 +5438,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "150",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2017",
         },
       ],
     },
@@ -5008,6 +5484,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "142",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2019",
+        },
       ],
     },
     {
@@ -5048,6 +5528,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "133",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1999",
         },
       ],
     },
@@ -5090,6 +5574,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "119",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1977",
+        },
       ],
     },
     {
@@ -5130,6 +5618,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "114",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1982",
         },
       ],
     },
@@ -5172,6 +5664,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "126",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1993",
+        },
       ],
     },
     {
@@ -5212,6 +5708,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "139",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2005",
         },
       ],
     },
@@ -5254,6 +5754,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "152",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2001",
+        },
       ],
     },
     {
@@ -5294,6 +5798,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "123",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2008",
         },
       ],
     },
@@ -5336,6 +5844,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "133",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1983",
+        },
       ],
     },
     {
@@ -5376,6 +5888,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "143",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2002",
         },
       ],
     },
@@ -5418,6 +5934,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "124",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1980",
+        },
       ],
     },
     {
@@ -5458,6 +5978,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "161",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2002",
         },
       ],
     },
@@ -5500,6 +6024,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "141",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2004",
+        },
       ],
     },
     {
@@ -5540,6 +6068,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "115",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1981",
         },
       ],
     },
@@ -5582,6 +6114,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "144",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2003",
+        },
       ],
     },
     {
@@ -5622,6 +6158,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "113",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
         },
       ],
     },
@@ -5664,6 +6204,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "110",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2014",
+        },
       ],
     },
     {
@@ -5704,6 +6248,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "118",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2018",
         },
       ],
     },
@@ -5746,6 +6294,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "134",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
+        },
       ],
     },
     {
@@ -5786,6 +6338,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "95",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2015",
         },
       ],
     },
@@ -5828,6 +6384,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "108",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
+        },
       ],
     },
     {
@@ -5868,6 +6428,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "89",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2009",
         },
       ],
     },
@@ -5910,6 +6474,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "115",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2004",
+        },
       ],
     },
     {
@@ -5950,6 +6518,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "125",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2009",
         },
       ],
     },
@@ -5992,6 +6564,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "132",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2013",
+        },
       ],
     },
     {
@@ -6032,6 +6608,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "153",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2009",
         },
       ],
     },
@@ -6074,6 +6654,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "138",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2007",
+        },
       ],
     },
     {
@@ -6114,6 +6698,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "150",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2005",
         },
       ],
     },
@@ -6156,6 +6744,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "93",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2012",
+        },
       ],
     },
     {
@@ -6196,6 +6788,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "95",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2010",
         },
       ],
     },
@@ -6238,6 +6834,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "126",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2008",
+        },
       ],
     },
     {
@@ -6278,6 +6878,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "89",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2019",
         },
       ],
     },
@@ -6320,6 +6924,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "102",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2010",
+        },
       ],
     },
     {
@@ -6360,6 +6968,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "102",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2013",
         },
       ],
     },
@@ -6402,6 +7014,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "92",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1999",
+        },
       ],
     },
     {
@@ -6442,6 +7058,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "116",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2006",
         },
       ],
     },
@@ -6484,6 +7104,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "103",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
+        },
       ],
     },
     {
@@ -6524,6 +7148,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "100",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2003",
         },
       ],
     },
@@ -6566,6 +7194,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "100",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2008",
+        },
       ],
     },
     {
@@ -6606,6 +7238,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "124",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2007",
         },
       ],
     },
@@ -6648,6 +7284,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "114",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2023",
+        },
       ],
     },
     {
@@ -6688,6 +7328,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "100",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2009",
         },
       ],
     },
@@ -6730,6 +7374,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "102",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2011",
+        },
       ],
     },
     {
@@ -6770,6 +7418,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "107",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1984",
         },
       ],
     },
@@ -6812,6 +7464,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "105",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1984",
+        },
       ],
     },
     {
@@ -6852,6 +7508,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "125",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1993",
         },
       ],
     },
@@ -6894,6 +7554,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "102",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2003",
+        },
       ],
     },
     {
@@ -6934,6 +7598,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "103",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1990",
         },
       ],
     },
@@ -6976,6 +7644,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "114",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2004",
+        },
       ],
     },
     {
@@ -7016,6 +7688,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "106",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2012",
         },
       ],
     },
@@ -7059,6 +7735,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "132",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2014",
+        },
       ],
     },
     {
@@ -7099,6 +7779,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "117",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2011",
         },
       ],
     },
@@ -7141,6 +7825,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "140",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2018",
+        },
       ],
     },
     {
@@ -7181,6 +7869,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "142",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1994",
         },
       ],
     },
@@ -7223,6 +7915,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "130",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2009",
+        },
       ],
     },
     {
@@ -7263,6 +7959,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "115",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2012",
         },
       ],
     },
@@ -7305,6 +8005,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "128",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2009",
+        },
       ],
     },
     {
@@ -7345,6 +8049,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "124",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2010",
         },
       ],
     },
@@ -7387,6 +8095,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "194",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1997",
+        },
       ],
     },
     {
@@ -7427,6 +8139,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "127",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2004",
         },
       ],
     },
@@ -7469,6 +8185,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "134",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2018",
+        },
       ],
     },
     {
@@ -7509,6 +8229,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "169",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1998",
         },
       ],
     },
@@ -7551,6 +8275,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "180",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2023",
+        },
       ],
     },
     {
@@ -7591,6 +8319,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "127",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1990",
         },
       ],
     },
@@ -7633,6 +8365,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "135",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2017",
+        },
       ],
     },
     {
@@ -7673,6 +8409,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "121",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1973",
         },
       ],
     },
@@ -7715,6 +8455,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "124",
         },
+        {
+          name: "Domestic Release Year",
+          value: "1975",
+        },
       ],
     },
     {
@@ -7755,6 +8499,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "123",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2017",
         },
       ],
     },
@@ -7797,6 +8545,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "103",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2019",
+        },
       ],
     },
     {
@@ -7837,6 +8589,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "81",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1995",
         },
       ],
     },
@@ -7879,6 +8635,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "102",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2013",
+        },
       ],
     },
     {
@@ -7919,6 +8679,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "108",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2016",
         },
       ],
     },
@@ -7961,6 +8725,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "95",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2002",
+        },
       ],
     },
     {
@@ -8001,6 +8769,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "147",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2010",
         },
       ],
     },
@@ -8043,6 +8815,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "152",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2006",
+        },
       ],
     },
     {
@@ -8083,6 +8859,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "130",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2015",
         },
       ],
     },
@@ -8125,6 +8905,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "122",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2019",
+        },
       ],
     },
     {
@@ -8165,6 +8949,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "142",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2012",
         },
       ],
     },
@@ -8207,6 +8995,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "123",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2014",
+        },
       ],
     },
     {
@@ -8247,6 +9039,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "108",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "1999",
         },
       ],
     },
@@ -8289,6 +9085,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "136",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2015",
+        },
       ],
     },
     {
@@ -8329,6 +9129,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "100",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2007",
         },
       ],
     },
@@ -8371,6 +9175,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "106",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2002",
+        },
       ],
     },
     {
@@ -8412,6 +9220,10 @@ export const movies: CategoryResponse = {
           name: "Length (min)",
           value: "113",
         },
+        {
+          name: "Domestic Release Year",
+          value: "2007",
+        },
       ],
     },
     {
@@ -8452,6 +9264,10 @@ export const movies: CategoryResponse = {
         {
           name: "Length (min)",
           value: "91",
+        },
+        {
+          name: "Domestic Release Year",
+          value: "2013",
         },
       ],
     },

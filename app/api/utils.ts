@@ -12,7 +12,7 @@ export const getRandom = (max: number, timestamp: number): number => {
   return (seed % max) + 1;
 };
 
-const timestampToDate = (timestamp: number) =>
+export const timestampToDate = (timestamp: number) =>
   new Date(
     new Date(timestamp).toLocaleString("en-US", {
       timeZone: "America/New_York",

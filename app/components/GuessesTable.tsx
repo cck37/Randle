@@ -70,7 +70,6 @@ export function GuessesTable(props: {
   // Sort both in the same order so they hopefully line up
   // ...or just install data grid
   attributes.sort((a, b) => a.id - b.id);
-  console.log(attributes);
   guesses.forEach((guess) =>
     guess.data.sort((a, b) => a.attributeId - b.attributeId)
   );

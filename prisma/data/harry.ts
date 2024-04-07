@@ -4,16 +4,12 @@ export const harryPotter: CategoryResponse = {
   title: "Harry Potter",
   attributes: [
     {
-      name: "Name",
-      type: "string",
-    },
-    {
       name: "Sex",
       type: "string",
     },
     {
       name: "Species",
-      type: "string",
+      type: "multipart",
     },
     {
       name: "Blood status",
@@ -80,6 +76,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -116,6 +116,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -154,6 +158,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "7",
+        },
       ],
     },
     {
@@ -190,6 +198,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -228,6 +240,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "7",
+        },
       ],
     },
     {
@@ -264,6 +280,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "6",
         },
       ],
     },
@@ -302,6 +322,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Incapacitated",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -338,6 +362,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -376,6 +404,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -412,6 +444,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -450,6 +486,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "6",
+        },
       ],
     },
     {
@@ -486,6 +526,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
         },
       ],
     },
@@ -524,6 +568,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -560,6 +608,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "7",
         },
       ],
     },
@@ -598,6 +650,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -634,6 +690,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -672,6 +732,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -708,6 +772,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "2",
         },
       ],
     },
@@ -746,6 +814,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -782,6 +854,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "7",
         },
       ],
     },
@@ -820,6 +896,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "2",
+        },
       ],
     },
     {
@@ -856,6 +936,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "2",
         },
       ],
     },
@@ -894,6 +978,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -930,6 +1018,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -968,6 +1060,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "7",
+        },
       ],
     },
     {
@@ -1004,6 +1100,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "5",
         },
       ],
     },
@@ -1042,6 +1142,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -1078,6 +1182,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -1116,6 +1224,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -1152,6 +1264,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -1190,6 +1306,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "2",
+        },
       ],
     },
     {
@@ -1226,6 +1346,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "7",
         },
       ],
     },
@@ -1264,6 +1388,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "6",
+        },
       ],
     },
     {
@@ -1300,6 +1428,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "3",
         },
       ],
     },
@@ -1338,6 +1470,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -1374,6 +1510,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
         },
       ],
     },
@@ -1412,6 +1552,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "2",
+        },
       ],
     },
     {
@@ -1448,6 +1592,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "6",
         },
       ],
     },
@@ -1486,6 +1634,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "6",
+        },
       ],
     },
     {
@@ -1522,6 +1674,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "2",
         },
       ],
     },
@@ -1560,6 +1716,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "3",
+        },
       ],
     },
     {
@@ -1596,6 +1756,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -1634,6 +1798,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -1670,6 +1838,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -1708,6 +1880,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -1744,6 +1920,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "7",
         },
       ],
     },
@@ -1782,6 +1962,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -1818,6 +2002,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
         },
       ],
     },
@@ -1856,6 +2044,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -1892,6 +2084,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -1930,6 +2126,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -1966,6 +2166,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "2",
         },
       ],
     },
@@ -2004,6 +2208,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "3",
+        },
       ],
     },
     {
@@ -2040,6 +2248,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -2078,6 +2290,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -2114,6 +2330,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -2152,6 +2372,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "6",
+        },
       ],
     },
     {
@@ -2188,6 +2412,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -2226,6 +2454,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -2262,6 +2494,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -2300,6 +2536,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "3",
+        },
       ],
     },
     {
@@ -2336,6 +2576,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -2374,6 +2618,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -2410,6 +2658,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Incapacitated",
+        },
+        {
+          name: "Book",
+          value: "5",
         },
       ],
     },
@@ -2448,6 +2700,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -2484,6 +2740,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -2522,6 +2782,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -2558,6 +2822,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -2596,6 +2864,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -2632,6 +2904,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Incapacitated",
+        },
+        {
+          name: "Book",
+          value: "2",
         },
       ],
     },
@@ -2670,6 +2946,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -2706,6 +2986,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -2744,6 +3028,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -2780,6 +3068,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -2818,6 +3110,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -2854,6 +3150,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -2892,6 +3192,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -2928,6 +3232,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -2966,6 +3274,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -3002,6 +3314,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -3040,6 +3356,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "2",
+        },
       ],
     },
     {
@@ -3076,6 +3396,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "6",
         },
       ],
     },
@@ -3114,6 +3438,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -3150,6 +3478,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "6",
         },
       ],
     },
@@ -3188,6 +3520,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "7",
+        },
       ],
     },
     {
@@ -3224,6 +3560,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "7",
         },
       ],
     },
@@ -3262,6 +3602,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -3298,6 +3642,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -3336,6 +3684,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -3372,6 +3724,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
         },
       ],
     },
@@ -3410,6 +3766,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -3446,6 +3806,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -3484,6 +3848,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -3520,6 +3888,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
         },
       ],
     },
@@ -3558,6 +3930,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -3594,6 +3970,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "6",
         },
       ],
     },
@@ -3632,6 +4012,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -3668,6 +4052,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -3706,6 +4094,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "7",
+        },
       ],
     },
     {
@@ -3742,6 +4134,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "2",
         },
       ],
     },
@@ -3780,6 +4176,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -3816,6 +4216,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
         },
       ],
     },
@@ -3854,6 +4258,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "3",
+        },
       ],
     },
     {
@@ -3890,6 +4298,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -3928,6 +4340,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -3964,6 +4380,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
         },
       ],
     },
@@ -4002,6 +4422,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "7",
+        },
       ],
     },
     {
@@ -4038,6 +4462,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -4076,6 +4504,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -4112,6 +4544,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
         },
       ],
     },
@@ -4150,6 +4586,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "6",
+        },
       ],
     },
     {
@@ -4186,6 +4626,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
         },
       ],
     },
@@ -4224,6 +4668,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "6",
+        },
       ],
     },
     {
@@ -4260,6 +4708,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -4298,6 +4750,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -4334,6 +4790,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "2",
         },
       ],
     },
@@ -4372,6 +4832,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -4408,6 +4872,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
         },
       ],
     },
@@ -4446,6 +4914,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "6",
+        },
       ],
     },
     {
@@ -4482,6 +4954,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "2",
         },
       ],
     },
@@ -4520,6 +4996,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -4556,6 +5036,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -4594,6 +5078,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -4630,6 +5118,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -4668,6 +5160,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -4704,6 +5200,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -4742,6 +5242,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -4778,6 +5282,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "5",
         },
       ],
     },
@@ -4816,6 +5324,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -4852,6 +5364,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -4890,6 +5406,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -4926,6 +5446,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -4964,6 +5488,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -5000,6 +5528,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -5038,6 +5570,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "2",
+        },
       ],
     },
     {
@@ -5074,6 +5610,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -5112,6 +5652,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -5148,6 +5692,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -5186,6 +5734,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -5222,6 +5774,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -5260,6 +5816,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "2",
+        },
       ],
     },
     {
@@ -5296,6 +5856,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -5334,6 +5898,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -5370,6 +5938,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
         },
       ],
     },
@@ -5408,6 +5980,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "7",
+        },
       ],
     },
     {
@@ -5444,6 +6020,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "3",
         },
       ],
     },
@@ -5482,6 +6062,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -5518,6 +6102,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
         },
       ],
     },
@@ -5556,6 +6144,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -5592,6 +6184,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "6",
         },
       ],
     },
@@ -5630,6 +6226,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -5666,6 +6266,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "7",
         },
       ],
     },
@@ -5704,6 +6308,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "2",
+        },
       ],
     },
     {
@@ -5740,6 +6348,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -5778,6 +6390,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -5814,6 +6430,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "2",
         },
       ],
     },
@@ -5852,6 +6472,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -5888,6 +6512,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
         },
       ],
     },
@@ -5926,6 +6554,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -5962,6 +6594,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "3",
         },
       ],
     },
@@ -6000,6 +6636,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Dead",
         },
+        {
+          name: "Book",
+          value: "3",
+        },
       ],
     },
     {
@@ -6036,6 +6676,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "3",
         },
       ],
     },
@@ -6074,6 +6718,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "5",
+        },
       ],
     },
     {
@@ -6110,6 +6758,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -6148,6 +6800,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "3",
+        },
       ],
     },
     {
@@ -6184,6 +6840,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "7",
         },
       ],
     },
@@ -6222,6 +6882,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -6258,6 +6922,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -6296,6 +6964,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "7",
+        },
       ],
     },
     {
@@ -6332,6 +7004,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -6370,6 +7046,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -6406,6 +7086,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Dead",
+        },
+        {
+          name: "Book",
+          value: "1",
         },
       ],
     },
@@ -6444,6 +7128,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "4",
+        },
       ],
     },
     {
@@ -6480,6 +7168,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "4",
         },
       ],
     },
@@ -6518,6 +7210,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Amortal",
         },
+        {
+          name: "Book",
+          value: "1",
+        },
       ],
     },
     {
@@ -6555,6 +7251,10 @@ export const harryPotter: CategoryResponse = {
           name: "Vital status",
           value: "Alive",
         },
+        {
+          name: "Book",
+          value: "7",
+        },
       ],
     },
     {
@@ -6591,6 +7291,10 @@ export const harryPotter: CategoryResponse = {
         {
           name: "Vital status",
           value: "Alive",
+        },
+        {
+          name: "Book",
+          value: "5",
         },
       ],
     },

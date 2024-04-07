@@ -4,10 +4,6 @@ export const animatedTvShows: CategoryResponse = {
   title: "Animated TV Shows",
   attributes: [
     {
-      name: "Title",
-      type: "string",
-    },
-    {
       name: "IMDb Rating",
       type: "number",
     },
@@ -29,7 +25,7 @@ export const animatedTvShows: CategoryResponse = {
     },
     {
       name: "Channel(s) Originally Aired On",
-      type: "multipart",
+      type: "string",
     },
     {
       name: "Genre",
@@ -64,6 +60,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "ABC",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family, Mystery",
+        },
       ],
     },
     {
@@ -92,6 +92,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "ABC",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family, Fantasy",
         },
       ],
     },
@@ -122,6 +126,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "ABC",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
+        },
       ],
     },
     {
@@ -150,6 +158,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "ABC",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family",
         },
       ],
     },
@@ -180,6 +192,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "ABC",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family",
+        },
       ],
     },
     {
@@ -208,6 +224,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "ABC",
+        },
+        {
+          name: "Genre",
+          value: "Family, Music",
         },
       ],
     },
@@ -238,6 +258,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "ABC",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Family",
+        },
       ],
     },
     {
@@ -266,6 +290,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "ABC",
+        },
+        {
+          name: "Genre",
+          value: "Fantasy, Horror, Mystery",
         },
       ],
     },
@@ -296,6 +324,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "ABC",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
+        },
       ],
     },
     {
@@ -324,6 +356,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "ABC",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Family",
         },
       ],
     },
@@ -354,6 +390,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "ABC, CBS",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
+        },
       ],
     },
     {
@@ -382,6 +422,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "ABC, NBC",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
         },
       ],
     },
@@ -412,6 +456,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "ABC, Syndication",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy",
+        },
       ],
     },
     {
@@ -440,6 +488,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "ABC, Toon Disney",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
         },
       ],
     },
@@ -470,6 +522,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
         },
+        {
+          name: "Genre",
+          value: "Action, Comedy, Mystery",
+        },
       ],
     },
     {
@@ -498,6 +554,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
+        },
+        {
+          name: "Genre",
+          value: "Comedy",
         },
       ],
     },
@@ -528,6 +588,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
         },
+        {
+          name: "Genre",
+          value: "Action, Comedy, Sci-Fi",
+        },
       ],
     },
     {
@@ -556,6 +620,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Crime",
         },
       ],
     },
@@ -586,6 +654,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Music",
+        },
       ],
     },
     {
@@ -614,6 +686,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Mystery",
         },
       ],
     },
@@ -644,6 +720,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Drama",
+        },
       ],
     },
     {
@@ -672,6 +752,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Sci-Fi",
         },
       ],
     },
@@ -702,6 +786,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
         },
+        {
+          name: "Genre",
+          value: "Comedy",
+        },
       ],
     },
     {
@@ -730,6 +818,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
+        },
+        {
+          name: "Genre",
+          value: "Action, Comedy, Sci-Fi",
         },
       ],
     },
@@ -760,6 +852,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy",
+        },
       ],
     },
     {
@@ -788,6 +884,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
+        },
+        {
+          name: "Genre",
+          value: "Action, Comedy, Crime",
         },
       ],
     },
@@ -818,6 +918,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
         },
+        {
+          name: "Genre",
+          value: "Action, Comedy, Drama",
+        },
       ],
     },
     {
@@ -846,6 +950,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family, Sci-Fi",
         },
       ],
     },
@@ -876,6 +984,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Adult Swim",
         },
+        {
+          name: "Genre",
+          value: "Comedy",
+        },
       ],
     },
     {
@@ -904,6 +1016,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Boomerang",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family",
         },
       ],
     },
@@ -934,6 +1050,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family, Fantasy",
+        },
       ],
     },
     {
@@ -962,6 +1082,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Family, Sci-Fi",
         },
       ],
     },
@@ -992,6 +1116,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family",
+        },
       ],
     },
     {
@@ -1020,6 +1148,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy",
         },
       ],
     },
@@ -1050,6 +1182,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family, Music",
+        },
       ],
     },
     {
@@ -1078,6 +1214,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family",
         },
       ],
     },
@@ -1108,6 +1248,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy, Horror",
+        },
       ],
     },
     {
@@ -1136,6 +1280,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
         },
       ],
     },
@@ -1166,6 +1314,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family",
+        },
       ],
     },
     {
@@ -1194,6 +1346,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family, Sci-Fi",
         },
       ],
     },
@@ -1224,6 +1380,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family, Sci-Fi",
+        },
       ],
     },
     {
@@ -1252,6 +1412,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
         },
       ],
     },
@@ -1282,6 +1446,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy",
+        },
       ],
     },
     {
@@ -1310,6 +1478,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Family, Sci-Fi",
         },
       ],
     },
@@ -1340,6 +1512,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy, Horror",
+        },
       ],
     },
     {
@@ -1368,6 +1544,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family, Music",
         },
       ],
     },
@@ -1398,6 +1578,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
+        },
       ],
     },
     {
@@ -1426,6 +1610,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Family, Sci-Fi",
         },
       ],
     },
@@ -1456,6 +1644,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Family, Sci-Fi",
+        },
       ],
     },
     {
@@ -1484,6 +1676,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Comedy",
         },
       ],
     },
@@ -1514,6 +1710,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
+        },
       ],
     },
     {
@@ -1542,6 +1742,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy",
         },
       ],
     },
@@ -1572,6 +1776,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Action, Comedy, Family, Mystery",
+        },
       ],
     },
     {
@@ -1600,6 +1808,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
         },
       ],
     },
@@ -1630,6 +1842,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Drama, Family, Fantasy, Sci-Fi",
+        },
       ],
     },
     {
@@ -1658,6 +1874,11 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value:
+            "Action, Adventure, Comedy, Drama, Family, Fantasy, Musical, Sci-Fi",
         },
       ],
     },
@@ -1688,6 +1909,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family, Fantasy",
+        },
       ],
     },
     {
@@ -1716,6 +1941,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Action, Comedy, Family",
         },
       ],
     },
@@ -1746,6 +1975,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy",
+        },
       ],
     },
     {
@@ -1774,6 +2007,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family, Fantasy, Horror",
         },
       ],
     },
@@ -1804,6 +2041,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family, Fantasy",
+        },
       ],
     },
     {
@@ -1832,6 +2073,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
         },
       ],
     },
@@ -1862,6 +2107,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy",
+        },
       ],
     },
     {
@@ -1890,6 +2139,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Action, Comedy, Family, Sci-Fi",
         },
       ],
     },
@@ -1920,6 +2173,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Sci-Fi",
+        },
       ],
     },
     {
@@ -1948,6 +2205,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Comedy",
         },
       ],
     },
@@ -1978,6 +2239,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Family, Sci-Fi",
+        },
       ],
     },
     {
@@ -2006,6 +2271,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Family, Sci-Fi",
         },
       ],
     },
@@ -2036,6 +2305,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
+        },
       ],
     },
     {
@@ -2064,6 +2337,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network, Adult Swim",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Drama, Family, Fantasy",
         },
       ],
     },
@@ -2094,6 +2371,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network, Adult Swim",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Sci-Fi, Talk-Show",
+        },
       ],
     },
     {
@@ -2122,6 +2403,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network, Boomerang",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
         },
       ],
     },
@@ -2152,6 +2437,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network, Boomerang",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family, Sci-Fi",
+        },
       ],
     },
     {
@@ -2180,6 +2469,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network, Boomerang",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
         },
       ],
     },
@@ -2210,6 +2503,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network, Boomerang",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
+        },
       ],
     },
     {
@@ -2238,6 +2535,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network, DC Universe, HBO Max",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Drama, Family, Sci-Fi",
         },
       ],
     },
@@ -2268,6 +2569,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network, HBO Max",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Drama, Family, Fantasy, Mystery, Sci-Fi",
+        },
       ],
     },
     {
@@ -2296,6 +2601,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Cartoon Network, Netflix, Disney+",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Drama, Family, Fantasy, Sci-Fi",
         },
       ],
     },
@@ -2326,6 +2635,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Cartoonito",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Family",
+        },
       ],
     },
     {
@@ -2354,6 +2667,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "CBS",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family, Music",
         },
       ],
     },
@@ -2384,6 +2701,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "CBS",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
+        },
       ],
     },
     {
@@ -2412,6 +2733,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "CBS",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family, Music",
         },
       ],
     },
@@ -2442,6 +2767,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "CBS",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy, Music",
+        },
       ],
     },
     {
@@ -2470,6 +2799,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "CBS",
+        },
+        {
+          name: "Genre",
+          value: "Comedy, Family, Fantasy",
         },
       ],
     },
@@ -2500,6 +2833,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "CBS",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
+        },
       ],
     },
     {
@@ -2528,6 +2865,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "CBS",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family, Fantasy",
         },
       ],
     },
@@ -2558,6 +2899,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "CBS, ABC",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Mystery",
+        },
       ],
     },
     {
@@ -2586,6 +2931,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Comedy Central",
+        },
+        {
+          name: "Genre",
+          value: "Comedy",
         },
       ],
     },
@@ -2616,6 +2965,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Comedy Central",
         },
+        {
+          name: "Genre",
+          value: "Comedy",
+        },
       ],
     },
     {
@@ -2644,6 +2997,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Comedy Central",
+        },
+        {
+          name: "Genre",
+          value: "Comedy",
         },
       ],
     },
@@ -2674,6 +3031,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Comedy Central",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Horror",
+        },
       ],
     },
     {
@@ -2702,6 +3063,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "DC Universe, Max",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Crime, Fantasy, Mystery",
         },
       ],
     },
@@ -2732,6 +3097,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Direct to video",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy, Musical",
+        },
       ],
     },
     {
@@ -2760,6 +3129,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Disney Channel",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Family, Fantasy",
         },
       ],
     },
@@ -2790,6 +3163,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Disney Channel",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family",
+        },
       ],
     },
     {
@@ -2818,6 +3195,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Disney Channel",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family",
         },
       ],
     },
@@ -2848,6 +3229,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Disney Channel",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Drama, Family, Sci-Fi",
+        },
       ],
     },
     {
@@ -2876,6 +3261,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Disney Channel",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy",
         },
       ],
     },
@@ -2906,6 +3295,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Disney Channel",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family, Fantasy, Horror, Mystery",
+        },
       ],
     },
     {
@@ -2934,6 +3327,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Disney Channel",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Drama, Family, Fantasy, Music",
         },
       ],
     },
@@ -2964,6 +3361,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Disney Channel",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family, Sci-Fi",
+        },
       ],
     },
     {
@@ -2992,6 +3393,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Disney Channel, Disney XD",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family, Fantasy, Mystery",
         },
       ],
     },
@@ -3022,6 +3427,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Disney Channel, Disney XD",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family, Fantasy, Sci-Fi",
+        },
       ],
     },
     {
@@ -3050,6 +3459,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Disney Junior",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Family, Fantasy, Musical",
         },
       ],
     },
@@ -3080,6 +3493,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Disney Junior",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Family, Fantasy, Musical",
+        },
       ],
     },
     {
@@ -3108,6 +3525,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Disney Junior",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy, Musical",
         },
       ],
     },
@@ -3138,6 +3559,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Disney Junior",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Family, Fantasy, Musical",
+        },
       ],
     },
     {
@@ -3166,6 +3591,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Disney Junior",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Fantasy, Musical",
         },
       ],
     },
@@ -3196,6 +3625,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Disney XD",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family",
+        },
       ],
     },
     {
@@ -3224,6 +3657,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Disney XD",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family, Sci-Fi",
         },
       ],
     },
@@ -3254,6 +3691,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Disney XD, Disney Channel",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Family, Fantasy, Romance",
+        },
       ],
     },
     {
@@ -3282,6 +3723,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Fox",
+        },
+        {
+          name: "Genre",
+          value: "Comedy",
         },
       ],
     },
@@ -3312,6 +3757,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Fox",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
+        },
       ],
     },
     {
@@ -3340,6 +3789,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Fox",
+        },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
         },
       ],
     },
@@ -3370,6 +3823,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Fox",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Drama",
+        },
       ],
     },
     {
@@ -3398,6 +3855,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Fox",
+        },
+        {
+          name: "Genre",
+          value: "Comedy",
         },
       ],
     },
@@ -3428,6 +3889,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Fox",
         },
+        {
+          name: "Genre",
+          value: "Comedy",
+        },
       ],
     },
     {
@@ -3456,6 +3921,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Fox",
+        },
+        {
+          name: "Genre",
+          value: "Comedy",
         },
       ],
     },
@@ -3486,6 +3955,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Fox Family, ABC, Disney Channel",
         },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family",
+        },
       ],
     },
     {
@@ -3514,6 +3987,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Fox Kid, Kids' WB",
+        },
+        {
+          name: "Genre",
+          value: "Adventure, Comedy, Family, Musical",
         },
       ],
     },
@@ -3544,6 +4021,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Fox Kids",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Family",
+        },
       ],
     },
     {
@@ -3572,6 +4053,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Fox Kids",
+        },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Drama, Family, Fantasy, Mystery, Sci-Fi",
         },
       ],
     },
@@ -3602,6 +4087,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Fox Kids",
         },
+        {
+          name: "Genre",
+          value: "Action, Adventure, Comedy, Crime, Family, Mystery",
+        },
       ],
     },
     {
@@ -3630,6 +4119,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Fox Kids",
+        },
+        {
+          name: "Genre",
+          value: "Action, Family, Sci-Fi, Thriller",
         },
       ],
     },
@@ -3660,6 +4153,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Fox, Comedy Central, Hulu",
         },
+        {
+          name: "Genre",
+          value: "Comedy, Sci-Fi",
+        },
       ],
     },
     {
@@ -3688,6 +4185,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Fox, TBS",
+        },
+        {
+          name: "Genre",
+          value: "Comedy",
         },
       ],
     },
@@ -3718,6 +4219,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "FX, FXX",
         },
+        {
+          name: "Genre",
+          value: "Adult, Action, Comedy",
+        },
       ],
     },
     {
@@ -3746,6 +4251,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "HBO Max",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy, Animation",
         },
       ],
     },
@@ -3776,6 +4285,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Jetix, Disney XD",
         },
+        {
+          name: "Genre",
+          value: "Family, Action",
+        },
       ],
     },
     {
@@ -3804,6 +4317,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Jetix, Toon Disney, ABC Family",
+        },
+        {
+          name: "Genre",
+          value: "Family, Action",
         },
       ],
     },
@@ -3834,6 +4351,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Kids' WB",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -3862,6 +4383,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Kids' WB",
+        },
+        {
+          name: "Genre",
+          value: "Family, Action",
         },
       ],
     },
@@ -3892,6 +4417,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Kids' WB",
         },
+        {
+          name: "Genre",
+          value: "Family, Action",
+        },
       ],
     },
     {
@@ -3920,6 +4449,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Kids' WB",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -3950,6 +4483,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Kids' WB",
         },
+        {
+          name: "Genre",
+          value: "Family, Action",
+        },
       ],
     },
     {
@@ -3978,6 +4515,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Kids' WB",
+        },
+        {
+          name: "Genre",
+          value: "Family, Action",
         },
       ],
     },
@@ -4008,6 +4549,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Kids' WB",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -4036,6 +4581,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Kids' WB",
+        },
+        {
+          name: "Genre",
+          value: "Family, Action",
         },
       ],
     },
@@ -4066,6 +4615,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Kids' WB, Cartoon Network",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -4094,6 +4647,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "MTV",
+        },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
         },
       ],
     },
@@ -4124,6 +4681,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "MTV, MTV2",
         },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
+        },
       ],
     },
     {
@@ -4152,6 +4713,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "MTV, Paramount+",
+        },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
         },
       ],
     },
@@ -4182,6 +4747,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "NBC",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -4210,6 +4779,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "NBC",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -4240,6 +4813,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "NBC",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -4268,6 +4845,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "NBCABC",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -4298,6 +4879,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Netflix",
         },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
+        },
       ],
     },
     {
@@ -4326,6 +4911,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Netflix",
+        },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
         },
       ],
     },
@@ -4356,6 +4945,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Netflix",
         },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
+        },
       ],
     },
     {
@@ -4384,6 +4977,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Netflix",
+        },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
         },
       ],
     },
@@ -4414,6 +5011,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Netflix",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -4442,6 +5043,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Netflix",
+        },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
         },
       ],
     },
@@ -4472,6 +5077,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Netflix",
         },
+        {
+          name: "Genre",
+          value: "Adult, Sci-Fi",
+        },
       ],
     },
     {
@@ -4500,6 +5109,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Netflix",
+        },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
         },
       ],
     },
@@ -4530,6 +5143,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Netflix",
         },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
+        },
       ],
     },
     {
@@ -4558,6 +5175,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Netflix",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -4588,6 +5209,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Netflix",
         },
+        {
+          name: "Genre",
+          value: "Family, Education",
+        },
       ],
     },
     {
@@ -4616,6 +5241,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Netflix, Adult Swim",
+        },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
         },
       ],
     },
@@ -4646,6 +5275,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nick Jr.",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -4674,6 +5307,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nick Jr. Channel",
+        },
+        {
+          name: "Genre",
+          value: "Family, Educational",
         },
       ],
     },
@@ -4704,6 +5341,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -4732,6 +5373,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -4762,6 +5407,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -4790,6 +5439,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
         },
       ],
     },
@@ -4820,6 +5473,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -4848,6 +5505,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Educational",
         },
       ],
     },
@@ -4878,6 +5539,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Educational",
+        },
       ],
     },
     {
@@ -4906,6 +5571,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -4936,6 +5605,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -4964,6 +5637,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
         },
       ],
     },
@@ -4994,6 +5671,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Action",
+        },
       ],
     },
     {
@@ -5022,6 +5703,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Educational",
         },
       ],
     },
@@ -5052,6 +5737,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -5080,6 +5769,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Educational",
         },
       ],
     },
@@ -5110,6 +5803,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -5138,6 +5835,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -5168,6 +5869,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -5196,6 +5901,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -5226,6 +5935,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -5254,6 +5967,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Educational",
         },
       ],
     },
@@ -5284,6 +6001,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -5312,6 +6033,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -5342,6 +6067,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
+        },
       ],
     },
     {
@@ -5370,6 +6099,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -5400,6 +6133,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -5428,6 +6165,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
         },
       ],
     },
@@ -5458,6 +6199,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -5486,6 +6231,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
         },
       ],
     },
@@ -5516,6 +6265,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -5544,6 +6297,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -5574,6 +6331,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Musical",
+        },
       ],
     },
     {
@@ -5602,6 +6363,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -5632,6 +6397,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -5660,6 +6429,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
         },
       ],
     },
@@ -5690,6 +6463,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -5718,6 +6495,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -5748,6 +6529,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -5776,6 +6561,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
         },
       ],
     },
@@ -5806,6 +6595,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
+        },
       ],
     },
     {
@@ -5834,6 +6627,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Fantasy",
         },
       ],
     },
@@ -5864,6 +6661,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Musical",
+        },
       ],
     },
     {
@@ -5892,6 +6693,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -5922,6 +6727,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon",
         },
+        {
+          name: "Genre",
+          value: "Family, Musical",
+        },
       ],
     },
     {
@@ -5950,6 +6759,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nickelodeon, ABC",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -5980,6 +6793,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Nicktoons",
         },
+        {
+          name: "Genre",
+          value: "Family, Action",
+        },
       ],
     },
     {
@@ -6008,6 +6825,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Nicktoons Network",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -6038,6 +6859,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Paramount+",
         },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
+        },
       ],
     },
     {
@@ -6066,6 +6891,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "PBS Kids",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -6096,6 +6925,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "PBS Kids",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -6124,6 +6957,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "PBS Kids",
+        },
+        {
+          name: "Genre",
+          value: "Family, Fantasy",
         },
       ],
     },
@@ -6154,6 +6991,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "PBS Kids",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -6182,6 +7023,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "PBS Kids",
+        },
+        {
+          name: "Genre",
+          value: "Family, Musical",
         },
       ],
     },
@@ -6212,6 +7057,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "PBS Kids",
         },
+        {
+          name: "Genre",
+          value: "Family, Educational",
+        },
       ],
     },
     {
@@ -6240,6 +7089,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "PBS Kids",
+        },
+        {
+          name: "Genre",
+          value: "Family, Educational",
         },
       ],
     },
@@ -6270,6 +7123,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "PBS Kids",
         },
+        {
+          name: "Genre",
+          value: "Family, Educational",
+        },
       ],
     },
     {
@@ -6298,6 +7155,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "PBS Kids Go!, PBS Kids",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -6328,6 +7189,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "PBS Kids, PBS Kids Go!",
         },
+        {
+          name: "Genre",
+          value: "Family, Educational",
+        },
       ],
     },
     {
@@ -6356,6 +7221,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "PBS Kids, Peacock",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -6386,6 +7255,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "PBS, PBS KidsHBO",
         },
+        {
+          name: "Genre",
+          value: "Family, Educational",
+        },
       ],
     },
     {
@@ -6414,6 +7287,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Playhouse Disney",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -6444,6 +7321,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Playhouse Disney",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -6472,6 +7353,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Playhouse Disney",
+        },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
         },
       ],
     },
@@ -6502,6 +7387,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Playhouse Disney",
         },
+        {
+          name: "Genre",
+          value: "Family, Musical",
+        },
       ],
     },
     {
@@ -6530,6 +7419,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Playhouse Disney, Disney Junior",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -6560,6 +7453,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Playhouse Disney, Disney Junior",
         },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
+        },
       ],
     },
     {
@@ -6588,6 +7485,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "PTV",
+        },
+        {
+          name: "Genre",
+          value: "Family, Educational",
         },
       ],
     },
@@ -6618,6 +7519,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Qubo",
         },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
+        },
       ],
     },
     {
@@ -6646,6 +7551,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
+        },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
         },
       ],
     },
@@ -6676,6 +7585,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -6704,6 +7617,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
+        },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
         },
       ],
     },
@@ -6734,6 +7651,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -6762,6 +7683,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
+        },
+        {
+          name: "Genre",
+          value: "Family, Action",
         },
       ],
     },
@@ -6792,6 +7717,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
         },
+        {
+          name: "Genre",
+          value: "Family, Action",
+        },
       ],
     },
     {
@@ -6820,6 +7749,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
+        },
+        {
+          name: "Genre",
+          value: "Family, Action",
         },
       ],
     },
@@ -6850,6 +7783,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
         },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
+        },
       ],
     },
     {
@@ -6878,6 +7815,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -6908,6 +7849,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -6936,6 +7881,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -6966,6 +7915,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -6994,6 +7947,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
+        },
+        {
+          name: "Genre",
+          value: "Family, Action",
         },
       ],
     },
@@ -7024,6 +7981,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Syndication",
         },
+        {
+          name: "Genre",
+          value: "Family, Action",
+        },
       ],
     },
     {
@@ -7052,6 +8013,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "Syndication, CBS",
+        },
+        {
+          name: "Genre",
+          value: "Family, Action",
         },
       ],
     },
@@ -7082,6 +8047,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "Syndication, Fox Kids",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -7110,6 +8079,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "TBS",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -7140,6 +8113,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "TBS",
         },
+        {
+          name: "Genre",
+          value: "Family, Action",
+        },
       ],
     },
     {
@@ -7168,6 +8145,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "TBS",
+        },
+        {
+          name: "Genre",
+          value: "Family, Action",
         },
       ],
     },
@@ -7198,6 +8179,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "The Disney Channel",
         },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
+        },
       ],
     },
     {
@@ -7226,6 +8211,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "The Disney Channel",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -7256,6 +8245,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "The Hub / Discovery Family",
         },
+        {
+          name: "Genre",
+          value: "Family, Fantasy",
+        },
       ],
     },
     {
@@ -7284,6 +8277,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "The WB (Kids' WB), Cartoon Network",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },
@@ -7314,6 +8311,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "TLC, PBS Kids",
         },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
+        },
       ],
     },
     {
@@ -7342,6 +8343,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "UPN, Adult Swim",
+        },
+        {
+          name: "Genre",
+          value: "Adult, Comedy",
         },
       ],
     },
@@ -7372,6 +8377,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "USA Network",
         },
+        {
+          name: "Genre",
+          value: "Family, Adventure",
+        },
       ],
     },
     {
@@ -7401,6 +8410,10 @@ export const animatedTvShows: CategoryResponse = {
           name: "Channel(s) Originally Aired On",
           value: "YouTube",
         },
+        {
+          name: "Genre",
+          value: "Family, Musical",
+        },
       ],
     },
     {
@@ -7429,6 +8442,10 @@ export const animatedTvShows: CategoryResponse = {
         {
           name: "Channel(s) Originally Aired On",
           value: "YouTube",
+        },
+        {
+          name: "Genre",
+          value: "Family, Comedy",
         },
       ],
     },

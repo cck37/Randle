@@ -186,30 +186,31 @@ const animatedDisneyMovies: ThemeOptions = {
 };
 
 const fastFood: ThemeOptions = {
-  palette: {
-    mode: "light",
-    primary: {
-      main: "#ffc107",
-    },
-    secondary: {
-      main: "#FFFFFF",
-    },
-    background: {
-      default: "#FFFFFF",
-      paper: "#ff2336",
-    },
-    text: {
-      primary: "#eeeeee",
-      secondary: "#333333",
-      disabled: "#CCCCCC",
-    },
-  },
-  typography: {
-    fontFamily: "Roboto, sans-serif",
-    h1: {
-      fontFamily: "Roboto, sans-serif",
-    },
-  },
+  // palette: {
+  //   mode: "light",
+  //   primary: {
+  //     main: "#ff2336",
+  //     contrastText: "#ffffff",
+  //   },
+  //   secondary: {
+  //     main: "#ffc107",
+  //   },
+  //   background: {
+  //     default: "#FFFFFF",
+  //     paper: "#E08B92",
+  //   },
+  //   text: {
+  //     primary: "#ff2336",
+  //     secondary: "#ffc107",
+  //     disabled: "#CCCCCC",
+  //   },
+  // },
+  // typography: {
+  //   fontFamily: "Roboto, sans-serif",
+  //   h1: {
+  //     fontFamily: "Roboto, sans-serif",
+  //   },
+  // },
 };
 
 export const themes: Record<string, ThemeOptions> = {
