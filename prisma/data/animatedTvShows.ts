@@ -8450,5 +8450,5 @@ export const animatedTvShows: CategoryResponse = {
       ],
     },
   ],
-  themeName: "animatedShows",
+  themeName: "animatedTv",
 };

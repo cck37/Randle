@@ -90,7 +90,7 @@ const harry: ThemeOptions = {
       main: "#6e67ae",
     },
     secondary: {
-      main: "#f50057",
+      main: "#c9bc75",
     },
     background: {
       default: "#faf6f0",
