@@ -62,3 +62,17 @@ export type CategoryResponse = {
   title: string;
   theme: ThemeOptions;
 };
+
+export type GuessState = {
+  possibleGuesses: PossibleGuess[];
+  query: string;
+  results: Guess[];
+  isGuessCorrect: boolean;
+  isGuessQueryLoading: boolean;
+};
+
+export type StorageState = {
+  timeStamp: number;
+  category: CategoryResponse;
+  guess: GuessState;
+};

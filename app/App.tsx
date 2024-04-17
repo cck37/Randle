@@ -15,7 +15,13 @@ import { GuessesTable } from "./components/GuessesTable";
 import { GuessBar } from "./components/GuessBar";
 import { CorrectGuess } from "./components/CorrectGuess";
 
-import { CategoryResponse, Guess, GuessResponse, PossibleGuess } from "./types";
+import {
+  CategoryResponse,
+  Guess,
+  GuessResponse,
+  PossibleGuess,
+  StorageState,
+} from "./types";
 import ThemeRegistry from "./components/ThemeRegistry/ThemeRegistry";
 import { CountdownProvider } from "./components/CountdownContext";
 import { CountDownTimer } from "./components/CountDownTimer";
@@ -24,19 +30,25 @@ import { useWindowSize } from "react-use";
 import Confetti from "react-confetti";
 import { useLocalStorage } from "./hooks/useLocaleStorage";
 import { timestampToDate } from "./api/utils";
+import { useFetchGuess } from "./hooks/useFetchGuess";
+import { useFetchCategory } from "./hooks/useFetchCategory";
 
-type GuessState = {
-  possibleGuesses: PossibleGuess[];
-  query: string;
-  results: Guess[];
-  isGuessCorrect: boolean;
-  isGuessQueryLoading: boolean;
-};
-
-type StorageState = {
-  timeStamp: number;
-  category: CategoryResponse;
-  guess: GuessState;
+const defaultStorage: StorageState = {
+  timeStamp: 0,
+  category: {
+    id: -1,
+    title: "",
+    theme: {},
+    items: [],
+    attributes: [],
+  },
+  guess: {
+    possibleGuesses: [],
+    query: "",
+    results: [],
+    isGuessCorrect: false,
+    isGuessQueryLoading: false,
+  },
 };
 
 const isValidStorage = (
@@ -48,138 +60,81 @@ const isValidStorage = (
 
 export default function App() {
   const [theme, setTheme] = useState<Theme>();
-  const [categoryState, setCategoryState] = useState<CategoryResponse>();
-  const [guessState, setGuessState] = useState<GuessState>({
-    possibleGuesses: [],
-    query: "",
-    results: [],
-    isGuessCorrect: false,
-    isGuessQueryLoading: false,
-  });
+  const { categoryResponse, isLoading: isFetchCategoryLoading } =
+    useFetchCategory();
+  const {
+    getGuessResponse,
+    guessResponse,
+    isLoading: isFetchGuessLoading,
+  } = useFetchGuess();
   const correctRef = useRef<HTMLUListElement | null>(null);
   const { width, height } = useWindowSize();
-  const [previousSession, setPreviousSession] = useLocalStorage("session");
+  const [previousSession, setPreviousSession] = useLocalStorage(
+    "session",
+    defaultStorage
+  );
+  const { category, guess } = previousSession;
 
   useEffect(() => {
-    const fetchData = async () => {
-      // TODO: Don't send Date.now; just get the date value from the API
-      const res = await fetch(`/api/category?date=${Date.now()}`);
-      const categoryResponse: CategoryResponse = await res.json();
+    if (isValidStorage(previousSession)) {
+      const { category } = previousSession;
+      const currTheme = createTheme(category.theme);
+      setTheme(responsiveFontSizes(currTheme));
+    } else {
       const { items, theme: themeOptions } = categoryResponse;
-      const guessState: GuessState = {
-        possibleGuesses: items,
-        query: "",
-        results: [],
-        isGuessCorrect: false,
-        isGuessQueryLoading: false,
-      };
+      const currTheme = createTheme(themeOptions);
+      setPreviousSession({
+        date: Date.now(),
+        category: categoryResponse,
+        guess: {
+          possibleGuesses: items,
+          query: "",
+          results: [],
+          isGuessCorrect: false,
+          isGuessQueryLoading: false,
+        },
+      });
 
-      // Set session state
-      setCategoryState(categoryResponse);
-      setGuessState(guessState);
-
-      /***
-       * FIX: Not ideal but whatever...
-       * Similar to what's described here: https://github.com/pacocoursey/next-themes#avoid-hydration-mismatch
-       * When I tried to put it all on the server (dynamic theme and all) I get this:
-       * Error: Not implemented.
-        at eval (./app/components/ThemeRegistry/theme.ts:9:96)
-        at (ssr)/./app/components/ThemeRegistry/theme.ts (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\app\page.js:271:1)
-        at __webpack_require__ (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\webpack-runtime.js:33:42)  
-        at eval (./app/components/ThemeRegistry/ThemeRegistry.tsx:12:64)
-      \server\app\page.js:260:1)
-        at __webpack_require__ (C:\Users\Botnet2\Desktop\Skript Kiddy\Randle\.next\server\webpack-runtime.js:33:42)
-      */
-      const theme = createTheme(themeOptions);
-      setTheme(responsiveFontSizes(theme));
-
-      // Save state to LS
-      // setPreviousSession({
-      //   timeStamp: Date.now(),
-      //   category: categoryResponse,
-      //   guess: guessState,
-      // });
-    };
-
-    // if (isValidStorage(previousSession)) {
-    //   const { category, guess } = previousSession;
-    //   setCategoryState(category);
-    //   setGuessState({
-    //     ...guess,
-    //     isGuessQueryLoading: false,
-    //   });
-    //   const theme = createTheme(category.theme);
-    //   setTheme(responsiveFontSizes(theme));
-    // } else {
-    fetchData();
-    // }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  const { possibleGuesses, results, isGuessCorrect, isGuessQueryLoading } =
-    guessState;
-
-  async function fetchGuessResponse({
-    query,
-  }: {
-    query: string;
-  }): Promise<void> {
-    setGuessState((prevState) => ({ ...prevState, isGuessQueryLoading: true }));
-
-    try {
-      // Sending seconds from epoc to API b/c I can't figure out how API caching works in next
-      const queryString = new URLSearchParams({
-        guess: query,
-        date: Date.now().toString(),
-      }).toString();
-      const res = await fetch(`/api/guess?${queryString}`);
-      const guessResponse: Guess = await res.json();
-
-      console.log(previousSession, guessState, guessResponse);
-      setGuessState((prevState) => ({
-        ...prevState,
-        isGuessQueryLoading: false,
-        results: [guessResponse, ...prevState.results],
-        isGuessCorrect:
-          guessResponse.data.every((attr) => attr.res.isCorrect) ?? false,
-        possibleGuesses: prevState.possibleGuesses.filter(
-          (g) => g.name !== query
-        ),
-      }));
-
-      console.log(previousSession, guessState, guessResponse);
-      // setPreviousSession({
-      //   ...previousSession,
-      //   guess: guessState,
-      // });
-      console.log(previousSession, guessState, guessResponse);
-
-      if (guessResponse.data.every((attr) => attr.res.isCorrect)) {
-        flushSync(() => {
-          console.log("Scroll dammit");
-          correctRef.current?.lastElementChild?.scrollIntoView();
-        });
-      }
-    } catch (error) {
-      console.error("Error fetching guess response:", error);
+      setTheme(responsiveFontSizes(currTheme));
     }
-  }
+  }, [categoryResponse]);
 
   const handleReset = useCallback(() => {
-    setGuessState((prevState) => ({
-      ...prevState,
-      results: [],
-      isGuessCorrect: false,
-      query: "",
-      possibleGuesses: categoryState?.items ?? [],
-    }));
-  }, [categoryState]);
-
-  const handleGuess = useCallback(async (query: string) => {
-    if (query) {
-      await fetchGuessResponse({ query });
-    }
+    // setGuessState((prevState) => ({
+    //   ...prevState,
+    //   results: [],
+    //   isGuessCorrect: false,
+    //   query: "",
+    //   possibleGuesses: categoryState?.items ?? [],
+    // }));
   }, []);
+
+  useEffect(() => {
+    setPreviousSession((prevState: StorageState) => ({
+      ...prevState,
+      guess: {
+        ...prevState.guess,
+        isGuessQueryLoading: isFetchGuessLoading,
+        results: [guessResponse, ...prevState.guess.results],
+        isGuessCorrect:
+          guessResponse?.data.every((attr) => attr.res.isCorrect) ?? false,
+        possibleGuesses: prevState.guess.possibleGuesses.filter(
+          (g) => g.name !== guessResponse?.name
+        ),
+      },
+    }));
+
+    if (guessResponse?.data.every((attr) => attr.res.isCorrect)) {
+      flushSync(() => {
+        console.log("Scroll dammit");
+        correctRef.current?.lastElementChild?.scrollIntoView();
+      });
+    }
+  }, [guessResponse, isFetchGuessLoading, setPreviousSession]);
+
+  const handleGuess = (query: string) => {
+    getGuessResponse(query);
+  };
 
   return (
     <ThemeRegistry theme={theme}>
@@ -193,24 +148,26 @@ export default function App() {
               }}
             >
               <Stack spacing={3} direction="column" alignItems="center">
-                {categoryState ? (
+                {!isFetchCategoryLoading ? (
                   <>
                     <Typography
                       variant="h1"
                       sx={{ paddingY: "1rem", textAlign: "center" }}
                     >
-                      {categoryState.title}
+                      {category.title}
                     </Typography>
                     <GuessBar
-                      title={categoryState.title}
-                      possibleGuesses={possibleGuesses}
+                      title={category.title}
+                      possibleGuesses={guess.possibleGuesses}
                       handleGuess={handleGuess}
-                      shouldDisable={isGuessCorrect || isGuessQueryLoading}
+                      shouldDisable={
+                        guess.isGuessCorrect || isFetchGuessLoading
+                      }
                     />
                     <CountDownTimer />
                     <GuessesTable
-                      attributes={categoryState.attributes}
-                      guesses={results}
+                      attributes={category.attributes}
+                      guesses={guess.results.filter(Boolean)}
                     />
                   </>
                 ) : (
@@ -238,7 +195,7 @@ export default function App() {
               </Stack>
             </Grid>
             <Grid item>
-              {isGuessCorrect ? (
+              {guess.isGuessCorrect ? (
                 <>
                   <Confetti width={width} height={height} recycle={false} />
                   <CorrectGuess handleReset={handleReset} ref={correctRef} />
