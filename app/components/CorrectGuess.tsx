@@ -27,7 +27,11 @@ const style = {
 
 const resultToText = (results: any) => {
   return results.map((res: any) =>
-    res.data.map((attr: any) => (attr.res.isCorrect ? "🟩" : "🟥")).join(" ")
+    res.data
+      .map((attr: any) =>
+        attr.res.isCorrect ? "🟩" : attr.res.isPartial ?? false ? "🟨" : "🟥"
+      )
+      .join(" ")
   );
 };
 
