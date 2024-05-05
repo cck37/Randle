@@ -43,12 +43,12 @@ const toCorrectResponse = (
           .split(",")
           .map((parital: any) => parital.trim())
           .filter(Boolean)
-          .some((partialGuess: any) =>
+          .some((partialGuess: string) =>
             correctItemAttribute.value
               .split(",")
-              .map((parital: any) => parital.trim())
+              .map((parital: string) => parital.trim())
               .filter(Boolean)
-              .include(partialGuess)
+              .includes(partialGuess)
           ),
       };
     default:
