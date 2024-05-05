@@ -24,7 +24,7 @@ npm run seed
 - [x] Connect to a database
 - [x] Gather some real data
 - [x] Fix mobile view
-- [ ] Save session by day
+- [x] Save session by day
 - [x] Clock/Counter
 - [ ] Update static about page
 - [x] Theme/Style
@@ -37,9 +37,9 @@ npm run seed
 
 ## Category Ideas
 
-- [ ] Disney Movies
+- [x] Disney Movies
 - [ ] Top Artists (2000-Present?)
 - [ ] Pokemon Games
 - [ ] Cars
-- [ ] Fast Food Resturants
+- [x] Fast Food Resturants
 - [ ] HxH Characters
