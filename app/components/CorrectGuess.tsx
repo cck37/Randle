@@ -6,6 +6,7 @@ import {
   Modal,
   Box,
   IconButton,
+  Snackbar,
 } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import ShareIcon from "@mui/icons-material/Share";
@@ -55,60 +56,81 @@ export const CorrectGuess = forwardRef<HTMLUListElement, Props>(
   ) {
     const { results, title } = props;
     const [open, setOpen] = useState<boolean>(true);
+    const [snackOpen, setSnackOpen] = useState<boolean>(false);
     const handleClose = () => setOpen(false);
     const handleShare = () => {
       navigator.clipboard.writeText(resultsToShare(results, title));
+      setSnackOpen(true);
       handleClose();
     };
     const theme = useTheme();
     return (
-      <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-you-win-title"
-        aria-describedby="modal-modal-you-win-result"
-      >
-        <Box sx={style}>
-          <Stack direction="column" alignItems="center" gap={1}>
-            <Typography
-              variant="h1"
-              sx={{ color: theme.palette.success.main }}
-              ref={ref}
-              id="modal-modal-you-win-title"
-            >
-              You did it!
-            </Typography>
+      <>
+        <Modal
+          open={open}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-you-win-title"
+          aria-describedby="modal-modal-you-win-result"
+        >
+          <Box sx={style}>
+            <Stack direction="column" alignItems="center" gap={1}>
+              <Typography
+                variant="h1"
+                sx={{ color: theme.palette.success.main }}
+                ref={ref}
+                id="modal-modal-you-win-title"
+              >
+                You did it!
+              </Typography>
+              <IconButton
+                onClick={handleClose}
+                sx={{
+                  position: "fixed",
+                  top: 0,
+                  right: 0,
+                  zIndex: 2000,
+                }}
+              >
+                <Close />
+              </IconButton>
+              <hr style={{ width: "100%" }} />
+              <Typography variant="h1">{title}</Typography>
+              <Typography variant="h3">{results[0].name}</Typography>
+              <Box>
+                {resultToText(results)
+                  .reverse()
+                  .map((res: any, idx: number) => (
+                    <Typography key={idx} variant="h4">
+                      {res}
+                    </Typography>
+                  ))}
+              </Box>
+              <Typography variant="h4">Got it in: {results.length}</Typography>
+              <CountDownTimer />
+              <Button onClick={handleShare} variant="contained">
+                <ShareIcon /> Share
+              </Button>
+            </Stack>
+          </Box>
+        </Modal>
+        <Snackbar
+          open={snackOpen}
+          autoHideDuration={3000}
+          anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+          onClose={() => setSnackOpen(false)}
+          message="Copied to clipboard. Prove your superiority"
+          action={
             <IconButton
-              onClick={handleClose}
-              sx={{
-                position: "fixed",
-                top: 0,
-                right: 0,
-                zIndex: 2000,
-              }}
+              size="small"
+              aria-label="close"
+              color="inherit"
+              onClick={() => setSnackOpen(false)}
             >
-              <Close />
+              <Close fontSize="small" />
             </IconButton>
-            <hr style={{ width: "100%" }} />
-            <Typography variant="h1">{title}</Typography>
-            <Typography variant="h3">{results[0].name}</Typography>
-            <Box>
-              {resultToText(results)
-                .reverse()
-                .map((res: any, idx: number) => (
-                  <Typography key={idx} variant="h4">
-                    {res}
-                  </Typography>
-                ))}
-            </Box>
-            <Typography variant="h4">Got it in: {results.length}</Typography>
-            <CountDownTimer />
-            <Button onClick={handleShare} variant="contained">
-              <ShareIcon /> Share
-            </Button>
-          </Stack>
-        </Box>
-      </Modal>
+          }
+        />
+      </>
     );
   }
 );
