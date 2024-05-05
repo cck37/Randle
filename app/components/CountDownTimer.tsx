@@ -18,7 +18,9 @@ export const CountDownTimer = () => {
     <Stack direction="column" alignItems="center">
       <Typography variant="h5">Time Until Next Category*</Typography>
       <Typography variant="h5">{formatTime(timeUntilMidnight)}</Typography>
-      <Typography variant="subtitle1">*midnight EST</Typography>
+      <Typography variant="subtitle1">
+        *GMT-0400 (Eastern Daylight Time)
+      </Typography>
     </Stack>
   );
 };

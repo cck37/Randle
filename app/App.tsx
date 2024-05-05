@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import {
   Container,
   Stack,
@@ -15,17 +15,9 @@ import { GuessesTable } from "./components/GuessesTable";
 import { GuessBar } from "./components/GuessBar";
 import { CorrectGuess } from "./components/CorrectGuess";
 
-import {
-  CategoryResponse,
-  Guess,
-  GuessResponse,
-  PossibleGuess,
-  StorageState,
-} from "./types";
+import { Guess, StorageState } from "./types";
 import ThemeRegistry from "./components/ThemeRegistry/ThemeRegistry";
 import { CountdownProvider } from "./components/CountdownContext";
-import { CountDownTimer } from "./components/CountDownTimer";
-import { flushSync } from "react-dom";
 import { useWindowSize } from "react-use";
 import Confetti from "react-confetti";
 import { useLocalStorage } from "./hooks/useLocaleStorage";
@@ -60,32 +52,32 @@ const isValidStorage = (
 
 export default function App() {
   const [theme, setTheme] = useState<Theme>();
-  const { categoryResponse, isLoading: isFetchCategoryLoading } =
+  const { categoryResponse: category, isLoading: isFetchCategoryLoading } =
     useFetchCategory();
-  const {
-    getGuessResponse,
-    guessResponse,
-    isLoading: isFetchGuessLoading,
-  } = useFetchGuess();
   const correctRef = useRef<HTMLUListElement | null>(null);
   const { width, height } = useWindowSize();
   const [previousSession, setPreviousSession] = useLocalStorage(
     "session",
     defaultStorage
   );
-  const { category, guess } = previousSession;
+  const {
+    getGuessResponse,
+    guessState: guess,
+    isLoading: isFetchGuessLoading,
+  } = useFetchGuess(previousSession.guess);
 
+  // TODO: Refactor this into a custom hook
+  // Load the theme from storage if it exists otherwise update the session with the theme
   useEffect(() => {
     if (isValidStorage(previousSession)) {
-      const { category } = previousSession;
-      const currTheme = createTheme(category.theme);
+      const currTheme = createTheme(previousSession.category.theme);
       setTheme(responsiveFontSizes(currTheme));
-    } else {
-      const { items, theme: themeOptions } = categoryResponse;
+    } else if (!isFetchCategoryLoading) {
+      const { items, theme: themeOptions } = category;
       const currTheme = createTheme(themeOptions);
       setPreviousSession({
-        date: Date.now(),
-        category: categoryResponse,
+        timeStamp: Date.now(),
+        category: category,
         guess: {
           possibleGuesses: items,
           query: "",
@@ -97,40 +89,35 @@ export default function App() {
 
       setTheme(responsiveFontSizes(currTheme));
     }
-  }, [categoryResponse]);
-
-  const handleReset = useCallback(() => {
-    // setGuessState((prevState) => ({
-    //   ...prevState,
-    //   results: [],
-    //   isGuessCorrect: false,
-    //   query: "",
-    //   possibleGuesses: categoryState?.items ?? [],
-    // }));
-  }, []);
+  }, [
+    category,
+    guess,
+    previousSession,
+    setPreviousSession,
+    isFetchCategoryLoading,
+  ]);
 
   useEffect(() => {
+    if (!guess.results.length) return;
+
     setPreviousSession((prevState: StorageState) => ({
       ...prevState,
       guess: {
-        ...prevState.guess,
-        isGuessQueryLoading: isFetchGuessLoading,
-        results: [guessResponse, ...prevState.guess.results],
-        isGuessCorrect:
-          guessResponse?.data.every((attr) => attr.res.isCorrect) ?? false,
+        ...guess,
         possibleGuesses: prevState.guess.possibleGuesses.filter(
-          (g) => g.name !== guessResponse?.name
+          (guesses) =>
+            !guess.results.map((g: Guess) => g.name).includes(guesses.name)
         ),
       },
     }));
 
-    if (guessResponse?.data.every((attr) => attr.res.isCorrect)) {
-      flushSync(() => {
-        console.log("Scroll dammit");
-        correctRef.current?.lastElementChild?.scrollIntoView();
-      });
-    }
-  }, [guessResponse, isFetchGuessLoading, setPreviousSession]);
+    // if (guess?.data.every((attr) => attr.res.isCorrect)) {
+    //   flushSync(() => {
+    //     console.log("Scroll dammit");
+    //     correctRef.current?.lastElementChild?.scrollIntoView();
+    //   });
+    // }
+  }, [guess, setPreviousSession]);
 
   const handleGuess = (query: string) => {
     getGuessResponse(query);
@@ -148,26 +135,27 @@ export default function App() {
               }}
             >
               <Stack spacing={3} direction="column" alignItems="center">
-                {!isFetchCategoryLoading ? (
+                {(!isFetchCategoryLoading || isValidStorage(previousSession)) &&
+                Object.keys(previousSession.guess).length ? (
                   <>
                     <Typography
                       variant="h1"
                       sx={{ paddingY: "1rem", textAlign: "center" }}
                     >
-                      {category.title}
+                      {previousSession.category.title}
                     </Typography>
                     <GuessBar
-                      title={category.title}
-                      possibleGuesses={guess.possibleGuesses}
+                      title={previousSession.category.title}
+                      possibleGuesses={previousSession.guess.possibleGuesses}
                       handleGuess={handleGuess}
                       shouldDisable={
-                        guess.isGuessCorrect || isFetchGuessLoading
+                        previousSession.guess.isGuessCorrect ||
+                        isFetchGuessLoading
                       }
                     />
-                    <CountDownTimer />
                     <GuessesTable
-                      attributes={category.attributes}
-                      guesses={guess.results.filter(Boolean)}
+                      attributes={previousSession.category.attributes}
+                      guesses={previousSession.guess.results}
                     />
                   </>
                 ) : (
@@ -195,10 +183,16 @@ export default function App() {
               </Stack>
             </Grid>
             <Grid item>
-              {guess.isGuessCorrect ? (
+              {!isFetchCategoryLoading &&
+              !isFetchGuessLoading &&
+              previousSession.guess.isGuessCorrect ? (
                 <>
                   <Confetti width={width} height={height} recycle={false} />
-                  <CorrectGuess handleReset={handleReset} ref={correctRef} />
+                  <CorrectGuess
+                    ref={correctRef}
+                    results={previousSession.guess.results}
+                    title={previousSession.category.title}
+                  />
                 </>
               ) : (
                 <></>

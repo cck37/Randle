@@ -1,7 +1,6 @@
 import { useState, useCallback } from "react";
 
 import Image from "next/image";
-import { redirect } from "next/navigation";
 
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -13,7 +12,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 
-import logo from "../logo.svg";
+import logo from "../../public/logo.svg";
 
 const pages = [
   { label: "Standard", route: "/" },

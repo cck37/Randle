@@ -5,15 +5,11 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Drawer from "@mui/material/Drawer";
 import {
   Box,
-  Divider,
   List,
   ListItem,
   ListItemButton,
   ListItemText,
-  Typography,
 } from "@mui/material";
-import Image from "next/image";
-import logo from "../logo.svg";
 
 const drawerWidth = 240;
 

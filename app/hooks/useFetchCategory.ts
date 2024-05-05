@@ -10,12 +10,12 @@ export const useFetchCategory = () => {
     items: [],
     attributes: [],
   });
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
   useEffect(() => {
     setIsLoading(true);
     getCategory(Date.now().toString()).then((apiResponse: CategoryResponse) => {
-      setIsLoading(false);
       setCategoryResponse(apiResponse);
+      setIsLoading(false);
     });
   }, []);
 

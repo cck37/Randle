@@ -46,8 +46,9 @@ const toCorrectResponse = (
           .some((partialGuess: any) =>
             correctItemAttribute.value
               .split(",")
+              .map((parital: any) => parital.trim())
               .filter(Boolean)
-              .some((partialCorrect: any) => partialCorrect === partialGuess)
+              .include(partialGuess)
           ),
       };
     default:
