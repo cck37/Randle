@@ -25,5 +25,11 @@ export const useFetchGuess = (initialGuessState: any) => {
       }
     );
   };
-  return { getGuessResponse, guessResponse, guessState, isLoading };
+  return {
+    getGuessResponse,
+    guessResponse,
+    guessState,
+    setGuessState,
+    isLoading,
+  };
 };

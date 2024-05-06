@@ -18,7 +18,7 @@ import Logo from "./components/Logo";
 const links = [
   { text: "Standard", href: "/" },
   { text: "What is this?", href: "/about" },
-  { text: "???", href: "/about" },
+  { text: "???", href: "/tbd" },
 ];
 
 export const metadata: Metadata = {

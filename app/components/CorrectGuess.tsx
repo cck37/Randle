@@ -14,11 +14,11 @@ import { Close } from "@mui/icons-material";
 import { CountDownTimer } from "./CountDownTimer";
 
 const style = {
-  position: "absolute" as "absolute",
+  position: "absolute",
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 400,
+  minWidth: { xs: "95%", md: "30%" },
   bgcolor: "background.paper",
   border: ".5px solid #0000007a",
   borderRadius: 1,
@@ -36,10 +36,40 @@ const resultToText = (results: any) => {
   );
 };
 
+const generateHashtags = (results: any) => {
+  let hashtags = ["#Randle"];
+  switch (results.length) {
+    case 1:
+      hashtags.push("#IProbablyCheated");
+      break;
+    case 2:
+      hashtags.push("#ImBetterThanYou");
+      break;
+    case 3:
+      hashtags.push("#DontBotherTrying");
+      break;
+    case 4:
+      hashtags.push("#YouSuck");
+      break;
+    case 5:
+      hashtags.push("#NotEvenCloseBaby");
+      break;
+    case 6:
+      hashtags.push("#NotEvenFarIfImBeingHonest");
+      break;
+    case 7:
+      hashtags.push("#HardButFair");
+      break;
+    default:
+      hashtags.push("#Bullshit");
+  }
+  return hashtags.join(" ");
+};
+
 const resultsToShare = (results: any, title: string) => {
   return `${title}\nGot it in: ${results.length}\n${resultToText(results).join(
     "\n"
-  )}\n#Randle #ImBetterThanYou #YouSuck #YouLost #YouCantBeatMe #YouCantWin #YouCantGuess #YouCantDoIt`;
+  )}\n${generateHashtags(results)}`;
 };
 
 type Props = {

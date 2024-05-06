@@ -64,6 +64,7 @@ export default function App() {
     getGuessResponse,
     guessState: guess,
     isLoading: isFetchGuessLoading,
+    setGuessState,
   } = useFetchGuess(previousSession.guess);
 
   // TODO: Refactor this into a custom hook
@@ -75,26 +76,28 @@ export default function App() {
     } else if (!isFetchCategoryLoading) {
       const { items, theme: themeOptions } = category;
       const currTheme = createTheme(themeOptions);
+      const emptyGuessState = {
+        possibleGuesses: items,
+        query: "",
+        results: [],
+        isGuessCorrect: false,
+        isGuessQueryLoading: false,
+      };
       setPreviousSession({
         timeStamp: Date.now(),
         category: category,
-        guess: {
-          possibleGuesses: items,
-          query: "",
-          results: [],
-          isGuessCorrect: false,
-          isGuessQueryLoading: false,
-        },
+        guess: emptyGuessState,
       });
+      setGuessState(emptyGuessState);
 
       setTheme(responsiveFontSizes(currTheme));
     }
   }, [
     category,
-    guess,
     previousSession,
     setPreviousSession,
     isFetchCategoryLoading,
+    setGuessState,
   ]);
 
   useEffect(() => {
@@ -110,13 +113,6 @@ export default function App() {
         ),
       },
     }));
-
-    // if (guess?.data.every((attr) => attr.res.isCorrect)) {
-    //   flushSync(() => {
-    //     console.log("Scroll dammit");
-    //     correctRef.current?.lastElementChild?.scrollIntoView();
-    //   });
-    // }
   }, [guess, setPreviousSession]);
 
   const handleGuess = (query: string) => {
