@@ -40,6 +40,23 @@ export default function About() {
           </Typography>
         </Paper>
         <Stack spacing={3} direction="column" alignItems="center">
+          <Typography variant="body1">
+            {"String fields will be in"}
+            <Typography
+              variant="body1"
+              sx={{ color: theme.palette.success.main }}
+            >
+              green
+            </Typography>
+            {"if the answer is correct and"}
+            <Typography
+              variant="body1"
+              sx={{ color: theme.palette.error.main }}
+            >
+              red
+            </Typography>
+            {"if the answer is incorrect"}
+          </Typography>
           <GuessesTable
             attributes={[
               { name: "Could eat me whole?", id: 1, attributeType: "string" },
@@ -75,25 +92,20 @@ export default function About() {
               },
             ]}
           />
+        </Stack>
+        <Stack spacing={3} direction="column" alignItems="center">
           <Typography variant="body1">
-            {"String fields will be in"}
-            <Typography
-              variant="body1"
-              sx={{ color: theme.palette.success.main }}
-            >
-              green
-            </Typography>
-            {"if the answer is correct and"}
+            {"Numeric or date fields will show"}
             <Typography
               variant="body1"
               sx={{ color: theme.palette.error.main }}
             >
-              red
+              {"↓ or ↑"}
             </Typography>
-            {"if the answer is incorrect"}
+            {
+              "if the answer is incorrect and the correct answer is lower or higher respectively"
+            }
           </Typography>
-        </Stack>
-        <Stack spacing={3} direction="column" alignItems="center">
           <GuessesTable
             attributes={[
               { name: "Number of species", id: 1, attributeType: "number" },
@@ -168,20 +180,32 @@ export default function About() {
               },
             ]}
           />
+        </Stack>
+        <Stack spacing={3} direction="column" alignItems="center">
           <Typography variant="body1">
-            {"Numeric or date fields will show"}
+            {"Multipart fields will be in"}{" "}
+            <Typography
+              variant="body1"
+              sx={{ color: theme.palette.success.main }}
+            >
+              green
+            </Typography>{" "}
+            {"if the answer is correct and"}{" "}
+            <Typography
+              variant="body1"
+              sx={{ color: theme.palette.warning.main }}
+            >
+              yellow
+            </Typography>{" "}
+            {"if the answer is partially correct and"}
             <Typography
               variant="body1"
               sx={{ color: theme.palette.error.main }}
             >
-              {"↓ or ↑"}
-            </Typography>
-            {
-              "if the answer is incorrect and the correct answer is lower or higher respectively"
-            }
+              red
+            </Typography>{" "}
+            {"if the answer is incorrect"}
           </Typography>
-        </Stack>
-        <Stack spacing={3} direction="column" alignItems="center">
           <GuessesTable
             attributes={[
               { name: "Number of species", id: 1, attributeType: "number" },
@@ -231,30 +255,6 @@ export default function About() {
               },
             ]}
           />
-          <Typography variant="body1">
-            {"Multipart fields will be in"}{" "}
-            <Typography
-              variant="body1"
-              sx={{ color: theme.palette.success.main }}
-            >
-              green
-            </Typography>{" "}
-            {"if the answer is correct and"}{" "}
-            <Typography
-              variant="body1"
-              sx={{ color: theme.palette.warning.main }}
-            >
-              yellow
-            </Typography>{" "}
-            {"if the answer is partially correct and"}
-            <Typography
-              variant="body1"
-              sx={{ color: theme.palette.error.main }}
-            >
-              red
-            </Typography>{" "}
-            {"if the answer is incorrect"}
-          </Typography>
         </Stack>
         <Typography variant="body1">
           If you win, you can share your results with the share button. Your
