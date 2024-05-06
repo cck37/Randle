@@ -73,7 +73,7 @@ export const CorrectGuess = forwardRef<HTMLUListElement, Props>(
           aria-describedby="modal-modal-you-win-result"
         >
           <Box sx={style}>
-            <Stack direction="column" alignItems="center" gap={1}>
+            <Stack direction="column" alignItems="center" gap={2}>
               <Typography
                 variant="h1"
                 sx={{ color: theme.palette.success.main }}
@@ -97,13 +97,11 @@ export const CorrectGuess = forwardRef<HTMLUListElement, Props>(
               <Typography variant="h1">{title}</Typography>
               <Typography variant="h3">{results[0].name}</Typography>
               <Box>
-                {resultToText(results)
-                  .reverse()
-                  .map((res: any, idx: number) => (
-                    <Typography key={idx} variant="h4">
-                      {res}
-                    </Typography>
-                  ))}
+                {resultToText(results).map((res: any, idx: number) => (
+                  <Typography key={idx} variant="h5">
+                    {res}
+                  </Typography>
+                ))}
               </Box>
               <Typography variant="h4">Got it in: {results.length}</Typography>
               <CountDownTimer />
@@ -116,7 +114,7 @@ export const CorrectGuess = forwardRef<HTMLUListElement, Props>(
         <Snackbar
           open={snackOpen}
           autoHideDuration={3000}
-          anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+          anchorOrigin={{ vertical: "top", horizontal: "center" }}
           onClose={() => setSnackOpen(false)}
           message="Copied to clipboard. Prove your superiority"
           action={

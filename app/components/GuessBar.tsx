@@ -19,6 +19,7 @@ export function GuessBar(props: {
   const onSubmit = useCallback(
     (e: React.SyntheticEvent): void => {
       e.preventDefault();
+      if (!guess) return;
       handleGuess(guess ?? "");
       setGuess("");
     },
