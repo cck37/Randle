@@ -11,9 +11,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    h1: {
-      fontFamily: "Droid Serif",
-    },
+    fontFamily: "Roboto mono, monospace",
   },
 });
 

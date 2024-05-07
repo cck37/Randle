@@ -14,16 +14,34 @@ import { NavButton } from "./components/NavButton";
 
 import NavMenu from "./components/NavMenu";
 import Logo from "./components/Logo";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import X from "@mui/icons-material/X";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import Button from "@mui/material/Button";
+import ButtonGroup from "@mui/material/ButtonGroup";
 
-const links = [
-  { text: "Standard", href: "/" },
+const headerLinks = [
+  { text: "Home", href: "/" },
   { text: "What is this?", href: "/about" },
-  { text: "???", href: "/tbd" },
+  { text: "TBD", href: "/tbd" },
+];
+const footerLinks = [
+  {
+    text: "Github",
+    href: "https://github.com/cck37/Randle",
+    icon: <GitHubIcon />,
+  },
+  { text: "X", href: "https://twitter.com/elonmusk", icon: <X /> },
+  {
+    text: "LinkedIn",
+    href: "https://www.linkedin.com/in/chris-kennedy-00879182/",
+    icon: <LinkedInIcon />,
+  },
 ];
 
 export const metadata: Metadata = {
   title: "Randle",
-  description: "Yea... I guess",
+  description: "Wordle but new category each day",
 };
 
 export default async function RootLayout({
@@ -33,7 +51,9 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body
+        style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
+      >
         <ThemeRegistry>
           <AppBar position="fixed" sx={{ zIndex: 2 }}>
             <Toolbar sx={{ backgroundColor: "background.paper" }}>
@@ -46,11 +66,9 @@ export default async function RootLayout({
                 noWrap
                 component="a"
                 href="/"
-                // placeholder styling while i figure what font to use
                 sx={{
                   mr: 2,
                   display: { xs: "none", md: "flex" },
-                  fontFamily: "monospace",
                   fontWeight: 700,
                   letterSpacing: ".3rem",
                   color: "inherit",
@@ -60,14 +78,14 @@ export default async function RootLayout({
                 Randle
               </Typography>
               <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-                {links.map(({ text, href }) => (
+                {headerLinks.map(({ text, href }) => (
                   <NavButton key={text + "-" + href} text={text} href={href} />
                 ))}
               </Box>
 
               {/* Xs sized layout */}
               <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-                <NavMenu items={links} />
+                <NavMenu items={headerLinks} />
               </Box>
               <Box sx={{ mr: 1, display: { xs: "flex", md: "none" } }}>
                 <Logo width={30} />
@@ -77,11 +95,9 @@ export default async function RootLayout({
                 noWrap
                 component="a"
                 href="/"
-                // placeholder styling while i figure what font to use
                 sx={{
                   mr: 2,
                   display: { xs: "flex", md: "none" },
-                  fontFamily: "monospace",
                   fontWeight: 700,
                   letterSpacing: ".3rem",
                   color: "inherit",
@@ -95,6 +111,31 @@ export default async function RootLayout({
           <Box component="main" sx={{ p: 3 }}>
             <Toolbar />
             {children}
+          </Box>
+          <Box
+            component="footer"
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            sx={{
+              backgroundColor: "background.paper",
+              flex: "0 0 50px",
+              marginTop: "auto",
+            }}
+          >
+            <ButtonGroup variant="text" color="primary">
+              {footerLinks.map(({ text, href, icon }) => (
+                <Button
+                  key={text + href}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={text}
+                >
+                  {icon}
+                </Button>
+              ))}
+            </ButtonGroup>
           </Box>
         </ThemeRegistry>
       </body>

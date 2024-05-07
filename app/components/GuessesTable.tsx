@@ -77,7 +77,7 @@ export function GuessesTable(props: {
   const theme = useTheme();
   return (
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="result table">
+      <Table aria-label="result table">
         <TableHead>
           <TableRow>
             <TableCell sx={guessHeaderStyle}>Guess</TableCell>
