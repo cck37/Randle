@@ -1,30 +1,19 @@
 import { forwardRef, useState } from "react";
-import {
-  Button,
-  Typography,
-  Stack,
-  Modal,
-  Box,
-  IconButton,
-  Snackbar,
-} from "@mui/material";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Stack from "@mui/material/Stack";
+import Dialog from "@mui/material/Dialog";
+import Box from "@mui/material/Box";
+import IconButton from "@mui/material/IconButton";
+import Snackbar from "@mui/material/Snackbar";
+import Close from "@mui/icons-material/Close";
+import DialogTitle from "@mui/material/DialogTitle";
+import DialogContent from "@mui/material/DialogContent";
+import DialogActions from "@mui/material/DialogActions";
+
 import { useTheme } from "@mui/material/styles";
 import ShareIcon from "@mui/icons-material/Share";
-import { Close } from "@mui/icons-material";
 import { CountDownTimer } from "./CountDownTimer";
-
-const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  minWidth: { xs: "95%", md: "30%" },
-  bgcolor: "background.paper",
-  border: ".5px solid #0000007a",
-  borderRadius: 1,
-  boxShadow: 24,
-  p: 4,
-};
 
 const resultToText = (results: any) => {
   return results.map((res: any) =>
@@ -96,37 +85,49 @@ export const CorrectGuess = forwardRef<HTMLUListElement, Props>(
     const theme = useTheme();
     return (
       <>
-        <Modal
+        <Dialog
           open={open}
           onClose={handleClose}
           aria-labelledby="modal-modal-you-win-title"
           aria-describedby="modal-modal-you-win-result"
         >
-          <Box sx={style}>
+          <DialogTitle
+            id="you-win-modal-it-alert-title"
+            sx={{
+              color: theme.palette.success.main,
+              textAlign: "center",
+              fontSize: theme.typography.h1.fontSize,
+              fontFamily: theme.typography.h1.fontFamily,
+            }}
+          >
+            You did it!
+          </DialogTitle>
+          <IconButton
+            onClick={handleClose}
+            sx={{
+              position: "absolute",
+              right: 8,
+              top: 8,
+              color: theme.palette.primary.main,
+            }}
+          >
+            <Close />
+          </IconButton>
+          <DialogContent id="you-win-modal-result">
             <Stack direction="column" alignItems="center" gap={2}>
               <Typography
-                variant="h1"
-                sx={{ color: theme.palette.success.main }}
-                ref={ref}
-                id="modal-modal-you-win-title"
-              >
-                You did it!
-              </Typography>
-              <IconButton
-                onClick={handleClose}
+                variant="h2"
                 sx={{
-                  position: "fixed",
-                  top: 0,
-                  right: 0,
-                  zIndex: 2000,
+                  color: theme.typography.h1.color,
+                  textAlign: "center",
+                  fontSize: theme.typography.h1.fontSize,
+                  fontFamily: theme.typography.h1.fontFamily,
                 }}
               >
-                <Close />
-              </IconButton>
-              <hr style={{ width: "100%" }} />
-              <Typography variant="h1">{title}</Typography>
+                {title}
+              </Typography>
               <Typography variant="h3">{results[0].name}</Typography>
-              <Box>
+              <Box maxHeight="30vh" sx={{ overflowY: "scroll" }}>
                 {resultToText(results).map((res: any, idx: number) => (
                   <Typography key={idx} variant="h5">
                     {res}
@@ -135,12 +136,14 @@ export const CorrectGuess = forwardRef<HTMLUListElement, Props>(
               </Box>
               <Typography variant="h4">Got it in: {results.length}</Typography>
               <CountDownTimer />
-              <Button onClick={handleShare} variant="contained">
-                <ShareIcon /> Share
-              </Button>
             </Stack>
-          </Box>
-        </Modal>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={handleShare} variant="contained">
+              <ShareIcon /> Share
+            </Button>
+          </DialogActions>
+        </Dialog>
         <Snackbar
           open={snackOpen}
           autoHideDuration={3000}
