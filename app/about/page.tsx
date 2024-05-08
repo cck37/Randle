@@ -22,19 +22,48 @@ export default function About() {
       <ArrowDownwardIcon sx={{ fontSize: 40 }} />
       <Logo width={100} />
       <Typography variant="subtitle1">
-        Randle is also a game where you guess the attributes of a category.{" "}
+        {
+          "Randle is also a game where try to guess a new item based on hints from your previous guesses."
+        }
       </Typography>
       <Typography variant="body1">
         Kind of like Wordle but instead getting hints on letters, you gain
-        information about attributes in a category. Heavy inspirtion from sites
-        like <Link href="https://loldle.net/">Loldle</Link> and{" "}
+        information about attributes in a category. And unlike Wordle, the
+        category changes each day.
+      </Typography>
+      <Typography variant="body1">
+        A category could be{" "}
+        <span style={{ fontFamily: "Bebas Neue, sans-serif", color: "white" }}>
+          MOVIES{" "}
+        </span>
+        ,{" "}
+        <span
+          style={{ fontFamily: "Harry Potter, sans-serif", color: "#c9bc75" }}
+        >
+          Harry Potter
+        </span>
+        ,{" "}
+        <span
+          style={{
+            fontFamily:
+              "Disney, Droid Sans, system-ui, Avenir, Helvetica, Arial, sans-serif",
+            color: "#2196F3",
+          }}
+        >
+          Animated Disney Movies
+        </span>
+        , and more. Stop by daily for a unique challenge.
+      </Typography>
+      <Typography variant="body1">
+        Heavy inspirtion from sites like{" "}
+        <Link href="https://loldle.net/">Loldle</Link> and{" "}
         <Link href="https://pokedle.net/">Pokedle</Link>.
       </Typography>
       <Typography variant="body1">
         {"You can gain 4 different types of info:"}
       </Typography>
       <Typography variant="body1">
-        {"String fields which will be"}
+        {"Text fields which will be"}
         <span style={{ color: theme.palette.success.main }}> green </span>
         {"if the answer is correct and"}
         <span style={{ color: theme.palette.error.main }}> red </span>
