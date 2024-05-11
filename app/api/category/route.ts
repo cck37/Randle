@@ -14,8 +14,9 @@ export async function GET(request: NextRequest) {
         status: 400,
       }
     );
+  const categoryName = searchParams.get("category");
 
-  const data: CategoryResponse = await getCategory(timestamp);
+  const data: CategoryResponse = await getCategory(timestamp, categoryName);
 
   return NextResponse.json(data);
 }

@@ -9,12 +9,21 @@ import { getRandom } from "../utils";
 export const dynamic = "force-dynamic";
 
 export const getCategory = cache(
-  async (currTimestamp: number): Promise<CategoryResponse> => {
+  async (
+    currTimestamp: number,
+    categoryName: string | null
+  ): Promise<CategoryResponse> => {
     const catLength = await prisma.category.count();
+    const whereClause = categoryName
+      ? {
+          title: categoryName,
+        }
+      : {
+          id: getRandom(catLength, currTimestamp),
+        };
+
     const category = await prisma.category.findFirstOrThrow({
-      where: {
-        id: getRandom(catLength, currTimestamp),
-      },
+      where: whereClause,
       include: {
         attributes: true,
         items: true,

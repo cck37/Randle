@@ -61,12 +61,16 @@ const toCorrectResponse = (
 // TODO: Fix stupid cache by day. The only reason why I'm doing this is so Next stops caching this response
 // I could give a shit about recompiling; just return me a new result each day instead of deciding what's "fastest"
 export const getGuessResponse = cache(
-  async (guess: string, currTimestamp: number): Promise<GuessResponse> => {
+  async (
+    guess: string,
+    currTimestamp: number,
+    category: string | null
+  ): Promise<GuessResponse> => {
     // TODO: Stop calling the DB like it's your mother
 
     // Get answer for today
     // DB Call 1
-    const currCategory = await getCategory(currTimestamp); // stupid. figure out caching
+    const currCategory = await getCategory(currTimestamp, category); // stupid. figure out caching
 
     // DB Call 2
     const answersCount = await prisma.items.count({

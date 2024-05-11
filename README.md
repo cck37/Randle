@@ -8,14 +8,30 @@ Every day a new category is chosen as well as an answer for that category. Goal 
 
 ## Running locally
 
+This is a Next.js app using Prisma ORM pointing to a Postgres DB. To run this locally, you'll need a local postgres instance.
+
+To start, install packages:
+
 ```
-npm run dev
+npm i
 ```
 
-## Seeding DB
+Next, the database. First, create a `.env.local` file based on the `.template.env.local` (swap `postgres_user` and `postgres_password` along with the port and db if needed). Then run:
+
+```
+npm run dev:migrate
+```
+
+to migrate the schema to your database. Finally, seed your database with the static data I have in source:
 
 ```
 npm run seed
+```
+
+After that, you should be able to run the web app and you're all set:
+
+```
+npm run dev
 ```
 
 ## TODO

@@ -5,6 +5,7 @@ export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
   const guess = searchParams.get("guess") ?? "";
   const timestamp = Number(searchParams.get("date"));
+  const category = searchParams.get("category");
 
   if (guess && guess.length <= 0)
     return NextResponse.json(
@@ -26,7 +27,7 @@ export async function GET(request: NextRequest) {
       }
     );
 
-  const data = await getGuessResponse(guess, timestamp);
+  const data = await getGuessResponse(guess, timestamp, category);
 
   if (data) {
     // B/c ts claims Response.json(data) doesn't exist
