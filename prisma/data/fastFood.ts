@@ -9,7 +9,7 @@ export const fastFood: CategoryResponse = {
     },
     {
       name: "2022 US Sales (MM)",
-      type: "number",
+      type: "multipart",
     },
     {
       name: "2021 Total Stores",
@@ -121,7 +121,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Purple, Yellow",
+          value: "Purple, White",
         },
       ],
     },
@@ -146,7 +146,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, Yellow",
+          value: "Red, White",
         },
       ],
     },
@@ -246,7 +246,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, Yellow",
+          value: "Orange, Red",
         },
       ],
     },
@@ -296,7 +296,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Black",
+          value: "Red, White",
         },
       ],
     },
@@ -321,7 +321,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Blue, White",
+          value: "Green, White",
         },
       ],
     },
@@ -346,7 +346,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red",
+          value: "Red, White",
         },
       ],
     },
@@ -371,7 +371,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Blue, Red",
+          value: "Red, White",
         },
       ],
     },
@@ -396,7 +396,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Orange",
+          value: "Red, White",
         },
       ],
     },
@@ -421,7 +421,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red",
+          value: "Red, Black",
         },
       ],
     },
@@ -446,7 +446,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, Orange",
+          value: "Orange, White",
         },
       ],
     },
@@ -471,7 +471,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Blue, Orange",
+          value: "Red, White",
         },
       ],
     },
@@ -496,7 +496,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, Yellow",
+          value: "Red, White",
         },
       ],
     },
@@ -521,7 +521,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Blue, Yellow",
+          value: "Red, White",
         },
       ],
     },
@@ -546,7 +546,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, Green",
+          value: "White, Red",
         },
       ],
     },
@@ -571,7 +571,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, Gold",
+          value: "Orange, White",
         },
       ],
     },
@@ -671,7 +671,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Blue, White",
+          value: "Blue, Red",
         },
       ],
     },
@@ -696,7 +696,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, White",
+          value: "Green, White",
         },
       ],
     },
@@ -721,7 +721,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, Black",
+          value: "Red, White",
         },
       ],
     },
@@ -746,7 +746,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, Yellow",
+          value: "Black, Red",
         },
       ],
     },
@@ -796,7 +796,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, Yellow",
+          value: "Red, White",
         },
       ],
     },
@@ -896,7 +896,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, Yellow",
+          value: "Red, White",
         },
       ],
     },
@@ -921,7 +921,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, Yellow",
+          value: "Red, White",
         },
       ],
     },
@@ -971,7 +971,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, Orange",
+          value: "Yellow, Red",
         },
       ],
     },
@@ -996,7 +996,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "",
+          value: "Pink, Black",
         },
       ],
     },
@@ -1071,7 +1071,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Green, White",
+          value: "Red, White",
         },
       ],
     },
@@ -1121,7 +1121,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Green, Yellow",
+          value: "White, Green",
         },
       ],
     },
@@ -1221,7 +1221,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Red, White",
+          value: "Black, Yellow",
         },
       ],
     },
@@ -1246,7 +1246,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Blue, Red",
+          value: "Red, White",
         },
       ],
     },
@@ -1271,7 +1271,7 @@ export const fastFood: CategoryResponse = {
         },
         {
           name: "Primary Logo Colors",
-          value: "Green, Orange",
+          value: "Yellow, Red",
         },
       ],
     },
