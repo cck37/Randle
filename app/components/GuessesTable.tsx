@@ -17,7 +17,8 @@ import Zoom from "@mui/material/Zoom";
 import { Theme, useTheme } from "@mui/material/styles";
 
 const guessHeaderStyle = {
-  color: "secondary.main",
+  backgroundColor: "primary.main",
+  color: "primary.contrastText",
   fontSize: "1rem",
 };
 
@@ -37,10 +38,16 @@ const guessValueTrim = (attr: GuessAttributeResponse): string => {
 //TODO: Safer to use attributeType but whatever. Cant assume all data is bad data
 const guessResToStyle = (res: CorrectResponse, theme: Theme): any => {
   const { isCorrect } = res;
+  const baseStyle = {
+    color: theme.palette.secondary.contrastText,
+    borderColor: "divider",
+    borderLeft: "1px solid !important",
+  };
 
   if ("isPartial" in res && res.isPartial) {
     return {
-      color: isCorrect
+      ...baseStyle,
+      backgroundColor: isCorrect
         ? theme.palette.success.main
         : res.isPartial
         ? theme.palette.warning.main
@@ -49,14 +56,20 @@ const guessResToStyle = (res: CorrectResponse, theme: Theme): any => {
   } else if ("isAbove" in res) {
     const arrow = res.isAbove ? "↑" : "↓";
     return {
-      color: isCorrect ? theme.palette.success.main : theme.palette.error.main,
+      ...baseStyle,
+      backgroundColor: isCorrect
+        ? theme.palette.success.main
+        : theme.palette.error.main,
       "&::after": {
         content: `" ${isCorrect ? "" : arrow}"`,
       },
     };
   } else {
     return {
-      color: isCorrect ? theme.palette.success.main : theme.palette.error.main,
+      ...baseStyle,
+      backgroundColor: isCorrect
+        ? theme.palette.success.main
+        : theme.palette.error.main,
     };
   }
 };
@@ -77,12 +90,12 @@ export function GuessesTable(props: {
   const theme = useTheme();
   return (
     <TableContainer component={Paper}>
-      <Table aria-label="result table">
+      <Table stickyHeader aria-label="result table">
         <TableHead>
           <TableRow>
             <TableCell sx={guessHeaderStyle}>Guess</TableCell>
             {attributes.map((attr) => (
-              <TableCell align="right" key={attr.id} sx={guessHeaderStyle}>
+              <TableCell align="left" key={attr.id} sx={guessHeaderStyle}>
                 {attr.name}
               </TableCell>
             ))}

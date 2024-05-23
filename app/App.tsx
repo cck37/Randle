@@ -130,7 +130,7 @@ export default function App() {
                 width: "100%",
               }}
             >
-              <Stack spacing={3} direction="column" alignItems="center">
+              <Stack spacing={2} direction="column" alignItems="center">
                 {(!isFetchCategoryLoading || isValidStorage(previousSession)) &&
                 Object.keys(previousSession.guess).length ? (
                   <>
@@ -149,6 +149,10 @@ export default function App() {
                         isFetchGuessLoading
                       }
                     />
+                    <Typography variant="h6">
+                      Par:{" "}
+                      {Math.floor(previousSession.category.items.length * 0.1)}
+                    </Typography>
                     <GuessesTable
                       attributes={previousSession.category.attributes}
                       guesses={previousSession.guess.results}
@@ -187,7 +191,7 @@ export default function App() {
                   <CorrectGuess
                     ref={correctRef}
                     results={previousSession.guess.results}
-                    title={previousSession.category.title}
+                    category={previousSession.category}
                   />
                 </>
               ) : (

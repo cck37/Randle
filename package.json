@@ -21,13 +21,12 @@
     "@fontsource/roboto": "^5.0.8",
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.14.14",
-    "@prisma/client": "^5.7.1",
+    "@prisma/client": "^5.14.0",
     "@vercel/postgres": "^0.5.1",
     "framer-motion": "^11.0.5",
     "fs.promises": "^0.1.2",
     "match-sorter": "^6.3.4",
     "next": "^14.0.3",
-    "prisma": "^5.7.1",
     "react": "^18.2.0",
     "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
@@ -40,6 +39,7 @@
     "@types/react-dom": "^18.2.15",
     "eslint": "^8",
     "eslint-config-next": "^14.0.3",
+    "prisma": "^5.14.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }

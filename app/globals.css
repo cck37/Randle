@@ -30,3 +30,10 @@ body {
   format: ("ttf");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Cheerio";
+  src: url("/fonts/cereal.ttf");
+  format: ("ttf");
+  font-display: swap;
+}

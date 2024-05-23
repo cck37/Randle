@@ -10,10 +10,12 @@ import Close from "@mui/icons-material/Close";
 import DialogTitle from "@mui/material/DialogTitle";
 import DialogContent from "@mui/material/DialogContent";
 import DialogActions from "@mui/material/DialogActions";
+import Divider from "@mui/material/Divider";
 
 import { useTheme } from "@mui/material/styles";
 import ShareIcon from "@mui/icons-material/Share";
 import { CountDownTimer } from "./CountDownTimer";
+import { CategoryResponse } from "../types";
 
 const resultToText = (results: any) => {
   return results.map((res: any) =>
@@ -25,60 +27,52 @@ const resultToText = (results: any) => {
   );
 };
 
-const generateHashtags = (results: any) => {
+const generateHashtags = (results: any, items: any) => {
   let hashtags = ["#Randle"];
-  switch (results.length) {
-    case 1:
-      hashtags.push("#IProbablyCheated");
-      break;
-    case 2:
-      hashtags.push("#ImBetterThanYou");
-      break;
-    case 3:
-      hashtags.push("#DontBotherTrying");
-      break;
-    case 4:
-      hashtags.push("#YouSuck");
-      break;
-    case 5:
-      hashtags.push("#NotEvenCloseBaby");
-      break;
-    case 6:
-      hashtags.push("#NotEvenFarIfImBeingHonest");
-      break;
-    case 7:
-      hashtags.push("#HardButFair");
-      break;
-    default:
-      hashtags.push("#Bullshit");
-  }
+  if (results.length === 1) hashtags.push("#IProbablyCheated");
+  else if (results.length < Math.floor(items.length * 0.1))
+    hashtags.push("#ImBetterThanYou");
+  else if (results.length < Math.floor(items.length * 0.15))
+    hashtags.push("#DontBotherTrying");
+  else if (results.length < Math.floor(items.length * 0.19))
+    hashtags.push("#NotEvenCloseBaby");
+  else if (results.length < Math.floor(items.length * 0.2))
+    hashtags.push("#YouSuck");
+  else if (results.length < Math.floor(items.length * 0.3))
+    hashtags.push("#NotEvenFarIfImBeingHonest");
+  else if (results.length < Math.floor(items.length * 0.35))
+    hashtags.push("#IAmBadAndIShouldFeelBad");
+  if (results.length > Math.floor(items.length * 0.35))
+    hashtags.push("#Bullshit");
+
   return hashtags.join(" ");
 };
 
-const resultsToShare = (results: any, title: string) => {
+const resultsToShare = (results: any, title: string, items: any) => {
   return `${title}\nGot it in: ${results.length}\n${resultToText(results).join(
     "\n"
-  )}\n${generateHashtags(results)}`;
+  )}\n${generateHashtags(results, items)}`;
 };
 
 type Props = {
   results: any;
-  title: string;
+  category: CategoryResponse;
 };
 export const CorrectGuess = forwardRef<HTMLUListElement, Props>(
   function CorrectGuess(
     props: {
       results: any;
-      title: string;
+      category: CategoryResponse;
     },
     ref
   ) {
-    const { results, title } = props;
+    const { results, category } = props;
+    const { title, items } = category;
     const [open, setOpen] = useState<boolean>(true);
     const [snackOpen, setSnackOpen] = useState<boolean>(false);
     const handleClose = () => setOpen(false);
     const handleShare = () => {
-      navigator.clipboard.writeText(resultsToShare(results, title));
+      navigator.clipboard.writeText(resultsToShare(results, title, items));
       setSnackOpen(true);
       handleClose();
     };
@@ -90,9 +84,16 @@ export const CorrectGuess = forwardRef<HTMLUListElement, Props>(
           onClose={handleClose}
           aria-labelledby="modal-modal-you-win-title"
           aria-describedby="modal-modal-you-win-result"
+          sx={{
+            "& .MuiDialog-paper": {
+              width: "90vw",
+              maxWidth: "600px",
+            },
+          }}
         >
           <DialogTitle
             id="you-win-modal-it-alert-title"
+            variant="h1"
             sx={{
               color: theme.palette.success.main,
               textAlign: "center",
@@ -113,6 +114,7 @@ export const CorrectGuess = forwardRef<HTMLUListElement, Props>(
           >
             <Close />
           </IconButton>
+          <Divider />
           <DialogContent id="you-win-modal-result">
             <Stack direction="column" alignItems="center" gap={2}>
               <Typography

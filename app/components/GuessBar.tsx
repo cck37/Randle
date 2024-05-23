@@ -16,6 +16,7 @@ export function GuessBar(props: {
 }) {
   const { title, possibleGuesses, handleGuess, shouldDisable } = props;
   const [guess, setGuess] = useState<string | null>("");
+
   const onSubmit = useCallback(
     (e: React.SyntheticEvent): void => {
       e.preventDefault();

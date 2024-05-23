@@ -97,6 +97,7 @@ export const getGuessResponse = cache(
       take: 1,
     });
 
+    console.log(currAnswer?.name);
     if (currAnswer == null) {
       //TODO: Handle
       console.error(

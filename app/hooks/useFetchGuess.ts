@@ -9,7 +9,7 @@ export const useFetchGuess = (initialGuessState: any) => {
 
   const getGuessResponse = (query: string) => {
     setIsLoading(true);
-    return getGuessAnswer(query, Date.now().toString()).then(
+    return getGuessAnswer(query, "Modest Mouse Songs").then(
       (apiResponse: Guess) => {
         setGuessRepsonse(apiResponse);
         setGuessState((prevState: any) => ({
