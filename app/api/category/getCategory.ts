@@ -11,7 +11,7 @@ export const dynamic = "force-dynamic";
 export const getCategory = cache(
   async (
     currTimestamp: number,
-    categoryName: string | null
+    categoryName?: string
   ): Promise<CategoryResponse> => {
     const catLength = await prisma.category.count();
     const whereClause = categoryName
@@ -21,7 +21,6 @@ export const getCategory = cache(
       : {
           id: getRandom(catLength, currTimestamp),
         };
-
     const category = await prisma.category.findFirstOrThrow({
       where: whereClause,
       include: {

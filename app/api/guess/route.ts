@@ -27,7 +27,9 @@ export async function GET(request: NextRequest) {
       }
     );
 
-  const data = await getGuessResponse(guess, timestamp, category);
+  const data = category
+    ? await getGuessResponse(guess, timestamp, category)
+    : await getGuessResponse(guess, timestamp);
 
   if (data) {
     // B/c ts claims Response.json(data) doesn't exist

@@ -16,7 +16,9 @@ export async function GET(request: NextRequest) {
     );
   const categoryName = searchParams.get("category");
 
-  const data: CategoryResponse = await getCategory(timestamp, categoryName);
+  const data: CategoryResponse = categoryName
+    ? await getCategory(timestamp, categoryName)
+    : await getCategory(timestamp);
 
   return NextResponse.json(data);
 }

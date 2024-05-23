@@ -44,11 +44,13 @@ const defaultStorage: StorageState = {
 };
 
 const isValidStorage = (
-  storageItem: StorageState
+  storageItem: StorageState,
+  categoryTitle: string
 ): storageItem is StorageState =>
   !!storageItem &&
   timestampToDate(storageItem?.timeStamp).toDateString() ===
-    timestampToDate(Date.now()).toDateString();
+    timestampToDate(Date.now()).toDateString() &&
+  storageItem.category.title === categoryTitle;
 
 export default function App() {
   const [theme, setTheme] = useState<Theme>();
@@ -70,7 +72,10 @@ export default function App() {
   // TODO: Refactor this into a custom hook
   // Load the theme from storage if it exists otherwise update the session with the theme
   useEffect(() => {
-    if (isValidStorage(previousSession)) {
+    if (
+      !isFetchCategoryLoading &&
+      isValidStorage(previousSession, category.title)
+    ) {
       const currTheme = createTheme(previousSession.category.theme);
       setTheme(responsiveFontSizes(currTheme));
     } else if (!isFetchCategoryLoading) {
@@ -131,7 +136,8 @@ export default function App() {
               }}
             >
               <Stack spacing={2} direction="column" alignItems="center">
-                {(!isFetchCategoryLoading || isValidStorage(previousSession)) &&
+                {(!isFetchCategoryLoading ||
+                  isValidStorage(previousSession, category.title)) &&
                 Object.keys(previousSession.guess).length ? (
                   <>
                     <Typography

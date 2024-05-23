@@ -64,7 +64,7 @@ export const getGuessResponse = cache(
   async (
     guess: string,
     currTimestamp: number,
-    category: string | null
+    category?: string
   ): Promise<GuessResponse> => {
     // TODO: Stop calling the DB like it's your mother
 
@@ -97,7 +97,6 @@ export const getGuessResponse = cache(
       take: 1,
     });
 
-    console.log(currAnswer?.name);
     if (currAnswer == null) {
       //TODO: Handle
       console.error(
