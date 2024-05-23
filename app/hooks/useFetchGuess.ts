@@ -9,21 +9,19 @@ export const useFetchGuess = (initialGuessState: any) => {
 
   const getGuessResponse = (query: string) => {
     setIsLoading(true);
-    return getGuessAnswer(query, "Modest Mouse Songs").then(
-      (apiResponse: Guess) => {
-        setGuessRepsonse(apiResponse);
-        setGuessState((prevState: any) => ({
-          ...prevState,
-          results: [apiResponse, ...prevState.results],
-          isGuessCorrect:
-            apiResponse?.data.every((attr) => attr.res.isCorrect) ?? false,
-          possibleGuesses: prevState.possibleGuesses.filter(
-            (g: Guess) => g.name !== apiResponse?.name
-          ),
-        }));
-        setIsLoading(false);
-      }
-    );
+    return getGuessAnswer(query).then((apiResponse: Guess) => {
+      setGuessRepsonse(apiResponse);
+      setGuessState((prevState: any) => ({
+        ...prevState,
+        results: [apiResponse, ...prevState.results],
+        isGuessCorrect:
+          apiResponse?.data.every((attr) => attr.res.isCorrect) ?? false,
+        possibleGuesses: prevState.possibleGuesses.filter(
+          (g: Guess) => g.name !== apiResponse?.name
+        ),
+      }));
+      setIsLoading(false);
+    });
   };
   return {
     getGuessResponse,
