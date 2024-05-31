@@ -228,7 +228,7 @@ export const cereal: ThemeOptions = {
 
 export const modestMouse: ThemeOptions = {
   palette: {
-    mode: "dark",
+    mode: "light",
     primary: {
       main: "#EFCAC9",
       contrastText: "#222",

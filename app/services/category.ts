@@ -4,6 +4,7 @@ export const getCategory = (date: string, category?: string) => {
   const searchParams = new URLSearchParams({
     date: date,
   });
+  category = "Modest Mouse Songs";
   if (category) {
     searchParams.set("category", category);
   }

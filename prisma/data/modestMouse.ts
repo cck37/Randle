@@ -8,12 +8,12 @@ export const modestMouse: CategoryResponse = {
       type: "string",
     },
     {
-      name: "Position In Album",
+      name: "# In Album",
       type: "number",
     },
     {
-      name: "Length",
-      type: "string",
+      name: "Length (seconds)",
+      type: "number",
     },
     {
       name: "Release Year",
@@ -33,12 +33,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "9",
         },
         {
-          name: "Length",
-          value: "1:09",
+          name: "Length (seconds)",
+          value: "69",
         },
         {
           name: "Release Year",
@@ -58,12 +58,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "15",
         },
         {
-          name: "Length",
-          value: "1:09",
+          name: "Length (seconds)",
+          value: "69",
         },
         {
           name: "Release Year",
@@ -83,12 +83,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "14",
         },
         {
-          name: "Length",
-          value: "1:12",
+          name: "Length (seconds)",
+          value: "72",
         },
         {
           name: "Release Year",
@@ -108,12 +108,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "12",
         },
         {
-          name: "Length",
-          value: "1:13",
+          name: "Length (seconds)",
+          value: "73",
         },
         {
           name: "Release Year",
@@ -133,12 +133,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "12",
         },
         {
-          name: "Length",
-          value: "1:17",
+          name: "Length (seconds)",
+          value: "77",
         },
         {
           name: "Release Year",
@@ -158,12 +158,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "20",
         },
         {
-          name: "Length",
-          value: "1:19",
+          name: "Length (seconds)",
+          value: "79",
         },
         {
           name: "Release Year",
@@ -183,12 +183,12 @@ export const modestMouse: CategoryResponse = {
           value: "Everywhere and His Nasty Parlour Tricks",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "6",
         },
         {
-          name: "Length",
-          value: "1:24",
+          name: "Length (seconds)",
+          value: "84",
         },
         {
           name: "Release Year",
@@ -208,12 +208,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "1:30",
+          name: "Length (seconds)",
+          value: "90",
         },
         {
           name: "Release Year",
@@ -233,12 +233,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "10",
         },
         {
-          name: "Length",
-          value: "1:45",
+          name: "Length (seconds)",
+          value: "105",
         },
         {
           name: "Release Year",
@@ -258,12 +258,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "16",
         },
         {
-          name: "Length",
-          value: "1:53",
+          name: "Length (seconds)",
+          value: "113",
         },
         {
           name: "Release Year",
@@ -283,12 +283,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "9",
         },
         {
-          name: "Length",
-          value: "2:02",
+          name: "Length (seconds)",
+          value: "122",
         },
         {
           name: "Release Year",
@@ -308,12 +308,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "2:03",
+          name: "Length (seconds)",
+          value: "123",
         },
         {
           name: "Release Year",
@@ -333,12 +333,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "2:13",
+          name: "Length (seconds)",
+          value: "133",
         },
         {
           name: "Release Year",
@@ -358,12 +358,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "15",
         },
         {
-          name: "Length",
-          value: "2:13",
+          name: "Length (seconds)",
+          value: "133",
         },
         {
           name: "Release Year",
@@ -383,12 +383,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "9",
         },
         {
-          name: "Length",
-          value: "2:19",
+          name: "Length (seconds)",
+          value: "139",
         },
         {
           name: "Release Year",
@@ -408,12 +408,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "11",
         },
         {
-          name: "Length",
-          value: "2:22",
+          name: "Length (seconds)",
+          value: "142",
         },
         {
           name: "Release Year",
@@ -433,12 +433,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "8",
         },
         {
-          name: "Length",
-          value: "2:23",
+          name: "Length (seconds)",
+          value: "143",
         },
         {
           name: "Release Year",
@@ -458,12 +458,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "8",
         },
         {
-          name: "Length",
-          value: "2:24",
+          name: "Length (seconds)",
+          value: "144",
         },
         {
           name: "Release Year",
@@ -483,12 +483,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "11",
         },
         {
-          name: "Length",
-          value: "2:26",
+          name: "Length (seconds)",
+          value: "146",
         },
         {
           name: "Release Year",
@@ -508,12 +508,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "2:27",
+          name: "Length (seconds)",
+          value: "147",
         },
         {
           name: "Release Year",
@@ -533,12 +533,12 @@ export const modestMouse: CategoryResponse = {
           value: "Building Nothing Out of Something",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "2:29",
+          name: "Length (seconds)",
+          value: "149",
         },
         {
           name: "Release Year",
@@ -558,12 +558,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Fruit That Ate Itself",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "2:30",
+          name: "Length (seconds)",
+          value: "150",
         },
         {
           name: "Release Year",
@@ -583,12 +583,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "9",
         },
         {
-          name: "Length",
-          value: "2:31",
+          name: "Length (seconds)",
+          value: "151",
         },
         {
           name: "Release Year",
@@ -608,12 +608,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "11",
         },
         {
-          name: "Length",
-          value: "2:35",
+          name: "Length (seconds)",
+          value: "155",
         },
         {
           name: "Release Year",
@@ -633,12 +633,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "2:36",
+          name: "Length (seconds)",
+          value: "156",
         },
         {
           name: "Release Year",
@@ -658,12 +658,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "13",
         },
         {
-          name: "Length",
-          value: "2:37",
+          name: "Length (seconds)",
+          value: "157",
         },
         {
           name: "Release Year",
@@ -683,12 +683,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Fruit That Ate Itself",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "2:42",
+          name: "Length (seconds)",
+          value: "162",
         },
         {
           name: "Release Year",
@@ -708,12 +708,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "14",
         },
         {
-          name: "Length",
-          value: "2:43",
+          name: "Length (seconds)",
+          value: "163",
         },
         {
           name: "Release Year",
@@ -733,12 +733,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "2:43",
+          name: "Length (seconds)",
+          value: "163",
         },
         {
           name: "Release Year",
@@ -758,12 +758,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Golden Casket",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "3",
         },
         {
-          name: "Length",
-          value: "2:44",
+          name: "Length (seconds)",
+          value: "164",
         },
         {
           name: "Release Year",
@@ -783,12 +783,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "14",
         },
         {
-          name: "Length",
-          value: "2:53",
+          name: "Length (seconds)",
+          value: "173",
         },
         {
           name: "Release Year",
@@ -808,12 +808,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "2:56",
+          name: "Length (seconds)",
+          value: "176",
         },
         {
           name: "Release Year",
@@ -833,12 +833,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "2:56",
+          name: "Length (seconds)",
+          value: "176",
         },
         {
           name: "Release Year",
@@ -858,12 +858,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "2:56",
+          name: "Length (seconds)",
+          value: "176",
         },
         {
           name: "Release Year",
@@ -883,12 +883,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "7",
         },
         {
-          name: "Length",
-          value: "2:57",
+          name: "Length (seconds)",
+          value: "177",
         },
         {
           name: "Release Year",
@@ -908,12 +908,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "11",
         },
         {
-          name: "Length",
-          value: "3:00",
+          name: "Length (seconds)",
+          value: "180",
         },
         {
           name: "Release Year",
@@ -933,12 +933,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "7",
         },
         {
-          name: "Length",
-          value: "3:01",
+          name: "Length (seconds)",
+          value: "181",
         },
         {
           name: "Release Year",
@@ -958,12 +958,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Golden Casket",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "3:01",
+          name: "Length (seconds)",
+          value: "181",
         },
         {
           name: "Release Year",
@@ -983,12 +983,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "15",
         },
         {
-          name: "Length",
-          value: "3:04",
+          name: "Length (seconds)",
+          value: "184",
         },
         {
           name: "Release Year",
@@ -1008,12 +1008,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Golden Casket",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "11",
         },
         {
-          name: "Length",
-          value: "3:05",
+          name: "Length (seconds)",
+          value: "185",
         },
         {
           name: "Release Year",
@@ -1033,12 +1033,12 @@ export const modestMouse: CategoryResponse = {
           value: "Sad Sappy Sucker",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "10",
         },
         {
-          name: "Length",
-          value: "3:07",
+          name: "Length (seconds)",
+          value: "187",
         },
         {
           name: "Release Year",
@@ -1058,12 +1058,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "3:08",
+          name: "Length (seconds)",
+          value: "188",
         },
         {
           name: "Release Year",
@@ -1083,12 +1083,12 @@ export const modestMouse: CategoryResponse = {
           value: "Everywhere and His Nasty Parlour Tricks",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "7",
         },
         {
-          name: "Length",
-          value: "3:10",
+          name: "Length (seconds)",
+          value: "190",
         },
         {
           name: "Release Year",
@@ -1108,12 +1108,12 @@ export const modestMouse: CategoryResponse = {
           value: "No One's First, and You're Next",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "8",
         },
         {
-          name: "Length",
-          value: "3:10",
+          name: "Length (seconds)",
+          value: "190",
         },
         {
           name: "Release Year",
@@ -1133,12 +1133,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "6",
         },
         {
-          name: "Length",
-          value: "3:10",
+          name: "Length (seconds)",
+          value: "190",
         },
         {
           name: "Release Year",
@@ -1158,12 +1158,12 @@ export const modestMouse: CategoryResponse = {
           value: "No One's First, and You're Next",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "3:11",
+          name: "Length (seconds)",
+          value: "191",
         },
         {
           name: "Release Year",
@@ -1183,12 +1183,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Golden Casket",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "3:11",
+          name: "Length (seconds)",
+          value: "191",
         },
         {
           name: "Release Year",
@@ -1208,12 +1208,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Fruit That Ate Itself",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "8",
         },
         {
-          name: "Length",
-          value: "3:12",
+          name: "Length (seconds)",
+          value: "192",
         },
         {
           name: "Release Year",
@@ -1233,12 +1233,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Fruit That Ate Itself",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "6",
         },
         {
-          name: "Length",
-          value: "3:17",
+          name: "Length (seconds)",
+          value: "197",
         },
         {
           name: "Release Year",
@@ -1258,12 +1258,12 @@ export const modestMouse: CategoryResponse = {
           value: "Building Nothing Out of Something",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "3",
         },
         {
-          name: "Length",
-          value: "3:19",
+          name: "Length (seconds)",
+          value: "199",
         },
         {
           name: "Release Year",
@@ -1283,12 +1283,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "13",
         },
         {
-          name: "Length",
-          value: "3:19",
+          name: "Length (seconds)",
+          value: "199",
         },
         {
           name: "Release Year",
@@ -1308,12 +1308,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Fruit That Ate Itself",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "3:20",
+          name: "Length (seconds)",
+          value: "200",
         },
         {
           name: "Release Year",
@@ -1333,12 +1333,12 @@ export const modestMouse: CategoryResponse = {
           value: "Night on the Sun",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "3:21",
+          name: "Length (seconds)",
+          value: "201",
         },
         {
           name: "Release Year",
@@ -1358,12 +1358,12 @@ export const modestMouse: CategoryResponse = {
           value: "Building Nothing Out of Something",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "3:23",
+          name: "Length (seconds)",
+          value: "203",
         },
         {
           name: "Release Year",
@@ -1383,12 +1383,12 @@ export const modestMouse: CategoryResponse = {
           value: "Building Nothing Out of Something",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "3",
         },
         {
-          name: "Length",
-          value: "3:23",
+          name: "Length (seconds)",
+          value: "203",
         },
         {
           name: "Release Year",
@@ -1408,12 +1408,12 @@ export const modestMouse: CategoryResponse = {
           value: "Interstate 8",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "3",
         },
         {
-          name: "Length",
-          value: "3:23",
+          name: "Length (seconds)",
+          value: "203",
         },
         {
           name: "Release Year",
@@ -1433,12 +1433,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "3:24",
+          name: "Length (seconds)",
+          value: "204",
         },
         {
           name: "Release Year",
@@ -1458,12 +1458,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "3",
         },
         {
-          name: "Length",
-          value: "3:28",
+          name: "Length (seconds)",
+          value: "208",
         },
         {
           name: "Release Year",
@@ -1483,12 +1483,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Fruit That Ate Itself",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "9",
         },
         {
-          name: "Length",
-          value: "3:28",
+          name: "Length (seconds)",
+          value: "208",
         },
         {
           name: "Release Year",
@@ -1508,12 +1508,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "13",
         },
         {
-          name: "Length",
-          value: "3:29",
+          name: "Length (seconds)",
+          value: "209",
         },
         {
           name: "Release Year",
@@ -1533,12 +1533,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "3:30",
+          name: "Length (seconds)",
+          value: "210",
         },
         {
           name: "Release Year",
@@ -1558,12 +1558,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "7",
         },
         {
-          name: "Length",
-          value: "3:31",
+          name: "Length (seconds)",
+          value: "211",
         },
         {
           name: "Release Year",
@@ -1583,12 +1583,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "8",
         },
         {
-          name: "Length",
-          value: "3:31",
+          name: "Length (seconds)",
+          value: "211",
         },
         {
           name: "Release Year",
@@ -1608,12 +1608,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "11",
         },
         {
-          name: "Length",
-          value: "3:31",
+          name: "Length (seconds)",
+          value: "211",
         },
         {
           name: "Release Year",
@@ -1633,12 +1633,12 @@ export const modestMouse: CategoryResponse = {
           value: "Everywhere and His Nasty Parlour Tricks",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "3:33",
+          name: "Length (seconds)",
+          value: "213",
         },
         {
           name: "Release Year",
@@ -1658,12 +1658,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "10",
         },
         {
-          name: "Length",
-          value: "3:34",
+          name: "Length (seconds)",
+          value: "214",
         },
         {
           name: "Release Year",
@@ -1683,12 +1683,12 @@ export const modestMouse: CategoryResponse = {
           value: "Everywhere and His Nasty Parlour Tricks",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "3:38",
+          name: "Length (seconds)",
+          value: "218",
         },
         {
           name: "Release Year",
@@ -1708,12 +1708,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "7",
         },
         {
-          name: "Length",
-          value: "3:40",
+          name: "Length (seconds)",
+          value: "220",
         },
         {
           name: "Release Year",
@@ -1733,12 +1733,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "13",
         },
         {
-          name: "Length",
-          value: "3:41",
+          name: "Length (seconds)",
+          value: "221",
         },
         {
           name: "Release Year",
@@ -1758,12 +1758,12 @@ export const modestMouse: CategoryResponse = {
           value: "No One's First, and You're Next",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "3",
         },
         {
-          name: "Length",
-          value: "3:42",
+          name: "Length (seconds)",
+          value: "222",
         },
         {
           name: "Release Year",
@@ -1783,12 +1783,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "3:42",
+          name: "Length (seconds)",
+          value: "222",
         },
         {
           name: "Release Year",
@@ -1808,12 +1808,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "10",
         },
         {
-          name: "Length",
-          value: "3:42",
+          name: "Length (seconds)",
+          value: "222",
         },
         {
           name: "Release Year",
@@ -1833,12 +1833,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "10",
         },
         {
-          name: "Length",
-          value: "3:42",
+          name: "Length (seconds)",
+          value: "222",
         },
         {
           name: "Release Year",
@@ -1858,12 +1858,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "13",
         },
         {
-          name: "Length",
-          value: "3:42",
+          name: "Length (seconds)",
+          value: "222",
         },
         {
           name: "Release Year",
@@ -1883,12 +1883,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "3:44",
+          name: "Length (seconds)",
+          value: "224",
         },
         {
           name: "Release Year",
@@ -1908,12 +1908,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "12",
         },
         {
-          name: "Length",
-          value: "3:48",
+          name: "Length (seconds)",
+          value: "228",
         },
         {
           name: "Release Year",
@@ -1933,12 +1933,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "3:49",
+          name: "Length (seconds)",
+          value: "229",
         },
         {
           name: "Release Year",
@@ -1958,12 +1958,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "6",
         },
         {
-          name: "Length",
-          value: "3:49",
+          name: "Length (seconds)",
+          value: "229",
         },
         {
           name: "Release Year",
@@ -1983,12 +1983,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Golden Casket",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "3:52",
+          name: "Length (seconds)",
+          value: "232",
         },
         {
           name: "Release Year",
@@ -2008,12 +2008,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Golden Casket",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "12",
         },
         {
-          name: "Length",
-          value: "3:52",
+          name: "Length (seconds)",
+          value: "232",
         },
         {
           name: "Release Year",
@@ -2033,12 +2033,12 @@ export const modestMouse: CategoryResponse = {
           value: "No One's First, and You're Next",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "6",
         },
         {
-          name: "Length",
-          value: "3:55",
+          name: "Length (seconds)",
+          value: "235",
         },
         {
           name: "Release Year",
@@ -2058,12 +2058,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "9",
         },
         {
-          name: "Length",
-          value: "3:56",
+          name: "Length (seconds)",
+          value: "236",
         },
         {
           name: "Release Year",
@@ -2083,12 +2083,12 @@ export const modestMouse: CategoryResponse = {
           value: "No One's First, and You're Next",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "3:58",
+          name: "Length (seconds)",
+          value: "238",
         },
         {
           name: "Release Year",
@@ -2108,12 +2108,12 @@ export const modestMouse: CategoryResponse = {
           value: "No One's First, and You're Next",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "3:59",
+          name: "Length (seconds)",
+          value: "239",
         },
         {
           name: "Release Year",
@@ -2133,12 +2133,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "4:00",
+          name: "Length (seconds)",
+          value: "240",
         },
         {
           name: "Release Year",
@@ -2158,12 +2158,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "14",
         },
         {
-          name: "Length",
-          value: "4:00",
+          name: "Length (seconds)",
+          value: "240",
         },
         {
           name: "Release Year",
@@ -2183,12 +2183,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "9",
         },
         {
-          name: "Length",
-          value: "4:03",
+          name: "Length (seconds)",
+          value: "243",
         },
         {
           name: "Release Year",
@@ -2208,12 +2208,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "4:03",
+          name: "Length (seconds)",
+          value: "243",
         },
         {
           name: "Release Year",
@@ -2233,12 +2233,12 @@ export const modestMouse: CategoryResponse = {
           value: "Building Nothing Out of Something",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "4:04",
+          name: "Length (seconds)",
+          value: "244",
         },
         {
           name: "Release Year",
@@ -2258,12 +2258,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "4:06",
+          name: "Length (seconds)",
+          value: "246",
         },
         {
           name: "Release Year",
@@ -2283,12 +2283,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "4:06",
+          name: "Length (seconds)",
+          value: "246",
         },
         {
           name: "Release Year",
@@ -2308,12 +2308,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "3",
         },
         {
-          name: "Length",
-          value: "4:08",
+          name: "Length (seconds)",
+          value: "248",
         },
         {
           name: "Release Year",
@@ -2333,12 +2333,12 @@ export const modestMouse: CategoryResponse = {
           value: "Everywhere and His Nasty Parlour Tricks",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "3",
         },
         {
-          name: "Length",
-          value: "4:13",
+          name: "Length (seconds)",
+          value: "253",
         },
         {
           name: "Release Year",
@@ -2358,12 +2358,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "10",
         },
         {
-          name: "Length",
-          value: "4:13",
+          name: "Length (seconds)",
+          value: "253",
         },
         {
           name: "Release Year",
@@ -2383,12 +2383,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "8",
         },
         {
-          name: "Length",
-          value: "4:14",
+          name: "Length (seconds)",
+          value: "254",
         },
         {
           name: "Release Year",
@@ -2408,12 +2408,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "16",
         },
         {
-          name: "Length",
-          value: "4:16",
+          name: "Length (seconds)",
+          value: "256",
         },
         {
           name: "Release Year",
@@ -2433,12 +2433,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Golden Casket",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "10",
         },
         {
-          name: "Length",
-          value: "4:18",
+          name: "Length (seconds)",
+          value: "258",
         },
         {
           name: "Release Year",
@@ -2458,12 +2458,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "6",
         },
         {
-          name: "Length",
-          value: "4:18",
+          name: "Length (seconds)",
+          value: "258",
         },
         {
           name: "Release Year",
@@ -2483,12 +2483,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "4:18",
+          name: "Length (seconds)",
+          value: "258",
         },
         {
           name: "Release Year",
@@ -2508,12 +2508,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "7",
         },
         {
-          name: "Length",
-          value: "4:21",
+          name: "Length (seconds)",
+          value: "261",
         },
         {
           name: "Release Year",
@@ -2533,12 +2533,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "8",
         },
         {
-          name: "Length",
-          value: "4:22",
+          name: "Length (seconds)",
+          value: "262",
         },
         {
           name: "Release Year",
@@ -2558,12 +2558,12 @@ export const modestMouse: CategoryResponse = {
           value: "Night on the Sun",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "4:23",
+          name: "Length (seconds)",
+          value: "263",
         },
         {
           name: "Release Year",
@@ -2583,12 +2583,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Golden Casket",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "7",
         },
         {
-          name: "Length",
-          value: "4:23",
+          name: "Length (seconds)",
+          value: "263",
         },
         {
           name: "Release Year",
@@ -2608,12 +2608,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "6",
         },
         {
-          name: "Length",
-          value: "4:24",
+          name: "Length (seconds)",
+          value: "264",
         },
         {
           name: "Release Year",
@@ -2633,12 +2633,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "14",
         },
         {
-          name: "Length",
-          value: "4:25",
+          name: "Length (seconds)",
+          value: "265",
         },
         {
           name: "Release Year",
@@ -2658,12 +2658,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "11",
         },
         {
-          name: "Length",
-          value: "4:26",
+          name: "Length (seconds)",
+          value: "266",
         },
         {
           name: "Release Year",
@@ -2683,12 +2683,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "3",
         },
         {
-          name: "Length",
-          value: "4:28",
+          name: "Length (seconds)",
+          value: "268",
         },
         {
           name: "Release Year",
@@ -2708,12 +2708,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "8",
         },
         {
-          name: "Length",
-          value: "4:30",
+          name: "Length (seconds)",
+          value: "270",
         },
         {
           name: "Release Year",
@@ -2733,12 +2733,12 @@ export const modestMouse: CategoryResponse = {
           value: "Everywhere and His Nasty Parlour Tricks",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "4:32",
+          name: "Length (seconds)",
+          value: "272",
         },
         {
           name: "Release Year",
@@ -2758,12 +2758,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "4:32",
+          name: "Length (seconds)",
+          value: "272",
         },
         {
           name: "Release Year",
@@ -2783,12 +2783,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "3",
         },
         {
-          name: "Length",
-          value: "4:34",
+          name: "Length (seconds)",
+          value: "274",
         },
         {
           name: "Release Year",
@@ -2808,12 +2808,12 @@ export const modestMouse: CategoryResponse = {
           value: "Everywhere and His Nasty Parlour Tricks",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "8",
         },
         {
-          name: "Length",
-          value: "4:36",
+          name: "Length (seconds)",
+          value: "276",
         },
         {
           name: "Release Year",
@@ -2833,12 +2833,12 @@ export const modestMouse: CategoryResponse = {
           value: "Interstate 8",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "4:39",
+          name: "Length (seconds)",
+          value: "279",
         },
         {
           name: "Release Year",
@@ -2858,12 +2858,12 @@ export const modestMouse: CategoryResponse = {
           value: "Interstate 8",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "2",
         },
         {
-          name: "Length",
-          value: "4:44",
+          name: "Length (seconds)",
+          value: "284",
         },
         {
           name: "Release Year",
@@ -2883,12 +2883,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "3",
         },
         {
-          name: "Length",
-          value: "4:44",
+          name: "Length (seconds)",
+          value: "284",
         },
         {
           name: "Release Year",
@@ -2908,12 +2908,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "10",
         },
         {
-          name: "Length",
-          value: "4:44",
+          name: "Length (seconds)",
+          value: "284",
         },
         {
           name: "Release Year",
@@ -2933,12 +2933,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Golden Casket",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "9",
         },
         {
-          name: "Length",
-          value: "4:56",
+          name: "Length (seconds)",
+          value: "296",
         },
         {
           name: "Release Year",
@@ -2958,12 +2958,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "13",
         },
         {
-          name: "Length",
-          value: "4:57",
+          name: "Length (seconds)",
+          value: "297",
         },
         {
           name: "Release Year",
@@ -2983,12 +2983,12 @@ export const modestMouse: CategoryResponse = {
           value: "Building Nothing Out of Something",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "5:01",
+          name: "Length (seconds)",
+          value: "301",
         },
         {
           name: "Release Year",
@@ -3008,12 +3008,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "7",
         },
         {
-          name: "Length",
-          value: "5:03",
+          name: "Length (seconds)",
+          value: "303",
         },
         {
           name: "Release Year",
@@ -3033,12 +3033,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "18",
         },
         {
-          name: "Length",
-          value: "5:03",
+          name: "Length (seconds)",
+          value: "303",
         },
         {
           name: "Release Year",
@@ -3058,12 +3058,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "3",
         },
         {
-          name: "Length",
-          value: "5:04",
+          name: "Length (seconds)",
+          value: "304",
         },
         {
           name: "Release Year",
@@ -3083,12 +3083,12 @@ export const modestMouse: CategoryResponse = {
           value: "Building Nothing Out of Something",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "5:05",
+          name: "Length (seconds)",
+          value: "305",
         },
         {
           name: "Release Year",
@@ -3108,12 +3108,12 @@ export const modestMouse: CategoryResponse = {
           value: "Building Nothing Out of Something",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "5:08",
+          name: "Length (seconds)",
+          value: "308",
         },
         {
           name: "Release Year",
@@ -3133,12 +3133,12 @@ export const modestMouse: CategoryResponse = {
           value: "Interstate 8",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "5:24",
+          name: "Length (seconds)",
+          value: "324",
         },
         {
           name: "Release Year",
@@ -3158,12 +3158,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "15",
         },
         {
-          name: "Length",
-          value: "5:24",
+          name: "Length (seconds)",
+          value: "324",
         },
         {
           name: "Release Year",
@@ -3183,12 +3183,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "11",
         },
         {
-          name: "Length",
-          value: "5:24",
+          name: "Length (seconds)",
+          value: "324",
         },
         {
           name: "Release Year",
@@ -3208,12 +3208,12 @@ export const modestMouse: CategoryResponse = {
           value: "Good News for People Who Love Bad News",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "13",
         },
         {
-          name: "Length",
-          value: "5:25",
+          name: "Length (seconds)",
+          value: "325",
         },
         {
           name: "Release Year",
@@ -3233,12 +3233,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Golden Casket",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "8",
         },
         {
-          name: "Length",
-          value: "5:25",
+          name: "Length (seconds)",
+          value: "325",
         },
         {
           name: "Release Year",
@@ -3258,12 +3258,12 @@ export const modestMouse: CategoryResponse = {
           value: "No One's First, and You're Next",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "7",
         },
         {
-          name: "Length",
-          value: "5:30",
+          name: "Length (seconds)",
+          value: "330",
         },
         {
           name: "Release Year",
@@ -3283,12 +3283,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "5:34",
+          name: "Length (seconds)",
+          value: "334",
         },
         {
           name: "Release Year",
@@ -3308,12 +3308,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Golden Casket",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "6",
         },
         {
-          name: "Length",
-          value: "5:40",
+          name: "Length (seconds)",
+          value: "340",
         },
         {
           name: "Release Year",
@@ -3333,12 +3333,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "5:42",
+          name: "Length (seconds)",
+          value: "342",
         },
         {
           name: "Release Year",
@@ -3358,12 +3358,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "8",
         },
         {
-          name: "Length",
-          value: "5:49",
+          name: "Length (seconds)",
+          value: "349",
         },
         {
           name: "Release Year",
@@ -3383,12 +3383,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "14",
         },
         {
-          name: "Length",
-          value: "5:50",
+          name: "Length (seconds)",
+          value: "350",
         },
         {
           name: "Release Year",
@@ -3408,12 +3408,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Golden Casket",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "5:55",
+          name: "Length (seconds)",
+          value: "355",
         },
         {
           name: "Release Year",
@@ -3433,12 +3433,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "12",
         },
         {
-          name: "Length",
-          value: "6:00",
+          name: "Length (seconds)",
+          value: "360",
         },
         {
           name: "Release Year",
@@ -3458,12 +3458,12 @@ export const modestMouse: CategoryResponse = {
           value: "Building Nothing Out of Something",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "6:04",
+          name: "Length (seconds)",
+          value: "364",
         },
         {
           name: "Release Year",
@@ -3483,12 +3483,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "15",
         },
         {
-          name: "Length",
-          value: "6:04",
+          name: "Length (seconds)",
+          value: "364",
         },
         {
           name: "Release Year",
@@ -3508,12 +3508,12 @@ export const modestMouse: CategoryResponse = {
           value: "No One's First, and You're Next",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "6:07",
+          name: "Length (seconds)",
+          value: "367",
         },
         {
           name: "Release Year",
@@ -3533,12 +3533,12 @@ export const modestMouse: CategoryResponse = {
           value: "Strangers to Ourselves",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "6",
         },
         {
-          name: "Length",
-          value: "6:12",
+          name: "Length (seconds)",
+          value: "372",
         },
         {
           name: "Release Year",
@@ -3558,12 +3558,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "7",
         },
         {
-          name: "Length",
-          value: "6:14",
+          name: "Length (seconds)",
+          value: "374",
         },
         {
           name: "Release Year",
@@ -3583,12 +3583,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "14",
         },
         {
-          name: "Length",
-          value: "6:30",
+          name: "Length (seconds)",
+          value: "390",
         },
         {
           name: "Release Year",
@@ -3608,12 +3608,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "6:34",
+          name: "Length (seconds)",
+          value: "394",
         },
         {
           name: "Release Year",
@@ -3633,12 +3633,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "6:53",
+          name: "Length (seconds)",
+          value: "413",
         },
         {
           name: "Release Year",
@@ -3658,12 +3658,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "15",
         },
         {
-          name: "Length",
-          value: "6:53",
+          name: "Length (seconds)",
+          value: "413",
         },
         {
           name: "Release Year",
@@ -3683,12 +3683,12 @@ export const modestMouse: CategoryResponse = {
           value: "This Is a Long Drive for Someone with Nothing to Think About",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "6",
         },
         {
-          name: "Length",
-          value: "7:00",
+          name: "Length (seconds)",
+          value: "420",
         },
         {
           name: "Release Year",
@@ -3708,12 +3708,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "4",
         },
         {
-          name: "Length",
-          value: "7:03",
+          name: "Length (seconds)",
+          value: "423",
         },
         {
           name: "Release Year",
@@ -3733,12 +3733,12 @@ export const modestMouse: CategoryResponse = {
           value: "Building Nothing Out of Something",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "6",
         },
         {
-          name: "Length",
-          value: "7:10",
+          name: "Length (seconds)",
+          value: "430",
         },
         {
           name: "Release Year",
@@ -3758,12 +3758,12 @@ export const modestMouse: CategoryResponse = {
           value: "We Were Dead Before the Ship Even Sank",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "12",
         },
         {
-          name: "Length",
-          value: "8:26",
+          name: "Length (seconds)",
+          value: "506",
         },
         {
           name: "Release Year",
@@ -3783,12 +3783,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Moon & Antarctica",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "9",
         },
         {
-          name: "Length",
-          value: "8:46",
+          name: "Length (seconds)",
+          value: "526",
         },
         {
           name: "Release Year",
@@ -3808,12 +3808,12 @@ export const modestMouse: CategoryResponse = {
           value: "Night on the Sun",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "1",
         },
         {
-          name: "Length",
-          value: "9:21",
+          name: "Length (seconds)",
+          value: "561",
         },
         {
           name: "Release Year",
@@ -3833,12 +3833,12 @@ export const modestMouse: CategoryResponse = {
           value: "Interstate 8",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "5",
         },
         {
-          name: "Length",
-          value: "9:33",
+          name: "Length (seconds)",
+          value: "573",
         },
         {
           name: "Release Year",
@@ -3858,12 +3858,12 @@ export const modestMouse: CategoryResponse = {
           value: "The Lonesome Crowded West",
         },
         {
-          name: "Position In Album",
+          name: "# In Album",
           value: "12",
         },
         {
-          name: "Length",
-          value: "10:57",
+          name: "Length (seconds)",
+          value: "657",
         },
         {
           name: "Release Year",

@@ -120,7 +120,7 @@ export const CorrectGuess = forwardRef<HTMLUListElement, Props>(
               <Typography
                 variant="h2"
                 sx={{
-                  color: theme.typography.h1.color,
+                  color: theme.palette.primary.main,
                   textAlign: "center",
                   fontSize: theme.typography.h1.fontSize,
                   fontFamily: theme.typography.h1.fontFamily,
