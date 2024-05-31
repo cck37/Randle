@@ -5,7 +5,6 @@ export const getGuessAnswer = (guess: string, category?: string) => {
     guess,
     date: Date.now().toString(),
   });
-  category = "Modest Mouse Songs";
   if (category) {
     queryString.append("category", category);
   }
