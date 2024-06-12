@@ -22,7 +22,7 @@ const resultToText = (results: any) => {
     res.data
       .map((attr: any) => {
         if (attr.res.isCorrect) return "🟩";
-        else if (attr.res.isPartial ?? false) return "🟨";
+        else if (attr.res.isPartial ?? false) return "🟧";
         else if (
           Object.hasOwnProperty.call(attr.res, "isAbove") &&
           attr.res.isAbove
