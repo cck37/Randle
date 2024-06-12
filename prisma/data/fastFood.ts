@@ -9,7 +9,7 @@ export const fastFood: CategoryResponse = {
     },
     {
       name: "2022 US Sales (MM)",
-      type: "multipart",
+      type: "number",
     },
     {
       name: "2021 Total Stores",
@@ -26,7 +26,7 @@ export const fastFood: CategoryResponse = {
   ],
   items: [
     {
-      name: "McDonald’s",
+      name: "McDonald's",
       attributes: [
         {
           name: "Region",
@@ -476,7 +476,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Arby’s",
+      name: "Arby's",
       attributes: [
         {
           name: "Region",
@@ -601,7 +601,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Raising Cane’s",
+      name: "Raising Cane's",
       attributes: [
         {
           name: "Region",
@@ -626,7 +626,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Culver’s",
+      name: "Culver's",
       attributes: [
         {
           name: "Region",
@@ -651,7 +651,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Jersey Mike’s",
+      name: "Jersey Mike's",
       attributes: [
         {
           name: "Region",
@@ -701,7 +701,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Zaxby’s",
+      name: "Zaxby's",
       attributes: [
         {
           name: "Region",
@@ -726,7 +726,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Jimmy John’s",
+      name: "Jimmy John's",
       attributes: [
         {
           name: "Region",
@@ -776,7 +776,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Hardee’s",
+      name: "Hardee's",
       attributes: [
         {
           name: "Region",
@@ -826,7 +826,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Carl’s Jr.",
+      name: "Carl's Jr.",
       attributes: [
         {
           name: "Region",
@@ -1076,7 +1076,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Marco’s Pizza",
+      name: "Marco's Pizza",
       attributes: [
         {
           name: "Region",
@@ -1126,7 +1126,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "McAlister’s Deli",
+      name: "McAlister's Deli",
       attributes: [
         {
           name: "Region",
@@ -1151,7 +1151,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Checkers/Rally’s",
+      name: "Checkers/Rally's",
       attributes: [
         {
           name: "Region",
@@ -1176,7 +1176,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Freddy’s Frozen Custard & Steakburgers",
+      name: "Freddy's Frozen Custard & Steakburgers",
       attributes: [
         {
           name: "Region",
@@ -1201,7 +1201,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Church’s Chicken",
+      name: "Church's Chicken",
       attributes: [
         {
           name: "Region",
@@ -1226,7 +1226,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Papa Murphy’s",
+      name: "Papa Murphy's",
       attributes: [
         {
           name: "Region",
@@ -1251,7 +1251,7 @@ export const fastFood: CategoryResponse = {
       ],
     },
     {
-      name: "Moe’s Southwest Grill",
+      name: "Moe's Southwest Grill",
       attributes: [
         {
           name: "Region",
@@ -1351,5 +1351,5 @@ export const fastFood: CategoryResponse = {
       ],
     },
   ],
-  themeName: "fastfood",
+  themeName: "fastFood",
 };

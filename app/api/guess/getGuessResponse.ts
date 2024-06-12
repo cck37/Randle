@@ -93,7 +93,7 @@ export const getGuessResponse = cache(
       orderBy: {
         id: "asc",
       },
-      skip: getRandom(answersCount, currTimestamp),
+      skip: getRandom(answersCount - 1, currTimestamp),
       take: 1,
     });
 
@@ -101,7 +101,7 @@ export const getGuessResponse = cache(
       //TODO: Handle
       console.error(
         `Guess: Get random returned a value of ${getRandom(
-          answersCount,
+          answersCount - 1,
           currTimestamp
         )} and we found no items that matched that. Something is terribly wrong here`
       );

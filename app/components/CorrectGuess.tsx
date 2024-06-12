@@ -20,9 +20,21 @@ import { CategoryResponse } from "../types";
 const resultToText = (results: any) => {
   return results.map((res: any) =>
     res.data
-      .map((attr: any) =>
-        attr.res.isCorrect ? "🟩" : attr.res.isPartial ?? false ? "🟨" : "🟥"
-      )
+      .map((attr: any) => {
+        if (attr.res.isCorrect) return "🟩";
+        else if (attr.res.isPartial ?? false) return "🟨";
+        else if (
+          Object.hasOwnProperty.call(attr.res, "isAbove") &&
+          attr.res.isAbove
+        )
+          return "🔺";
+        else if (
+          Object.hasOwnProperty.call(attr.res, "isAbove") &&
+          !attr.res.isAbove
+        )
+          return "🔻";
+        else return "🟥";
+      })
       .join(" ")
   );
 };
@@ -30,28 +42,27 @@ const resultToText = (results: any) => {
 const generateHashtags = (results: any, items: any) => {
   let hashtags = ["#Randle"];
   if (results.length === 1) hashtags.push("#IProbablyCheated");
-  else if (results.length < Math.floor(items.length * 0.1))
-    hashtags.push("#ImBetterThanYou");
-  else if (results.length < Math.floor(items.length * 0.15))
-    hashtags.push("#DontBotherTrying");
-  else if (results.length < Math.floor(items.length * 0.19))
+  if (results.length < Math.floor(items.length * 0.04))
+    hashtags.push("#ItsNotLuckIfItsConsistent");
+  if (results.length < Math.floor(items.length * 0.05))
+    hashtags.push("#ImThatGuy");
+  if (results.length < Math.floor(items.length * 0.09))
     hashtags.push("#NotEvenCloseBaby");
-  else if (results.length < Math.floor(items.length * 0.2))
-    hashtags.push("#YouSuck");
-  else if (results.length < Math.floor(items.length * 0.3))
+  if (results.length < Math.floor(items.length * 0.1))
     hashtags.push("#NotEvenFarIfImBeingHonest");
+  if (results.length < Math.floor(items.length * 0.2)) hashtags.push("#Rigged");
   else if (results.length < Math.floor(items.length * 0.35))
     hashtags.push("#IAmBadAndIShouldFeelBad");
-  if (results.length > Math.floor(items.length * 0.35))
+  else if (results.length > Math.floor(items.length * 0.4))
     hashtags.push("#Bullshit");
 
   return hashtags.join(" ");
 };
 
 const resultsToShare = (results: any, title: string, items: any) => {
-  return `${title}\nGot it in: ${results.length}\n${resultToText(results).join(
-    "\n"
-  )}\n${generateHashtags(results, items)}`;
+  return `Randle: ${title}\nGot it in: ${results.length}\n${resultToText(
+    results
+  ).join("\n")}\n${generateHashtags(results, items)}`;
 };
 
 type Props = {
@@ -149,7 +160,7 @@ export const CorrectGuess = forwardRef<HTMLUListElement, Props>(
         <Snackbar
           open={snackOpen}
           autoHideDuration={3000}
-          anchorOrigin={{ vertical: "top", horizontal: "center" }}
+          anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
           onClose={() => setSnackOpen(false)}
           message="Copied to clipboard. Prove your superiority"
           action={

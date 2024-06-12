@@ -165,15 +165,15 @@ const animatedDisneyMovies: ThemeOptions = {
 
 const fastFood: ThemeOptions = {
   palette: {
-    mode: "dark",
+    mode: "light",
     primary: {
-      main: "#ffffff",
+      main: "#ffc107",
     },
     secondary: {
       main: "#fff",
     },
     background: {
-      default: "#ffc107",
+      default: "#da291c",
       paper: "#fcf9f8",
     },
     text: {
@@ -182,13 +182,13 @@ const fastFood: ThemeOptions = {
       disabled: "#CCCCCC",
     },
     error: {
-      main: "#da291c",
+      main: "#ca3328",
     },
   },
   typography: {
     fontFamily: "Helvetica, Arial, sans-serif",
     h1: {
-      color: "#da291c",
+      color: "#fff",
       fontFamily: "Bebas Neue, Helvetica, Arial, sans-serif",
     },
   },

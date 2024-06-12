@@ -123,7 +123,6 @@ export default function App() {
   const handleGuess = (query: string) => {
     getGuessResponse(query);
   };
-
   return (
     <ThemeRegistry theme={theme}>
       <CountdownProvider>
