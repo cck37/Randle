@@ -1,6 +1,6 @@
 import { api } from "../adapters/api";
 
-export const getCategory = (date: string, category?: string) => {
+export const getCategory = async (date: string, category?: string) => {
   const searchParams = new URLSearchParams({
     date: date,
   });
@@ -8,5 +8,14 @@ export const getCategory = (date: string, category?: string) => {
     searchParams.set("category", category);
   }
   const queryString = searchParams.toString();
-  return api.get(`/category?${queryString}`).then((data) => data.json());
+  const data = await api.get(`category?${queryString}`);
+  return await data.json();
+};
+
+export const getCategories = async (date: string) => {
+  const searchParams = new URLSearchParams({
+    date: date,
+  });
+  const data = await api.get(`category/all?${searchParams}`);
+  return await data.json();
 };

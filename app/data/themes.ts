@@ -43,6 +43,7 @@ const movies: ThemeOptions = {
   typography: {
     h1: {
       fontFamily: "Bebas Neue, sans-serif",
+      color: "#FF5722",
     },
   },
 };
@@ -102,7 +103,7 @@ const harry: ThemeOptions = {
 
 const animatedTv: ThemeOptions = {
   palette: {
-    mode: "dark",
+    mode: "light",
     primary: {
       main: "#6CC314",
       contrastText: "#FFF",
@@ -159,6 +160,7 @@ const animatedDisneyMovies: ThemeOptions = {
     h1: {
       fontFamily:
         "Disney, Droid Sans, system-ui, Avenir, Helvetica, Arial, sans-serif",
+      color: "#2196F3",
     },
   },
 };
@@ -181,8 +183,11 @@ const fastFood: ThemeOptions = {
       secondary: "#da291c",
       disabled: "#CCCCCC",
     },
+    success: {
+      main: "#3da842",
+    },
     error: {
-      main: "#ca3328",
+      main: "#f71505",
     },
   },
   typography: {
@@ -196,7 +201,7 @@ const fastFood: ThemeOptions = {
 
 export const cereal: ThemeOptions = {
   palette: {
-    mode: "dark",
+    mode: "light",
     primary: {
       main: "#222",
     },

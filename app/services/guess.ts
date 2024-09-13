@@ -8,5 +8,5 @@ export const getGuessAnswer = (guess: string, category?: string) => {
   if (category) {
     queryString.append("category", category);
   }
-  return api.get(`/guess?${queryString}`).then((data) => data.json());
+  return api.get(`guess?${queryString}`).then((data) => data.json());
 };

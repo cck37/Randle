@@ -2,14 +2,14 @@ import { useState } from "react";
 import { getGuessAnswer } from "../services/guess";
 import { Guess } from "../types";
 
-export const useFetchGuess = (initialGuessState: any) => {
+export const useFetchGuess = (initialGuessState: any, category?: string) => {
   const [guessState, setGuessState] = useState<any>(initialGuessState);
   const [guessResponse, setGuessRepsonse] = useState<Guess>();
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const getGuessResponse = (query: string) => {
     setIsLoading(true);
-    return getGuessAnswer(query).then((apiResponse: Guess) => {
+    return getGuessAnswer(query, category).then((apiResponse: Guess) => {
       setGuessRepsonse(apiResponse);
       setGuessState((prevState: any) => ({
         ...prevState,

@@ -63,6 +63,13 @@ export type CategoryResponse = {
   theme: ThemeOptions;
 };
 
+export type CategorySummaryResponse = {
+  id: number;
+  title: string;
+  theme: ThemeOptions;
+  isCurrentCategory: boolean;
+};
+
 export type GuessState = {
   possibleGuesses: PossibleGuess[];
   query: string;

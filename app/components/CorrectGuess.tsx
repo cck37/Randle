@@ -14,6 +14,8 @@ import Divider from "@mui/material/Divider";
 
 import { useTheme } from "@mui/material/styles";
 import ShareIcon from "@mui/icons-material/Share";
+import copy from "copy-to-clipboard";
+
 import { CountDownTimer } from "./CountDownTimer";
 import { CategoryResponse } from "../types";
 
@@ -41,49 +43,62 @@ const resultToText = (results: any) => {
 
 const generateHashtags = (results: any, items: any) => {
   let hashtags = ["#Randle"];
-  if (results.length === 1) hashtags.push("#IProbablyCheated");
-  if (results.length < Math.floor(items.length * 0.04))
+  if (results.length === 1) {
+    hashtags.push("#IProbablyCheated");
+  } else if (results.length < Math.floor(items.length * 0.04))
     hashtags.push("#ItsNotLuckIfItsConsistent");
-  if (results.length < Math.floor(items.length * 0.05))
+  else if (results.length < Math.floor(items.length * 0.05))
     hashtags.push("#ImThatGuy");
-  if (results.length < Math.floor(items.length * 0.09))
+  else if (results.length < Math.floor(items.length * 0.09))
     hashtags.push("#NotEvenCloseBaby");
-  if (results.length < Math.floor(items.length * 0.1))
+  else if (results.length < Math.floor(items.length * 0.1))
     hashtags.push("#NotEvenFarIfImBeingHonest");
-  if (results.length < Math.floor(items.length * 0.2)) hashtags.push("#Rigged");
+  else if (results.length < Math.floor(items.length * 0.2))
+    hashtags.push("#Rigged");
   else if (results.length < Math.floor(items.length * 0.35))
     hashtags.push("#IAmBadAndIShouldFeelBad");
-  else if (results.length > Math.floor(items.length * 0.4))
-    hashtags.push("#Bullshit");
+  else hashtags.push("#RipSame");
 
   return hashtags.join(" ");
 };
 
-const resultsToShare = (results: any, title: string, items: any) => {
-  return `Randle: ${title}\nGot it in: ${results.length}\n${resultToText(
-    results
-  ).join("\n")}\n${generateHashtags(results, items)}`;
+const resultsToShare = (
+  results: any,
+  title: string,
+  items: any,
+  isChosenCategory: boolean
+) => {
+  return `Randle${
+    isChosenCategory ? "(Chosen Category Baby Mode)" : ""
+  }: ${title} \nGot it in: ${results.length}\n${resultToText(results).join(
+    "\n"
+  )}\n${generateHashtags(results, items)}`;
 };
 
 type Props = {
   results: any;
   category: CategoryResponse;
+  isChosenCategory: boolean;
 };
 export const CorrectGuess = forwardRef<HTMLUListElement, Props>(
   function CorrectGuess(
     props: {
       results: any;
       category: CategoryResponse;
+      isChosenCategory: boolean;
     },
     ref
   ) {
-    const { results, category } = props;
+    const { results, category, isChosenCategory } = props;
     const { title, items } = category;
     const [open, setOpen] = useState<boolean>(true);
     const [snackOpen, setSnackOpen] = useState<boolean>(false);
     const handleClose = () => setOpen(false);
     const handleShare = () => {
-      navigator.clipboard.writeText(resultsToShare(results, title, items));
+      copy(resultsToShare(results, title, items, isChosenCategory), {
+        format: "text/plain",
+        debug: true,
+      });
       setSnackOpen(true);
       handleClose();
     };

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getCategory } from "../services/category";
 import { CategoryResponse } from "../types";
 
-export const useFetchCategory = () => {
+export const useFetchCategory = (category?: string) => {
   const [categoryResponse, setCategoryResponse] = useState<CategoryResponse>({
     id: -1,
     title: "",
@@ -13,10 +13,12 @@ export const useFetchCategory = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   useEffect(() => {
     setIsLoading(true);
-    getCategory(Date.now().toString()).then((apiResponse: CategoryResponse) => {
-      setCategoryResponse(apiResponse);
-      setIsLoading(false);
-    });
+    getCategory(Date.now().toString(), category).then(
+      (apiResponse: CategoryResponse) => {
+        setCategoryResponse(apiResponse);
+        setIsLoading(false);
+      }
+    );
   }, []);
 
   return { categoryResponse, isLoading };

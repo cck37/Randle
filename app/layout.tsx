@@ -23,7 +23,7 @@ import ButtonGroup from "@mui/material/ButtonGroup";
 const headerLinks = [
   { text: "Home", href: "/" },
   { text: "What is this?", href: "/about" },
-  { text: "TBD", href: "/tbd" },
+  { text: "Choose Category", href: "/choose" },
 ];
 const footerLinks = [
   {

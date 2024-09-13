@@ -8,7 +8,7 @@ import {
   createTheme,
   Theme,
   responsiveFontSizes,
-  Skeleton,
+  Button,
 } from "@mui/material";
 
 import { GuessesTable } from "./components/GuessesTable";
@@ -21,9 +21,11 @@ import { CountdownProvider } from "./components/CountdownContext";
 import { useWindowSize } from "react-use";
 import Confetti from "react-confetti";
 import { useLocalStorage } from "./hooks/useLocaleStorage";
-import { timestampToDate } from "./api/utils";
 import { useFetchGuess } from "./hooks/useFetchGuess";
 import { useFetchCategory } from "./hooks/useFetchCategory";
+import { isValidStorage } from "./utils";
+import { MainSkeleton } from "./components/MainSkeleton";
+import GuessBody from "./components/GuessBody";
 
 const defaultStorage: StorageState = {
   timeStamp: 0,
@@ -43,23 +45,15 @@ const defaultStorage: StorageState = {
   },
 };
 
-const isValidStorage = (
-  storageItem: StorageState,
-  categoryTitle: string
-): storageItem is StorageState =>
-  !!storageItem &&
-  timestampToDate(storageItem?.timeStamp).toDateString() ===
-    timestampToDate(Date.now()).toDateString() &&
-  storageItem.category.title === categoryTitle;
-
-export default function App() {
+export default function App(props: { categoryTitle?: string }) {
+  const { categoryTitle } = props;
   const [theme, setTheme] = useState<Theme>();
   const { categoryResponse: category, isLoading: isFetchCategoryLoading } =
-    useFetchCategory();
+    useFetchCategory(categoryTitle);
   const correctRef = useRef<HTMLUListElement | null>(null);
   const { width, height } = useWindowSize();
   const [previousSession, setPreviousSession] = useLocalStorage(
-    "session",
+    categoryTitle ? `session-${categoryTitle}` : "session",
     defaultStorage
   );
   const {
@@ -67,7 +61,7 @@ export default function App() {
     guessState: guess,
     isLoading: isFetchGuessLoading,
     setGuessState,
-  } = useFetchGuess(previousSession.guess);
+  } = useFetchGuess(previousSession.guess, categoryTitle);
 
   // TODO: Refactor this into a custom hook
   // Load the theme from storage if it exists otherwise update the session with the theme
@@ -138,52 +132,13 @@ export default function App() {
                 {(!isFetchCategoryLoading ||
                   isValidStorage(previousSession, category.title)) &&
                 Object.keys(previousSession.guess).length ? (
-                  <>
-                    <Typography
-                      variant="h1"
-                      sx={{ paddingY: "1rem", textAlign: "center" }}
-                    >
-                      {previousSession.category.title}
-                    </Typography>
-                    <GuessBar
-                      title={previousSession.category.title}
-                      possibleGuesses={previousSession.guess.possibleGuesses}
-                      handleGuess={handleGuess}
-                      shouldDisable={
-                        previousSession.guess.isGuessCorrect ||
-                        isFetchGuessLoading
-                      }
-                    />
-                    <Typography variant="h6">
-                      Par:{" "}
-                      {Math.floor(previousSession.category.items.length * 0.1)}
-                    </Typography>
-                    <GuessesTable
-                      attributes={previousSession.category.attributes}
-                      guesses={previousSession.guess.results}
-                    />
-                  </>
+                  <GuessBody
+                    previousSession={previousSession}
+                    handleGuess={handleGuess}
+                    isFetchGuessLoading={isFetchGuessLoading}
+                  />
                 ) : (
-                  <>
-                    <Skeleton
-                      variant="rectangular"
-                      animation="wave"
-                      width={200}
-                      height={100}
-                    />
-                    <Skeleton
-                      variant="rectangular"
-                      animation="wave"
-                      width={300}
-                      height={50}
-                    />
-                    <Skeleton
-                      variant="rectangular"
-                      animation="wave"
-                      width={500}
-                      height={150}
-                    />
-                  </>
+                  <MainSkeleton />
                 )}
               </Stack>
             </Grid>
@@ -197,6 +152,7 @@ export default function App() {
                     ref={correctRef}
                     results={previousSession.guess.results}
                     category={previousSession.category}
+                    isChosenCategory={!!categoryTitle}
                   />
                 </>
               ) : (

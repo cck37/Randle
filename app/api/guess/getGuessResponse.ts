@@ -130,7 +130,7 @@ export const getGuessResponse = cache(
       console.error(`Guess: ${guess} was not found in the current category`);
       return;
     }
-    //console.log(JSON.stringify(currAnswer, null, 2));
+    console.log(JSON.stringify(currAnswer, null, 2));
 
     if (currAnswer && currGuess) {
       return {
