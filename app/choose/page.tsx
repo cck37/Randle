@@ -42,14 +42,19 @@ export default function ChooseCategory() {
             <Skeleton variant="rectangular" animation="wave" height={100} />
           ) : (
             <Typography
-              variant="h4"
+              variant="h5"
               sx={{ color: theme.palette.secondary.main }}
             >
               Hate today's category? <br />
               <br /> Yeah I agree. <br />
-              {
-                categoriesResponse.find((cat) => cat.isCurrentCategory)?.title
-              }{" "}
+              <pre>
+                <code>
+                  {
+                    categoriesResponse.find((cat) => cat.isCurrentCategory)
+                      ?.title
+                  }{" "}
+                </code>
+              </pre>
               does suck. <br />
               <br />
               Pick your favorite instead.
@@ -73,55 +78,58 @@ export default function ChooseCategory() {
                     />
                   </Grid>
                 ))
-              : categoriesResponse.map((category, idx) => (
-                  <Grid item xs={12} sm={6} md={4} key={idx}>
-                    <Button
-                      key={category.id}
-                      sx={{
-                        padding: theme.spacing(2),
-                        height: "15rem",
-                        width: "100%",
-                        backgroundColor:
-                          category.theme.palette?.background?.default,
-                        "&:hover": {
-                          backgroundColor:
-                            category.theme.palette?.mode === "dark"
-                              ? lighten(
-                                  category.theme.palette?.background?.default ??
-                                    "inherit",
-                                  0.2
-                                )
-                              : darken(
-                                  category.theme.palette?.background?.default ??
-                                    "inherit",
-                                  0.2
-                                ),
-                        },
-                      }}
-                      onClick={() => setSelectedCategory(category.title)}
-                      variant="outlined"
-                    >
-                      <Typography
-                        variant="h3"
+              : categoriesResponse
+                  .filter((cat) => !cat.isCurrentCategory)
+                  .map((category, idx) => (
+                    <Grid item xs={12} sm={6} md={4} key={idx}>
+                      <Button
+                        key={category.id}
                         sx={{
-                          fontFamily:
-                            /* @ts-ignore themeOptions type sucks*/
-                            category.theme.typography?.h1?.fontFamily ??
-                            "inherit",
-                          color:
-                            // TODO add color options extension type https://stackoverflow.com/a/68854872
-                            /* @ts-ignore */
-                            category.theme.typography?.h1?.color ??
-                            // TODO add color options extension type https://stackoverflow.com/a/68854872
-                            /* @ts-ignore */
-                            category.theme.palette?.secondary?.main,
+                          padding: theme.spacing(2),
+                          height: "15rem",
+                          width: "100%",
+                          backgroundColor:
+                            category.theme.palette?.background?.default,
+                          "&:hover": {
+                            backgroundColor:
+                              category.theme.palette?.mode === "dark"
+                                ? lighten(
+                                    category.theme.palette?.background
+                                      ?.default ?? "inherit",
+                                    0.2
+                                  )
+                                : darken(
+                                    category.theme.palette?.background
+                                      ?.default ?? "inherit",
+                                    0.2
+                                  ),
+                          },
                         }}
+                        onClick={() => setSelectedCategory(category.title)}
+                        variant="outlined"
+                        disabled={category.isCurrentCategory}
                       >
-                        {category.title}
-                      </Typography>
-                    </Button>
-                  </Grid>
-                ))}
+                        <Typography
+                          variant="h3"
+                          sx={{
+                            fontFamily:
+                              /* @ts-ignore themeOptions type sucks*/
+                              category.theme.typography?.h1?.fontFamily ??
+                              "inherit",
+                            color:
+                              // TODO add color options extension type https://stackoverflow.com/a/68854872
+                              /* @ts-ignore */
+                              category.theme.typography?.h1?.color ??
+                              // TODO add color options extension type https://stackoverflow.com/a/68854872
+                              /* @ts-ignore */
+                              category.theme.palette?.secondary?.main,
+                          }}
+                        >
+                          {category.title}
+                        </Typography>
+                      </Button>
+                    </Grid>
+                  ))}
             {!isFetchCategoriesLoading && (
               <Grid item xs={12} sm={6} md={4}>
                 <Button

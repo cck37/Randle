@@ -43,21 +43,45 @@ const resultToText = (results: any) => {
 
 const generateHashtags = (results: any, items: any) => {
   let hashtags = ["#Randle"];
-  if (results.length === 1) {
-    hashtags.push("#IProbablyCheated");
-  } else if (results.length < Math.floor(items.length * 0.04))
-    hashtags.push("#ItsNotLuckIfItsConsistent");
-  else if (results.length < Math.floor(items.length * 0.05))
+  if (results.length === 1) hashtags.push("#IProbablyCheated");
+  else if (results.length < Math.floor(items.length * 0.02)) {
+    hashtags.push("#GGEZ");
+    hashtags.push(
+      `#${Math.floor((results.length / items.length) * 100)}%OfInfoUsed`
+    );
+  } else if (results.length < Math.floor(items.length * 0.04)) {
     hashtags.push("#ImThatGuy");
-  else if (results.length < Math.floor(items.length * 0.09))
+    hashtags.push(
+      `#${Math.floor((results.length / items.length) * 100)}%OfInfoUsed`
+    );
+  } else if (results.length < Math.floor(items.length * 0.09)) {
     hashtags.push("#NotEvenCloseBaby");
-  else if (results.length < Math.floor(items.length * 0.1))
+    hashtags.push(
+      `#${Math.floor((results.length / items.length) * 100)}%OfInfoUsed`
+    );
+  } else if (results.length < Math.floor(items.length * 0.1)) {
     hashtags.push("#NotEvenFarIfImBeingHonest");
-  else if (results.length < Math.floor(items.length * 0.2))
+    hashtags.push(
+      `#${Math.floor((results.length / items.length) * 100)}%OfInfoUsed`
+    );
+  } else if (results.length < Math.floor(items.length * 0.2)) {
     hashtags.push("#Rigged");
-  else if (results.length < Math.floor(items.length * 0.35))
+    hashtags.push(
+      `#${Math.floor((results.length / items.length) * 100)}%OfInfoUsed`
+    );
+  } else if (results.length < Math.floor(items.length * 0.35)) {
     hashtags.push("#IAmBadAndIShouldFeelBad");
-  else hashtags.push("#RipSame");
+    hashtags.push(
+      `#${Math.floor((results.length / items.length) * 100)}%OfInfoUsed`
+    );
+  } else {
+    hashtags.push("#RipSame");
+    hashtags.push(
+      `#${Math.floor((results.length / items.length) * 100)}%OfInfoUsed`
+    );
+  }
+
+  hashtags.push(`#Par${Math.floor(items.length * 0.1)}`);
 
   return hashtags.join(" ");
 };
@@ -72,7 +96,7 @@ const resultsToShare = (
     isChosenCategory ? "(Chosen Category Baby Mode)" : ""
   }: ${title} \nGot it in: ${results.length}\n${resultToText(results).join(
     "\n"
-  )}\n${generateHashtags(results, items)}`;
+  )}\n${generateHashtags(results, items)}\nhttps://www.randle.day/`;
 };
 
 type Props = {

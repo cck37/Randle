@@ -10,6 +10,19 @@ body {
   overflow-x: hidden;
 }
 
+pre code {
+  display: block;
+  background: none;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 0;
+  color: pink;
+  font-family: monospace;
+}
+
 @font-face {
   font-family: "Harry Potter";
   src: url("/fonts/harry.ttf");
