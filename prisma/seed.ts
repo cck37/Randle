@@ -32,7 +32,9 @@ async function main() {
           items: {},
           themeName: d.themeName,
         },
-        update: {},
+        update: {
+          themeName: d.themeName,
+        },
       });
       const attributes = await prisma.$transaction(
         d.attributes.map((attribute) =>
@@ -43,7 +45,14 @@ async function main() {
                 category_id: category.id,
               },
             },
-            update: {},
+            update: {
+              attributeType: attributeTypeStringToEnum(attribute.type),
+              category: {
+                connect: {
+                  id: category.id,
+                },
+              },
+            },
             create: {
               name: attribute.name,
               attributeType: attributeTypeStringToEnum(attribute.type),
@@ -56,7 +65,7 @@ async function main() {
           })
         )
       );
-      const itemsAndItemAttributes = await prisma.$transaction(
+      const items = await prisma.$transaction(
         d.items.map((item) =>
           prisma.items.upsert({
             where: {
@@ -69,29 +78,66 @@ async function main() {
             create: {
               name: item.name,
               category_id: category.id,
-              itemAttributes: {
-                create: item.attributes.map((attribute) => ({
-                  value: attribute.value,
-                  attribute: {
-                    connect: {
-                      name_category_id: {
-                        name: attribute.name,
-                        category_id: category.id,
-                      },
-                    },
-                  },
-                  category: {
-                    connect: {
-                      id: category.id,
-                    },
-                  },
-                })),
-              },
             },
           })
         )
       );
-      console.log({ category, attributes, itemsAndItemAttributes });
+      const itemAttributes = await prisma.$transaction(
+        d.items
+          .map((i) =>
+            i.attributes
+              .map((attribute) =>
+                prisma.itemAttributes.upsert({
+                  create: {
+                    value: attribute.value,
+                    attribute: {
+                      connect: {
+                        name_category_id: {
+                          name: attribute.name,
+                          category_id: category.id,
+                        },
+                      },
+                    },
+                    category: {
+                      connect: {
+                        id: category.id,
+                      },
+                    },
+                    items: {
+                      connect: {
+                        id: items.find((item) => item.name === i.name)?.id,
+                      },
+                    },
+                  },
+                  update: {
+                    value: attribute.value,
+                    attribute: {
+                      connect: {
+                        name_category_id: {
+                          name: attribute.name,
+                          category_id: category.id,
+                        },
+                      },
+                    },
+                  },
+                  where: {
+                    attribute_id_item_id_value: {
+                      attribute_id:
+                        attributes.find((attr) => attr.name === attribute.name)
+                          ?.id || 0,
+                      item_id:
+                        items.find((item) => item.name === i.name)?.id || 0,
+                      value: attribute.value,
+                    },
+                  },
+                })
+              )
+              .flat()
+          )
+          .flat()
+      );
+
+      console.log({ category, attributes, items, itemAttributes });
     })
   );
 }

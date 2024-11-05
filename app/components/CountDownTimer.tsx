@@ -12,11 +12,14 @@ const formatTime = (seconds: number): string => {
   )}:${String(remainingSeconds).padStart(2, "0")}`;
 };
 
-export const CountDownTimer = () => {
+export const CountDownTimer = (props: { isChosenCategory: boolean }) => {
+  const { isChosenCategory } = props;
   const timeUntilMidnight = useCountdownToMidnight();
   return (
     <Stack direction="column" alignItems="center">
-      <Typography variant="h5">Time Until Next Category*</Typography>
+      <Typography variant="h5">
+        Time Until Next {isChosenCategory ? "Answer" : "Category"}*
+      </Typography>
       <Typography variant="h5">{formatTime(timeUntilMidnight)}</Typography>
       <Typography variant="subtitle1">
         *GMT-0400 (Eastern Daylight Time)

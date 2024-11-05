@@ -35,6 +35,8 @@ model ItemAttributes {
   attribute    Attribute @relation(fields: [attribute_id], references: [id])
   category     Category  @relation(fields: [category_id], references: [id])
   items        Items     @relation(fields: [item_id], references: [id])
+
+  @@unique([attribute_id, item_id, value])
 }
 
 model Items {

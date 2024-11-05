@@ -11,8 +11,6 @@ import {
   Button,
 } from "@mui/material";
 
-import { GuessesTable } from "./components/GuessesTable";
-import { GuessBar } from "./components/GuessBar";
 import { CorrectGuess } from "./components/CorrectGuess";
 
 import { Guess, StorageState } from "./types";
@@ -23,7 +21,7 @@ import Confetti from "react-confetti";
 import { useLocalStorage } from "./hooks/useLocaleStorage";
 import { useFetchGuess } from "./hooks/useFetchGuess";
 import { useFetchCategory } from "./hooks/useFetchCategory";
-import { isValidStorage } from "./utils";
+import { getPar, isValidStorage } from "./utils";
 import { MainSkeleton } from "./components/MainSkeleton";
 import GuessBody from "./components/GuessBody";
 
@@ -43,6 +41,7 @@ const defaultStorage: StorageState = {
     isGuessCorrect: false,
     isGuessQueryLoading: false,
   },
+  streak: 0,
 };
 
 export default function App(props: { categoryTitle?: string }) {
@@ -50,7 +49,6 @@ export default function App(props: { categoryTitle?: string }) {
   const [theme, setTheme] = useState<Theme>();
   const { categoryResponse: category, isLoading: isFetchCategoryLoading } =
     useFetchCategory(categoryTitle);
-  const correctRef = useRef<HTMLUListElement | null>(null);
   const { width, height } = useWindowSize();
   const [previousSession, setPreviousSession] = useLocalStorage(
     categoryTitle ? `session-${categoryTitle}` : "session",
@@ -86,6 +84,7 @@ export default function App(props: { categoryTitle?: string }) {
         timeStamp: Date.now(),
         category: category,
         guess: emptyGuessState,
+        streak: 0,
       });
       setGuessState(emptyGuessState);
 
@@ -111,6 +110,11 @@ export default function App(props: { categoryTitle?: string }) {
             !guess.results.map((g: Guess) => g.name).includes(guesses.name)
         ),
       },
+      streak:
+        guess.isGuessCorrect &&
+        prevState.guess.results.length + 1 < getPar(category.items.length)
+          ? prevState.streak + 1
+          : prevState.streak,
     }));
   }, [guess, setPreviousSession]);
 
@@ -149,10 +153,10 @@ export default function App(props: { categoryTitle?: string }) {
                 <>
                   <Confetti width={width} height={height} recycle={false} />
                   <CorrectGuess
-                    ref={correctRef}
                     results={previousSession.guess.results}
                     category={previousSession.category}
                     isChosenCategory={!!categoryTitle}
+                    streak={previousSession.streak}
                   />
                 </>
               ) : (

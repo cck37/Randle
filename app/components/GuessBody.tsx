@@ -4,6 +4,7 @@ import { GuessBar } from "./GuessBar";
 import { GuessesTable } from "./GuessesTable";
 import { StorageState } from "../types";
 import { Button } from "@mui/material";
+import { getPar } from "../utils";
 
 interface GuessBodyProps {
   previousSession: StorageState;
@@ -31,7 +32,7 @@ const GuessBody: React.FC<GuessBodyProps> = ({
         }
       />
       <Typography variant="h6">
-        Par: {Math.floor(previousSession.category.items.length * 0.1)}
+        Par: {getPar(previousSession.category.items.length)}
       </Typography>
       <GuessesTable
         attributes={previousSession.category.attributes}

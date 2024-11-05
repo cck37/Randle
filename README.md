@@ -42,13 +42,13 @@ npm run dev
 - [x] Fix mobile view
 - [x] Save session by day
 - [x] Clock/Counter
-- [ ] Update static about page
+- [x] Update static about page
 - [x] Theme/Style
   - [x] Skeleton/Loader
   - [ ] Tiled backgrounds for each
   - [ ] Icons for each item
-- [ ] Streak system (based on local storage)
-- [ ] Choose Categories
+- [x] Streak system (based on local storage)
+- [x] Choose Categories
 - [ ] Auth??
 
 ## Category Ideas

@@ -47,14 +47,9 @@ export default function ChooseCategory() {
             >
               Hate today's category? <br />
               <br /> Yeah I agree. <br />
-              <pre>
-                <code>
-                  {
-                    categoriesResponse.find((cat) => cat.isCurrentCategory)
-                      ?.title
-                  }{" "}
-                </code>
-              </pre>
+              <div className="code">
+                {categoriesResponse.find((cat) => cat.isCurrentCategory)?.title}{" "}
+              </div>
               does suck. <br />
               <br />
               Pick your favorite instead.

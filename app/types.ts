@@ -82,4 +82,5 @@ export type StorageState = {
   timeStamp: number;
   category: CategoryResponse;
   guess: GuessState;
+  streak: number;
 };
