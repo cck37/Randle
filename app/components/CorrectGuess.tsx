@@ -169,9 +169,9 @@ export const CorrectGuess = (props: {
               ))}
             </Box>
             <Typography variant="h4">Got it in: {results.length}</Typography>
-            {streak > 1 && (
+            {streak > 0 && (
               <Typography variant="h4">
-                🔥 Under Par Streak: {streak} days
+                🔥 Under Par Streak: {streak} day{streak > 1 ? "s" : ""}
               </Typography>
             )}
             <CountDownTimer isChosenCategory={isChosenCategory} />
