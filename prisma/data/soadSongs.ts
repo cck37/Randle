@@ -29,7 +29,7 @@ export const systemOfADownSongs: CategoryResponse = {
     },
     {
       name: "Lead Vocal",
-      type: "string",
+      type: "multipart",
     },
     {
       name: "Lyrical core",
