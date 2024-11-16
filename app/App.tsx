@@ -1,14 +1,12 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import {
   Container,
   Stack,
-  Typography,
   Grid,
   createTheme,
   Theme,
   responsiveFontSizes,
-  Button,
 } from "@mui/material";
 
 import { CorrectGuess } from "./components/CorrectGuess";
@@ -80,11 +78,12 @@ export default function App(props: { categoryTitle?: string }) {
         isGuessCorrect: false,
         isGuessQueryLoading: false,
       };
+
       setPreviousSession({
         timeStamp: Date.now(),
         category: category,
         guess: emptyGuessState,
-        streak: 0,
+        streak: previousSession?.streak || 0, // if we have a streak from a previous day, carry it over
       });
       setGuessState(emptyGuessState);
 
