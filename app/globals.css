@@ -42,3 +42,24 @@ body {
   format: ("ttf");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Green Day";
+  src: url("/fonts/greenday.ttf");
+  format: ("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hollywood";
+  src: url("/fonts/hollywood.ttf");
+  format: ("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Old Standard TT";
+  src: url("/fonts/oldStandardTT.ttf");
+  format: ("ttf");
+  font-display: swap;
+}

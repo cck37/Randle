@@ -270,6 +270,249 @@ export const modestMouse: ThemeOptions = {
   },
 };
 
+export const streetsOfSquan: ThemeOptions = {
+  palette: {
+    mode: "light",
+    primary: {
+      main: "#1A2E5D",
+      contrastText: "#FFFFFF",
+    },
+    secondary: {
+      main: "#4D4D4D",
+      contrastText: "#FFFFFF",
+    },
+    success: {
+      main: "#4CAF50",
+      contrastText: "#FFFFFF",
+    },
+    error: {
+      main: "#D32F2F",
+      contrastText: "#FFFFFF",
+    },
+    background: {
+      default: "#F3F4F6",
+      paper: "#FFFFFF",
+    },
+    text: {
+      primary: "#1A2E5D",
+      secondary: "#4D4D4D",
+    },
+  },
+  typography: {
+    fontFamily:
+      "Times New Roman, system-ui, Avenir, Helvetica, Arial, sans-serif",
+    h1: {
+      color: "#1A2E5D",
+    },
+    h6: {
+      color: "#4D4D4D",
+    },
+  },
+  components: {
+    MuiTableCell: {
+      styleOverrides: {
+        head: {
+          backgroundColor: "#1A2E5D",
+          color: "#FFFFFF",
+        },
+      },
+    },
+    MuiTextField: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#FFFFFF",
+          "& .MuiOutlinedInput-root": {
+            "& fieldset": {
+              borderColor: "#1A2E5D",
+            },
+            "&:hover fieldset": {
+              borderColor: "#1A2E5D",
+            },
+            "&.Mui-focused fieldset": {
+              borderColor: "#4D4D4D",
+            },
+          },
+        },
+      },
+    },
+  },
+};
+
+export const greenday: ThemeOptions = {
+  palette: {
+    mode: "dark",
+    primary: {
+      main: "#D32F2F",
+      contrastText: "#FFFFFF",
+    },
+    secondary: {
+      main: "#D32F2F",
+      contrastText: "#FFFFFF",
+    },
+    background: {
+      default: "#1C1C1C",
+      paper: "#333333",
+    },
+    text: {
+      primary: "#FFFFFF",
+      secondary: "#0B6623",
+    },
+    warning: {
+      main: "#FFA500",
+    },
+    error: {
+      main: "#D32F2F",
+    },
+    success: {
+      main: "#0B6623",
+    },
+  },
+  typography: {
+    fontFamily: "Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif",
+    h1: {
+      color: "#FFFFFF",
+      fontFamily: "Green Day, 'Courier New', monospace",
+    },
+    h6: {
+      color: "#0B6623",
+    },
+    body1: {
+      color: "#FFFFFF",
+    },
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#0B6623",
+          color: "#FFFFFF",
+          "&:hover": {
+            backgroundColor: "#076A2F",
+          },
+          fontWeight: "bold",
+        },
+      },
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#333333",
+          color: "#FFFFFF",
+          border: "1px solid #D32F2F",
+        },
+      },
+    },
+  },
+};
+
+export const systemOfADown: ThemeOptions = {
+  palette: {
+    mode: "dark",
+    primary: {
+      main: "#8B0000",
+      contrastText: "#FFFFFF",
+    },
+    secondary: {
+      main: "#222222",
+      contrastText: "#E0E0E0",
+    },
+    background: {
+      default: "#1B1B1B",
+      paper: "#2C2C2C",
+    },
+    text: {
+      primary: "#FFFFFF",
+      secondary: "#B0B0B0",
+    },
+    warning: {
+      main: "#D35400",
+    },
+    error: {
+      main: "#DC143C",
+    },
+    success: {
+      main: "#0B6623",
+    },
+  },
+  typography: {
+    fontFamily: "Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif",
+    h1: {
+      color: "#FFFFFF",
+      fontFamily: "Hollywood, Impact, sans-serif",
+    },
+    h6: {
+      color: "#8B0000",
+    },
+    body1: {
+      color: "#FFFFFF",
+    },
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#8B0000",
+          color: "#FFFFFF",
+          "&:hover": {
+            backgroundColor: "#AA0000",
+          },
+          fontWeight: "bold",
+        },
+      },
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#2C2C2C",
+          color: "#FFFFFF",
+          border: "1px solid #8B0000",
+        },
+      },
+    },
+  },
+};
+
+export const modernBaseball: ThemeOptions = {
+  palette: {
+    mode: "light",
+    primary: {
+      main: "#7a96bf",
+      contrastText: "#2E2E2E",
+    },
+    secondary: {
+      main: "#7D5840",
+      contrastText: "#F6EEDB",
+    },
+    background: {
+      default: "#BEC9d5",
+      paper: "#FDF5E6",
+    },
+    text: {
+      primary: "#2E2E2E",
+      secondary: "#2E2E2E",
+    },
+    warning: {
+      main: "#D9A357",
+    },
+    error: {
+      main: "#A45245",
+    },
+    success: {
+      main: "#A3C299",
+    },
+  },
+  typography: {
+    fontFamily: "Georgia, serif",
+    h1: {
+      fontFamily: "Old Standard TT, Georgia, serif",
+      color: "#2E2E2E",
+    },
+    h6: {
+      color: "#7D5840",
+    },
+  },
+};
+
 export const themes: Record<string, ThemeOptions> = {
   movies,
   harry,
@@ -278,4 +521,8 @@ export const themes: Record<string, ThemeOptions> = {
   fastFood,
   cereal,
   modestMouse,
+  streetsOfSquan,
+  greenday,
+  systemOfADown,
+  modernBaseball,
 };
