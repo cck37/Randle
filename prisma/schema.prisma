@@ -20,7 +20,7 @@ model Attribute {
   name           String
   category_id    Int
   attributeType  AttributeType
-  category       Category         @relation(fields: [category_id], references: [id])
+  category       Category         @relation(fields: [category_id], references: [id], onDelete: Cascade, onUpdate: Cascade)
   itemAttributes ItemAttributes[]
 
   @@unique([name, category_id])
@@ -32,9 +32,9 @@ model ItemAttributes {
   item_id      Int
   category_id  Int
   value        String
-  attribute    Attribute @relation(fields: [attribute_id], references: [id])
-  category     Category  @relation(fields: [category_id], references: [id])
-  items        Items     @relation(fields: [item_id], references: [id])
+  attribute    Attribute @relation(fields: [attribute_id], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  category     Category  @relation(fields: [category_id], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  items        Items     @relation(fields: [item_id], references: [id], onDelete: Cascade, onUpdate: Cascade)
 
   @@unique([attribute_id, item_id])
 }
@@ -44,7 +44,7 @@ model Items {
   name           String
   category_id    Int
   itemAttributes ItemAttributes[]
-  category       Category         @relation(fields: [category_id], references: [id])
+  category       Category         @relation(fields: [category_id], references: [id], onDelete: Cascade, onUpdate: Cascade)
 
   @@unique([name, category_id])
 }
