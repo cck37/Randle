@@ -121,13 +121,12 @@ async function main() {
                     },
                   },
                   where: {
-                    attribute_id_item_id_value: {
+                    attribute_id_item_id: {
                       attribute_id:
                         attributes.find((attr) => attr.name === attribute.name)
                           ?.id || 0,
                       item_id:
                         items.find((item) => item.name === i.name)?.id || 0,
-                      value: attribute.value,
                     },
                   },
                 })
