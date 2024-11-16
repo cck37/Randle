@@ -19,7 +19,7 @@ export const useFetchCategory = (category?: string) => {
         setIsLoading(false);
       }
     );
-  }, []);
+  }, [category]);
 
   return { categoryResponse, isLoading };
 };

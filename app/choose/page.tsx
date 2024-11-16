@@ -45,7 +45,7 @@ export default function ChooseCategory() {
               variant="h5"
               sx={{ color: theme.palette.secondary.main }}
             >
-              Hate today's category? <br />
+              {"Hate today's category?"} <br />
               <br /> Yeah I agree. <br />
               <div className="code">
                 {categoriesResponse.find((cat) => cat.isCurrentCategory)?.title}{" "}
