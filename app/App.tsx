@@ -115,7 +115,7 @@ export default function App(props: { categoryTitle?: string }) {
           ? prevState.streak + 1
           : prevState.streak,
     }));
-  }, [category.items.length, guess, setPreviousSession]); // FIX: Category.items.length should be stable but seems shitty to not have the whole category object as a dependency
+  }, [category, guess, setPreviousSession]); // FIX: Category.items.length should be stable but seems shitty to not have the whole category object as a dependency
 
   const handleGuess = (query: string) => {
     getGuessResponse(query);
