@@ -130,7 +130,7 @@ export default function App(props: { categoryTitle?: string }) {
             >
               <Stack spacing={2} direction="column" alignItems="center">
                 {(!isFetchCategoryLoading ||
-                  isValidStorage(previousSession, category.title)) &&
+                  isValidStorage(previousSession, category)) &&
                 Object.keys(previousSession.guess).length ? (
                   <GuessBody
                     previousSession={previousSession}
