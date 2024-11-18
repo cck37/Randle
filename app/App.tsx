@@ -62,10 +62,7 @@ export default function App(props: { categoryTitle?: string }) {
   // TODO: Refactor this into a custom hook
   // Load the theme from storage if it exists otherwise update the session with the theme
   useEffect(() => {
-    if (
-      !isFetchCategoryLoading &&
-      isValidStorage(previousSession, category.title)
-    ) {
+    if (!isFetchCategoryLoading && isValidStorage(previousSession, category)) {
       const currTheme = createTheme(previousSession.category.theme);
       setTheme(responsiveFontSizes(currTheme));
     } else if (!isFetchCategoryLoading) {
