@@ -43,8 +43,11 @@ const defaultStorage: StorageState = {
 };
 
 export default function App(props: { categoryTitle?: string }) {
+  console.log("Loading APP");
   const { categoryTitle } = props;
   const [theme, setTheme] = useState<Theme>();
+  const [categoryPar, setCategoryPar] = useState<number>(0); // HACK: Should be part of the response from the API
+
   const { categoryResponse: category, isLoading: isFetchCategoryLoading } =
     useFetchCategory(categoryTitle);
   const { width, height } = useWindowSize();
@@ -65,6 +68,8 @@ export default function App(props: { categoryTitle?: string }) {
     if (!isFetchCategoryLoading && isValidStorage(previousSession, category)) {
       const currTheme = createTheme(previousSession.category.theme);
       setTheme(responsiveFontSizes(currTheme));
+
+      setCategoryPar(getPar(category.items.length)); // HACK: Move to API response
     } else if (!isFetchCategoryLoading) {
       const { items, theme: themeOptions } = category;
       const currTheme = createTheme(themeOptions);
@@ -85,6 +90,7 @@ export default function App(props: { categoryTitle?: string }) {
       setGuessState(emptyGuessState);
 
       setTheme(responsiveFontSizes(currTheme));
+      setCategoryPar(getPar(category.items.length)); // HACK: Move to API response
     }
   }, [
     category,
@@ -107,12 +113,11 @@ export default function App(props: { categoryTitle?: string }) {
         ),
       },
       streak:
-        guess.isGuessCorrect &&
-        prevState.guess.results.length + 1 < getPar(category.items.length)
+        guess.isGuessCorrect && prevState.guess.results.length + 1 < categoryPar
           ? prevState.streak + 1
           : prevState.streak,
     }));
-  }, [category, guess, setPreviousSession]); // FIX: Category.items.length should be stable but seems shitty to not have the whole category object as a dependency
+  }, [categoryPar, guess, setPreviousSession]); // FIX: Category.items.length should be stable but seems shitty to not have the whole category object as a dependency
 
   const handleGuess = (query: string) => {
     getGuessResponse(query);
