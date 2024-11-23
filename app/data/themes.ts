@@ -1,4 +1,4 @@
-import { Box, ThemeOptions } from "@mui/material";
+import { ThemeOptions } from "@mui/material";
 
 const cars: ThemeOptions = {
   palette: {
@@ -351,11 +351,11 @@ export const greenday: ThemeOptions = {
     },
     background: {
       default: "#1C1C1C",
-      paper: "#333333",
+      paper: "#000000",
     },
     text: {
       primary: "#FFFFFF",
-      secondary: "#0B6623",
+      secondary: "#63ba50",
     },
     warning: {
       main: "#FFA500",
@@ -372,9 +372,6 @@ export const greenday: ThemeOptions = {
     h1: {
       color: "#FFFFFF",
       fontFamily: "Green Day, 'Courier New', monospace",
-    },
-    h6: {
-      color: "#0B6623",
     },
     body1: {
       color: "#FFFFFF",
@@ -418,7 +415,7 @@ export const systemOfADown: ThemeOptions = {
     },
     background: {
       default: "#1B1B1B",
-      paper: "#2C2C2C",
+      paper: "#000000",
     },
     text: {
       primary: "#FFFFFF",
@@ -463,7 +460,7 @@ export const systemOfADown: ThemeOptions = {
     MuiCard: {
       styleOverrides: {
         root: {
-          backgroundColor: "#2C2C2C",
+          backgroundColor: "#000000",
           color: "#FFFFFF",
           border: "1px solid #8B0000",
         },

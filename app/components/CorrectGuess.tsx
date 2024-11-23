@@ -161,7 +161,7 @@ export const CorrectGuess = (props: {
               {title}
             </Typography>
             <Typography variant="h3">{results[0].name}</Typography>
-            <Box maxHeight="30vh" sx={{ overflowY: "scroll" }}>
+            <Box maxHeight="30vh" sx={{ overflowY: "auto" }}>
               {resultToText(results).map((res: any, idx: number) => (
                 <Typography key={idx} variant="h5">
                   {res}

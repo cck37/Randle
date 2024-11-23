@@ -43,7 +43,6 @@ const defaultStorage: StorageState = {
 };
 
 export default function App(props: { categoryTitle?: string }) {
-  console.log("Loading APP");
   const { categoryTitle } = props;
   const [theme, setTheme] = useState<Theme>();
   const [categoryPar, setCategoryPar] = useState<number>(0); // HACK: Should be part of the response from the API
@@ -81,11 +80,17 @@ export default function App(props: { categoryTitle?: string }) {
         isGuessQueryLoading: false,
       };
 
+      const yesterday = new Date();
+      yesterday.setDate(yesterday.getDate() - 1);
+
+      const isTimestampYesterday =
+        new Date(previousSession?.timeStamp ?? 0).toDateString() ===
+        yesterday.toDateString();
       setPreviousSession({
         timeStamp: Date.now(),
         category: category,
         guess: emptyGuessState,
-        streak: previousSession?.streak || 0, // if we have a streak from a previous day, carry it over
+        streak: isTimestampYesterday ? previousSession?.streak || 0 : 0,
       });
       setGuessState(emptyGuessState);
 
@@ -100,8 +105,10 @@ export default function App(props: { categoryTitle?: string }) {
     setGuessState,
   ]);
 
+  // Remove last guess from possible guesses
   useEffect(() => {
-    if (!guess.results.length) return;
+    if (previousSession.guess.results === guess.results || isFetchGuessLoading)
+      return;
 
     setPreviousSession((prevState: StorageState) => ({
       ...prevState,
@@ -113,11 +120,17 @@ export default function App(props: { categoryTitle?: string }) {
         ),
       },
       streak:
-        guess.isGuessCorrect && prevState.guess.results.length + 1 < categoryPar
+        prevState.guess.results.length + 1 < categoryPar
           ? prevState.streak + 1
           : prevState.streak,
     }));
-  }, [categoryPar, guess, setPreviousSession]); // FIX: Category.items.length should be stable but seems shitty to not have the whole category object as a dependency
+  }, [
+    guess,
+    setPreviousSession,
+    isFetchGuessLoading,
+    previousSession.guess.results,
+    categoryPar,
+  ]);
 
   const handleGuess = (query: string) => {
     getGuessResponse(query);
