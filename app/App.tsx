@@ -105,9 +105,13 @@ export default function App(props: { categoryTitle?: string }) {
     setGuessState,
   ]);
 
-  // Remove last guess from possible guesses
+  // Remove last guess from possible guesses and update streak
   useEffect(() => {
-    if (previousSession.guess.results === guess.results || isFetchGuessLoading)
+    if (
+      JSON.stringify(previousSession.guess.results) ===
+        JSON.stringify(guess.results) ||
+      isFetchGuessLoading
+    )
       return;
 
     setPreviousSession((prevState: StorageState) => ({
@@ -120,7 +124,7 @@ export default function App(props: { categoryTitle?: string }) {
         ),
       },
       streak:
-        prevState.guess.results.length + 1 < categoryPar
+        prevState.guess.results.length + 1 < categoryPar && guess.isGuessCorrect
           ? prevState.streak + 1
           : prevState.streak,
     }));
