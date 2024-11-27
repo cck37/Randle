@@ -1,3 +1,4 @@
+import { falloutBoySongs } from "@/prisma/data/falloutBoySongs";
 import { ThemeOptions } from "@mui/material";
 
 const cars: ThemeOptions = {
@@ -510,6 +511,104 @@ export const modernBaseball: ThemeOptions = {
   },
 };
 
+export const falloutBoy: ThemeOptions = {
+  palette: {
+    mode: "dark",
+    primary: {
+      main: "#9D1B1B",
+      contrastText: "#FFD700",
+    },
+    secondary: {
+      main: "#FFD700",
+      contrastText: "#FFFFFF",
+    },
+    background: {
+      default: "#2C2C2C",
+      paper: "#3E3E3E",
+    },
+    text: {
+      primary: "#FFFFFF",
+      secondary: "#FFD700",
+    },
+    warning: {
+      main: "#CF4900",
+    },
+    error: {
+      main: "#7F1D1D",
+    },
+    success: {
+      main: "#556B2F",
+    },
+  },
+  typography: {
+    fontFamily: "Helvetica Neue, Roboto, sans-serif",
+    h1: {
+      fontFamily: "Helvetica Neue, Roboto, sans-serif",
+      color: "#FFD700",
+      fontWeight: "bold",
+      textTransform: "uppercase",
+    },
+    h6: {
+      fontFamily: "Oswald, Roboto, sans-serif",
+      color: "#D32F2F",
+    },
+  },
+};
+
+export const animalCrossing: ThemeOptions = {
+  palette: {
+    mode: "light",
+    primary: {
+      main: "#3CBEA2",
+      contrastText: "#000000",
+    },
+    secondary: {
+      main: "#C48D3F",
+      contrastText: "#000000",
+    },
+    background: {
+      default: "#F9FAFB",
+      paper: "#BD9155",
+    },
+    text: {
+      primary: "#000000",
+      secondary: "#4A90A4",
+    },
+    warning: {
+      main: "#FFA500",
+    },
+    error: {
+      main: "#D32F2F",
+    },
+    success: {
+      main: "#9dffb0",
+    },
+  },
+  typography: {
+    fontFamily: "Qlarendon, Comic Sans MS, sans-serif",
+    h1: {
+      fontFamily: "Qlarendon Bold, Comic Sans MS, sans-serif",
+      color: "#4A90A4",
+    },
+    h6: {
+      color: "#C48D3F",
+      fontWeight: "bold",
+    },
+    body1: {
+      fontWeight: "bold",
+    },
+  },
+  components: {
+    MuiAutocomplete: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#F9FAFB",
+        },
+      },
+    },
+  },
+};
+
 export const themes: Record<string, ThemeOptions> = {
   movies,
   harry,
@@ -522,4 +621,6 @@ export const themes: Record<string, ThemeOptions> = {
   greenday,
   systemOfADown,
   modernBaseball,
+  falloutBoy,
+  animalCrossing,
 };

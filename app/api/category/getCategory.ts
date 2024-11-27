@@ -24,7 +24,11 @@ export const getCategory = cache(
     const category = await prisma.category.findFirstOrThrow({
       where: whereClause,
       include: {
-        attributes: true,
+        attributes: {
+          orderBy: {
+            id: "asc",
+          },
+        },
         items: true,
       },
     });

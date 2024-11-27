@@ -70,7 +70,6 @@ export function GuessBar(props: {
           size="small"
           sx={{
             width: "100%",
-            bgcolor: "background.paper",
             "& label, button": {
               color: "text.primary",
               "&.Mui-focused": {

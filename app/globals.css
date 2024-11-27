@@ -63,3 +63,24 @@ body {
   format: ("ttf");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/oswald.ttf");
+  format: ("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Qlarendon Bold";
+  src: url("/fonts/qlarendon bold.otf");
+  format: ("otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Qlarendon";
+  src: url("/fonts/qlarendon.otf");
+  format: ("otf");
+  font-display: swap;
+}

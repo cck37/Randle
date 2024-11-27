@@ -10,6 +10,8 @@ import { greenDaySongs } from "./greenDaySongs";
 import { systemOfADownSongs } from "./soadSongs";
 import { modernBaseballSongs } from "./moboSongs";
 import { cartoons } from "./cartoons";
+import { falloutBoySongs } from "./falloutBoySongs";
+import { animalCrossing } from "./animalCrossing";
 
 const static_data: CategoryResponse[] = [
   harryPotter,
@@ -23,6 +25,8 @@ const static_data: CategoryResponse[] = [
   greenDaySongs,
   systemOfADownSongs,
   modernBaseballSongs,
+  falloutBoySongs,
+  animalCrossing,
 ];
 
 export default static_data;
