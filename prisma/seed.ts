@@ -22,6 +22,7 @@ async function main() {
   // Currently a tracked improvement https://github.com/prisma/prisma/issues/14194
   await Promise.all(
     static_data.map(async (d) => {
+      console.log(`Starting seed for: ${d.title}`);
       const category = await prisma.category.upsert({
         where: {
           title: d.title, // Assuming 'title' is a unique identifier for categories
@@ -36,6 +37,7 @@ async function main() {
           themeName: d.themeName,
         },
       });
+      console.log(`Added category for: ${d.title}`);
       const attributes = await prisma.$transaction(
         d.attributes.map((attribute) =>
           prisma.attribute.upsert({
@@ -65,6 +67,7 @@ async function main() {
           })
         )
       );
+      console.log(`Added attributes for: ${d.title}`);
       const items = await prisma.$transaction(
         d.items.map((item) =>
           prisma.items.upsert({
@@ -82,6 +85,7 @@ async function main() {
           })
         )
       );
+      console.log(`Added items for: ${d.title}`);
       const itemAttributes = await prisma.$transaction(
         d.items
           .map((i) =>
@@ -135,8 +139,11 @@ async function main() {
           )
           .flat()
       );
+      console.log(`Added item attributes for: ${d.title}`);
 
-      console.log({ category, attributes, items, itemAttributes });
+      console.log(
+        `Finished seed for: ${d.title}. Added ${attributes.length} attributes, ${items.length} items, and ${itemAttributes.length} item attributes.`
+      );
     })
   );
 }

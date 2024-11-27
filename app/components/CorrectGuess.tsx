@@ -86,7 +86,7 @@ const resultsToShare = (
     "\n"
   )}\n${generateHashtags(results, items)}\nStreak:${Array(streak)
     .fill("🔥")
-    .join("")}\nhttps://www.randle.day/${isChosenCategory ? "chosen" : ""}`;
+    .join("")}\nhttps://www.randle.day/${isChosenCategory ? "choose" : ""}`;
 };
 
 export const CorrectGuess = (props: {
