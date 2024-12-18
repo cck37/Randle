@@ -14,25 +14,24 @@ export const getCategory = cache(
     categoryName?: string
   ): Promise<CategoryResponse> => {
     const catLength = await prisma.category.count();
-    const whereClause = categoryName
-      ? {
+    const include = {
+      attributes: true,
+      items: true,
+    };
+    if (categoryName) {
+      const category = await prisma.category.findFirstOrThrow({
+        where: {
           title: categoryName,
-        }
-      : {
-          id: getRandom(catLength, currTimestamp),
-        };
-    const category = await prisma.category.findFirstOrThrow({
-      where: whereClause,
-      include: {
-        attributes: {
-          orderBy: {
-            id: "asc",
-          },
         },
-        items: true,
-      },
+        include,
+      });
+      return { ...category, theme: themes[category.themeName] };
+    }
+    const category = await prisma.category.findFirstOrThrow({
+      skip: getRandom(catLength, currTimestamp),
+      take: 1,
+      include,
     });
-
     return { ...category, theme: themes[category.themeName] };
   }
 );
