@@ -7,13 +7,16 @@ import { getRandom } from "../../utils";
 export const getCategories = cache(
   async (currTimestamp: number): Promise<CategorySummaryResponse[]> => {
     const data = await prisma.category.findMany();
-    const currentCategory = getRandom(data.length, currTimestamp);
+    const currentCategory = await prisma.category.findFirstOrThrow({
+      skip: getRandom(data.length, currTimestamp),
+      take: 1,
+    });
 
     return data.map((category) => ({
       id: category.id,
       title: category.title,
       theme: themes[category.themeName],
-      isCurrentCategory: category.id === currentCategory,
+      isCurrentCategory: category.id === currentCategory.id,
     }));
   }
 );
