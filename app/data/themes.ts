@@ -198,6 +198,17 @@ const fastFood: ThemeOptions = {
       fontFamily: "Bebas Neue, Helvetica, Arial, sans-serif",
     },
   },
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        body: {
+          backgroundColor: "#da291c",
+          backgroundImage:
+            "linear-gradient(to right top, #ffcc00, #ffaa00, #ff8500, #ff5900, #ff0000);",
+        },
+      },
+    },
+  },
 };
 
 export const cereal: ThemeOptions = {
@@ -426,7 +437,7 @@ export const systemOfADown: ThemeOptions = {
       main: "#D35400",
     },
     error: {
-      main: "#DC143C",
+      main: "#DC1414",
     },
     success: {
       main: "#0B6623",
