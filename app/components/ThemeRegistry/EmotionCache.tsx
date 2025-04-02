@@ -1,4 +1,6 @@
 // https://github.com/mui/material-ui/blob/master/examples/material-ui-nextjs-ts/src/components/ThemeRegistry/EmotionCache.tsx
+// FIX: Remove all of this... apparently it's much simpler now: https://github.com/mui/material-ui/blob/master/examples/material-ui-nextjs-ts/src/components/ModeSwitch.tsx#L11
+// Also updated to accomdate for @emotion/util 1.4 breaking changes from 1.2
 "use client";
 import * as React from "react";
 import createCache from "@emotion/cache";
@@ -67,7 +69,9 @@ export default function NextAppDirEmotionCacheProvider(
 
       if (typeof style !== "boolean") {
         if (isGlobal) {
-          globals.push({ name, style });
+          if (style) {
+            globals.push({ name, style });
+          }
         } else {
           styles += style;
           dataEmotionAttribute += ` ${name}`;

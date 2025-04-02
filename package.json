@@ -11,11 +11,12 @@
     "start": "next start",
     "lint": "next lint",
     "seed": "dotenv -e .env.local -- npx prisma db seed",
-    "dev:migrate": "dotenv -e .env.local -- prisma generate && npx prisma migrate deploy"
+    "dev:migrate": "dotenv -e .env.local -- prisma generate && npx prisma migrate deploy",
+    "dev:build": "next build"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
+    "@emotion/react": "^11.12.1",
+    "@emotion/styled": "^11.14.0",
     "@fontsource/bebas-neue": "^5.0.17",
     "@fontsource/bluu-next": "^5.0.7",
     "@fontsource/roboto": "^5.0.8",
@@ -28,7 +29,7 @@
     "fs.promises": "^0.1.2",
     "match-sorter": "^6.3.4",
     "next": "^14.0.3",
-    "react": "^18.2.0",
+    "react": "^18.3.0",
     "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
     "react-use": "^17.5.0",
