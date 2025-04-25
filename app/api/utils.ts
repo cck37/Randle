@@ -9,7 +9,7 @@ export const getRandom = (max: number, timestamp: number): number => {
         (date.getDate() * 6827)
     )
   );
-  return (seed % max) + 1;
+  return seed % max;
 };
 
 export const timestampToDate = (timestamp: number) =>

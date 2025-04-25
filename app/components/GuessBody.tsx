@@ -3,8 +3,9 @@ import Typography from "@mui/material/Typography";
 import { GuessBar } from "./GuessBar";
 import { GuessesTable } from "./GuessesTable";
 import { StorageState } from "../types";
-import { Button } from "@mui/material";
+import { Button, Icon, Paper } from "@mui/material";
 import { getPar } from "../utils";
+import { Bolt } from "@mui/icons-material";
 
 interface GuessBodyProps {
   previousSession: StorageState;
@@ -31,7 +32,7 @@ const GuessBody: React.FC<GuessBodyProps> = ({
           previousSession.guess.isGuessCorrect || isFetchGuessLoading
         }
       />
-      <Typography variant="h6">
+      <Typography variant="h6" sx={{ textAlign: "center" }}>
         Par: {getPar(previousSession.category.items.length)}
       </Typography>
       <GuessesTable

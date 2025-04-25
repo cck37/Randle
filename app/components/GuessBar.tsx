@@ -1,5 +1,12 @@
 import { useCallback, useState } from "react";
-import { Button, TextField, Autocomplete, Stack, Chip } from "@mui/material";
+import {
+  Button,
+  TextField,
+  Autocomplete,
+  Stack,
+  Chip,
+  Paper,
+} from "@mui/material";
 import { PossibleGuess } from "../types";
 import { matchSorter } from "match-sorter";
 
@@ -70,10 +77,11 @@ export function GuessBar(props: {
           size="small"
           sx={{
             width: "100%",
+            backgroundColor: "background.paper",
             "& label, button": {
-              color: "text.primary",
+              color: "primary.main",
               "&.Mui-focused": {
-                color: "text.primary",
+                color: "primary.main",
               },
             },
             minWidth: "150px",
